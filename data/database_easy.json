@@ -1,0 +1,2192 @@
+[
+    {
+        "number": 1,
+        "question_text": "Which of the following is not a feature of a DBMS?",
+        "option_a": "Data redundancy control",
+        "option_b": "Data isolation",
+        "option_c": "Data security",
+        "option_d": "Data replication",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 2,
+        "question_text": "What is the purpose of normalization in a database?",
+        "option_a": "To reduce data redundancy",
+        "option_b": "To ensure data integrity",
+        "option_c": "To improve query performance",
+        "option_d": "All of the above",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 3,
+        "question_text": "Which normal form is achieved when a table is free of transitive dependencies?",
+        "option_a": "First Normal Form (1NF)",
+        "option_b": "Second Normal Form (2NF)",
+        "option_c": "Third Normal Form (3NF)",
+        "option_d": "Boyce-Codd Normal Form (BCNF)",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 4,
+        "question_text": "In SQL, which command is used to remove a table from a database?",
+        "option_a": "DROP TABLE",
+        "option_b": "DELETE TABLE",
+        "option_c": "REMOVE TABLE",
+        "option_d": "ERASE TABLE",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 5,
+        "question_text": "Which of the following is a NoSQL database?",
+        "option_a": "Oracle",
+        "option_b": "MySQL",
+        "option_c": "MongoDB",
+        "option_d": "SQLite",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 6,
+        "question_text": "Which SQL statement is used to retrieve all records from the \"Employees\" table where the department is 'Sales'?",
+        "option_a": "SELECT * FROM Employees WHERE department = 'Sales';",
+        "option_b": "SELECT * FROM Employees WHERE department IS 'Sales';",
+        "option_c": "SELECT * FROM Employees WHERE department = Sales;",
+        "option_d": "SELECT * FROM Employees WHERE department LIKE 'Sales';",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 7,
+        "question_text": "How do you select unique values from a column in SQL?",
+        "option_a": "SELECT UNIQUE column_name FROM table_name;",
+        "option_b": "SELECT DISTINCT column_name FROM table_name;",
+        "option_c": "SELECT DIFFERENT column_name FROM table_name;",
+        "option_d": "SELECT SINGLE column_name FROM table_name;",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 8,
+        "question_text": "What is the correct SQL syntax to change the \"City\" column in the \"Customers\" table to \"Town\"?",
+        "option_a": "ALTER TABLE Customers CHANGE City Town VARCHAR(255);",
+        "option_b": "MODIFY TABLE Customers RENAME COLUMN City TO Town;",
+        "option_c": "ALTER TABLE Customers RENAME COLUMN City TO Town;",
+        "option_d": "ALTER TABLE Customers MODIFY City TO Town;",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 9,
+        "question_text": "Which SQL statement is used to update the salary of an employee with id = 1001 to 50000?",
+        "option_a": "UPDATE Employees SET salary = 50000 WHERE id = 1001;",
+        "option_b": "MODIFY Employees SET salary = 50000 WHERE id = 1001;",
+        "option_c": "CHANGE Employees SET salary = 50000 WHERE id = 1001;",
+        "option_d": "UPDATE Employees MODIFY salary = 50000 WHERE id = 1001;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 10,
+        "question_text": "How do you retrieve all the records from the \"Orders\" table that were placed in the year 2020? 6.",
+        "option_a": "SELECT * FROM Orders WHERE YEAR(order_date) = 2020;\n7.",
+        "option_b": "SELECT * FROM Orders WHERE order_date LIKE '2020%';\n8.",
+        "option_c": "SELECT * FROM Orders WHERE order_date = 2020;\n9.",
+        "option_d": "SELECT * FROM Orders WHERE YEAR(order_date) IS 2020;\n10.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 11,
+        "question_text": "You have a table \"Books\" with columns \"title\", \"author\", and \"price\". How would you find the average price of books written by 'J.K. Rowling'?",
+        "option_a": "SELECT AVG(price) FROM Books WHERE author = 'J.K. Rowling';",
+        "option_b": "SELECT AVG(price) FROM Books WHERE author LIKE 'J.K. Rowling';",
+        "option_c": "SELECT AVG(price) FROM Books WHERE author IS 'J.K. Rowling';",
+        "option_d": "SELECT AVG(price) FROM Books WHERE author = Rowling;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 12,
+        "question_text": "In a database, you have tables \"Employees\" and \"Departments\". The \"Employees\" table has a foreign key \"department_id\" that references \"Departments\". How do you find the name of employees and their corresponding department names?",
+        "option_a": "SELECT Employees.name, Departments.name FROM Employees JOIN Departments\nON Employees.department_id = Departments.id;",
+        "option_b": "SELECT Employees.name, Departments.name FROM Employees INNER JOIN\nDepartments ON Employees.department_id = Departments.id;",
+        "option_c": "SELECT Employees.name, Departments.name FROM Employees JOIN Departments\nWHERE Employees.department_id = Departments.id;",
+        "option_d": "SELECT Employees.name, Departments.name FROM Employees INNER JOIN\nDepartments WHERE Employees.department_id = Departments.id;",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 13,
+        "question_text": "You need to find all customers who have placed more than 10 orders. Which query would you use?",
+        "option_a": "SELECT customer_id FROM Orders GROUP BY customer_id HAVING\nCOUNT(order_id) > 10;",
+        "option_b": "SELECT customer_id FROM Orders GROUP BY customer_id WHERE\nCOUNT(order_id) > 10;",
+        "option_c": "SELECT customer_id FROM Orders WHERE COUNT(order_id) > 10\nGROUP BY customer_id;",
+        "option_d": "SELECT customer_id FROM Orders HAVING COUNT(order_id) > 10\nGROUP BY customer_id;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 14,
+        "question_text": "You want to find the second highest salary in the \"Employees\" table. Which query would achieve this?",
+        "option_a": "SELECT MAX(salary) FROM Employees WHERE salary < (SELECT\nMAX(salary) FROM Employees);",
+        "option_b": "SELECT salary FROM Employees ORDER BY salary DESC LIMIT 1\nOFFSET 1;",
+        "option_c": "SELECT MAX(salary) FROM Employees ORDER BY salary DESC LIMIT 1\nOFFSET 1;",
+        "option_d": "SELECT salary FROM Employees ORDER BY salary DESC LIMIT 1, 1;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 15,
+        "question_text": "You have a \"Sales\" table with columns \"salesperson_id\", \"customer_id\", and \"amount\". Which query finds the total sales amount per salesperson?",
+        "option_a": "SELECT salesperson_id, SUM(amount) FROM Sales GROUP BY\nsalesperson_id;",
+        "option_b": "SELECT salesperson_id, COUNT(amount) FROM Sales GROUP BY\nsalesperson_id;",
+        "option_c": "SELECT salesperson_id, TOTAL(amount) FROM Sales GROUP BY\nsalesperson_id;",
+        "option_d": "SELECT salesperson_id, AVG(amount) FROM Sales GROUP BY\nsalesperson_id;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 16,
+        "question_text": "What is the primary purpose of a file system?",
+        "option_a": "To manage files on a disk",
+        "option_b": "To store data in tables",
+        "option_c": "To perform data analysis",
+        "option_d": "To manage network connections",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 17,
+        "question_text": "Which of the following is a characteristic of DBMS?",
+        "option_a": "Supports data redundancy",
+        "option_b": "Lacks data security",
+        "option_c": "Facilitates data sharing",
+        "option_d": "Operates without a schema",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 18,
+        "question_text": "Codd\u2019s Rule 1 states:",
+        "option_a": "Information Rule",
+        "option_b": "Guaranteed Access Rule",
+        "option_c": "Systematic Treatment of Null Values",
+        "option_d": "Dynamic Online Catalog Based on the Relational Model",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 19,
+        "question_text": "Which is not a type of database management system?",
+        "option_a": "Hierarchical DBMS",
+        "option_b": "Network DBMS",
+        "option_c": "Relational DBMS",
+        "option_d": "Linear DBMS",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 20,
+        "question_text": "What does the acronym ACID stand for in the context of databases?",
+        "option_a": "Atomicity, Consistency, Isolation, Durability",
+        "option_b": "Atomicity, Connectivity, Isolation, Durability",
+        "option_c": "Availability, Consistency, Integrity, Durability",
+        "option_d": "Availability, Consistency, Isolation, Durability",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 21,
+        "question_text": "What is a tablespace in a database?",
+        "option_a": "A type of database object",
+        "option_b": "A storage location for database objects",
+        "option_c": "A file containing all the data",
+        "option_d": "A control structure for memory allocation",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 22,
+        "question_text": "Which file contains the metadata about the database?",
+        "option_a": "Data file",
+        "option_b": "Control file",
+        "option_c": "Log file",
+        "option_d": "Archive file",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 23,
+        "question_text": "Structured data refers to data that:",
+        "option_a": "Has a defined length and format",
+        "option_b": "Has no pre-defined format",
+        "option_c": "Is unorganized",
+        "option_d": "Is non-transactional",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 24,
+        "question_text": "What is the purpose of a control file in a database?",
+        "option_a": "Store user data",
+        "option_b": "Keep track of data locations",
+        "option_c": "Manage transaction logs",
+        "option_d": "Control access to the database",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 25,
+        "question_text": "Which data type would be considered unstructured?",
+        "option_a": "String",
+        "option_b": "Integer",
+        "option_c": "Image",
+        "option_d": "Boolean",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 26,
+        "question_text": "Which SQL command is used to add a new row to a table?",
+        "option_a": "INSERT INTO",
+        "option_b": "ADD INTO",
+        "option_c": "UPDATE",
+        "option_d": "ADD ROW",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 27,
+        "question_text": "What does DDL stand for?",
+        "option_a": "Data Description Language",
+        "option_b": "Data Definition Language",
+        "option_c": "Data Description List",
+        "option_d": "Data Derivation Language",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 28,
+        "question_text": "Which SQL keyword is used to retrieve unique values?",
+        "option_a": "DISTINCT",
+        "option_b": "UNIQUE",
+        "option_c": "DIFFERENT",
+        "option_d": "DISCRETE",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 29,
+        "question_text": "What is the function of the SQL WHERE clause?",
+        "option_a": "To define conditions for data retrieval",
+        "option_b": "To group rows",
+        "option_c": "To sort the result set",
+        "option_d": "To join tables",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 30,
+        "question_text": "Which SQL statement is used to remove a record from a table?",
+        "option_a": "DELETE",
+        "option_b": "REMOVE",
+        "option_c": "DROP",
+        "option_d": "ERASE",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 31,
+        "question_text": "Which SQL command is used to modify existing records in a table?",
+        "option_a": "MODIFY",
+        "option_b": "CHANGE",
+        "option_c": "UPDATE",
+        "option_d": "ALTER",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 32,
+        "question_text": "Which clause is used to filter records in a SQL query?",
+        "option_a": "WHERE",
+        "option_b": "FILTER",
+        "option_c": "CONDITION",
+        "option_d": "SEARCH",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 33,
+        "question_text": "Which SQL function is used to calculate the total sum of a numeric column?",
+        "option_a": "COUNT()",
+        "option_b": "SUM()",
+        "option_c": "AVG()",
+        "option_d": "TOTAL()",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 34,
+        "question_text": "Which SQL statement is used to create a new table?",
+        "option_a": "CREATE TABLE",
+        "option_b": "ADD TABLE",
+        "option_c": "MAKE TABLE",
+        "option_d": "INSERT TABLE",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 35,
+        "question_text": "What is a primary key in a database table?",
+        "option_a": "A unique identifier for a table row",
+        "option_b": "A key used to encrypt data",
+        "option_c": "A key used to join tables",
+        "option_d": "A key used to sort data",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 36,
+        "question_text": "What is a subquery in SQL?",
+        "option_a": "A query that is nested inside another query",
+        "option_b": "A query used to sort data",
+        "option_c": "A query used to update data",
+        "option_d": "A query used to delete data",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 37,
+        "question_text": "Which SQL clause is used to group rows that have the same values?",
+        "option_a": "GROUP BY",
+        "option_b": "ORDER BY",
+        "option_c": "SORT BY",
+        "option_d": "FILTER BY",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 38,
+        "question_text": "Which SQL function returns the number of rows in a table?",
+        "option_a": "COUNT()",
+        "option_b": "SUM()",
+        "option_c": "AVG()",
+        "option_d": "TOTAL()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 39,
+        "question_text": "Which of the following is used to combine rows from two or more tables, based on a related column between them?",
+        "option_a": "JOIN",
+        "option_b": "COMBINE",
+        "option_c": "MERGE",
+        "option_d": "UNION",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 40,
+        "question_text": "What is the result of the following SQL query? SELECT * FROM Employees WHERE name LIKE 'A%';",
+        "option_a": "All employees whose names start with 'A'",
+        "option_b": "All employees whose names contain 'A'",
+        "option_c": "All employees whose names end with 'A'",
+        "option_d": "All employees whose names are exactly 'A'",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 41,
+        "question_text": "Which SQL keyword is used to specify a range of values?",
+        "option_a": "BETWEEN",
+        "option_b": "IN",
+        "option_c": "RANGE",
+        "option_d": "LIMIT",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 42,
+        "question_text": "Which SQL function is used to find the highest value in a column?",
+        "option_a": "MAX()",
+        "option_b": "MIN()",
+        "option_c": "HIGH()",
+        "option_d": "TOP()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 43,
+        "question_text": "What is the purpose of the SQL HAVING clause?",
+        "option_a": "To filter groups of rows",
+        "option_b": "To filter individual rows",
+        "option_c": "To join tables",
+        "option_d": "To sort data",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 44,
+        "question_text": "Which SQL operator is used to select values within a given range?",
+        "option_a": "BETWEEN",
+        "option_b": "IN",
+        "option_c": "RANGE",
+        "option_d": "LIMIT",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 45,
+        "question_text": "Which SQL clause is used to sort the result set?",
+        "option_a": "ORDER BY",
+        "option_b": "GROUP BY",
+        "option_c": "SORT BY",
+        "option_d": "FILTER BY",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 46,
+        "question_text": "Which of the following is a key-value store?",
+        "option_a": "MongoDB",
+        "option_b": "Cassandra",
+        "option_c": "Redis",
+        "option_d": "HBase",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 47,
+        "question_text": "Which data model does MongoDB use?",
+        "option_a": "Document",
+        "option_b": "Column",
+        "option_c": "Key-Value",
+        "option_d": "Graph",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 48,
+        "question_text": "What is the primary purpose of a column-oriented database?",
+        "option_a": "Store data in rows",
+        "option_b": "Store data in columns",
+        "option_c": "Store unstructured data",
+        "option_d": "Store binary data",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 49,
+        "question_text": "Which of the following is a document-oriented database?",
+        "option_a": "MySQL",
+        "option_b": "MongoDB",
+        "option_c": "Oracle",
+        "option_d": "Redis",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 50,
+        "question_text": "What type of database is Cassandra?",
+        "option_a": "Relational",
+        "option_b": "Key-Value",
+        "option_c": "Column-Family",
+        "option_d": "Document",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 51,
+        "question_text": "Which NoSQL database is designed for horizontal scalability?",
+        "option_a": "MySQL",
+        "option_b": "PostgreSQL",
+        "option_c": "Oracle",
+        "option_d": "Cassandra",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 52,
+        "question_text": "Which NoSQL database uses BSON (Binary JSON)?",
+        "option_a": "MongoDB",
+        "option_b": "Cassandra",
+        "option_c": "HBase",
+        "option_d": "Redis",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 53,
+        "question_text": "What is a common use case for graph databases?",
+        "option_a": "Storing time-series data",
+        "option_b": "Managing social networks",
+        "option_c": "Handling transaction processing",
+        "option_d": "Performing data warehousing",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 54,
+        "question_text": "Which NoSQL database model is optimized for large-scale read and write operations?",
+        "option_a": "Key-Value",
+        "option_b": "Document",
+        "option_c": "Column-Family",
+        "option_d": "Graph",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 55,
+        "question_text": "Which database is known for its flexibility in handling semi-structured data?",
+        "option_a": "MySQL",
+        "option_b": "MongoDB",
+        "option_c": "Oracle",
+        "option_d": "Redis",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 56,
+        "question_text": "What is the default storage engine for MongoDB?",
+        "option_a": "InnoDB",
+        "option_b": "WiredTiger",
+        "option_c": "RocksDB",
+        "option_d": "LevelDB",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 57,
+        "question_text": "In MongoDB, what is a collection?",
+        "option_a": "A set of documents",
+        "option_b": "A set of tables",
+        "option_c": "A single document",
+        "option_d": "A database schema",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 58,
+        "question_text": "What command is used to insert a document into a collection in MongoDB?",
+        "option_a": "db.collection.insertOne()",
+        "option_b": "db.collection.add()",
+        "option_c": "db.collection.save()",
+        "option_d": "db.collection.put()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 59,
+        "question_text": "Which data format does MongoDB use to store documents?",
+        "option_a": "JSON",
+        "option_b": "XML",
+        "option_c": "BSON",
+        "option_d": "CSV",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 60,
+        "question_text": "How do you find all documents in a collection in MongoDB?",
+        "option_a": "db.collection.find()",
+        "option_b": "db.collection.get()",
+        "option_c": "db.collection.search()",
+        "option_d": "db.collection.query()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 61,
+        "question_text": "What is the equivalent of a table in MongoDB?",
+        "option_a": "Document",
+        "option_b": "Collection",
+        "option_c": "Field",
+        "option_d": "Schema",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 62,
+        "question_text": "How do you update a single document in MongoDB?",
+        "option_a": "db.collection.updateOne()",
+        "option_b": "db.collection.modifyOne()",
+        "option_c": "db.collection.changeOne()",
+        "option_d": "db.collection.editOne()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 63,
+        "question_text": "What is the purpose of an index in MongoDB?",
+        "option_a": "To improve query performance",
+        "option_b": "To store data",
+        "option_c": "To manage connections",
+        "option_d": "To backup data",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 64,
+        "question_text": "Which command is used to delete a document from a collection in MongoDB?",
+        "option_a": "db.collection.deleteOne()",
+        "option_b": "db.collection.remove()",
+        "option_c": "db.collection.drop()",
+        "option_d": "db.collection.erase()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 65,
+        "question_text": "In MongoDB, what is a replica set?",
+        "option_a": "A group of MongoDB servers that maintain the same data set",
+        "option_b": "A collection of documents",
+        "option_c": "A single database",
+        "option_d": "A single server with multiple databases",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 66,
+        "question_text": "What is a data warehouse?",
+        "option_a": "A centralized repository for all organizational data",
+        "option_b": "A system for online transaction processing",
+        "option_c": "A type of NoSQL database",
+        "option_d": "A tool for managing network connections",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 67,
+        "question_text": "Which architecture is commonly used for data warehouses?",
+        "option_a": "Star Schema",
+        "option_b": "Network Schema",
+        "option_c": "Hierarchical Schema",
+        "option_d": "Ring Schema",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 68,
+        "question_text": "What is ETL in the context of data warehousing?",
+        "option_a": "Extract, Transform, Load",
+        "option_b": "Evaluate, Test, Load",
+        "option_c": "Extract, Transfer, Load",
+        "option_d": "Evaluate, Transform, Load",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 69,
+        "question_text": "Which of the following is a characteristic of OLAP systems?",
+        "option_a": "Real-time transaction processing",
+        "option_b": "Complex queries and data analysis",
+        "option_c": "Low data redundancy",
+        "option_d": "Single-user access",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 70,
+        "question_text": "What is a fact table in a data warehouse?",
+        "option_a": "A central table containing measures",
+        "option_b": "A table containing descriptive attributes",
+        "option_c": "A table used for temporary storage",
+        "option_d": "A table used for indexing",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 71,
+        "question_text": "Which type of data is typically stored in a data warehouse?",
+        "option_a": "Historical data",
+        "option_b": "Real-time data",
+        "option_c": "Volatile data",
+        "option_d": "Unstructured data",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 72,
+        "question_text": "What is a dimension table in a data warehouse?",
+        "option_a": "A table containing descriptive attributes",
+        "option_b": "A central table containing measures",
+        "option_c": "A table used for temporary storage",
+        "option_d": "A table used for indexing",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 73,
+        "question_text": "Which tool is commonly used for data extraction in ETL processes?",
+        "option_a": "Apache Kafka",
+        "option_b": "Apache Nifi",
+        "option_c": "Talend",
+        "option_d": "Hadoop",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 74,
+        "question_text": "What is a star schema?",
+        "option_a": "A data modeling technique with a central fact table and surrounding dimension\ntables",
+        "option_b": "A data modeling technique with hierarchical relationships",
+        "option_c": "A data modeling technique with a network structure",
+        "option_d": "A data modeling technique with a ring structure",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 75,
+        "question_text": "Which of the following is an example of an OLAP operation?",
+        "option_a": "Roll-up",
+        "option_b": "Insert",
+        "option_c": "Update",
+        "option_d": "Delete",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 76,
+        "question_text": "What is the primary goal of enterprise data management (EDM)?",
+        "option_a": "To ensure data accuracy and accessibility across an organization",
+        "option_b": "To store large amounts of data",
+        "option_c": "To manage network security",
+        "option_d": "To facilitate transaction processing",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 77,
+        "question_text": "What is data governance?",
+        "option_a": "The process of managing the availability, usability, integrity, and security of\ndata",
+        "option_b": "The process of storing data",
+        "option_c": "The process of analyzing data",
+        "option_d": "The process of encrypting data",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 78,
+        "question_text": "What is a data steward responsible for?",
+        "option_a": "Managing data quality and consistency",
+        "option_b": "Developing software applications",
+        "option_c": "Maintaining network infrastructure",
+        "option_d": "Managing hardware resources",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 79,
+        "question_text": "Which of the following is a principle of data quality?",
+        "option_a": "Accuracy",
+        "option_b": "Volatility",
+        "option_c": "Redundancy",
+        "option_d": "Flexibility",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 80,
+        "question_text": "What is master data management (MDM)?",
+        "option_a": "A method of managing an organization's critical data",
+        "option_b": "A type of database management system",
+        "option_c": "A tool for analyzing data",
+        "option_d": "A method of encrypting data",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 81,
+        "question_text": "Which of the following is an EDM tool?",
+        "option_a": "Informatica",
+        "option_b": "MySQL",
+        "option_c": "MongoDB",
+        "option_d": "Redis",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 82,
+        "question_text": "What is the purpose of a data catalog?",
+        "option_a": "To organize and manage metadata about data assets",
+        "option_b": "To store transactional data",
+        "option_c": "To manage network connections",
+        "option_d": "To secure data",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 83,
+        "question_text": "What is data lineage?",
+        "option_a": "The tracking of data as it moves through an organization's systems",
+        "option_b": "The encryption of data",
+        "option_c": "The storage of historical data",
+        "option_d": "The analysis of data patterns",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 84,
+        "question_text": "What is a common challenge in enterprise data management?",
+        "option_a": "Data silos",
+        "option_b": "Data transparency",
+        "option_c": "Data redundancy",
+        "option_d": "Data availability",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 85,
+        "question_text": "Which of the following ensures that data is protected from unauthorized access?",
+        "option_a": "Data security",
+        "option_b": "Data quality",
+        "option_c": "Data integration",
+        "option_d": "Data analysis",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 86,
+        "question_text": "You have a \"Customers\" table with columns \"customer_id\", \"name\", and \"age\". How do you find all customers who are older than 30?",
+        "option_a": "SELECT * FROM Customers WHERE age > 30;",
+        "option_b": "SELECT * FROM Customers WHERE age >= 30;",
+        "option_c": "SELECT * FROM Customers WHERE age < 30;",
+        "option_d": "SELECT * FROM Customers WHERE age = 30;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 87,
+        "question_text": "You need to find the total sales amount per product from the \"Sales\" table with columns \"product_id\" and \"amount\". Which query would you use?",
+        "option_a": "SELECT product_id, SUM(amount) FROM Sales GROUP BY product_id;",
+        "option_b": "SELECT product_id, COUNT(amount) FROM Sales GROUP BY product_id;",
+        "option_c": "SELECT product_id, AVG(amount) FROM Sales GROUP BY product_id;",
+        "option_d": "SELECT product_id, MAX(amount) FROM Sales GROUP BY product_id;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 88,
+        "question_text": "How do you retrieve the name of the employee with the highest salary from the \"Employees\" table with columns \"name\" and \"salary\"?",
+        "option_a": "SELECT name FROM Employees ORDER BY salary DESC LIMIT 1;",
+        "option_b": "SELECT name FROM Employees ORDER BY salary ASC LIMIT 1;",
+        "option_c": "SELECT name FROM Employees WHERE salary = (SELECT MAX(salary)\nFROM Employees);",
+        "option_d": "SELECT name FROM Employees WHERE salary = (SELECT MIN(salary)\nFROM Employees);",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 89,
+        "question_text": "You need to update the address of a customer with customer_id = 123 in the \"Customers\" table. Which SQL statement would you use?",
+        "option_a": "UPDATE Customers SET address = 'New Address' WHERE customer_id =\n123;",
+        "option_b": "MODIFY Customers SET address = 'New Address' WHERE customer_id =\n123;",
+        "option_c": "ALTER Customers SET address = 'New Address' WHERE customer_id = 123;",
+        "option_d": "CHANGE Customers SET address = 'New Address' WHERE customer_id =\n123;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 90,
+        "question_text": "How do you delete all records from the \"Orders\" table where the order_date is before '2023-01-01'?",
+        "option_a": "DELETE FROM Orders WHERE order_date < '2023-01-01';",
+        "option_b": "REMOVE FROM Orders WHERE order_date < '2023-01-01';",
+        "option_c": "ERASE FROM Orders WHERE order_date < '2023-01-01';",
+        "option_d": "DROP FROM Orders WHERE order_date < '2023-01-01';",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 91,
+        "question_text": "Which of the following queries will return the number of unique customers in the \"Sales\" table?",
+        "option_a": "SELECT COUNT(DISTINCT customer_id) FROM Sales;",
+        "option_b": "SELECT COUNT(customer_id) FROM Sales;",
+        "option_c": "SELECT UNIQUE(customer_id) FROM Sales;",
+        "option_d": "SELECT DISTINCT(customer_id) FROM Sales;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 92,
+        "question_text": "How do you find the average age of employees in the \"Employees\" table?",
+        "option_a": "SELECT AVG(age) FROM Employees;",
+        "option_b": "SELECT SUM(age) FROM Employees;",
+        "option_c": "SELECT COUNT(age) FROM Employees;",
+        "option_d": "SELECT MAX(age) FROM Employees;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 93,
+        "question_text": "Which query would you use to find all products in the \"Products\" table with a price between 10 and 20?",
+        "option_a": "SELECT * FROM Products WHERE price BETWEEN 10 AND 20;",
+        "option_b": "SELECT * FROM Products WHERE price > 10 AND price < 20;",
+        "option_c": "SELECT * FROM Products WHERE price >= 10 AND price <= 20;",
+        "option_d": "SELECT * FROM Products WHERE price = 10 OR price = 20;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 94,
+        "question_text": "You want to list all employees who do not have a manager in the \"Employees\" table. The \"manager_id\" column represents the employee's manager. Which query would you use?",
+        "option_a": "SELECT * FROM Employees WHERE manager_id IS NULL;",
+        "option_b": "SELECT * FROM Employees WHERE manager_id = 0;",
+        "option_c": "SELECT * FROM Employees WHERE manager_id IS NOT NULL;",
+        "option_d": "SELECT * FROM Employees WHERE manager_id = '';",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 95,
+        "question_text": "How do you retrieve the second highest salary from the \"Employees\" table?",
+        "option_a": "SELECT MAX(salary) FROM Employees WHERE salary < (SELECT\nMAX(salary) FROM Employees);",
+        "option_b": "SELECT salary FROM Employees ORDER BY salary DESC LIMIT 1\nOFFSET 1;",
+        "option_c": "SELECT salary FROM Employees ORDER BY salary ASC LIMIT 1 OFFSET\n1;",
+        "option_d": "SELECT MAX(salary) FROM Employees WHERE salary > (SELECT\nMAX(salary) FROM Employees);",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 96,
+        "question_text": "You need to join two tables, \"Orders\" and \"Customers\", on the customer_id column. Which SQL query would you use?",
+        "option_a": "SELECT * FROM Orders INNER JOIN Customers ON Orders.customer_id =\nCustomers.customer_id;",
+        "option_b": "SELECT * FROM Orders LEFT JOIN Customers ON Orders.customer_id =\nCustomers.customer_id;",
+        "option_c": "SELECT * FROM Orders RIGHT JOIN Customers ON Orders.customer_id =\nCustomers.customer_id;",
+        "option_d": "SELECT * FROM Orders FULL JOIN Customers ON Orders.customer_id =\nCustomers.customer_id;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 97,
+        "question_text": "How do you calculate the total revenue for each product from the \"Sales\" table with columns \"product_id\" and \"revenue\"?",
+        "option_a": "SELECT product_id, SUM(revenue) FROM Sales GROUP BY product_id;",
+        "option_b": "SELECT product_id, COUNT(revenue) FROM Sales GROUP BY product_id;",
+        "option_c": "SELECT product_id, AVG(revenue) FROM Sales GROUP BY product_id;",
+        "option_d": "SELECT product_id, MAX(revenue) FROM Sales GROUP BY product_id;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 98,
+        "question_text": "You want to find the customer with the most orders in the \"Orders\" table. Which query would you use?",
+        "option_a": "SELECT customer_id, COUNT(*) AS order_count FROM Orders GROUP\nBY customer_id ORDER BY order_count DESC LIMIT 1;",
+        "option_b": "SELECT customer_id, COUNT(*) AS order_count FROM Orders GROUP\nBY customer_id ORDER BY order_count ASC LIMIT 1;",
+        "option_c": "SELECT customer_id, SUM(*) AS order_count FROM Orders GROUP BY\ncustomer_id ORDER BY order_count DESC LIMIT 1;",
+        "option_d": "SELECT customer_id, AVG(*) AS order_count FROM Orders GROUP BY\ncustomer_id ORDER BY order_count DESC LIMIT 1;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 99,
+        "question_text": "How do you retrieve the name and age of all employees who are managers in the \"Employees\" table? (Assuming \"is_manager\" is a boolean column)",
+        "option_a": "SELECT name, age FROM Employees WHERE is_manager = TRUE;",
+        "option_b": "SELECT name, age FROM Employees WHERE is_manager = FALSE;",
+        "option_c": "SELECT name, age FROM Employees WHERE is_manager IS TRUE;",
+        "option_d": "SELECT name, age FROM Employees WHERE is_manager IS FALSE;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 100,
+        "question_text": "You need to add a new column \"email\" to the \"Customers\" table. Which SQL statement would you use?",
+        "option_a": "ALTER TABLE Customers ADD email VARCHAR(255);",
+        "option_b": "MODIFY TABLE Customers ADD email VARCHAR(255);",
+        "option_c": "UPDATE TABLE Customers ADD email VARCHAR(255);",
+        "option_d": "INSERT TABLE Customers ADD email VARCHAR(255);",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 101,
+        "question_text": "What is the primary purpose of creating an index on a database column?",
+        "option_a": "To improve query performance",
+        "option_b": "To store data",
+        "option_c": "To maintain data integrity",
+        "option_d": "To facilitate backups",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 102,
+        "question_text": "Which SQL clause is used to define a conditional update?",
+        "option_a": "WHERE",
+        "option_b": "HAVING",
+        "option_c": "SET",
+        "option_d": "GROUP BY",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 103,
+        "question_text": "In SQL, what is a \"view\"?",
+        "option_a": "A virtual table based on the result of a SELECT query",
+        "option_b": "A physical table in the database",
+        "option_c": "A type of index",
+        "option_d": "A user-defined function",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 104,
+        "question_text": "Which of the following SQL statements can be used to remove an index?",
+        "option_a": "DROP INDEX",
+        "option_b": "DELETE INDEX",
+        "option_c": "REMOVE INDEX",
+        "option_d": "ERASE INDEX",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 105,
+        "question_text": "What is the purpose of the SQL LIMIT clause?",
+        "option_a": "To restrict the number of rows returned by a query",
+        "option_b": "To limit the number of columns in a table",
+        "option_c": "To restrict the number of tables in a database",
+        "option_d": "To limit the size of a database",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 106,
+        "question_text": "Which SQL keyword is used to specify multiple conditions in a query?",
+        "option_a": "AND",
+        "option_b": "OR",
+        "option_c": "NOT",
+        "option_d": "LIKE",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 107,
+        "question_text": "How do you retrieve the first 10 rows from a table in SQL?",
+        "option_a": "SELECT * FROM table LIMIT 10;",
+        "option_b": "SELECT TOP 10 * FROM table;",
+        "option_c": "SELECT * FROM table OFFSET 10;",
+        "option_d": "SELECT * FROM table FETCH FIRST 10 ROWS ONLY;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 108,
+        "question_text": "Which of the following SQL statements is used to rename a table?",
+        "option_a": "ALTER TABLE table_name RENAME TO new_table_name;",
+        "option_b": "MODIFY TABLE table_name RENAME TO new_table_name;",
+        "option_c": "UPDATE TABLE table_name RENAME TO new_table_name;",
+        "option_d": "CHANGE TABLE table_name RENAME TO new_table_name;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 109,
+        "question_text": "What is a stored procedure in SQL?",
+        "option_a": "A precompiled collection of SQL statements",
+        "option_b": "A type of index",
+        "option_c": "A type of view",
+        "option_d": "A user-defined function",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 110,
+        "question_text": "Which of the following is true about transactions in SQL?",
+        "option_a": "They ensure data integrity and consistency",
+        "option_b": "They are used for creating tables",
+        "option_c": "They improve query performance",
+        "option_d": "They are used for data backup",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 111,
+        "question_text": "How do you enforce a uniqueness constraint on a column in SQL?",
+        "option_a": "By creating a unique index",
+        "option_b": "By creating a foreign key",
+        "option_c": "By creating a primary key",
+        "option_d": "By creating a check constraint",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 112,
+        "question_text": "What is the purpose of the SQL HAVING clause?",
+        "option_a": "To filter groups of rows based on a specified condition",
+        "option_b": "To filter individual rows based on a specified condition",
+        "option_c": "To join tables based on a specified condition",
+        "option_d": "To sort rows based on a specified condition",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 113,
+        "question_text": "Which SQL function can be used to calculate the number of rows in a result set?",
+        "option_a": "COUNT()",
+        "option_b": "SUM()",
+        "option_c": "AVG()",
+        "option_d": "MAX()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 114,
+        "question_text": "How do you delete a column from a table in SQL?",
+        "option_a": "ALTER TABLE table_name DROP COLUMN column_name;",
+        "option_b": "DELETE TABLE table_name DROP COLUMN column_name;",
+        "option_c": "REMOVE COLUMN column_name FROM table_name;",
+        "option_d": "ERASE COLUMN column_name FROM table_name;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 115,
+        "question_text": "What is a foreign key in SQL? -",
+        "option_a": "A field in one table that uniquely identifies a row in another table",
+        "option_b": "A field in one table that uniquely identifies a row in the same table",
+        "option_c": "A unique index on a table",
+        "option_d": "A type of constraint that enforces data integrity within a table",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 116,
+        "question_text": "Which SQL command is used to grant permissions to a user?",
+        "option_a": "GRANT",
+        "option_b": "GIVE",
+        "option_c": "PROVIDE",
+        "option_d": "PERMIT",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 117,
+        "question_text": "What does ACID stand for in the context of databases",
+        "option_a": "Atomicity, Consistency, Isolation, Durability",
+        "option_b": "Accuracy, Consistency, Isolation, Durability",
+        "option_c": "Atomicity, Completeness, Isolation, Durability",
+        "option_d": "Accuracy, Completeness, Isolation, Durability",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 118,
+        "question_text": "Which indexing technique allows for efficient range queries?",
+        "option_a": "B-Tree",
+        "option_b": "Hash Index",
+        "option_c": "Bitmap Index",
+        "option_d": "Full-Text Index",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 119,
+        "question_text": "What is the purpose of a composite key in a database?",
+        "option_a": "To uniquely identify a row using multiple columns",
+        "option_b": "To ensure data integrity",
+        "option_c": "To index a table",
+        "option_d": "To enforce a foreign key relationship",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 120,
+        "question_text": "Which SQL function can be used to rank rows within a partition of a result set?",
+        "option_a": "RANK()",
+        "option_b": "ROW_NUMBER()",
+        "option_c": "DENSE_RANK()",
+        "option_d": "NTILE()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 121,
+        "question_text": "What is the difference between UNION and UNION ALL in SQL?",
+        "option_a": "UNION removes duplicates, UNION ALL includes duplicates",
+        "option_b": "UNION includes duplicates, UNION ALL removes duplicates",
+        "option_c": "UNION combines rows, UNION ALL splits rows",
+        "option_d": "UNION is faster than UNION ALL",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 122,
+        "question_text": "Which statement is used to create a stored procedure in SQL?",
+        "option_a": "CREATE PROCEDURE",
+        "option_b": "CREATE FUNCTION",
+        "option_c": "CREATE ROUTINE",
+        "option_d": "CREATE METHOD",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 123,
+        "question_text": "How do you roll back a transaction in SQL?",
+        "option_a": "ROLLBACK",
+        "option_b": "UNDO",
+        "option_c": "REVERT",
+        "option_d": "REVERSE",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 124,
+        "question_text": "What is a materialized view?",
+        "option_a": "A database object that stores the result of a query",
+        "option_b": "A virtual table that does not store data",
+        "option_c": "A type of index",
+        "option_d": "A user-defined function",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 125,
+        "question_text": "Which SQL clause is used to filter records after a GROUP BY operation?",
+        "option_a": "HAVING",
+        "option_b": "WHERE",
+        "option_c": "FILTER",
+        "option_d": "LIMIT",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 126,
+        "question_text": "What is the purpose of a trigger in SQL?",
+        "option_a": "To automatically execute a response to certain events on a particular table or view",
+        "option_b": "To manually execute a stored procedure",
+        "option_c": "To create an index",
+        "option_d": "To establish a foreign key relationship",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 127,
+        "question_text": "How do you convert a string to uppercase in SQL?",
+        "option_a": "UPPER()",
+        "option_b": "TO_UPPER()",
+        "option_c": "STR_TO_UPPER()",
+        "option_d": "CONVERT_TO_UPPER()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 128,
+        "question_text": "What is the purpose of the SQL MERGE statement?",
+        "option_a": "To perform insert, update, or delete operations in a single statement",
+        "option_b": "To combine results of two queries",
+        "option_c": "To create a join between two tables",
+        "option_d": "To delete duplicate records",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 129,
+        "question_text": "Which of the following SQL clauses is used to specify the number of rows to return after sorting?",
+        "option_a": "LIMIT",
+        "option_b": "OFFSET",
+        "option_c": "FETCH",
+        "option_d": "TOP",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 130,
+        "question_text": "What is a cursor in SQL?",
+        "option_a": "A database object used to retrieve a row-by-row result set",
+        "option_b": "A type of index",
+        "option_c": "A stored procedure",
+        "option_d": "A view",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 131,
+        "question_text": "Which SQL keyword is used to remove a view from the database?",
+        "option_a": "DROP",
+        "option_b": "DELETE",
+        "option_c": "REMOVE",
+        "option_d": "ERASE",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 132,
+        "question_text": "How do you prevent SQL injection attacks?",
+        "option_a": "Using parameterized queries or prepared statements",
+        "option_b": "Using dynamic SQL",
+        "option_c": "Allowing direct user input into queries",
+        "option_d": "Disabling user permissions",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 133,
+        "question_text": "Which SQL statement can be used to back up a database?",
+        "option_a": "BACKUP DATABASE",
+        "option_b": "SAVE DATABASE",
+        "option_c": "COPY DATABASE",
+        "option_d": "ARCHIVE DATABASE",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 134,
+        "question_text": "What is the function of the COALESCE() SQL function?",
+        "option_a": "Returns the first non-null value in a list",
+        "option_b": "Combines multiple rows into a single row",
+        "option_c": "Splits a string into multiple values",
+        "option_d": "Calculates the sum of a list of values",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 135,
+        "question_text": "What is the purpose of the SQL EXCEPT operator?",
+        "option_a": "To return distinct rows from the left query that are not in the right query",
+        "option_b": "To return all rows from both queries",
+        "option_c": "To combine results from two queries",
+        "option_d": "To filter rows based on a condition",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 136,
+        "question_text": "Which SQL command is used to revoke permissions from a user?",
+        "option_a": "GRANT",
+        "option_b": "REVOKE",
+        "option_c": "DENY",
+        "option_d": "REMOVE\nYou need to find the employees who have the highest salary in each department. Which\nquery would you use?\nA. SELECT department_id, MAX(salary) FROM Employees GROUP BY\ndepartment_id;\nB. SELECT department_id, salary FROM Employees GROUP BY department_id;\nC. SELECT department_id, salary FROM Employees ORDER BY salary DESC;\nD. SELECT department_id, MAX(salary) FROM Employees;\nWhat is the result of the following query?\nSELECT name, salary\nFROM Employees\nWHERE department_id = 101\nORDER BY salary DESC\nLIMIT 3;\nA. The top 3 highest salaries in department 101\nB. The top 3 lowest salaries in department 101\nC. The top 3 salaries in the entire company\nD. The top 3 employees with the highest salaries in the entire company\nIn a database, what is a \"deadlock\"?\nA. A situation where two or more transactions are waiting for each other to release\nresources\nB. A technique for indexing data\nC. A method for optimizing queries\nD. A process of normalizing a database\nHow would you retrieve the current date in SQL?\nA. SELECT CURRENT_DATE;\nB. SELECT GETDATE();\nC. SELECT SYSDATE;\nD. SELECT DATE();\nWhat is the purpose of the SQL window function ROW_NUMBER()?\nA. To assign a unique number to each row within a partition of a result set\nB. To calculate the total number of rows in a table\nC. To retrieve the nth row from a result set\nD. To rank rows within a partition of a result set\nWhich SQL command is used to create a new index on a table?\nA. CREATE INDEX\nB. CREATE NEW INDEX\nC. CREATE TABLE INDEX\nD. ADD INDEX\nHow would you remove duplicates from a result set in SQL?\nA. SELECT DISTINCT\nB. SELECT UNIQUE\nC. SELECT DIFFERENT\nD. SELECT NON-DUPLICATE\nWhich SQL clause is used to sort the results of a query?\nA. ORDER BY\nB. GROUP BY\nC. SORT BY\nD. ARRANGE BY\nWhat is the primary key constraint?\nA. Ensures that each row in a table has a unique identifier\nB. Ensures that a column can only contain unique values\nC. Ensures referential integrity between tables\nD. Ensures that a column cannot have NULL values\nWhat is a NoSQL database?\nA. A database that does not use SQL as its query language\nB. A relational database management system\nC. A database designed for scalability and flexibility\nD. A type of database used exclusively for data warehousing\nWhich of the following is an example of a NoSQL database?\nA. MongoDB\nB. MySQL\nC. PostgreSQL\nD. Oracle\nIn MongoDB, how do you insert a new document into a collection?\nA. db.collection.insertOne(document)\nB. db.collection.add(document)\nC. db.collection.create(document)\nD. db.collection.save(document)\nWhich of the following is a characteristic of NoSQL databases?\nA. Schema-less\nB. Fixed schema\nC. ACID transactions\nD. Relational tables\nWhat is the purpose of the CAP theorem in distributed databases?\nA. It states that a distributed database can only achieve two out of three guarantees:\nConsistency, Availability, and Partition Tolerance\nB. It defines the constraints of relational databases\nC. It outlines the principles of data warehousing\nD. It describes the properties of NoSQL databases\nIn a data warehouse, what is a \"fact table\"?\nA. A central table that contains measures and keys to related dimension tables\nB. A table that contains descriptive information\nC. A table used for data normalization\nD. A temporary table for intermediate calculations\nWhat is a \"dimension table\" in a data warehouse?\nA. A table that contains descriptive attributes related to the measures in the fact table\nB. A table that stores aggregated data\nC. A table that holds metadata about the database\nD. A table that contains primary keys from other tables\nWhich of the following is a common data warehouse architecture?\nA. Star schema\nB. Ring schema\nC. Tree schema\nD. Linear schema\nWhat is the purpose of ETL (Extract, Transform, Load) processes in data warehousing?\nA. To extract data from various sources, transform it into a suitable format, and load it\ninto the data warehouse\nB. To create indexes on tables\nC. To perform data normalization\nD. To create backup copies of the database\nIn a star schema, what type of table is at the center of the schema?\nA. Fact table\nB. Dimension table\nC. Lookup table\nD. Index table\nWhat is \"data mining\"?\nA. The process of discovering patterns and knowledge from large amounts of data\nB. The process of cleaning and preparing data\nC. The process of storing data in a database\nD. The process of indexing data\nWhich SQL function calculates the average value of a column?\nA. AVG()\nB. SUM()\nC. COUNT()\nD. MAX()\nHow do you retrieve the last 5 rows from a table in SQL?\nA. SELECT * FROM table ORDER BY column DESC LIMIT 5;\nB. SELECT * FROM table ORDER BY column ASC LIMIT 5;\nC. SELECT TOP 5 * FROM table ORDER BY column DESC;\nD. SELECT LAST 5 * FROM table;\nWhich SQL keyword is used to join two tables based on a related column?\nA. JOIN\nB. LINK\nC. COMBINE\nD. CONNECT\nWhat is the purpose of the SQL CROSS JOIN?\nA. To return the Cartesian product of two tables\nB. To join two tables based on a common column\nC. To filter rows in a query\nD. To sort rows in a query\nWhich SQL clause is used to filter groups in a query?\nA. HAVING\nB. WHERE\nC. GROUP BY\nD. ORDER BY\nWhat is a \"foreign key\" in SQL?\nA. A field in one table that uniquely identifies a row in another table\nB. A field in one table that uniquely identifies a row in the same table\nC. A unique index on a table\nD. A type of constraint that enforces data integrity within a table\nWhat is the purpose of the SQL CHECK constraint?\nA. To ensure that all values in a column satisfy a specific condition\nB. To enforce referential integrity between tables\nC. To create an index on a table\nD. To remove duplicate rows from a result set\nWhat is a subquery in SQL?\nA. A query nested inside another query\nB. A query that creates a view\nC. A query that joins two tables\nD. A query that updates a table\nHow do you create a new table in SQL with the same structure as an existing table?\nA. CREATE TABLE new_table AS SELECT * FROM existing_table WHERE 1=0;\nB. CREATE TABLE new_table LIKE existing_table;\nC. CREATE TABLE new_table FROM existing_table;\nD. CREATE TABLE new_table COPY existing_table;\nWhich SQL statement is used to modify the structure of an existing table?\nA. ALTER TABLE\nB. MODIFY TABLE\nC. UPDATE TABLE\nD. CHANGE TABLE\nWhat is the purpose of the SQL COMMIT statement?\nA. To save all changes made during the current transaction\nB. To undo all changes made during the current transaction\nC. To start a new transaction\nD. To end the current transaction\nWhat is one of the main reasons for using a DBMS over a file system?\na) Reduced cost\nb) Improved data redundancy\nc) Improved data integrity\nd) Easier data manipulation\nAnswer: c\nWhich of Codd's 12 rules refers to the guaranteed access rule?\na) Rule 1\nb) Rule 2\nc) Rule 3\nd) Rule 4\nAnswer: a\nWhat is a tablespace?\na) A logical storage unit in a database\nb) A type of control file\nc) A hardware component\nd) A data manipulation language\nAnswer: a\nWhich of the following files stores metadata about the database structure?\na) Data file\nb) Log file\nc) Control file\nd) Configuration file\nAnswer: c\nStructured data is typically stored in:\na) JSON format\nb) Tables\nc) Binary files\nd) Text documents\nAnswer: b\nWhat does the SQL command ALTER do?\na) Changes data in the database\nb) Changes the structure of the database\nc) Deletes data from the database\nd) Creates a new database\nAnswer: b\nWhich SQL command is used to remove a table from a database?\na) DELETE\nb) TRUNCATE\nc) DROP\nd) REMOVE\nAnswer: c\nWhich command is used to add data to a table?\na) SELECT\nb) INSERT\nc) UPDATE\nd) DELETE\nAnswer: b\nThe GROUP BY clause is used in SQL to:\na) Sort the result set\nb) Aggregate data by one or more columns\nc) Limit the number of rows\nd) Filter records\nAnswer: b\nWhat is the purpose of the HAVING clause?\na) To filter records before aggregation\nb) To filter records after aggregation\nc) To sort the result set\nd) To join two tables\nAnswer: b\nWhich of the following is a correlated subquery?\na) SELECT * FROM A WHERE EXISTS (SELECT * FROM B);\nb) SELECT * FROM A WHERE A.ID = (SELECT MAX(ID) FROM B);\nc) SELECT * FROM A WHERE EXISTS (SELECT * FROM B WHERE A.ID =\nB.ID);\nd) SELECT * FROM A WHERE ID = (SELECT ID FROM B);\nAnswer: c\nWhat is the main goal of database normalization?\na) To reduce redundancy\nb) To increase data retrieval speed\nc) To enhance security\nd) To simplify data modeling\nAnswer: a\nWhich normal form is concerned with removing transitive dependencies?\na) First Normal Form\nb) Second Normal Form\nc) Third Normal Form\nd) Boyce-Codd Normal Form\nAnswer: c\nWhich SQL statement is used to create a view?\na) CREATE VIEW\nb) CREATE TABLE\nc) CREATE INDEX\nd) CREATE TRIGGER\nAnswer: a\nWhat is the main purpose of a trigger in a database?\na) To improve performance\nb) To enforce business rules\nc) To create indexes\nd) To backup data\nAnswer: b\nA window function in SQL is used to:\na) Perform operations on a set of rows related to the current row\nb) Filter records\nc) Join tables\nd) Create new databases\nAnswer: a\nWhich of the following is a key characteristic of a data warehouse?\na) Volatile\nb) Non-volatile\nc) Real-time\nd) Normalized\nAnswer: b\nETL stands for:\na) Extract, Transfer, Load\nb) Extract, Transform, Load\nc) Execute, Transform, Load\nd) Extract, Translate, Load\nAnswer: b\nWhich of the following is NOT a type of NoSQL database?\na) Column-oriented\nb) Document store\nc) Relational\nd) Key-value store\nAnswer: c\nIn a NoSQL database, data is typically:\na) Structured\nb) Semi-structured or unstructured\nc) Normalized\nd) Stored in tables\nAnswer: b\nSchema evolution in NoSQL databases refers to:\na) Changing the data model over time\nb) Updating the operating system\nc) Modifying the user interface\nd) Altering network configurations\nAnswer: a\nWhich NoSQL database is known for its document-oriented storage?\na) Cassandra\nb) Redis\nc) MongoDB\nd) HBase\nAnswer: c\nWhich command is used to insert a document in MongoDB?\na) insert()\nb) create()\nc) add()\nd) save()\nAnswer: a\nWhat does CRUD stand for in MongoDB?\na) Create, Read, Update, Delete\nb) Create, Retrieve, Update, Delete\nc) Copy, Read, Update, Delete\nd) Create, Read, Use, Delete\nAnswer: a\nThe main purpose of an index in MongoDB is to:\na) Reduce storage space\nb) Speed up query performance\nc) Ensure data consistency\nd) Simplify database design\nAnswer: b\nIn MongoDB, an index on a collection can be created using:\na) createIndex()\nb) addIndex()\nc) newIndex()\nd) setIndex()\nAnswer: a\nWhich aggregation operation in MongoDB is used to group documents?\na) $group\nb) $match\nc) $sort\nd) $project\nAnswer: a\nWhich MongoDB query would find all documents where the \"score\" field is greater than\n90?\na) db.collection.find({ score: { $gt: 90 } })\nb) db.collection.find({ score: { $lt: 90 } })\nc) db.collection.find({ score: { $eq: 90 } })\nd) db.collection.find({ score: { $gte: 90 } })\nAnswer: a\nWhat does OLAP stand for?\na) Online Analytical Processing\nb) Online Automated Processing\nc) Offline Analytical Processing\nd) Online Advanced Processing\nAnswer: a\nWhich of the following is typically a feature of OLTP systems?\na) Data warehousing\nb) High transaction volume\nc) Complex queries\nd) Historical data analysis\nAnswer: b\nCassandra is best suited for which type of database operations?\na) Complex transactions\nb) High availability and scalability\nc) Real-time analytics\nd) Small-scale applications\nAnswer: b\nThe shell for interacting with Cassandra is known as:\na) SQLsh\nb) PSQL\nc) Cqlsh\nd) MQLsh\nAnswer: c\nWhich CQL command is used to create a table in Cassandra?\na) CREATE\nb) ADD\nc) NEW\nd) INSERT\nAnswer: a\nWhich of the following commands removes all data from a table but keeps the table\nstructure intact?\na) DELETE\nb) DROP\nc) TRUNCATE\nd) REMOVE\nAnswer: c\nWhich of the following CQL commands is used to insert data into a table?\na) INSERT INTO\nb) ADD TO\nc) PUT INTO\nd) UPDATE\nAnswer: a\nWhich CQL data type is used to store a collection of unique elements?\na) LIST\nb) SET\nc) MAP\nd) TUPLE\nAnswer: b\nData governance primarily focuses on:\na) Data storage\nb) Data integrity and security\nc) Data visualization\nd) Data modeling\nAnswer: b\nWhich of the following is a key aspect of data cleaning?\na) Data warehousing\nb) Data normalization\nc) Removing duplicates\nd) Data partitioning\nAnswer: c\nGiven a dataset of sales records, which SQL clause would you use to find trends over the\npast five years?\na) WHERE\nb) GROUP BY\nc) ORDER BY\nd) JOIN\nAnswer: b\nTo handle data migration from an RDBMS to a NoSQL database, which of the following\nstrategies is commonly used?\na) Direct transfer\nb) ETL process\nc) Manual entry\nd) Real-time synchronization\nAnswer: b\nGiven the SQL query SELECT * FROM Employees e JOIN Departments d ON e.DeptID =\nd.DeptID;, what is the result set?\na) Employees not in any department\nb) All employees with their department details\nc) All departments with their employee details\nd) Departments without employees\nAnswer: b\nIn MongoDB, if you run the query { name: \"John\", age: { $gt: 25 } }, what is the output?\na) Documents with name \"John\"\nb) Documents with age greater than 25\nc) Documents with name \"John\" and age greater than 25\nd) Documents with either name \"John\" or age greater than 25\nAnswer: c\nThe CAP theorem states that it is impossible for a distributed data store to simultaneously\nprovide:\na) Consistency, Availability, Partition tolerance\nb) Consistency, Accuracy, Performance\nc) Availability, Security, Scalability\nd) Partition tolerance, Security, Performance\nAnswer: a\nACID properties in a database stand for:\na) Availability, Consistency, Isolation, Durability\nb) Atomicity, Consistency, Isolation, Durability\nc) Atomicity, Completeness, Isolation, Durability\nd) Accuracy, Consistency, Isolation, Durability\nAnswer: b\nWhich SQL function calculates a running total?\na) SUM()\nb) RANK()\nc) ROW_NUMBER()\nd) OVER()\nAnswer: d\nThe SQL command SELECT * FROM table1 FULL OUTER JOIN table2 ON table1.id =\ntable2.id; returns:\na) Only matching rows from both tables\nb) All rows from table1\nc) All rows from table2\nd) All rows from both tables, with NULLs where there is no match\nAnswer: d\nSharding in MongoDB refers to:\na) Creating backups\nb) Distributing data across multiple servers\nc) Indexing documents\nd) Encrypting data\nAnswer: b\nThe map-reduce operation in MongoDB is primarily used for:\na) Real-time analytics\nb) Aggregating large datasets\nc) Data replication\nd) Sharding\nAnswer: b\nThe ETL process involves:\na) Extracting data from multiple sources, transforming it, and loading it into a\ndata warehouse\nb) Extracting, testing, and linking data\nc) Evaluating, transforming, and loading data\nd) Extracting, transmitting, and loading data\nAnswer: a\nAn OLAP cube is used for:\na) Transaction processing\nb) Analyzing multidimensional data\nc) Data normalization\nd) Data encryption\nAnswer: b\nData normalization aims to:\na) Reduce redundancy\nb) Improve query performance\nc) Increase data availability\nd) Simplify schema design\nAnswer: a\nMetadata in data management refers to:\na) Actual data\nb) Data about data\nc) Transformed data\nd) Backup data\nAnswer: b\nWhat is the main difference between OLTP and OLAP systems?\na) OLTP is for data analysis, OLAP is for transaction processing\nb) OLTP is for transaction processing, OLAP is for data analysis\nc) OLTP uses historical data, OLAP uses current data\nd) OLTP supports complex queries, OLAP supports simple queries\nAnswer: b\nWhich of the following is NOT a feature of NoSQL databases?\na) High scalability\nb) Flexible schemas\nc) ACID transactions\nd) Distributed computing\nAnswer: c\nThe concept of eventual consistency is most associated with which type of databases?\na) Relational databases\nb) NoSQL databases\nc) Data warehouses\nd) In-memory databases\nAnswer: b\nIn SQL, what is the function of the JOIN clause?\na) To combine rows from two or more tables based on a related column\nb) To delete rows from a table\nc) To update rows in a table\nd) To insert rows into a table\nAnswer: a\nWhich MongoDB operation would you use to find documents in a collection?\na) find()\nb) search()\nc) get()\nd) query()\nAnswer: a\nIn Cassandra, what is the primary key used for?\na) Identifying unique rows in a table\nb) Encrypting data\nc) Managing user permissions\nd) Indexing data\nAnswer: a\nWhich SQL clause is used to filter records?\na) SELECT\nb) WHERE\nc) ORDER BY\nd) GROUP BY\nAnswer: b\nThe COUNT() function in SQL is used to:\na) Count the number of rows in a table\nb) Calculate the sum of a column\nc) Find the average value of a column\nd) Sort the result set\nAnswer: a\nWhat is the main purpose of a data warehouse?\na) To support transaction processing\nb) To store historical data for analysis\nc) To encrypt data\nd) To store operational data\nAnswer: b\nWhich NoSQL database uses the HBase API for data manipulation?\na) MongoDB\nb) Cassandra\nc) Redis\nd) HBase\nAnswer: d\nIn a star schema, what is the central table called?\na) Dimension table\nb) Fact table\nc) Reference table\nd) Summary table\nAnswer: b\nWhat does the ALTER TABLE command in SQL do?\na) Adds, deletes, or modifies columns in a table\nb) Changes the data in a table\nc) Deletes all data from a table\nd) Creates a new table\nAnswer: a\nIn MongoDB, the $match stage in an aggregation pipeline is used to:\na) Filter documents\nb) Group documents\nc) Sort documents\nd) Project documents\nAnswer: a\nWhat does BASE stand for in the context of NoSQL databases?\na) Basic Availability, Soft-state, Eventual consistency\nb) Basic Availability, Strong-state, Eventual consistency\nc) Basic Availability, Soft-state, Exact consistency\nd) Basic Availability, Secure-state, Eventual consistency\nAnswer: a\nWhich SQL keyword is used to sort the result set?\na) GROUP BY\nb) ORDER BY\nc) SORT BY\nd) ARRANGE BY\nAnswer: b\nA composite key in a relational database is:\na) A single attribute that uniquely identifies a record\nb) A combination of two or more attributes that uniquely identify a record\nc) A foreign key\nd) A primary key in another table\nAnswer: b\nIn Cassandra, the CONSISTENCY command is used to:\na) Set the consistency level for queries\nb) Create a new keyspace\nc) Insert data into a table\nd) Delete data from a table\nAnswer: a\nIn data warehousing, what is a dimension table?\na) A table that contains measurements or metrics\nb) A table that contains descriptive attributes\nc) A table that stores raw data\nd) A table that stores metadata\nAnswer: b\nWhat is the main advantage of using an OLAP system?\na) High transaction throughput\nb) Complex data analysis\nc) Low storage cost\nd) Simple data entry\nAnswer: b\nWhich of the following is a key characteristic of a NoSQL database?\na) Relational data model\nb) Fixed schema\nc) Scalability\nd) ACID compliance\nAnswer: c\nThe SQL JOIN clause can be used to:\na) Merge two tables into one\nb) Delete rows from a table\nc) Create a new table\nd) Retrieve related data from multiple tables\nAnswer: d\nIn MongoDB, the $project stage in an aggregation pipeline is used to:\na) Filter documents\nb) Group documents\nc) Sort documents\nd) Include or exclude specific fields\nAnswer: d\nWhich SQL function is used to find the maximum value in a column?\na) MAX()\nb) MIN()\nc) SUM()\nd) AVG()\nAnswer: a\nIn Cassandra, a keyspace is:\na) A collection of tables\nb) A single table\nc) An index\nd) A user-defined type\nAnswer: a\nIn data warehousing, what is a fact table?\na) A table that contains measurements or metrics\nb) A table that contains descriptive attributes\nc) A table that stores metadata\nd) A table that stores backup data\nAnswer: a\nWhich NoSQL database uses the term \"bucket\" for its data storage unit?\na) MongoDB\nb) Cassandra\nc) Couchbase\nd) Redis\nAnswer: c\nIn SQL, the HAVING clause is used to:\na) Filter records before aggregation\nb) Filter records after aggregation\nc) Sort records\nd) Join tables\nAnswer: b\nIn MongoDB, the $unwind stage in an aggregation pipeline is used to:\na) Filter documents\nb) Group documents\nc) Deconstruct an array field\nd) Project documents\nAnswer: c\nWhich of the following is a feature of OLAP systems?\na) Real-time data processing\nb) Historical data analysis\nc) Simple query processing\nd) High transaction throughput\nAnswer: b\nWhich NoSQL database is designed for high write throughput and linear scalability?\na) MongoDB\nb) Cassandra\nc) Redis\nd) HBase\nAnswer: b\nIn SQL, the DISTINCT keyword is used to:\na) Select unique records\nb) Select all records\nc) Delete duplicate records\nd) Sort records\nAnswer: a\nIn MongoDB, the $lookup stage in an aggregation pipeline is used to:\na) Filter documents\nb) Group documents\nc) Join documents from different collections\nd) Project documents\nAnswer: c\nWhat is the main purpose of a primary key in a relational database?\na) To uniquely identify each record\nb) To provide a default value for a column\nc) To create a foreign key\nd) To index data\nAnswer: a\nWhich of the following is a benefit of data normalization?\na) Reduced data redundancy\nb) Increased data retrieval speed\nc) Enhanced data encryption\nd) Simplified database design\nAnswer: a\nIn Cassandra, which command is used to define a primary key?\na) PRIMARY KEY\nb) UNIQUE KEY\nc) FOREIGN KEY\nd) INDEX\nAnswer: a\nWhich SQL function is used to count the number of non-NULL values in a column?\na) COUNT()\nb) SUM()\nc) AVG()\nd) MAX()\nAnswer: a\nIn data warehousing, what is the purpose of a star schema?\na) To simplify complex queries\nb) To store unstructured data\nc) To reduce data redundancy\nd) To enhance data security\nAnswer: a\nWhat does the UPDATE command in SQL do?\na) Modifies existing records in a table\nb) Adds new records to a table\nc) Deletes records from a table\nd) Creates a new table\nAnswer: a\nIn MongoDB, the $sort stage in an aggregation pipeline is used to:\na) Filter documents\nb) Group documents\nc) Sort documents\nd) Project documents\nAnswer: c\nWhich NoSQL database is known for its in-memory data storage?\na) MongoDB\nb) Cassandra\nc) Redis\nd) Couchbase\nAnswer: c\nIn SQL, what does the INNER JOIN clause do?\na) Selects records with matching values in both tables\nb) Selects all records from the left table and matching records from the right table\nc) Selects all records from the right table and matching records from the left table\nd) Selects all records from both tables\nAnswer: a\nIn MongoDB, the $addFields stage in an aggregation pipeline is used to:\na) Filter documents\nb) Group documents\nc) Add new fields to documents\nd) Project documents\nAnswer: c\nWhich of the following is a benefit of using an OLAP system?\na) High transaction throughput\nb) Real-time data processing\nc) Complex data analysis\nd) Simple query processing\nAnswer: c\nIn Cassandra, the BATCH command is used to:\na) Execute multiple statements as a single logical operation\nb) Create a new keyspace\nc) Insert data into a table\nd) Delete data from a table\nAnswer: a\nIn SQL, the LEFT JOIN clause does what?\na) Selects all records from the left table and the matching records from the right\ntable\nb) Selects all records from the right table and the matching records from the left\ntable\nc) Selects only matching records from both tables\nd) Selects all records from both tables\nAnswer: a\nIn MongoDB, the $match stage in an aggregation pipeline is used to:\na) Filter documents\nb) Group documents\nc) Sort documents\nd) Project documents\nAnswer: a\nWhat is the main purpose of data warehousing?\na) To support complex queries and data analysis\nb) To support high transaction throughput\nc) To store unstructured data\nd) To enhance data security\nAnswer: a\nIn Cassandra, the INSERT command is used to:\na) Add new data to a table\nb) Update existing data in a table\nc) Delete data from a table\nd) Create a new table\nAnswer: a\nQuestion: Given a table Employees with columns EmpID, Name, and Salary, what will be\nthe result of the following SQL query?\nSELECT Name, Salary\nFROM Employees\nWHERE Salary > (SELECT AVG(Salary) FROM Employees);\na) All employees with a salary greater than the average salary of all employees\nb) All employees with a salary less than the average salary of all employees\nc) The average salary of all employees\nd) An error because the subquery is not allowed in the WHERE clause\nAnswer: a\nQuestion: What does the following SQL query return?\nSELECT COUNT(*)\nFROM Orders\nWHERE OrderDate BETWEEN '2023-01-01' AND '2023-12-31'\nGROUP BY CustomerID;\na) The total number of orders placed in 2023\nb) The number of unique customers who placed orders in 2023\nc) The number of orders placed by each customer in 2023\nd) The total number of orders grouped by order date\nAnswer: c\nQuestion: What is the result of this SQL query?\nSELECT Name\nFROM Employees\nWHERE Name LIKE '%a%' AND Name LIKE '%e%';\na) Employees whose names contain both 'a' and 'e' anywhere in the name\nb) Employees whose names end with 'a' and 'e'\nc) Employees whose names start with 'a' and end with 'e'\nd) Employees whose names contain 'a' or 'e' anywhere in the name\nAnswer: a\nQuestion: Given two tables, Employees and Departments, where Employees has columns\nEmpID, Name, DeptID, and Departments has columns DeptID, DeptName, what does the\nfollowing query return?\nSELECT e.Name, d.DeptName\nFROM Employees e\nLEFT JOIN Departments d ON e.DeptID = d.DeptID\nWHERE d.DeptName IS NULL;\na) All employees with their respective department names\nb) Employees who do not belong to any department\nc) Employees who belong to at least one department\nd) Departments with no employees\nAnswer: b\nQuestion: What does the following SQL query return when executed on a table Products\nwith columns ProductID, ProductName, and Price?\nSELECT ProductID, ProductName\nFROM Products\nWHERE Price = (SELECT MAX(Price) FROM Products);\na) All products with the highest price\nb) The product with the highest price\nc) An error because subqueries cannot be used in the WHERE clause\nd) All products with prices greater than the average price\nAnswer: a\nQuestion: What is the result of this SQL query?\nSELECT COUNT(*)\nFROM Orders\nWHERE OrderDate < '2024-01-01'\nAND OrderID NOT IN (SELECT OrderID FROM OrderDetails);\na) The total number of orders before 2024\nb) The number of orders before 2024 that do not have any order details\nc) The number of orders in 2024 that do not have any order details\nd) The total number of orders after 2024\nAnswer: b\nQuestion: Given a table Sales with columns SaleID, SaleDate, and Amount, what does the\nfollowing query return?\nSELECT EXTRACT(YEAR FROM SaleDate) AS SaleYear, SUM(Amount) AS\nTotalAmount\nFROM Sales\nGROUP BY EXTRACT(YEAR FROM SaleDate)\nHAVING SUM(Amount) > 10000;\na) Total sales amount for each year\nb) Total sales amount for years with sales exceeding $10,000\nc) Total sales amount for years with sales less than $10,000\nd) The year with the highest sales amount\nAnswer: b\nQuestion: What will the following SQL query output?\nSELECT DepartmentID, AVG(Salary) AS AvgSalary\nFROM Employees\nGROUP BY DepartmentID\nHAVING COUNT(*) > 5;\na) The average salary of all employees in each department\nb) The average salary of employees in departments with more than 5 employees\nc) The total salary of employees in departments with more than 5 employees\nd) The departments with more than 5 employees\nAnswer: b\nQuestion: What is the output of the following SQL query?\nSELECT ProductID, Price\nFROM Products\nWHERE Price > ALL (SELECT Price FROM Products WHERE CategoryID = 1);\na) Products with prices greater than the average price in Category 1\nb) Products with prices greater than the highest price in Category 1\nc) Products with prices greater than the lowest price in Category 1\nd) Products with prices less than the highest price in Category 1\nAnswer: b\nQuestion: Given a table Students with columns StudentID, Name, and Grade, what does\nthe following query return?\nSELECT Name\nFROM Students\nWHERE Grade = (SELECT MIN(Grade) FROM Students WHERE Grade > (SELECT\nAVG(Grade) FROM Students));\na) The name of the student with the lowest grade\nb) The name of the student with the highest grade\nc) The name of the student with the grade just above the average grade\nd) The name of the student with the grade just below the average grade\nAnswer: c\nQuestion: Given a table Employees with columns EmpID, Name, and Salary, what will be\nthe result of the following SQL query?\nSELECT Name, Salary\nFROM Employees\nWHERE Salary > (SELECT AVG(Salary) FROM Employees);\na) All employees with a salary greater than the average salary of all employees\nb) All employees with a salary less than the average salary of all employees\nc) The average salary of all employees\nd) An error because the subquery is not allowed in the WHERE clause\nAnswer: a\nQuestion: What does the following SQL query return?\nSELECT COUNT(*)\nFROM Orders\nWHERE OrderDate BETWEEN '2023-01-01' AND '2023-12-31'\nGROUP BY CustomerID;\na) The total number of orders placed in 2023\nb) The number of unique customers who placed orders in 2023\nc) The number of orders placed by each customer in 2023\nd) The total number of orders grouped by order date\nAnswer: c\nQuestion: What is the result of this SQL query?\nSELECT Name\nFROM Employees\nWHERE Name LIKE '%a%' AND Name LIKE '%e%';\na) Employees whose names contain both 'a' and 'e' anywhere in the name\nb) Employees whose names end with 'a' and 'e'\nc) Employees whose names start with 'a' and end with 'e'\nd) Employees whose names contain 'a' or 'e' anywhere in the name\nAnswer: a\nQuestion: Given two tables, Employees and Departments, where Employees has columns\nEmpID, Name, DeptID, and Departments has columns DeptID, DeptName, what does the\nfollowing query return?\nSELECT e.Name, d.DeptName\nFROM Employees e\nLEFT JOIN Departments d ON e.DeptID = d.DeptID\nWHERE d.DeptName IS NULL;\na) All employees with their respective department names\nb) Employees who do not belong to any department\nc) Employees who belong to at least one department\nd) Departments with no employees\nAnswer: b\nQuestion: What does the following SQL query return when executed on a table Products\nwith columns ProductID, ProductName, and Price?\nSELECT ProductID, ProductName\nFROM Products\nWHERE Price = (SELECT MAX(Price) FROM Products);\na) All products with the highest price\nb) The product with the highest price\nc) An error because subqueries cannot be used in the WHERE clause\nd) All products with prices greater than the average price\nAnswer: a\nQuestion: What is the result of this SQL query?\nSELECT COUNT(*)\nFROM Orders\nWHERE OrderDate < '2024-01-01'\nAND OrderID NOT IN (SELECT OrderID FROM OrderDetails);\na) The total number of orders before 2024\nb) The number of orders before 2024 that do not have any order details\nc) The number of orders in 2024 that do not have any order details\nd) The total number of orders after 2024\nAnswer: b\nQuestion: Given a table Sales with columns SaleID, SaleDate, and Amount, what does the\nfollowing query return?\nSELECT EXTRACT(YEAR FROM SaleDate) AS SaleYear, SUM(Amount) AS\nTotalAmount\nFROM Sales\nGROUP BY EXTRACT(YEAR FROM SaleDate)\nHAVING SUM(Amount) > 10000;\na) Total sales amount for each year\nb) Total sales amount for years with sales exceeding $10,000\nc) Total sales amount for years with sales less than $10,000\nd) The year with the highest sales amount\nAnswer: b\nQuestion: What will the following SQL query output?\nSELECT DepartmentID, AVG(Salary) AS AvgSalary\nFROM Employees\nGROUP BY DepartmentID\nHAVING COUNT(*) > 5;\na) The average salary of all employees in each department\nb) The average salary of employees in departments with more than 5 employees\nc) The total salary of employees in departments with more than 5 employees\nd) The departments with more than 5 employees\nAnswer: b\nQuestion: What is the output of the following SQL query?\nSELECT ProductID, Price\nFROM Products\nWHERE Price > ALL (SELECT Price FROM Products WHERE CategoryID = 1);\na) Products with prices greater than the average price in Category 1\nb) Products with prices greater than the highest price in Category 1\nc) Products with prices greater than the lowest price in Category 1\nd) Products with prices less than the highest price in Category 1\nAnswer: b\nQuestion: Given a table Students with columns StudentID, Name, and Grade, what does\nthe following query return?\nSELECT Name\nFROM Students\nWHERE Grade = (SELECT MIN(Grade) FROM Students WHERE Grade > (SELECT\nAVG(Grade) FROM Students));\na) The name of the student with the lowest grade\nb) The name of the student with the highest grade\nc) The name of the student with the grade just above the average grade\nd) The name of the student with the grade just below the average grade\nAnswer: c\nQuestion: What does the following SQL query return?\nSELECT CustomerID, COUNT(*)\nFROM Orders\nWHERE OrderDate >= '2024-01-01'\nGROUP BY CustomerID\nHAVING COUNT(*) > 5;\na) The number of orders for each customer\nb) The number of customers who placed more than 5 orders in 2024\nc) Customers with more than 5 orders in 2024\nd) The total number of orders in 2024\nAnswer: c\nQuestion: Given a table Books with columns BookID, Title, and Price, what does the\nfollowing query return?\nSELECT Title\nFROM Books\nWHERE Price BETWEEN 10 AND 20;\na) Books priced between $10 and $20\nb) Books priced less than $10\nc) Books priced more than $20\nd) All books\nAnswer: a\nQuestion: What will the following SQL query return?\nSELECT Name, COUNT(*)\nFROM Employees\nWHERE DepartmentID = 1\nGROUP BY Name\nHAVING COUNT(*) > 1;\na) All employees in department 1\nb) Employees in department 1 with duplicate names\nc) The number of employees in each department\nd) The number of employees in department 1\nAnswer: b\nQuestion: What does the following SQL query return?\nSELECT CategoryID, MAX(Price)\nFROM Products\nGROUP BY CategoryID;\na) The maximum price of all products\nb) The maximum price of products in each category\nc) The average price of products in each category\nd) The total price of products in each category\nAnswer: b\nQuestion: What will the following SQL query return?\nSELECT COUNT(*)\nFROM Employees\nWHERE DepartmentID IN (SELECT DepartmentID FROM Departments WHERE\nDeptName LIKE 'A%');\na) The total number of employees\nb) The number of employees in departments whose names start with 'A'\nc) The number of employees in departments whose names contain 'A'\nd) The number of departments whose names start with 'A'\nAnswer: b\nQuestion: What is the result of this SQL query?\nSELECT ProductID, ProductName\nFROM Products\nWHERE Price = (SELECT MIN(Price) FROM Products WHERE CategoryID =\nProducts.CategoryID);\na) The product with the minimum price in each category\nb) The product with the minimum price\nc) All products with the minimum price in their category\nd) An error because subqueries cannot reference columns from the outer query\nAnswer: c\nQuestion: Given a table Employees with columns EmpID, Name, and Salary, what will be the\nresult of the following SQL query?\nSELECT Name, Salary\nFROM Employees\nWHERE Salary > (SELECT AVG(Salary) FROM Employees);\na) All employees with a salary greater than the average salary of all employees\nb) All employees with a salary less than the average salary of all employees\nc) The average salary of all employees\nd) An error because the subquery is not allowed in the WHERE clause\nAnswer: a\nQuestion: What does the following SQL query return?\nSELECT COUNT(*)\nFROM Orders\nWHERE OrderDate BETWEEN '2023-01-01' AND '2023-12-31'\nGROUP BY CustomerID;\na) The total number of orders placed in 2023\nb) The number of unique customers who placed orders in 2023\nc) The number of orders placed by each customer in 2023\nd) The total number of orders grouped by order date\nAnswer: c\nQuestion: What is the result of this SQL query?\nSELECT Name\nFROM Employees\nWHERE Name LIKE '%a%' AND Name LIKE '%e%';\na) Employees whose names contain both 'a' and 'e' anywhere in the name\nb) Employees whose names end with 'a' and 'e'\nc) Employees whose names start with 'a' and end with 'e'\nd) Employees whose names contain 'a' or 'e' anywhere in the name\nAnswer: a\nQuestion: Given two tables, Employees and Departments, where Employees has columns\nEmpID, Name, DeptID, and Departments has columns DeptID, DeptName, what does the\nfollowing query return?\nSELECT e.Name, d.DeptName\nFROM Employees e\nLEFT JOIN Departments d ON e.DeptID = d.DeptID\nWHERE d.DeptName IS NULL;\na) All employees with their respective department names\nb) Employees who do not belong to any department\nc) Employees who belong to at least one department\nd) Departments with no employees\nAnswer: b\nQuestion: What does the following SQL query return when executed on a table Products with\ncolumns ProductID, ProductName, and Price?\nSELECT ProductID, ProductName\nFROM Products\nWHERE Price = (SELECT MAX(Price) FROM Products);\na) All products with the highest price\nb) The product with the highest price\nc) An error because subqueries cannot be used in the WHERE clause\nd) All products with prices greater than the average price\nAnswer: a\nQuestion: What is the result of this SQL query?\nSELECT COUNT(*)\nFROM Orders\nWHERE OrderDate < '2024-01-01'\nAND OrderID NOT IN (SELECT OrderID FROM OrderDetails);\na) The total number of orders before 2024\nb) The number of orders before 2024 that do not have any order details\nc) The number of orders in 2024 that do not have any order details\nd) The total number of orders after 2024\nAnswer: b\nQuestion: Given a table Sales with columns SaleID, SaleDate, and Amount, what does the\nfollowing query return?\nSELECT EXTRACT(YEAR FROM SaleDate) AS SaleYear, SUM(Amount) AS\nTotalAmount\nFROM Sales\nGROUP BY EXTRACT(YEAR FROM SaleDate)\nHAVING SUM(Amount) > 10000;\na) Total sales amount for each year\nb) Total sales amount for years with sales exceeding $10,000\nc) Total sales amount for years with sales less than $10,000\nd) The year with the highest sales amount\nAnswer: b\nQuestion: What will the following SQL query output?\nSELECT DepartmentID, AVG(Salary) AS AvgSalary\nFROM Employees\nGROUP BY DepartmentID\nHAVING COUNT(*) > 5;\na) The average salary of all employees in each department\nb) The average salary of employees in departments with more than 5 employees\nc) The total salary of employees in departments with more than 5 employees\nd) The departments with more than 5 employees\nAnswer: b\nQuestion: What is the output of the following SQL query?\nSELECT ProductID, Price\nFROM Products\nWHERE Price > ALL (SELECT Price FROM Products WHERE CategoryID = 1);\na) Products with prices greater than the average price in Category 1\nb) Products with prices greater than the highest price in Category 1\nc) Products with prices greater than the lowest price in Category 1\nd) Products with prices less than the highest price in Category 1\nAnswer: b\nQuestion: Given a table Students with columns StudentID, Name, and Grade, what does the\nfollowing query return?\nSELECT Name\nFROM Students\nWHERE Grade = (SELECT MIN(Grade) FROM Students WHERE Grade > (SELECT\nAVG(Grade) FROM Students));\na) The name of the student with the lowest grade\nb) The name of the student with the highest grade\nc) The name of the student with the grade just above the average grade\nd) The name of the student with the grade just below the average grade\nAnswer: c\nQuestion: What is the output of this query?\nSELECT Name\nFROM Employees\nWHERE DeptID IN (SELECT DeptID FROM Departments WHERE DeptName = 'HR');\na) Employees who work in the HR department\nb) Employees who do not work in the HR department\nc) All employees and their department names\nd) An error because IN cannot be used with a subquery\nAnswer: a\nQuestion: What will this query return?\nSELECT AVG(Salary)\nFROM Employees\nWHERE DeptID = (SELECT DeptID FROM Departments WHERE DeptName =\n'Finance');\na) The average salary of all employees\nb) The average salary of employees in the Finance department\nc) The average salary of employees in departments other than Finance\nd) An error because a subquery cannot be used in the WHERE clause\nAnswer: b\nQuestion: What does this query return?\nSELECT CustomerID, COUNT(OrderID)\nFROM Orders\nGROUP BY CustomerID\nHAVING COUNT(OrderID) > 10;\na) All customers\nb) Customers with more than 10 orders\nc) Customers with less than 10 orders\nd) An error because COUNT cannot be used in the HAVING clause\nAnswer: b\nQuestion: What is the result of this SQL query?\nSELECT ProductName\nFROM Products\nWHERE ProductID IN (SELECT ProductID FROM OrderDetails WHERE Quantity > 5);\na) All products\nb) Products ordered in quantities greater than 5\nc) Products ordered in quantities less than 5\nd) An error because IN cannot be used with a subquery\nAnswer: b\nQuestion: Given the tables Customers and Orders, what will the following query return?\nSELECT c.CustomerName, COUNT(o.OrderID)\nFROM Customers c\nLEFT JOIN Orders o ON c.CustomerID = o.CustomerID\nGROUP BY c.CustomerName\nHAVING COUNT(o.OrderID) = 0;\na) All customers\nb) Customers with no orders\nc) Customers with at least one order\nd) An error because COUNT cannot be used in the HAVING clause\nAnswer: b\nQuestion: What will this query output?\nSELECT OrderID, SUM(Amount) AS TotalAmount\nFROM OrderDetails\nGROUP BY OrderID\nHAVING SUM(Amount) > 1000;\na) All orders\nb) Orders with a total amount greater than 1000\nc) Orders with a total amount less than 1000\nd) An error because SUM cannot be used in the HAVING clause\nAnswer: b\nQuestion: What does this SQL query return?\nSELECT ProductName\nFROM Products\nWHERE Price = (SELECT MIN(Price) FROM Products WHERE CategoryID = 2);\na) The product with the lowest price in Category 2\nb) The product with the highest price in Category 2\nc) All products in Category 2\nd) An error because subqueries cannot be used in the WHERE clause\nAnswer: a\nQuestion: What is the result of the following query?\nSELECT Name\nFROM Employees\nWHERE Name LIKE '_a%';\na) Employees whose names start with 'a'\nb) Employees whose names end with 'a'\nc) Employees whose names have 'a' as the second character\nd) Employees whose names contain 'a'\nAnswer: c\nQuestion: What will this query output?\nSELECT DepartmentID, COUNT(EmployeeID) AS NumberOfEmployees\nFROM Employees\nGROUP BY DepartmentID\nORDER BY NumberOfEmployees DESC;\na) Departments ordered by the number of employees in ascending order\nb) Departments ordered by the number of employees in descending order\nc) The total number of employees\nd) An error because COUNT cannot be used with GROUP BY\nAnswer: b\nQuestion: What is the output of this SQL query?\nSELECT ProductName\nFROM Products\nWHERE Price >= ALL (SELECT Price FROM Products WHERE CategoryID = 3);\na) Products with prices greater than the average price in Category 3\nb) Products with prices greater than the highest price in Category 3\nc) Products with prices greater than or equal to the highest price in Category 3\nd) Products with prices less than the highest price in Category 3\nAnswer: c\nQuestion: What is the result of the following SQL query?\nSELECT Name\nFROM Employees\nWHERE Name LIKE 'A%_%_%';\na) Employees whose names start with 'A' and have at least three characters\nb) Employees whose names contain 'A' followed by three characters\nc) Employees whose names have 'A' as the fourth character\nd) Employees whose names start with 'A' and end with three characters\nAnswer: a\nQuestion: What will the following SQL query return?\nSELECT CustomerID, SUM(TotalAmount)\nFROM Orders\nWHERE OrderDate >= '2023-01-01' AND OrderDate <= '2023-12-31'\nGROUP BY CustomerID\nHAVING SUM(TotalAmount) > 5000;\na) All customers\nb) Customers with orders totaling more than $5000 in 2023\nc) Customers with orders totaling less than $5000 in 2023\nd) An error because SUM cannot be used in the HAVING clause\nAnswer: b\nQuestion: What is the output of this query?\nSELECT Name\nFROM Employees\nWHERE DeptID IN (SELECT DeptID FROM Departments WHERE DeptName LIKE\n'%s');\na) Employees who work in departments with names ending in 's'\nb) Employees who work in departments with names starting with 's'\nc) Employees who do not work in departments with names ending in 's'\nd) An error because LIKE cannot be used with IN\nAnswer: a\nQuestion: What does this SQL query return?\nSELECT Name, Salary\nFROM Employees\nWHERE Salary >= (SELECT AVG(Salary) FROM Employees);\na) All employees\nb) Employees with salaries greater than or equal to the average salary\nc) Employees with salaries less than the average salary\nd) An error because subqueries cannot be used in the WHERE clause\nAnswer: b\nQuestion: What is the result of the following query?\nSELECT DepartmentID, COUNT(*)\nFROM Employees\nGROUP BY DepartmentID\nHAVING COUNT(*) > 10;\na) All departments\nb) Departments with more than 10 employees\nc) Departments with less than 10 employees\nd) An error because COUNT cannot be used in the HAVING clause\nAnswer: b\nQuestion: What will this query return?\nSELECT ProductID, AVG(Price)\nFROM Products\nGROUP BY ProductID\nHAVING AVG(Price) < 50;\na) All products\nb) Products with an average price less than 50\nc) Products with an average price greater than 50\nd) An error because AVG cannot be used in the HAVING clause\nAnswer: b\nQuestion: What is the output of this SQL query?\nSELECT OrderID\nFROM Orders\nWHERE OrderDate = (SELECT MIN(OrderDate) FROM Orders);\na) The order with the earliest order date\nb) The order with the latest order date\nc) All orders\nd) An error because subqueries cannot be used in the WHERE clause\nAnswer: a\nQuestion: What does the following SQL query return?\nSELECT Name\nFROM Employees\nWHERE Name LIKE '_a%_%e';\na) Employees whose names start with 'a' and end with 'e'\nb) Employees whose names contain 'a' as the second character and 'e' as the last character\nc) Employees whose names have 'a' as the second character and 'e' as the fifth character\nd) Employees whose names start with 'a' and end with 'e' with any number of characters\nin between\nAnswer: c\nQuestion: What will this query return?\nSELECT CustomerID, COUNT(OrderID)\nFROM Orders\nGROUP BY CustomerID\nHAVING COUNT(OrderID) > (SELECT AVG(COUNT(OrderID)) FROM Orders\nGROUP BY CustomerID);\na) All customers\nb) Customers with more orders than the average number of orders per customer\nc) Customers with fewer orders than the average number of orders per customer\nd) An error because AVG cannot be used in the HAVING clause\nAnswer: b\nQuestion: What is the result of this SQL query?\nSELECT Name\nFROM Employees\nWHERE DeptID = (SELECT DeptID FROM Departments WHERE DeptName = 'Sales')\nAND Salary > (SELECT AVG(Salary) FROM Employees WHERE DeptID = (SELECT\nDeptID FROM Departments WHERE DeptName = 'Sales'));\na) Employees in the Sales department with salaries greater than the average salary in\nSales\nb) Employees in departments other than Sales with salaries greater than the average\nsalary in Sales\nc) All employees in the Sales department\nd) An error because subqueries cannot be used in the WHERE clause\nAnswer: a\nQuestion: What will the following SQL query return?\nSELECT Name, Salary\nFROM Employees\nWHERE Salary = (SELECT MAX(Salary) FROM Employees WHERE DeptID =\n(SELECT DeptID FROM Departments WHERE DeptName = 'Engineering'));\na) All employees with the highest salary in the Engineering department\nb) The employee with the highest salary in the Engineering department\nc) The employee with the highest salary in the company\nd) An error because subqueries cannot be used in the WHERE clause\nAnswer: b\nQuestion: What is the output of this SQL query?\nSELECT ProductName\nFROM Products\nWHERE CategoryID = (SELECT CategoryID FROM Categories WHERE CategoryName\n= 'Electronics')\nAND Price > (SELECT AVG(Price) FROM Products WHERE CategoryID = (SELECT\nCategoryID FROM Categories WHERE CategoryName = 'Electronics'));\na) Products in the Electronics category with prices greater than the average price in\nElectronics\nb) Products in categories other than Electronics with prices greater than the average price\nin Electronics\nc) All products in the Electronics category\nd) An error because subqueries cannot be used in the WHERE clause\nAnswer: a\nQuestion: What will this SQL query return?\nSELECT DepartmentID, AVG(Salary)\nFROM Employees\nGROUP BY DepartmentID\nHAVING AVG(Salary) > (SELECT AVG(Salary) FROM Employees);\na) All departments\nb) Departments with an average salary greater than the overall average salary\nc) Departments with an average salary less than the overall average salary\nd) An error because AVG cannot be used in the HAVING clause\nAnswer: b\nQuestion: What is the result of this SQL query?\nSELECT CustomerID, SUM(TotalAmount)\nFROM Orders\nGROUP BY CustomerID\nHAVING SUM(TotalAmount) >= ALL (SELECT SUM(TotalAmount) FROM Orders\nGROUP BY CustomerID);\na) All customers\nb) The customer with the highest total amount of orders\nc) Customers with the highest total amount of orders\nd) An error because ALL cannot be used in the HAVING clause\nAnswer: c\nQuestion: What does the following SQL query return?\nSELECT Name\nFROM Employees\nWHERE Salary = (SELECT MIN(Salary) FROM Employees WHERE DeptID = (SELECT\nDeptID FROM Departments WHERE DeptName = 'Marketing'));\na) All employees with the lowest salary in the Marketing department\nb) The employee with the lowest salary in the Marketing department\nc) The employee with the lowest salary in the company\nd) An error because subqueries cannot be used in the WHERE clause\nAnswer: b\nQuestion: What will this query return?\nSELECT ProductName\nFROM Products\nWHERE CategoryID = (SELECT CategoryID FROM Categories WHERE CategoryName\n= 'Furniture')\nAND Price < (SELECT AVG(Price) FROM Products WHERE CategoryID = (SELECT\nCategoryID FROM Categories WHERE CategoryName = 'Furniture'));\na) Products in the Furniture category with prices less than the average price in Furniture\nb) Products in categories other than Furniture with prices less than the average price in\nFurniture\nc) All products in the Furniture category\nd) An error because subqueries cannot be used in the WHERE clause\nAnswer: a\nQuestion: What is the output of this SQL query?\nSELECT DepartmentID, MAX(Salary)\nFROM Employees\nGROUP BY DepartmentID\nHAVING MAX(Salary) > 100000;\na) All departments\nb) Departments with at least one employee earning more than 100000\nc) Departments with the highest salary less than 100000\nd) An error because MAX cannot be used in the HAVING clause\nAnswer: b\nQuestion: What does the following SQL query return?\nSELECT Name, Salary\nFROM Employees\nWHERE Salary = (SELECT MIN(Salary) FROM Employees WHERE DeptID = (SELECT\nDeptID FROM Departments WHERE DeptName = 'HR'));\na) All employees with the lowest salary in the HR department\nb) The employee with the lowest salary in the HR department\nc) The employee with the lowest salary in the company\nd) An error because subqueries cannot be used in the WHERE clause\nAnswer: b\nQuestion: What will this query output?\nSELECT ProductName\nFROM Products\nWHERE CategoryID = (SELECT CategoryID FROM Categories WHERE CategoryName\n= 'Books')\nAND Price <= ALL (SELECT Price FROM Products WHERE CategoryID = (SELECT\nCategoryID FROM Categories WHERE CategoryName = 'Books'));\na) Products in the Books category with prices less than or equal to the lowest price in\nBooks\nb) Products in categories other than Books with prices less than or equal to the lowest\nprice in Books\nc) All products in the Books category\nd) An error because ALL cannot be used in the WHERE clause\nAnswer: a\nQuestion: What is the result of this SQL query?\nSELECT CustomerID, AVG(TotalAmount)\nFROM Orders\nGROUP BY CustomerID\nHAVING AVG(TotalAmount) > (SELECT AVG(TotalAmount) FROM Orders);\na) All customers\nb) Customers with an average order amount greater than the overall average order\namount\nc) Customers with an average order amount less than the overall average order amount\nd) An error because AVG cannot be used in the HAVING clause\nAnswer: b\nQuestion: What does the following SQL query return?\nSELECT Name\nFROM Employees\nWHERE Salary = (SELECT MAX(Salary) FROM Employees WHERE DeptID =\n(SELECT DeptID FROM Departments WHERE DeptName = 'IT'));\na) All employees with the highest salary in the IT department\nb) The employee with the highest salary in the IT department\nc) The employee with the highest salary in the company\nd) An error because subqueries cannot be used in the WHERE clause\nAnswer: b\nQuestion: What will this query return?\nSELECT ProductName\nFROM Products\nWHERE CategoryID = (SELECT CategoryID FROM Categories WHERE CategoryName\n= 'Toys')\nAND Price < (SELECT AVG(Price) FROM Products WHERE CategoryID = (SELECT\nCategoryID FROM Categories WHERE CategoryName = 'Toys'));\na) Products in the Toys category with prices less than the average price in Toys\nb) Products in categories other than Toys with prices less than the average price in Toys\nc) All products in the Toys category\nd) An error because subqueries cannot be used in the WHERE clause\nAnswer: a\nQuestion: What is the output of this SQL query?\nSELECT DepartmentID, COUNT(*)\nFROM Employees\nGROUP BY DepartmentID\nHAVING COUNT(*) < 5;\na) All departments\nb) Departments with fewer than 5 employees\nc) Departments with more than 5 employees\nd) An error because COUNT cannot be used in the HAVING clause\nAnswer: b\nQuestion: What does the following SQL query return?\nSELECT Name, Salary\nFROM Employees\nWHERE Salary = (SELECT MIN(Salary) FROM Employees WHERE DeptID = (SELECT\nDeptID FROM Departments WHERE DeptName = 'Legal'));\na) All employees with the lowest salary in the Legal department\nb) The employee with the lowest salary in the Legal department\nc) The employee with the lowest salary in the company\nd) An error because subqueries cannot be used in the WHERE clause\nAnswer: b\nQuestion: What will this query output?\nSELECT ProductName\nFROM Products\nWHERE CategoryID = (SELECT CategoryID FROM Categories WHERE CategoryName\n= 'Office Supplies')\nAND Price >= ALL (SELECT Price FROM Products WHERE CategoryID = (SELECT\nCategoryID FROM Categories WHERE CategoryName = 'Office Supplies'));\na) Products in the Office Supplies category with prices greater than or equal to the highest\nprice in Office Supplies\nb) Products in categories other than Office Supplies with prices greater than or equal to\nthe highest price in Office Supplies\nc) All products in the Office Supplies category\nd) An error because ALL cannot be used in the WHERE clause\nAnswer: a\nQuestion: What is the result of this SQL query?\nSELECT CustomerID, SUM(TotalAmount)\nFROM Orders\nGROUP BY CustomerID\nHAVING SUM(TotalAmount) > (SELECT AVG(TotalAmount) FROM Orders);\na) All customers\nb) Customers with a total order amount greater than the overall average order amount\nc) Customers with a total order amount less than the overall average order amount\nd) An error because SUM cannot be used in the HAVING clause\nAnswer: b\nQuestion: What does the following SQL query return?\nSELECT Name\nFROM Employees\nWHERE Salary = (SELECT MAX(Salary) FROM Employees WHERE DeptID =\n(SELECT DeptID FROM Departments WHERE DeptName = 'Support'));\na) All employees with the highest salary in the Support department\nb) The employee with the highest salary in the Support department\nc) The employee with the highest salary in the company\nd) An error because subqueries cannot be used in the WHERE clause\nAnswer: b\nQuestion: What will this query return?\nSELECT ProductName\nFROM Products\nWHERE CategoryID = (SELECT CategoryID FROM Categories WHERE CategoryName\n= 'Clothing')\nAND Price > (SELECT AVG(Price) FROM Products WHERE CategoryID = (SELECT\nCategoryID FROM Categories WHERE CategoryName = 'Clothing'));\na) Products in the Clothing category with prices greater than the average price in Clothing\nb) Products in categories other than Clothing with prices greater than the average price in\nClothing\nc) All products in the Clothing category\nd) An error because subqueries cannot be used in the WHERE clause\nAnswer: a\nQuestion: What is the output of this SQL query?\nSELECT DepartmentID, AVG(Salary)\nFROM Employees\nGROUP BY DepartmentID\nHAVING AVG(Salary) < (SELECT AVG(Salary) FROM Employees);\na) All departments\nb) Departments with an average salary less than the overall average salary\nc) Departments with an average salary greater than the overall average salary\nd) An error because AVG cannot be used in the HAVING clause\nAnswer: b\nQuestion: What does the following SQL query return?\nSELECT Name, Salary\nFROM Employees\nWHERE Salary = (SELECT MIN(Salary) FROM Employees WHERE DeptID = (SELECT\nDeptID FROM Departments WHERE DeptName = 'Finance'));\na) All employees with the lowest salary in the Finance department\nb) The employee with the lowest salary in the Finance department\nc) The employee with the lowest salary in the company\nd) An error because subqueries cannot be used in the WHERE clause\nAnswer: b\nWhich SQL statement would you use to create an index on the \"email\" column of the\n\"Users\" table to improve query performance?\nA. CREATE INDEX idx_email ON Users(email);\nB. CREATE UNIQUE INDEX idx_email ON Users(email);\nC. CREATE INDEX email_idx ON Users(email);\nD. CREATE UNIQUE INDEX email_idx ON Users(email);",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 137,
+        "question_text": "What is the output of the following SQL query? SELECT CONCAT('Hello, ', first_name, ' ', last_name) AS greeting FROM Users WHERE user_id = 1;",
+        "option_a": "Concatenates 'Hello, ' with the first and last name of the user with user_id 1",
+        "option_b": "Displays 'Hello, ' followed by the user's full name",
+        "option_c": "Shows the first and last name of the user with a greeting",
+        "option_d": "All of the above",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 138,
+        "question_text": "How would you write a query to find all employees who were hired in the last year? Assume the current date is '2023-12-31' and the \"hire_date\" column exists in the \"Employees\" table.",
+        "option_a": "SELECT * FROM Employees WHERE hire_date >= '2023-01-01';",
+        "option_b": "SELECT * FROM Employees WHERE hire_date >= DATE_SUB('2023-12-31',\nINTERVAL 1 YEAR);",
+        "option_c": "SELECT * FROM Employees WHERE hire_date >= '2023-01-01' AND hire_date <=\n'2023-12-31';",
+        "option_d": "SELECT * FROM Employees WHERE hire_date >= '2023-01-01' OR hire_date <=\n'2023-12-31';",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 139,
+        "question_text": "What is the purpose of a database schema?",
+        "option_a": "Defines the structure and organization of the database",
+        "option_b": "Ensures data integrity",
+        "option_c": "Enhances query performance",
+        "option_d": "Provides user access control",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 140,
+        "question_text": "Which of the following SQL statements would you use to create a stored procedure?",
+        "option_a": "CREATE PROCEDURE proc_name AS BEGIN ... END;",
+        "option_b": "CREATE FUNCTION proc_name() RETURNS ... AS BEGIN ... END;",
+        "option_c": "CREATE ROUTINE proc_name AS BEGIN ... END;",
+        "option_d": "CREATE METHOD proc_name AS BEGIN ... END;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 141,
+        "question_text": "Given a table \"Sales\" with columns \"product_id\", \"quantity\", and \"price\", write a query to calculate the total revenue for each product.",
+        "option_a": "SELECT product_id, SUM(quantity * price) AS total_revenue FROM Sales GROUP\nBY product_id;",
+        "option_b": "SELECT product_id, SUM(quantity + price) AS total_revenue FROM Sales GROUP\nBY product_id;",
+        "option_c": "SELECT product_id, SUM(price) AS total_revenue FROM Sales GROUP BY\nproduct_id;",
+        "option_d": "SELECT product_id, COUNT(price) AS total_revenue FROM Sales GROUP BY\nproduct_id;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 142,
+        "question_text": "How do you update the \"address\" column of the \"Customers\" table to 'New Address' for customers living in 'Old City'?",
+        "option_a": "UPDATE Customers SET address = 'New Address' WHERE city = 'Old City';",
+        "option_b": "MODIFY Customers SET address = 'New Address' WHERE city = 'Old City';",
+        "option_c": "ALTER Customers SET address = 'New Address' WHERE city = 'Old City';",
+        "option_d": "CHANGE Customers SET address = 'New Address' WHERE city = 'Old City';",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 143,
+        "question_text": "What is the difference between DELETE and TRUNCATE statements in SQL?",
+        "option_a": "DELETE removes rows one by one and can have a WHERE clause; TRUNCATE\nremoves all rows without logging individual row deletions",
+        "option_b": "DELETE is faster; TRUNCATE is slower",
+        "option_c": "DELETE removes all rows; TRUNCATE removes only specific rows",
+        "option_d": "DELETE is used for data removal; TRUNCATE is used for data insertion",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 144,
+        "question_text": "Which SQL clause is used to filter groups after the GROUP BY clause?",
+        "option_a": "HAVING",
+        "option_b": "WHERE",
+        "option_c": "GROUP BY",
+        "option_d": "FILTER",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 145,
+        "question_text": "Write a query to find the second highest salary in the \"Employees\" table.",
+        "option_a": "SELECT MAX(salary) FROM Employees WHERE salary < (SELECT MAX(salary)\nFROM Employees);",
+        "option_b": "SELECT salary FROM Employees ORDER BY salary DESC LIMIT 1 OFFSET 1;",
+        "option_c": "SELECT salary FROM Employees ORDER BY salary ASC LIMIT 1 OFFSET 1;",
+        "option_d": "SELECT MAX(salary) FROM Employees WHERE salary > (SELECT MAX(salary)\nFROM Employees);",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 146,
+        "question_text": "What is the purpose of the SQL EXISTS clause?",
+        "option_a": "Checks if a subquery returns any rows",
+        "option_b": "Checks if a column exists in a table",
+        "option_c": "Checks if a table exists in a database",
+        "option_d": "Checks if a view exists in a database",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 147,
+        "question_text": "Which command would you use to add a NOT NULL constraint to an existing column in SQL?",
+        "option_a": "ALTER TABLE table_name MODIFY column_name datatype NOT NULL;",
+        "option_b": "ALTER TABLE table_name ADD CONSTRAINT column_name NOT NULL;",
+        "option_c": "ALTER TABLE table_name ADD column_name NOT NULL;",
+        "option_d": "ALTER TABLE table_name MODIFY column_name datatype NULL;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 148,
+        "question_text": "How do you retrieve the first and last names of employees whose first name starts with 'A' and last name ends with 'n' from the \"Employees\" table?",
+        "option_a": "SELECT first_name, last_name FROM Employees WHERE first_name LIKE 'A%'\nAND last_name LIKE '%n';",
+        "option_b": "SELECT first_name, last_name FROM Employees WHERE first_name LIKE '%A%'\nAND last_name LIKE '%n%';",
+        "option_c": "SELECT first_name, last_name FROM Employees WHERE first_name LIKE 'A%'\nOR last_name LIKE '%n';",
+        "option_d": "SELECT first_name, last_name FROM Employees WHERE first_name LIKE '%A%'\nOR last_name LIKE '%n%';",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 149,
+        "question_text": "What is a common table expression (CTE) in SQL?",
+        "option_a": "A temporary result set that can be referenced within a SELECT, INSERT, UPDATE,\nor DELETE statement",
+        "option_b": "A permanent result set stored in the database",
+        "option_c": "A type of join",
+        "option_d": "A function that performs aggregation",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 150,
+        "question_text": "Which SQL function can be used to find the length of a string?",
+        "option_a": "LENGTH()",
+        "option_b": "LEN()",
+        "option_c": "CHAR_LENGTH()",
+        "option_d": "STRING_LENGTH()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 151,
+        "question_text": "How do you find the number of rows in the \"Orders\" table?",
+        "option_a": "SELECT COUNT(*) FROM Orders;",
+        "option_b": "SELECT SUM(*) FROM Orders;",
+        "option_c": "SELECT TOTAL(*) FROM Orders;",
+        "option_d": "SELECT LENGTH(*) FROM Orders;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 152,
+        "question_text": "Which SQL statement can be used to remove a user-defined function from the database?",
+        "option_a": "DROP FUNCTION",
+        "option_b": "DELETE FUNCTION",
+        "option_c": "REMOVE FUNCTION",
+        "option_d": "ERASE FUNCTION",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 153,
+        "question_text": "What is the purpose of the SQL REVOKE command?",
+        "option_a": "To remove previously granted permissions from a user",
+        "option_b": "To delete a table",
+        "option_c": "To update a record",
+        "option_d": "To insert a new record",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 154,
+        "question_text": "How do you create a view named \"EmployeeView\" that selects all columns from the \"Employees\" table where the department is 'Sales'?",
+        "option_a": "CREATE VIEW EmployeeView AS SELECT * FROM Employees WHERE\ndepartment = 'Sales';",
+        "option_b": "CREATE VIEW EmployeeView SELECT * FROM Employees WHERE department\n= 'Sales';",
+        "option_c": "CREATE VIEW EmployeeView WITH SELECT * FROM Employees WHERE\ndepartment = 'Sales';",
+        "option_d": "CREATE VIEW EmployeeView AS SELECT * WHERE department = 'Sales' FROM\nEmployees;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 155,
+        "question_text": "Write a query to calculate the average salary of employees in the \"Employees\" table grouped by department.",
+        "option_a": "SELECT department, AVG(salary) FROM Employees GROUP BY department;",
+        "option_b": "SELECT AVG(salary) FROM Employees GROUP BY department;",
+        "option_c": "SELECT department, salary FROM Employees GROUP BY department;",
+        "option_d": "SELECT department, AVG(salary) FROM Employees;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 156,
+        "question_text": "How do you change the data type of the \"phone_number\" column in the \"Customers\" table to VARCHAR(15)?",
+        "option_a": "ALTER TABLE Customers MODIFY phone_number VARCHAR(15);",
+        "option_b": "ALTER TABLE Customers CHANGE phone_number VARCHAR(15);",
+        "option_c": "ALTER TABLE Customers UPDATE phone_number VARCHAR(15);",
+        "option_d": "ALTER TABLE Customers ALTER phone_number VARCHAR(15);",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 157,
+        "question_text": "What is the purpose of the SQL COALESCE function?",
+        "option_a": "Returns the first non-null value in a list of arguments",
+        "option_b": "Returns the sum of non-null values",
+        "option_c": "Returns the average of non-null values",
+        "option_d": "Returns the maximum of non-null values",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 158,
+        "question_text": "Which SQL statement is used to retrieve unique values from a column?",
+        "option_a": "SELECT DISTINCT column_name FROM table_name;",
+        "option_b": "SELECT UNIQUE column_name FROM table_name;",
+        "option_c": "SELECT DISTINCT VALUES column_name FROM table_name;",
+        "option_d": "SELECT DIFFERENT column_name FROM table_name;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 159,
+        "question_text": "What is a database transaction?",
+        "option_a": "A sequence of one or more SQL operations treated as a single unit of work",
+        "option_b": "A type of join operation",
+        "option_c": "A method to improve query performance",
+        "option_d": "A technique to backup data",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 160,
+        "question_text": "How do you retrieve the top 5 highest salaries from the \"Employees\" table?",
+        "option_a": "SELECT salary FROM Employees ORDER BY salary DESC LIMIT 5;",
+        "option_b": "SELECT TOP 5 salary FROM Employees ORDER BY salary DESC;",
+        "option_c": "SELECT salary FROM Employees ORDER BY salary LIMIT 5;",
+        "option_d": "SELECT TOP 5 salary FROM Employees ORDER BY salary ASC;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 161,
+        "question_text": "Which SQL keyword is used to specify that a column should automatically increment its value?",
+        "option_a": "AUTO_INCREMENT",
+        "option_b": "SERIAL",
+        "option_c": "SEQUENCE",
+        "option_d": "IDENTITY",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 162,
+        "question_text": "Write a query to delete all rows from the \"Orders\" table where the order date is before '2023-01-01'.",
+        "option_a": "DELETE FROM Orders WHERE order_date < '2023-01-01';",
+        "option_b": "REMOVE FROM Orders WHERE order_date < '2023-01-01';",
+        "option_c": "ERASE FROM Orders WHERE order_date < '2023-01-01';",
+        "option_d": "DROP FROM Orders WHERE order_date < '2023-01-01';",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 163,
+        "question_text": "What is the difference between INNER JOIN and OUTER JOIN?",
+        "option_a": "INNER JOIN returns only matching rows from both tables; OUTER JOIN returns\nmatching and non-matching rows",
+        "option_b": "INNER JOIN returns all rows from both tables; OUTER JOIN returns only matching\nrows",
+        "option_c": "INNER JOIN is faster than OUTER JOIN",
+        "option_d": "INNER JOIN is used for self-joins; OUTER JOIN is used for cross joins",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 164,
+        "question_text": "Which SQL function would you use to find the current date and time?",
+        "option_a": "NOW()",
+        "option_b": "CURRENT_DATE()",
+        "option_c": "GETDATE()",
+        "option_d": "SYSDATE()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 165,
+        "question_text": "How do you create a foreign key constraint in SQL?",
+        "option_a": "CREATE TABLE Orders (order_id INT, customer_id INT, FOREIGN KEY\n(customer_id) REFERENCES Customers(customer_id));",
+        "option_b": "CREATE TABLE Orders (order_id INT, customer_id INT, FOREIGN KEY\nOrders(customer_id) REFERENCES Customers(customer_id));",
+        "option_c": "CREATE TABLE Orders (order_id INT, customer_id INT, FOREIGN KEY\n(customer_id) REFERENCES Customers);",
+        "option_d": "CREATE TABLE Orders (order_id INT, customer_id INT, FOREIGN KEY\nOrders(customer_id) REFERENCES Customers);",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 166,
+        "question_text": "Write a query to retrieve all employees who have a manager with the same department in the \"Employees\" table. Assume the table has columns \"employee_id\", \"manager_id\", and \"department\".",
+        "option_a": "SELECT * FROM Employees e1 WHERE EXISTS (SELECT 1 FROM Employees\ne2 WHERE e1.manager_id = e2.employee_id AND e1.department = e2.department);",
+        "option_b": "SELECT * FROM Employees e1, Employees e2 WHERE e1.manager_id =\ne2.employee_id AND e1.department = e2.department;",
+        "option_c": "SELECT * FROM Employees WHERE manager_id IN (SELECT employee_id\nFROM Employees WHERE department = Employees.department);",
+        "option_d": "SELECT * FROM Employees WHERE EXISTS (SELECT 1 FROM Employees\nWHERE manager_id = employee_id AND department = Employees.department);",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 167,
+        "question_text": "How do you ensure a column always has a unique value in SQL?",
+        "option_a": "By creating a unique constraint on the column",
+        "option_b": "By creating an index on the column",
+        "option_c": "By creating a check constraint on the column",
+        "option_d": "By creating a primary key on the column",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 168,
+        "question_text": "What is the purpose of the SQL CHECK constraint?",
+        "option_a": "To ensure that all values in a column satisfy a specific condition",
+        "option_b": "To enforce uniqueness on a column",
+        "option_c": "To create a foreign key relationship",
+        "option_d": "To specify the default value for a column",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 169,
+        "question_text": "Write a query to find the total number of orders and the total amount spent by each customer in the \"Orders\" table. Assume the table has columns \"customer_id\", \"order_id\", and \"amount\".",
+        "option_a": "SELECT customer_id, COUNT(order_id) AS total_orders, SUM(amount) AS\ntotal_amount FROM Orders GROUP BY customer_id;",
+        "option_b": "SELECT customer_id, COUNT(order_id) AS total_orders, SUM(amount) AS\ntotal_amount FROM Orders;",
+        "option_c": "SELECT customer_id, COUNT(order_id) AS total_orders, SUM(amount) AS\ntotal_amount FROM Orders WHERE customer_id IS NOT NULL;",
+        "option_d": "SELECT customer_id, SUM(order_id) AS total_orders, SUM(amount) AS\ntotal_amount FROM Orders GROUP BY customer_id;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 170,
+        "question_text": "Which SQL statement is used to add a new column to an existing table?",
+        "option_a": "ALTER TABLE table_name ADD column_name datatype;",
+        "option_b": "MODIFY TABLE table_name ADD column_name datatype;",
+        "option_c": "UPDATE TABLE table_name ADD column_name datatype;",
+        "option_d": "CHANGE TABLE table_name ADD column_name datatype;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 171,
+        "question_text": "What is a sequence in SQL?",
+        "option_a": "A database object that generates a series of unique numbers",
+        "option_b": "A method to order rows in a table",
+        "option_c": "A function to concatenate strings",
+        "option_d": "A type of index",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 172,
+        "question_text": "Write a query to retrieve the names of all departments that have more than 10 employees in the \"Employees\" table.",
+        "option_a": "SELECT department, COUNT() FROM Employees GROUP BY department HAVING\nCOUNT() > 10;",
+        "option_b": "SELECT department FROM Employees GROUP BY department HAVING\nCOUNT(*) > 10;",
+        "option_c": "SELECT department FROM Employees WHERE COUNT(*) > 10;",
+        "option_d": "SELECT department, COUNT() FROM Employees WHERE COUNT() > 10;",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 173,
+        "question_text": "How do you change the default value of a column in SQL?",
+        "option_a": "ALTER TABLE table_name ALTER COLUMN column_name SET DEFAULT\nnew_default_value;",
+        "option_b": "MODIFY TABLE table_name ALTER COLUMN column_name SET DEFAULT\nnew_default_value;",
+        "option_c": "UPDATE TABLE table_name ALTER COLUMN column_name SET DEFAULT\nnew_default_value;",
+        "option_d": "CHANGE TABLE table_name ALTER COLUMN column_name SET DEFAULT\nnew_default_value;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 174,
+        "question_text": "Which SQL statement is used to create a view?",
+        "option_a": "CREATE VIEW view_name AS SELECT column1, column2 FROM table_name;",
+        "option_b": "CREATE VIEW view_name SELECT column1, column2 FROM table_name;",
+        "option_c": "CREATE VIEW view_name WITH SELECT column1, column2 FROM table_name;",
+        "option_d": "CREATE VIEW view_name AS SELECT * WHERE column1, column2 FROM\ntable_name;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 175,
+        "question_text": "What is the purpose of the SQL TRIGGER?",
+        "option_a": "To automatically execute a specified SQL statement when certain events occur",
+        "option_b": "To create a temporary table",
+        "option_c": "To enforce a primary key constraint",
+        "option_d": "To backup the database",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 176,
+        "question_text": "Write a query to retrieve the names of employees and the names of their managers from the \"Employees\" table. Assume the table has columns \"employee_id\", \"employee_name\", and \"manager_id\".",
+        "option_a": "SELECT e1.employee_name AS employee, e2.employee_name AS manager FROM\nEmployees e1 LEFT JOIN Employees e2 ON e1.manager_id = e2.employee_id;",
+        "option_b": "SELECT e1.employee_name AS employee, e2.employee_name AS manager FROM\nEmployees e1 JOIN Employees e2 ON e1.manager_id = e2.employee_id;",
+        "option_c": "SELECT e1.employee_name AS employee, e2.employee_name AS manager FROM\nEmployees e1 RIGHT JOIN Employees e2 ON e1.manager_id = e2.employee_id;",
+        "option_d": "SELECT e1.employee_name AS employee, e2.employee_name AS manager FROM\nEmployees e1, Employees e2 WHERE e1.manager_id = e2.employee_id;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 177,
+        "question_text": "What is the difference between CHAR and VARCHAR data types in SQL?",
+        "option_a": "CHAR is a fixed-length string, VARCHAR is a variable-length string",
+        "option_b": "CHAR is a variable-length string, VARCHAR is a fixed-length string",
+        "option_c": "CHAR can store only characters, VARCHAR can store characters and numbers",
+        "option_d": "CHAR is used for primary keys, VARCHAR is used for foreign keys",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 178,
+        "question_text": "Which SQL statement would you use to create an index on the \"email\" column of the \"Users\" table to improve query performance?",
+        "option_a": "CREATE INDEX idx_email ON Users(email);",
+        "option_b": "CREATE UNIQUE INDEX idx_email ON Users(email);",
+        "option_c": "CREATE INDEX email_idx ON Users(email);",
+        "option_d": "CREATE UNIQUE INDEX email_idx ON Users(email);",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 179,
+        "question_text": "What is the output of the following SQL query? SELECT CONCAT('Hello, ', first_name, ' ', last_name) AS greeting FROM Users WHERE user_id = 1;",
+        "option_a": "Concatenates 'Hello, ' with the first and last name of the user with user_id 1",
+        "option_b": "Displays 'Hello, ' followed by the user's full name",
+        "option_c": "Shows the first and last name of the user with a greeting",
+        "option_d": "All of the above",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 180,
+        "question_text": "How would you write a query to find all employees who were hired in the last year? Assume the current date is '2023-12-31' and the \"hire_date\" column exists in the \"Employees\" table.",
+        "option_a": "SELECT * FROM Employees WHERE hire_date >= '2023-01-01';",
+        "option_b": "SELECT * FROM Employees WHERE hire_date >= DATE_SUB('2023-12-31',\nINTERVAL 1 YEAR);",
+        "option_c": "SELECT * FROM Employees WHERE hire_date >= '2023-01-01' AND hire_date <=\n'2023-12-31';",
+        "option_d": "SELECT * FROM Employees WHERE hire_date >= '2023-01-01' OR hire_date <=\n'2023-12-31';",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 181,
+        "question_text": "What is the purpose of a database schema?",
+        "option_a": "Defines the structure and organization of the database",
+        "option_b": "Ensures data integrity",
+        "option_c": "Enhances query performance",
+        "option_d": "Provides user access control",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 182,
+        "question_text": "Which of the following SQL statements would you use to create a stored procedure?",
+        "option_a": "CREATE PROCEDURE proc_name AS BEGIN ... END;",
+        "option_b": "CREATE FUNCTION proc_name() RETURNS ... AS BEGIN ... END;",
+        "option_c": "CREATE ROUTINE proc_name AS BEGIN ... END;",
+        "option_d": "CREATE METHOD proc_name AS BEGIN ... END;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 183,
+        "question_text": "Given a table \"Sales\" with columns \"product_id\", \"quantity\", and \"price\", write a query to calculate the total revenue for each product.",
+        "option_a": "SELECT product_id, SUM(quantity * price) AS total_revenue FROM Sales GROUP\nBY product_id;",
+        "option_b": "SELECT product_id, SUM(quantity + price) AS total_revenue FROM Sales GROUP\nBY product_id;",
+        "option_c": "SELECT product_id, SUM(price) AS total_revenue FROM Sales GROUP BY\nproduct_id;",
+        "option_d": "SELECT product_id, COUNT(price) AS total_revenue FROM Sales GROUP BY\nproduct_id;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 184,
+        "question_text": "How do you update the \"address\" column of the \"Customers\" table to 'New Address' for customers living in 'Old City'?",
+        "option_a": "UPDATE Customers SET address = 'New Address' WHERE city = 'Old City';",
+        "option_b": "MODIFY Customers SET address = 'New Address' WHERE city = 'Old City';",
+        "option_c": "ALTER Customers SET address = 'New Address' WHERE city = 'Old City';",
+        "option_d": "CHANGE Customers SET address = 'New Address' WHERE city = 'Old City';",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 185,
+        "question_text": "What is the difference between DELETE and TRUNCATE statements in SQL?",
+        "option_a": "DELETE removes rows one by one and can have a WHERE clause; TRUNCATE\nremoves all rows without logging individual row deletions",
+        "option_b": "DELETE is faster; TRUNCATE is slower",
+        "option_c": "DELETE removes all rows; TRUNCATE removes only specific rows",
+        "option_d": "DELETE is used for data removal; TRUNCATE is used for data insertion",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 186,
+        "question_text": "Which SQL clause is used to filter groups after the GROUP BY clause?",
+        "option_a": "HAVING",
+        "option_b": "WHERE",
+        "option_c": "GROUP BY",
+        "option_d": "FILTER",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 187,
+        "question_text": "Write a query to find the second highest salary in the \"Employees\" table.",
+        "option_a": "SELECT MAX(salary) FROM Employees WHERE salary < (SELECT MAX(salary)\nFROM Employees);",
+        "option_b": "SELECT salary FROM Employees ORDER BY salary DESC LIMIT 1 OFFSET 1;",
+        "option_c": "SELECT salary FROM Employees ORDER BY salary ASC LIMIT 1 OFFSET 1;",
+        "option_d": "SELECT MAX(salary) FROM Employees WHERE salary > (SELECT MAX(salary)\nFROM Employees);",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 188,
+        "question_text": "What is the purpose of the SQL EXISTS clause?",
+        "option_a": "Checks if a subquery returns any rows",
+        "option_b": "Checks if a column exists in a table",
+        "option_c": "Checks if a table exists in a database",
+        "option_d": "Checks if a view exists in a database",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 189,
+        "question_text": "Which command would you use to add a NOT NULL constraint to an existing column in SQL?",
+        "option_a": "ALTER TABLE table_name MODIFY column_name datatype NOT NULL;",
+        "option_b": "ALTER TABLE table_name ADD CONSTRAINT column_name NOT NULL;",
+        "option_c": "ALTER TABLE table_name ADD column_name NOT NULL;",
+        "option_d": "ALTER TABLE table_name MODIFY column_name datatype NULL;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 190,
+        "question_text": "How do you retrieve the first and last names of employees whose first name starts with 'A' and last name ends with 'n' from the \"Employees\" table?",
+        "option_a": "SELECT first_name, last_name FROM Employees WHERE first_name LIKE 'A%'\nAND last_name LIKE '%n';",
+        "option_b": "SELECT first_name, last_name FROM Employees WHERE first_name LIKE '%A%'\nAND last_name LIKE '%n%';",
+        "option_c": "SELECT first_name, last_name FROM Employees WHERE first_name LIKE 'A%'\nOR last_name LIKE '%n';",
+        "option_d": "SELECT first_name, last_name FROM Employees WHERE first_name LIKE '%A%'\nOR last_name LIKE '%n%';",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 191,
+        "question_text": "What is a common table expression (CTE) in SQL?",
+        "option_a": "A temporary result set that can be referenced within a SELECT, INSERT, UPDATE,\nor DELETE statement",
+        "option_b": "A permanent result set stored in the database",
+        "option_c": "A type of join",
+        "option_d": "A function that performs aggregation",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 192,
+        "question_text": "Which SQL function can be used to find the length of a string?",
+        "option_a": "LENGTH()",
+        "option_b": "LEN()",
+        "option_c": "CHAR_LENGTH()",
+        "option_d": "STRING_LENGTH()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 193,
+        "question_text": "How do you find the number of rows in the \"Orders\" table?",
+        "option_a": "SELECT COUNT(*) FROM Orders;",
+        "option_b": "SELECT SUM(*) FROM Orders;",
+        "option_c": "SELECT TOTAL(*) FROM Orders;",
+        "option_d": "SELECT LENGTH(*) FROM Orders;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 194,
+        "question_text": "Which SQL statement can be used to remove a user-defined function from the database?",
+        "option_a": "DROP FUNCTION",
+        "option_b": "DELETE FUNCTION",
+        "option_c": "REMOVE FUNCTION",
+        "option_d": "ERASE FUNCTION",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 195,
+        "question_text": "What is the purpose of the SQL REVOKE command?",
+        "option_a": "To remove previously granted permissions from a user",
+        "option_b": "To delete a table",
+        "option_c": "To update a record",
+        "option_d": "To insert a new record",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 196,
+        "question_text": "How do you create a view named \"EmployeeView\" that selects all columns from the \"Employees\" table where the department is 'Sales'?",
+        "option_a": "CREATE VIEW EmployeeView AS SELECT * FROM Employees WHERE\ndepartment = 'Sales';",
+        "option_b": "CREATE VIEW EmployeeView SELECT * FROM Employees WHERE department\n= 'Sales';",
+        "option_c": "CREATE VIEW EmployeeView WITH SELECT * FROM Employees WHERE\ndepartment = 'Sales';",
+        "option_d": "CREATE VIEW EmployeeView AS SELECT * WHERE department = 'Sales' FROM\nEmployees;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 197,
+        "question_text": "Write a query to calculate the average salary of employees in the \"Employees\" table grouped by department.",
+        "option_a": "SELECT department, AVG(salary) FROM Employees GROUP BY department;",
+        "option_b": "SELECT AVG(salary) FROM Employees GROUP BY department;",
+        "option_c": "SELECT department, salary FROM Employees GROUP BY department;",
+        "option_d": "SELECT department, AVG(salary) FROM Employees;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 198,
+        "question_text": "How do you change the data type of the \"phone_number\" column in the \"Customers\" table to VARCHAR(15)?",
+        "option_a": "ALTER TABLE Customers MODIFY phone_number VARCHAR(15);",
+        "option_b": "ALTER TABLE Customers CHANGE phone_number VARCHAR(15);",
+        "option_c": "ALTER TABLE Customers UPDATE phone_number VARCHAR(15);",
+        "option_d": "ALTER TABLE Customers ALTER phone_number VARCHAR(15);",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 199,
+        "question_text": "What is the purpose of the SQL COALESCE function?",
+        "option_a": "Returns the first non-null value in a list of arguments",
+        "option_b": "Returns the sum of non-null values",
+        "option_c": "Returns the average of non-null values",
+        "option_d": "Returns the maximum of non-null values",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 200,
+        "question_text": "Which SQL statement is used to retrieve unique values from a column?",
+        "option_a": "SELECT DISTINCT column_name FROM table_name;",
+        "option_b": "SELECT UNIQUE column_name FROM table_name;",
+        "option_c": "SELECT DISTINCT VALUES column_name FROM table_name;",
+        "option_d": "SELECT DIFFERENT column_name FROM table_name;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 201,
+        "question_text": "What is a database transaction?",
+        "option_a": "A sequence of one or more SQL operations treated as a single unit of work",
+        "option_b": "A type of join operation",
+        "option_c": "A method to improve query performance",
+        "option_d": "A technique to backup data",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 202,
+        "question_text": "How do you retrieve the top 5 highest salaries from the \"Employees\" table?",
+        "option_a": "SELECT salary FROM Employees ORDER BY salary DESC LIMIT 5;",
+        "option_b": "SELECT TOP 5 salary FROM Employees ORDER BY salary DESC;",
+        "option_c": "SELECT salary FROM Employees ORDER BY salary LIMIT 5;",
+        "option_d": "SELECT TOP 5 salary FROM Employees ORDER BY salary ASC;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 203,
+        "question_text": "Which SQL keyword is used to specify that a column should automatically increment its value?",
+        "option_a": "AUTO_INCREMENT",
+        "option_b": "SERIAL",
+        "option_c": "SEQUENCE",
+        "option_d": "IDENTITY",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 204,
+        "question_text": "Write a query to delete all rows from the \"Orders\" table where the order date is before '2023-01-01'.",
+        "option_a": "DELETE FROM Orders WHERE order_date < '2023-01-01';",
+        "option_b": "REMOVE FROM Orders WHERE order_date < '2023-01-01';",
+        "option_c": "ERASE FROM Orders WHERE order_date < '2023-01-01';",
+        "option_d": "DROP FROM Orders WHERE order_date < '2023-01-01';",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 205,
+        "question_text": "What is the difference between INNER JOIN and OUTER JOIN?",
+        "option_a": "INNER JOIN returns only matching rows from both tables; OUTER JOIN returns\nmatching and non-matching rows",
+        "option_b": "INNER JOIN returns all rows from both tables; OUTER JOIN returns only matching\nrows",
+        "option_c": "INNER JOIN is faster than OUTER JOIN",
+        "option_d": "INNER JOIN is used for self-joins; OUTER JOIN is used for cross joins",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 206,
+        "question_text": "Which SQL function would you use to find the current date and time?",
+        "option_a": "NOW()",
+        "option_b": "CURRENT_DATE()",
+        "option_c": "GETDATE()",
+        "option_d": "SYSDATE()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 207,
+        "question_text": "How do you create a foreign key constraint in SQL?",
+        "option_a": "CREATE TABLE Orders (order_id INT, customer_id INT, FOREIGN KEY\n(customer_id) REFERENCES Customers(customer_id));",
+        "option_b": "CREATE TABLE Orders (order_id INT, customer_id INT, FOREIGN KEY\nOrders(customer_id) REFERENCES Customers(customer_id));",
+        "option_c": "CREATE TABLE Orders (order_id INT, customer_id INT, FOREIGN KEY\n(customer_id) REFERENCES Customers);",
+        "option_d": "CREATE TABLE Orders (order_id INT, customer_id INT, FOREIGN KEY\nOrders(customer_id) REFERENCES Customers);",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 208,
+        "question_text": "Write a query to retrieve all employees who have a manager with the same department in the \"Employees\" table. Assume the table has columns \"employee_id\", \"manager_id\", and \"department\".",
+        "option_a": "SELECT * FROM Employees e1 WHERE EXISTS (SELECT 1 FROM Employees\ne2 WHERE e1.manager_id = e2.employee_id AND e1.department = e2.department);",
+        "option_b": "SELECT * FROM Employees e1, Employees e2 WHERE e1.manager_id =\ne2.employee_id AND e1.department = e2.department;",
+        "option_c": "SELECT * FROM Employees WHERE manager_id IN (SELECT employee_id\nFROM Employees WHERE department = Employees.department);",
+        "option_d": "SELECT * FROM Employees WHERE EXISTS (SELECT 1 FROM Employees\nWHERE manager_id = employee_id AND department = Employees.department);",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 209,
+        "question_text": "How do you ensure a column always has a unique value in SQL?",
+        "option_a": "By creating a unique constraint on the column",
+        "option_b": "By creating an index on the column",
+        "option_c": "By creating a check constraint on the column",
+        "option_d": "By creating a primary key on the column",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 210,
+        "question_text": "What is the purpose of the SQL CHECK constraint?",
+        "option_a": "To ensure that all values in a column satisfy a specific condition",
+        "option_b": "To enforce uniqueness on a column",
+        "option_c": "To create a foreign key relationship",
+        "option_d": "To specify the default value for a column",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 211,
+        "question_text": "Write a query to find the total number of orders and the total amount spent by each customer in the \"Orders\" table. Assume the table has columns \"customer_id\", \"order_id\", and \"amount\".",
+        "option_a": "SELECT customer_id, COUNT(order_id) AS total_orders, SUM(amount) AS\ntotal_amount FROM Orders GROUP BY customer_id;",
+        "option_b": "SELECT customer_id, COUNT(order_id) AS total_orders, SUM(amount) AS\ntotal_amount FROM Orders;",
+        "option_c": "SELECT customer_id, COUNT(order_id) AS total_orders, SUM(amount) AS\ntotal_amount FROM Orders WHERE customer_id IS NOT NULL;",
+        "option_d": "SELECT customer_id, SUM(order_id) AS total_orders, SUM(amount) AS\ntotal_amount FROM Orders GROUP BY customer_id;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 212,
+        "question_text": "Which SQL statement is used to add a new column to an existing table?",
+        "option_a": "ALTER TABLE table_name ADD column_name datatype;",
+        "option_b": "MODIFY TABLE table_name ADD column_name datatype;",
+        "option_c": "UPDATE TABLE table_name ADD column_name datatype;",
+        "option_d": "CHANGE TABLE table_name ADD column_name datatype;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 213,
+        "question_text": "What is a sequence in SQL?",
+        "option_a": "A database object that generates a series of unique numbers",
+        "option_b": "A method to order rows in a table",
+        "option_c": "A function to concatenate strings",
+        "option_d": "A type of index",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 214,
+        "question_text": "Write a query to retrieve the names of all departments that have more than 10 employees in the \"Employees\" table.",
+        "option_a": "SELECT department, COUNT() FROM Employees GROUP BY department HAVING\nCOUNT() > 10;",
+        "option_b": "SELECT department FROM Employees GROUP BY department HAVING\nCOUNT(*) > 10;",
+        "option_c": "SELECT department FROM Employees WHERE COUNT(*) > 10;",
+        "option_d": "SELECT department, COUNT() FROM Employees WHERE COUNT() > 10;",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 215,
+        "question_text": "How do you change the default value of a column in SQL?",
+        "option_a": "ALTER TABLE table_name ALTER COLUMN column_name SET DEFAULT\nnew_default_value;",
+        "option_b": "MODIFY TABLE table_name ALTER COLUMN column_name SET DEFAULT\nnew_default_value;",
+        "option_c": "UPDATE TABLE table_name ALTER COLUMN column_name SET DEFAULT\nnew_default_value;",
+        "option_d": "CHANGE TABLE table_name ALTER COLUMN column_name SET DEFAULT\nnew_default_value;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 216,
+        "question_text": "Which SQL statement is used to create a view?",
+        "option_a": "CREATE VIEW view_name AS SELECT column1, column2 FROM table_name;",
+        "option_b": "CREATE VIEW view_name SELECT column1, column2 FROM table_name;",
+        "option_c": "CREATE VIEW view_name WITH SELECT column1, column2 FROM table_name;",
+        "option_d": "CREATE VIEW view_name AS SELECT * WHERE column1, column2 FROM\ntable_name;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 217,
+        "question_text": "What is the purpose of the SQL TRIGGER?",
+        "option_a": "To automatically execute a specified SQL statement when certain events occur",
+        "option_b": "To create a temporary table",
+        "option_c": "To enforce a primary key constraint",
+        "option_d": "To backup the database",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 218,
+        "question_text": "Write a query to retrieve the names of employees and the names of their managers from the \"Employees\" table. Assume the table has columns \"employee_id\", \"employee_name\", and \"manager_id\".",
+        "option_a": "SELECT e1.employee_name AS employee, e2.employee_name AS manager FROM\nEmployees e1 LEFT JOIN Employees e2 ON e1.manager_id = e2.employee_id;",
+        "option_b": "SELECT e1.employee_name AS employee, e2.employee_name AS manager FROM\nEmployees e1 JOIN Employees e2 ON e1.manager_id = e2.employee_id;",
+        "option_c": "SELECT e1.employee_name AS employee, e2.employee_name AS manager FROM\nEmployees e1 RIGHT JOIN Employees e2 ON e1.manager_id = e2.employee_id;",
+        "option_d": "SELECT e1.employee_name AS employee, e2.employee_name AS manager FROM\nEmployees e1, Employees e2 WHERE e1.manager_id = e2.employee_id;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 219,
+        "question_text": "What is the difference between CHAR and VARCHAR data types in SQL?",
+        "option_a": "CHAR is a fixed-length string, VARCHAR is a variable-length string",
+        "option_b": "CHAR is a variable-length string, VARCHAR is a fixed-length string",
+        "option_c": "CHAR can store only characters, VARCHAR can store characters and numbers",
+        "option_d": "CHAR is used for primary keys, VARCHAR is used for foreign keys",
+        "correct_option": "A",
+        "explanation": ""
+    }
+]

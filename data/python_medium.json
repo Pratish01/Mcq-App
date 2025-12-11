@@ -1,0 +1,1372 @@
+[
+    {
+        "number": 1,
+        "question_text": "4 b) 2.5 5 c) 2 d) 2.0 Answer:",
+        "option_a": "2.4 Question : How do you add a single-line comment in Python? a) // This is a comment",
+        "option_b": "/* This is a comment */",
+        "option_c": "# This is a comment",
+        "option_d": "<!-- This is a comment -->",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 2,
+        "question_text": "33333333333 b) 3 c) 3.0 d) 3.33 Answer: b) 3 Question : Which of the following is NOT a valid Python variable name?",
+        "option_a": "myVar",
+        "option_b": "2ndVar 6",
+        "option_c": "_var",
+        "option_d": "variable_2",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 3,
+        "question_text": "5 c) 0.5 d) 1 Answer: d) 1 Question : How do you define a function in Python?",
+        "option_a": "function my_function():",
+        "option_b": "def my_function(): 7",
+        "option_c": "func my_function():",
+        "option_d": "define my_function():",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 4,
+        "question_text": "0 d) 26.333 Answer:",
+        "option_a": "26 Question : Which method is used to convert a string to uppercase in Python? a) str.upper()",
+        "option_b": "str.to_upper()",
+        "option_c": "str.upperCase()",
+        "option_d": "str.toUppercase()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 5,
+        "question_text": "append(list2) d) list1.concat(list2) Answer:",
+        "option_a": "list1 + list2 Question 23: What will be the output of the following code? python 8 x = 10 y = 3 result = x / y print(result) a) 3.33333333333",
+        "option_b": "3",
+        "option_c": "3.0",
+        "option_d": "3.33",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 6,
+        "question_text": "0 Question 24: Which of the following is a valid way to initialize an empty dictionary in Python?",
+        "option_a": "dict = {}",
+        "option_b": "dict()",
+        "option_c": "dict = []",
+        "option_d": "dictionary()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 7,
+        "question_text": "5 c) 0.5 d) 1 Answer: d) 1 Question 28: Which data type is used to store true or false values in Python?",
+        "option_a": "int",
+        "option_b": "float",
+        "option_c": "str",
+        "option_d": "bool",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 8,
+        "question_text": "0 Answer:",
+        "option_a": "25 Question 31: How do you round a floating-point number to the nearest integer in Python? a) round(number)",
+        "option_b": "number.round()",
+        "option_c": "int(number)",
+        "option_d": "math.round(number)",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 9,
+        "question_text": "33333333333 b) 3 c) 3.0 d) 3.33 Answer: b) 3 Question 37: Which data type is used to store decimal numbers in Python?",
+        "option_a": "int",
+        "option_b": "float",
+        "option_c": "str",
+        "option_d": "bool",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 10,
+        "question_text": "5 c) 0.5 d) 1 Answer: d) 1 Question 42: How do you define a multiline string in Python?",
+        "option_a": "'This is a multiline string'",
+        "option_b": "\"This is a multiline string\"",
+        "option_c": "'''This is a multiline string'''",
+        "option_d": "\"This is a multiline string\"",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 11,
+        "question_text": "0 Answer:",
+        "option_a": "25 Question 47: Which data type is used to store true or false values in Python? a) int",
+        "option_b": "float",
+        "option_c": "str",
+        "option_d": "bool",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 12,
+        "question_text": "33333333333 b) 3 c) 3.0 d) 3.33 Answer: c) 3.0 Question 50: Which of the following is a valid way to initialize an empty dictionary in Python?",
+        "option_a": "dict = {}",
+        "option_b": "dict()",
+        "option_c": "dict = []",
+        "option_d": "dictionary()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 13,
+        "question_text": "5 b) 7 c) 7.0 d) 8 Answer: b) 7 Question 9: Which operator is used for floor division in Python?",
+        "option_a": "//",
+        "option_b": "/",
+        "option_c": "%",
+        "option_d": "**",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 14,
+        "question_text": "5 c) 0.5 d) 1 Answer: d) 1 Question 13: How do you define a multiline comment in Python?",
+        "option_a": "// This is a multiline comment",
+        "option_b": "/* This is a multiline comment */",
+        "option_c": "''' This is a multiline comment '''",
+        "option_d": "<!-- This is a multiline comment -->",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 15,
+        "question_text": "33333333333 b) 3 c) 3.0 d) 3.33 Answer: c) 3.0 Question 16: How do you check if a value is present in a dictionary in Python?",
+        "option_a": "dictionary.has_value(value)",
+        "option_b": "value in dictionary",
+        "option_c": "dictionary.contains(value)",
+        "option_d": "value.exists(dictionary)",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 16,
+        "question_text": "0 20 Answer:",
+        "option_a": "25 Question 18: Which method is used to convert a string to uppercase in Python? a) str.to_upper()",
+        "option_b": "str.to_uppercase()",
+        "option_c": "str.uppercase()",
+        "option_d": "str.upper()",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 17,
+        "question_text": "33333333333 b) 3 c) 3.0 d) 3.33 Answer: b) 3 Question 26: How do you access the first element of a list in Python?",
+        "option_a": "list.first()",
+        "option_b": "list[0]",
+        "option_c": "list.get(0)",
+        "option_d": "list[1]",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 18,
+        "question_text": "5 b) 7 c) 7.0 d) 8 Answer: b) 7 Question 32: Which operator is used for exponentiation in Python?",
+        "option_a": "^",
+        "option_b": "%",
+        "option_c": "**",
+        "option_d": "//",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 19,
+        "question_text": "0 Answer:",
+        "option_a": "25 Question 36: Which method is used to convert a string to uppercase in Python? 25 a) str.to_upper()",
+        "option_b": "str.to_uppercase()",
+        "option_c": "str.uppercase()",
+        "option_d": "str.upper()",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 20,
+        "question_text": "33333333333 b) 3 c) 3.0 d) 3.33 27 Answer: b) 3 Question 44: How do you access the first element of a list in Python?",
+        "option_a": "list.first()",
+        "option_b": "list[0]",
+        "option_c": "list.get(0)",
+        "option_d": "list[1]",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 21,
+        "question_text": "5 b) 7 c) 7.0 d) 8 Answer: b) 7 Question 50: Which operator is used for exponentiation in Python?",
+        "option_a": "^",
+        "option_b": "%",
+        "option_c": "**",
+        "option_d": "//",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 22,
+        "question_text": "Question 3: What will be the output of the following code? python x = 5 y = \"2\" result = x + int(y) print(result)",
+        "option_a": "7",
+        "option_b": "52 30",
+        "option_c": "\"5\" + \"2\"",
+        "option_d": "TypeError: unsupported operand type(s) for +: 'int' and 'str'",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 23,
+        "question_text": "Question 4: What is the output of the following code? python x = 10 y = 3 result = x / y print(result)",
+        "option_a": "3.3333333333333335",
+        "option_b": "3.333333333333333",
+        "option_c": "3.3333333333333333",
+        "option_d": "3.33",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 24,
+        "question_text": "3333333333333335 Explanation: In Python 3, division of two integers results in a float. So, 10 / 3 will give 3.3333333333333335. Question 5: What will be the output of the following code? python x = \"Hello\" y = 3 result = x * y print(result)",
+        "option_a": "HelloHelloHello",
+        "option_b": "Hello 3 times",
+        "option_c": "Hello3",
+        "option_d": "TypeError: can't multiply sequence by non-int of type 'str'",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 25,
+        "question_text": "Question 7: What will be the output of the following code? python x = 10 y = 3 result = x // y print(result)",
+        "option_a": "3",
+        "option_b": "3.0",
+        "option_c": "3.3333333333333335",
+        "option_d": "3.333333333333333",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 26,
+        "question_text": "5 c) 0.5 d) 1 Answer: d) 1 Explanation: The % operator returns the remainder of the division of x by y, which is 5 % 2 = 1. Question 10: What is the output of the following code? python x = 5 y = 3 result = x * y print(result)",
+        "option_a": "15",
+        "option_b": "8",
+        "option_c": "53 33",
+        "option_d": "35",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 27,
+        "question_text": "Question 11: What will be the output of the following code? python x = 2 y = 3 result = x ** y print(result)",
+        "option_a": "6",
+        "option_b": "5",
+        "option_c": "8",
+        "option_d": "9",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 28,
+        "question_text": "Question 12: What is the output of the following code? python x = 5 y = \"2\" result = x * int(y) print(result)",
+        "option_a": "10",
+        "option_b": "5",
+        "option_c": "52",
+        "option_d": "TypeError: can't multiply sequence by non-int of type 'str'",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 29,
+        "question_text": "Question 13: What will be the output of the following code? 34 python x = \"Hello\" y = 3 result = y * x print(result)",
+        "option_a": "HelloHelloHello",
+        "option_b": "HelloHelloHelloHelloHelloHelloHello",
+        "option_c": "Hello3",
+        "option_d": "TypeError: can't multiply sequence by non-int of type 'str'",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 30,
+        "question_text": "3333333333333335 b) 3.333333333333333 c) 3.3333333333333333 d) 3.33 Answer:",
+        "option_a": "3.3333333333333335 Explanation: In Python 3, division of two integers results in a float. So, 10 / 3 will give 3.3333333333333335. Question 15: What will be the output of the following code? python x = \"5\" y = 3 result = int(x) + y 35 print(result) a) 8",
+        "option_b": "\"5\" + 3",
+        "option_c": "TypeError: can only concatenate str (not \"int\") to str",
+        "option_d": "\"53\"",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 31,
+        "question_text": "Question 1: What is the purpose of flow control in programming?",
+        "option_a": "To create loops",
+        "option_b": "To manage the order of program execution",
+        "option_c": "To define functions",
+        "option_d": "To print output",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 32,
+        "question_text": "So, the code will print \"A\". Question 2: What is the output of the following code? python x = 10 y = 3 result = x // y print(result)",
+        "option_a": "3",
+        "option_b": "3.33",
+        "option_c": "3.0",
+        "option_d": "3.3333333333333335",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 33,
+        "question_text": "Question 3: What is the output of the following code? python x = 5 y = 10 if x > y: print(\"X is greater\") elif x < y: print(\"Y is greater\")",
+        "option_a": "X is greater",
+        "option_b": "Y is greater",
+        "option_c": "X is greater and Y is greater",
+        "option_d": "None of the above",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 34,
+        "question_text": "When x is 3, the continue statement will skip the remaining code inside the loop for that iteration. Therefore, the loop will eventually decrement x to 0 and then terminate. The final value of x printed will be 0. Question 5: What is the output of the following code? python for i in range(1, 4): for j in range(1, i+1): print(i, end='') print()",
+        "option_a": "1",
+        "option_b": "22",
+        "option_c": "333",
+        "option_d": "1 2 3",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 35,
+        "question_text": "When x is 2, the break statement will terminate the loop immediately. The final value of x printed will be 2. Question 7: What is the output of the following code? python x = 10 while x > 0: x -= 2 if x == 6: continue print(x)",
+        "option_a": "8 4 2 0",
+        "option_b": "10 8 6 4 2 0",
+        "option_c": "10 8 4 2 0",
+        "option_d": "10 8 6 2 0",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 36,
+        "question_text": "When x is 6, the continue statement will skip the remaining code inside the loop for that iteration. Therefore, 6 will not be printed. The loop will continue with the next iteration. The final values of x printed will be 8, 4, 2, and 0. Question 8: What will be the output of the following code? 57 python x = 5 while x > 0: x -= 1 if x == 0: break print(x)",
+        "option_a": "4",
+        "option_b": "3",
+        "option_c": "2",
+        "option_d": "1",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 37,
+        "question_text": "When x is 0, the break statement will terminate the loop immediately without decrementing x further. The final value of x printed will be 4. Question 9: What is the output of the following code? python x = 5 while x > 0: x -= 1 if x == 3: continue print(x)",
+        "option_a": "4 2 1 0",
+        "option_b": "5 4 2 1 0",
+        "option_c": "5 4 1 0",
+        "option_d": "5 4 3 1 0",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 38,
+        "question_text": "When x is 3, the continue statement will skip the remaining code inside the loop for that iteration. Therefore, 3 will not be printed. The loop will continue with the next iteration. The final values of x printed will be 4, 2, 1, and 0. Question 10: What will be the output of the following code? 58 python for i in range(3): for j in range(3): if i == j: continue print(i, j)",
+        "option_a": "0 1 0 2 1 0 1 2",
+        "option_b": "0 0 1 0 1 2 2 0 2 1",
+        "option_c": "0 1 0 2 1 0 1 2 2 0 2 1",
+        "option_d": "0 1 2",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 39,
+        "question_text": "2f}\".format(number) b) \"{:6.2}\".format(number) c) \"{:.2f}\".format(number) d) \"{:6.2f}\".format(number) Answer: d) \"{:6.2f}\".format(number) Question 18: What is the output of the following code in Python? python text = \"Hello, Python!\" result = text[3:] print(result)",
+        "option_a": "\"lo, Python!\"",
+        "option_b": "\"o, Python!\"",
+        "option_c": "\"o, Pyt\"",
+        "option_d": "\"o\"",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 40,
+        "question_text": "5 b) 2 c) 2.0 d) 2.1 Answer:",
+        "option_a": "2.5 Question 2: How do you assign multiple values to multiple variables in a single line in Python? a) x = y = z = 1",
+        "option_b": "x, y, z = 1",
+        "option_c": "x, y = 1, 2, 3",
+        "option_d": "x, y, z = [1, 2, 3]",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 41,
+        "question_text": "3}\".format(number) 85 Answer: b) \"{:.3f}\".format(number) Question 7: What is the output of the following code in Python? python text = \"Python is great\" result = text[6::-2] print(result)",
+        "option_a": "\"i o\"",
+        "option_b": "\"i oP\"",
+        "option_c": "\"tohP\"",
+        "option_d": "\"t ihP\"",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 42,
+        "question_text": "33 b) 2.0 c) 2 d) 2.67 Answer: c) 2 Question 2: How do you assign the same value to multiple variables in Python?",
+        "option_a": "x = y = z = 1",
+        "option_b": "x, y, z = 1",
+        "option_c": "x, y = 1, 2, 3",
+        "option_d": "x, y, z = [1, 2, 3]",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 43,
+        "question_text": "5}\".format(number) Answer: b) \"{:.5f}\".format(number) Question 7: What is the output of the following code in Python? python text = \"Python is versatile\" result = text[5:15:3] 88 print(result)",
+        "option_a": "\"nivr\"",
+        "option_b": "\"nsv\"",
+        "option_c": "\"nvse\"",
+        "option_d": "\"nsl\"",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 44,
+        "question_text": "5 d) 0.25 Answer: b) 0 Question 10: How do you access every second character of a string named 'text' in Python?",
+        "option_a": "text[:2]",
+        "option_b": "text[::2]",
+        "option_c": "text[2::]",
+        "option_d": "text[::3]",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 45,
+        "question_text": "Question: Which type of function takes a variable number of arguments in Python?",
+        "option_a": "flexible function",
+        "option_b": "dynamic function",
+        "option_c": "variable function",
+        "option_d": "*args function vbnet 106",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 46,
+        "question_text": "Question: What is the output of the following code in Python? python def add_numbers(a, b=5): return a + b result = add_numbers(3) print(result)",
+        "option_a": "3",
+        "option_b": "5",
+        "option_c": "8",
+        "option_d": "15",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 47,
+        "question_text": "Question: How do you call a function named 'calculate_average' with two arguments 5 and 7 in Python?",
+        "option_a": "calculate_average(5, 7)",
+        "option_b": "call calculate_average(5, 7)",
+        "option_c": "calculate_average = (5, 7)",
+        "option_d": "calculate_average.call(5, 7)",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 48,
+        "question_text": "Question: What is the keyword used to pass a keyword argument in Python?",
+        "option_a": "key",
+        "option_b": "kwarg",
+        "option_c": "karg",
+        "option_d": "None makefile",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 49,
+        "question_text": "Question: What is the output of the following code in Python? python def greet(name=\"User\"): 107 return f\"Hello, {name}!\" result = greet(name=\"Alice\") print(result) vbnet",
+        "option_a": "\"Hello, User!\"",
+        "option_b": "\"Hello, world!\"",
+        "option_c": "\"Hello, None!\"",
+        "option_d": "\"Hello, Alice!\"",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 50,
+        "question_text": "Question: Which type of function does not call itself from within its body in Python?",
+        "option_a": "iterative function",
+        "option_b": "repeating function",
+        "option_c": "self-function",
+        "option_d": "non-recursive function sql",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 51,
+        "question_text": "Question: How do you define a function with multiple arguments in Python?",
+        "option_a": "def my_function(arguments):",
+        "option_b": "def my_function(arguments, arguments):",
+        "option_c": "def my_function(*arguments):",
+        "option_d": "def my_function(arguments1, arguments2): python",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 52,
+        "question_text": "Question: What is the output of the following code in Python? python def subtract_numbers(a, b): return a - b result = subtract_numbers(b=3, a=5) print(result)",
+        "option_a": "2 108",
+        "option_b": "8",
+        "option_c": "-2",
+        "option_d": "-8",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 53,
+        "question_text": "Question: How do you define a function in Python with an unknown number of keyword arguments?",
+        "option_a": "def my_function(*args):",
+        "option_b": "def my_function(**kwargs):",
+        "option_c": "def my_function(*args, **kwargs):",
+        "option_d": "def my_function(**args, *kwargs): python",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 54,
+        "question_text": "Question: What is the output of the following code in Python? python def greet(*names): for name in names: print(f\"Hello, {name}!\") greet(\"Alice\", \"Bob\", \"Charlie\") vbnet",
+        "option_a": "\"Hello, Alice!\" \"Hello, Bob!\" \"Hello, Charlie!\"",
+        "option_b": "\"Hello, !\" \"Hello, !\" \"Hello, !\"",
+        "option_c": "\"Hello, Alice, Bob, Charlie!\"",
+        "option_d": "\"Hello, Alice Bob Charlie!\"",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 55,
+        "question_text": "Question: Which type of function takes a dictionary of keyword arguments in Python?",
+        "option_a": "**args function",
+        "option_b": "flexible function",
+        "option_c": "dynamic function",
+        "option_d": "**kwargs function 109 vbnet",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 56,
+        "question_text": "Question: What is the output of the following code in Python? python def multiply_numbers(*args): result = 1 for num in args: result *= num return result result = multiply_numbers(2, 3, 4) print(result) less",
+        "option_a": "9",
+        "option_b": "24",
+        "option_c": "0",
+        "option_d": "1",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 57,
+        "question_text": "Question: How do you call a function named 'print_info' with two keyword arguments name=\"Alice\" and age=25 in Python?",
+        "option_a": "print_info(\"Alice\", 25)",
+        "option_b": "call print_info(name=\"Alice\", age=25)",
+        "option_c": "print_info(name=\"Alice\", 25)",
+        "option_d": "print_info(name=\"Alice\" and age=25) vbnet",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 58,
+        "question_text": "Question: What is the keyword used to pass a default value for a keyword argument in Python?",
+        "option_a": "default",
+        "option_b": "value",
+        "option_c": "set",
+        "option_d": "None makefile 110",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 59,
+        "question_text": "Question: What is the output of the following code in Python? python def greet(name=\"User\"): return f\"Hello, {name}!\" result = greet() print(result) vbnet",
+        "option_a": "\"Hello, User!\"",
+        "option_b": "\"Hello, world!\"",
+        "option_c": "\"Hello, None!\"",
+        "option_d": "\"Hello, Python!\"",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 60,
+        "question_text": "Question: Which type of function calls itself from within its body using its name in Python?",
+        "option_a": "recursive function",
+        "option_b": "looping function",
+        "option_c": "self-function",
+        "option_d": "repeating function lua",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 61,
+        "question_text": "Question: How do you define a function in Python without any implementation?",
+        "option_a": "def my_function:",
+        "option_b": "def my_function()",
+        "option_c": "def my_function pass",
+        "option_d": "def my_function(): python",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 62,
+        "question_text": "Question: What is the output of the following code in Python? python def multiply_numbers(a, b): return a * b 111 result = multiply_numbers(4) print(result)",
+        "option_a": "4",
+        "option_b": "0",
+        "option_c": "None",
+        "option_d": "TypeError: multiply_numbers() missing 1 required positional argument: 'b'",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 63,
+        "question_text": "Question: How do you call a function named 'print_message' without any arguments in Python?",
+        "option_a": "print_message()",
+        "option_b": "call print_message",
+        "option_c": "call print_message()",
+        "option_d": "print_message(call)",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 64,
+        "question_text": "Question: What is the output of the following code in Python? python def greet(name): return f\"Hello, {name}!\" result = greet(\"Alice\") print(result) vbnet",
+        "option_a": "\"Hello, Alice!\"",
+        "option_b": "\"Hello, name!\"",
+        "option_c": "\"Hello, !\"",
+        "option_d": "\"Hello, user!\"",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 65,
+        "question_text": "Question: Which type of function takes a variable number of arguments in Python?",
+        "option_a": "flexible function",
+        "option_b": "dynamic function",
+        "option_c": "variable function",
+        "option_d": "*args function 112 vbnet",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 66,
+        "question_text": "Question: What is the output of the following code in Python? python def add_numbers(a, b=5): return a + b result = add_numbers(3) print(result)",
+        "option_a": "3",
+        "option_b": "5",
+        "option_c": "8",
+        "option_d": "15",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 67,
+        "question_text": "Question: How do you call a function named 'calculate_average' with two arguments 5 and 7 in Python?",
+        "option_a": "calculate_average(5, 7)",
+        "option_b": "call calculate_average(5, 7)",
+        "option_c": "calculate_average = (5, 7)",
+        "option_d": "calculate_average.call(5, 7)",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 68,
+        "question_text": "Question: What is the keyword used to pass a keyword argument in Python?",
+        "option_a": "key",
+        "option_b": "kwarg",
+        "option_c": "karg",
+        "option_d": "None makefile",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 69,
+        "question_text": "Question: What is the output of the following code in Python? 113 python def greet(name=\"User\"): return f\"Hello, {name}!\" result = greet(name=\"Alice\") print(result) vbnet",
+        "option_a": "\"Hello, User!\"",
+        "option_b": "\"Hello, world!\"",
+        "option_c": "\"Hello, None!\"",
+        "option_d": "\"Hello, Alice!\"",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 70,
+        "question_text": "Question: Which type of function does not call itself from within its body in Python?",
+        "option_a": "iterative function",
+        "option_b": "repeating function",
+        "option_c": "self-function",
+        "option_d": "non-recursive function sql",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 71,
+        "question_text": "Question: How do you define a function with multiple arguments in Python?",
+        "option_a": "def my_function(arguments):",
+        "option_b": "def my_function(arguments, arguments):",
+        "option_c": "def my_function(*arguments):",
+        "option_d": "def my_function(arguments1, arguments2): python",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 72,
+        "question_text": "Question: What is the output of the following code in Python? python def subtract_numbers(a, b): return a - b result = subtract_numbers(b=3, a=5) print(result) 114",
+        "option_a": "2",
+        "option_b": "8",
+        "option_c": "-2",
+        "option_d": "-8",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 73,
+        "question_text": "Question: How do you define a function in Python with an unknown number of keyword arguments?",
+        "option_a": "def my_function(*args):",
+        "option_b": "def my_function(**kwargs):",
+        "option_c": "def my_function(*args, **kwargs):",
+        "option_d": "def my_function(**args, *kwargs): python",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 74,
+        "question_text": "Question: What is the output of the following code in Python? python def multiply_numbers(*args): result = 1 for num in args: result *= num return result result = multiply_numbers(2, 3, 4) print(result) less",
+        "option_a": "9",
+        "option_b": "24",
+        "option_c": "0",
+        "option_d": "1",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 75,
+        "question_text": "Question: How do you call a function named 'print_info' with two keyword arguments name=\"Alice\" and age=25 in Python?",
+        "option_a": "print_info(\"Alice\", 25)",
+        "option_b": "call print_info(name=\"Alice\", age=25)",
+        "option_c": "print_info(name=\"Alice\", 25) 115",
+        "option_d": "print_info(name=\"Alice\" and age=25) vbnet",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 76,
+        "question_text": "Question: What is the keyword used to pass a default value for a keyword argument in Python?",
+        "option_a": "default",
+        "option_b": "value",
+        "option_c": "set",
+        "option_d": "None makefile",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 77,
+        "question_text": "Question: What is the output of the following code in Python? python def greet(name=\"User\"): return f\"Hello, {name}!\" result = greet() print(result) vbnet",
+        "option_a": "\"Hello, User!\"",
+        "option_b": "\"Hello, world!\"",
+        "option_c": "\"Hello, None!\"",
+        "option_d": "\"Hello, Python!\"",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 78,
+        "question_text": "Question: Which type of function calls itself from within its body using its name in Python?",
+        "option_a": "recursive function",
+        "option_b": "looping function",
+        "option_c": "self-function",
+        "option_d": "repeating function lua",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 79,
+        "question_text": "Question: How do you define a function in Python without any implementation?",
+        "option_a": "def my_function: 116",
+        "option_b": "def my_function()",
+        "option_c": "def my_function pass",
+        "option_d": "def my_function(): python",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 80,
+        "question_text": "Question: What is the output of the following code in Python? python def multiply_numbers(a, b): return a * b result = multiply_numbers(4) print(result)",
+        "option_a": "4",
+        "option_b": "0",
+        "option_c": "None",
+        "option_d": "TypeError: multiply_numbers() missing 1 required positional argument: 'b'",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 81,
+        "question_text": "Question: How do you call a function named 'print_message' without any arguments in Python?",
+        "option_a": "print_message()",
+        "option_b": "call print_message",
+        "option_c": "call print_message()",
+        "option_d": "print_message(call)",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 82,
+        "question_text": "Question: What is the output of the following code in Python? def greet(name): return f\"Hello, {name}!\" result = greet(\"Alice\") print(result) 117",
+        "option_a": "\"Hello, Alice!\"",
+        "option_b": "\"Hello, name!\"",
+        "option_c": "\"Hello, !\"",
+        "option_d": "\"Hello, user!\"",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 83,
+        "question_text": "Question: Which type of function takes a variable number of arguments in Python?",
+        "option_a": "flexible function",
+        "option_b": "dynamic function",
+        "option_c": "variable function",
+        "option_d": "*args function",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 84,
+        "question_text": "5 print(type(x)) arduino Copy code",
+        "option_a": "int",
+        "option_b": "float",
+        "option_c": "str",
+        "option_d": "double",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 85,
+        "question_text": "Question: Which built-in function is used to convert an object to a string in Python?",
+        "option_a": "str()",
+        "option_b": "convert()",
+        "option_c": "to_string()",
+        "option_d": "object() css Copy code",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 86,
+        "question_text": "Question: What is the output of the following code in Python? python Copy code x = 42 print(str(x) + \" is the answer.\") vbnet 122 Copy code",
+        "option_a": "\"42 is the answer.\"",
+        "option_b": "\"x is the answer.\"",
+        "option_c": "\"42 is the answer\"",
+        "option_d": "Error: 'x' is not defined",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 87,
+        "question_text": "Question: What is the purpose of the 'dir()' function in Python?",
+        "option_a": "To delete a directory from the file system.",
+        "option_b": "To display the list of built-in functions in Python.",
+        "option_c": "To list the attributes and methods of an object.",
+        "option_d": "To create a new directory in the file system. vbnet Copy code",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 88,
+        "question_text": "Question: Which built-in function is used to check if an object is callable in Python?",
+        "option_a": "is_callable()",
+        "option_b": "callable()",
+        "option_c": "is_function()",
+        "option_d": "function() css Copy code",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 89,
+        "question_text": "Question: What is the output of the following code in Python? python Copy code x = \"Hello, World!\" print(x.upper()) vbnet Copy code",
+        "option_a": "\"hello, world!\" 124",
+        "option_b": "\"Hello, World!\"",
+        "option_c": "\"HELLO, WORLD!\"",
+        "option_d": "\"hello, WORLD!\"",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 90,
+        "question_text": "Question: What is the purpose of the 'len()' function in Python?",
+        "option_a": "To calculate the logarithm of a number.",
+        "option_b": "To find the square root of a number.",
+        "option_c": "To get the length of an object (e.g., a string or a list).",
+        "option_d": "To perform bitwise operations on numbers. vbnet Copy code",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 91,
+        "question_text": "Question: What is the output of the following code in Python? python Copy code x = [1, 2, 3, 4, 5] y = [6, 7, 8] print(x + y) less Copy code",
+        "option_a": "[1, 2, 3, 4, 5, 6, 7, 8]",
+        "option_b": "[7, 9, 11]",
+        "option_c": "[1, 2, 3, 4, 5, [6, 7, 8]]",
+        "option_d": "Error: cannot add list to list",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 92,
+        "question_text": "Question: What is the purpose of the 'sorted()' function in Python?",
+        "option_a": "To sort a list in ascending order.",
+        "option_b": "To sort a list in descending order.",
+        "option_c": "To shuffle the elements of a list randomly.",
+        "option_d": "To reverse the elements of a list. vbnet Copy code",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 93,
+        "question_text": "Question: What is the output of the following code in Python? python Copy code 125 x = [3, 1, 4, 2, 5] print(sorted(x)) less Copy code",
+        "option_a": "[1, 2, 3, 4, 5]",
+        "option_b": "[5, 4, 3, 2, 1]",
+        "option_c": "[3, 1, 4, 2, 5]",
+        "option_d": "[2, 1, 3, 4, 5]",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 94,
+        "question_text": "Question: What is the purpose of the 'max()' function in Python?",
+        "option_a": "To find the smallest element in a list.",
+        "option_b": "To find the sum of all elements in a list.",
+        "option_c": "To find the largest element in a list.",
+        "option_d": "To calculate the average of elements in a list. vbnet Copy code",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 95,
+        "question_text": "Question: What is the output of the following code in Python? python Copy code x = [3, 1, 4, 2, 5] print(max(x)) less Copy code",
+        "option_a": "1",
+        "option_b": "5",
+        "option_c": "3",
+        "option_d": "15",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 96,
+        "question_text": "Question: What is the purpose of the 'min()' function in Python?",
+        "option_a": "To find the largest element in a list.",
+        "option_b": "To calculate the average of elements in a list.",
+        "option_c": "To find the smallest element in a list.",
+        "option_d": "To find the sum of all elements in a list. vbnet Copy code",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 97,
+        "question_text": "Question: What is the output of the following code in Python? python Copy code x = [3, 1, 4, 2, 5] print(min(x)) less Copy code",
+        "option_a": "1",
+        "option_b": "5",
+        "option_c": "3",
+        "option_d": "15",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 98,
+        "question_text": "Question: What is the purpose of the 'sum()' function in Python?",
+        "option_a": "To find the largest element in a list.",
+        "option_b": "To calculate the average of elements in a list.",
+        "option_c": "To find the smallest element in a list.",
+        "option_d": "To find the sum of all elements in a list. python Copy code",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 99,
+        "question_text": "Question: What is the output of the following code in Python? python Copy code x = [3, 1, 4, 2, 5] print(sum(x)) less Copy code",
+        "option_a": "10",
+        "option_b": "15",
+        "option_c": "3",
+        "option_d": "5",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 100,
+        "question_text": "Question: What is the purpose of the 'reversed()' function in Python?",
+        "option_a": "To reverse the elements of a list.",
+        "option_b": "To sort a list in descending order.",
+        "option_c": "To shuffle the elements of a list randomly.",
+        "option_d": "To find the largest element in a list. 127 vbnet Copy code",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 101,
+        "question_text": "Question: What is the output of the following code in Python? python Copy code x = [3, 1, 4, 2, 5] print(list(reversed(x))) less Copy code",
+        "option_a": "[1, 2, 3, 4, 5]",
+        "option_b": "[5, 4, 3, 2, 1]",
+        "option_c": "[3, 1, 4, 2, 5]",
+        "option_d": "[5, 2, 4, 1, 3]",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 102,
+        "question_text": "Question: What is the purpose of the 'enumerate()' function in Python?",
+        "option_a": "To count the number of occurrences of an element in a list.",
+        "option_b": "To generate a sequence of integers.",
+        "option_c": "To iterate over both the index and element of a list simultaneously.",
+        "option_d": "To check if an element is present in a list. sql Copy code",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 103,
+        "question_text": "Question: What is the output of the following code in Python? python Copy code x = [\"apple\", \"banana\", \"cherry\"] for i, item in enumerate(x): print(i, item) less Copy code",
+        "option_a": "0 apple 1 banana 2 cherry",
+        "option_b": "1 apple 2 banana 3 cherry 128",
+        "option_c": "apple banana cherry",
+        "option_d": "(\"apple\", 0) (\"banana\", 1) (\"cherry\", 2)",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 104,
+        "question_text": "Question: What is the purpose of the 'zip()' function in Python?",
+        "option_a": "To combine two or more lists into a single list of tuples.",
+        "option_b": "To count the number of occurrences of an element in a list.",
+        "option_c": "To reverse the elements of a list.",
+        "option_d": "To check if an element is present in a list. vbnet Copy code",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 105,
+        "question_text": "Question: What is the output of the following code in Python? python Copy code x = [1, 2, 3] y = [\"a\", \"b\", \"c\"] zipped = list(zip(x, y)) print(zipped) less Copy code",
+        "option_a": "[(1, \"a\"), (2, \"b\"), (3, \"c\")]",
+        "option_b": "[(1, \"a\"), (1, \"b\"), (1, \"c\")]",
+        "option_c": "[(1, 2, 3), (\"a\", \"b\", \"c\")]",
+        "option_d": "[(1, \"a\"), (2, \"b\"), (3, \"c\"), (1, 2, 3), (\"a\", \"b\", \"c\")]",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 106,
+        "question_text": "Question: What is the purpose of the 'zip()' function when used with 'zip(*zipped)'?",
+        "option_a": "To unzip the list of tuples.",
+        "option_b": "To combine two or more lists into a single list of tuples.",
+        "option_c": "To count the number of occurrences of an element in a list.",
+        "option_d": "To check if an element is present in a list. vbnet 129 Copy code",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 107,
+        "question_text": "Question: What is the output of the following code in Python? python Copy code x = [1, 2, 3] y = [\"a\", \"b\", \"c\"] zipped = list(zip(x, y)) unzipped = list(zip(*zipped)) print(unzipped) less Copy code",
+        "option_a": "[(1, \"a\"), (2, \"b\"), (3, \"c\")]",
+        "option_b": "[(1, 2, 3), (\"a\", \"b\", \"c\")]",
+        "option_c": "[(1, 1), (\"a\", \"a\"), (2, 2), (\"b\", \"b\"), (3, 3), (\"c\", \"c\")]",
+        "option_d": "[(1, \"a\", 2, \"b\", 3, \"c\")]",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 108,
+        "question_text": "Question: What is the purpose of the 'all()' function in Python?",
+        "option_a": "To check if all elements in a list are True.",
+        "option_b": "To check if any element in a list is True.",
+        "option_c": "To check if all elements in a list are False.",
+        "option_d": "To check if any element in a list is False. sql Copy code",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 109,
+        "question_text": "Question: What is the output of the following code in Python? python Copy code x = [True, True, False] print(all(x)) vbnet Copy code",
+        "option_a": "True",
+        "option_b": "False",
+        "option_c": "Error: 'x' is not defined",
+        "option_d": "[True, True, False]",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 110,
+        "question_text": "Question: What is the purpose of the 'any()' function in Python?",
+        "option_a": "To check if all elements in a list are True.",
+        "option_b": "To check if any element in a list is True.",
+        "option_c": "To check if all elements in a list are False.",
+        "option_d": "To check if any element in a list is False. vbnet Copy code",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 111,
+        "question_text": "Question: What is the output of the following code in Python? python Copy code x = [False, False, True] print(any(x)) vbnet Copy code",
+        "option_a": "True",
+        "option_b": "False",
+        "option_c": "Error: 'x' is not defined",
+        "option_d": "[False, False, True]",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 112,
+        "question_text": "Question: What is the purpose of the 'filter()' function in Python?",
+        "option_a": "To remove elements from a list based on a given condition.",
+        "option_b": "To apply a given function to all items in an iterable.",
+        "option_c": "To combine two or more lists into a single list of tuples.",
+        "option_d": "To reverse the elements of a list. vbnet Copy code",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 113,
+        "question_text": "Question: What is the purpose of the 'index()' method in Python for tuples?",
+        "option_a": "To find the index of a specific element in the tuple.",
+        "option_b": "To calculate the sum of elements in the tuple.",
+        "option_c": "To check if a specific element is present in the tuple.",
+        "option_d": "To sort the elements of the tuple. arduino Copy code",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 114,
+        "question_text": "Question: What is the output of the following code in Python? python Copy code my_tuple = (1, 2, 3, 2, 4, 2) print(my_tuple.index(2)) less Copy code",
+        "option_a": "0",
+        "option_b": "1",
+        "option_c": "2",
+        "option_d": "3",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 115,
+        "question_text": "Question: Which of the following statements is true about tuples and lists in Python?",
+        "option_a": "Tuples are mutable, and lists are immutable.",
+        "option_b": "Tuples are ordered collections, and lists are unordered collections. 142",
+        "option_c": "Tuples use square brackets [], and lists use parentheses ().",
+        "option_d": "Tuples are immutable, and lists are mutable. sql Copy code",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 116,
+        "question_text": "Question: What is the output of the following code in Python? python Copy code my_tuple = (1, 2, 3) my_tuple[1] = 4 print(my_tuple) vbnet Copy code",
+        "option_a": "(1, 4, 3)",
+        "option_b": "(1, 2, 3)",
+        "option_c": "Error: 'tuple' object does not support item assignment.",
+        "option_d": "Error: 'int' object does not support item assignment.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 117,
+        "question_text": "Question: Which of the following is the correct syntax to create a single-element tuple in Python?",
+        "option_a": "(1)",
+        "option_b": "(1,)",
+        "option_c": "(1, 2)",
+        "option_d": "1 makefile Copy code",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 118,
+        "question_text": "Question: What is the output of the following code in Python? python Copy code x = (1) print(type(x)) python Copy code",
+        "option_a": "int",
+        "option_b": "float",
+        "option_c": "tuple",
+        "option_d": "str 143",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 119,
+        "question_text": "Question: How do you convert a list into a tuple in Python?",
+        "option_a": "Using the list() function.",
+        "option_b": "Using the tuple() function.",
+        "option_c": "Using the convert() method.",
+        "option_d": "Using the to_tuple() method. vbnet Copy code",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 120,
+        "question_text": "Question: What is the output of the following code in Python? python Copy code my_list = [1, 2, 3, 4, 5] my_tuple = tuple(my_list) print(my_tuple) scss Copy code",
+        "option_a": "[1, 2, 3, 4, 5]",
+        "option_b": "(1, 2, 3, 4, 5)",
+        "option_c": "\"1, 2, 3, 4, 5\"",
+        "option_d": "(1), (2), (3), (4), (5)",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 121,
+        "question_text": "Question: What is the output of the following code in Python? python Copy code my_tuple = (1, 2, 3, 4, 5) my_list = list(my_tuple) print(my_list) less Copy code",
+        "option_a": "[1, 2, 3, 4, 5]",
+        "option_b": "(1, 2, 3, 4, 5)",
+        "option_c": "\"1, 2, 3, 4, 5\"",
+        "option_d": "[1], [2], [3], [4], [5]",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 122,
+        "question_text": "Question: What is the output of the following code in Python? 144 python Copy code my_tuple = (1, 2, 3, 4, 5) x = 6 if x in my_tuple: print(\"Found\") else: print(\"Not found\") python Copy code",
+        "option_a": "Found",
+        "option_b": "Not found",
+        "option_c": "Error: 'x' is not defined",
+        "option_d": "Error: tuple index out of range",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 123,
+        "question_text": "Question: What is the output of the following code in Python? python Copy code my_tuple = (1, 2, 3, 4, 5) x = 2 if x in my_tuple: print(\"Found\") else: print(\"Not found\") python Copy code",
+        "option_a": "Found",
+        "option_b": "Not found",
+        "option_c": "Error: 'x' is not defined",
+        "option_d": "Error: tuple index out of range",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 124,
+        "question_text": "Question: What is the purpose of the tuple() constructor in Python?",
+        "option_a": "To create an empty tuple.",
+        "option_b": "To create a tuple with elements passed as arguments.",
+        "option_c": "To create a tuple with a single element.",
+        "option_d": "To create a tuple from an existing iterable (e.g., a list). vbnet 145 Copy code",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 125,
+        "question_text": "Question: What is the output of the following code in Python? python Copy code x = tuple(range(1, 6)) print(x) less Copy code",
+        "option_a": "(1, 2, 3, 4, 5)",
+        "option_b": "[1, 2, 3, 4, 5]",
+        "option_c": "(1, 2, 3, 4)",
+        "option_d": "[1, 2, 3, 4]",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 126,
+        "question_text": "Question: What is the output of the following code in Python? python Copy code my_tuple = (1, 2, 3, 4, 5) print(my_tuple[::-1]) less Copy code",
+        "option_a": "(5, 4, 3, 2, 1)",
+        "option_b": "(1, 2, 3, 4, 5)",
+        "option_c": "[5, 4, 3, 2, 1]",
+        "option_d": "[1, 2, 3, 4, 5]",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 127,
+        "question_text": "Question: What is the output of the following code in Python? python Copy code my_tuple = (1, 2, 3, 4, 5) print(my_tuple[1:4]) scss Copy code",
+        "option_a": "(1, 2, 3, 4)",
+        "option_b": "(2, 3, 4, 5)",
+        "option_c": "(2, 3, 4)",
+        "option_d": "(1, 3, 5) 146",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 128,
+        "question_text": "Question: What is the output of the following code in Python? python Copy code my_tuple = (1, 2, 3, 4, 5) print(my_tuple[-2]) css Copy code",
+        "option_a": "1",
+        "option_b": "2",
+        "option_c": "4",
+        "option_d": "5",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 129,
+        "question_text": "Question: What is the output of the following code in Python? python Copy code my_tuple = (1, 2, 3, 4, 5) print(my_tuple[-3:]) scss Copy code",
+        "option_a": "(1, 2, 3)",
+        "option_b": "(3, 4, 5)",
+        "option_c": "(3, 4)",
+        "option_d": "(4, 5)",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 130,
+        "question_text": "Question: What is the output of the following code in Python? python Copy code my_tuple = (1, 2, 3, 4, 5) print(my_tuple.count(2)) less Copy code",
+        "option_a": "1",
+        "option_b": "2",
+        "option_c": "3",
+        "option_d": "4",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 131,
+        "question_text": "Question: What is the output of the following code in Python? python Copy code t1 = (1, 2, 3) t2 = (4, 5, 6) t3 = t1 + t2 print(t3) scss Copy code 148",
+        "option_a": "(1, 2, 3)",
+        "option_b": "(1, 2, 3, 4, 5, 6)",
+        "option_c": "(5, 7, 9)",
+        "option_d": "(14, 56)",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 132,
+        "question_text": "5",
+        "option_a": "int",
+        "option_b": "float",
+        "option_c": "str",
+        "option_d": "None",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 133,
+        "question_text": "5, which is a floating-point number, so the data type of the variable is float. Question: What will be the output of the following code in Python? python Copy code x = 10 y = x 153 y = y + 5 print(x)",
+        "option_a": "10",
+        "option_b": "15",
+        "option_c": "5",
+        "option_d": "Error: x is not defined",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 134,
+        "question_text": "Question: What is the data type of the following variable in Python? python Copy code var = \"Hello, World!\"",
+        "option_a": "int",
+        "option_b": "float",
+        "option_c": "str",
+        "option_d": "bool",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 135,
+        "question_text": "154 Question: What will be the output of the following code in Python? python Copy code x = 10 y = x + \"5\" print(y)",
+        "option_a": "105",
+        "option_b": "15",
+        "option_c": "Error: unsupported operand type(s) for +: 'int' and 'str'",
+        "option_d": "Error: y is not defined",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 136,
+        "question_text": "5 b) 2 c) 2.0 d) 2.2 Answer:",
+        "option_a": "2.5 Explanation: The division of x (which is 5) by y (which is 2) results in 2.5. Question: What is the output of the following code in Python? python Copy code x = 10 y = 3 result = x // y print(result) a) 3",
+        "option_b": "3.0 155",
+        "option_c": "3.3333333333333335",
+        "option_d": "3.333333333333333",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 137,
+        "question_text": "Question: What is the data type of the following variable in Python? python Copy code var = True",
+        "option_a": "int",
+        "option_b": "float",
+        "option_c": "str",
+        "option_d": "bool",
+        "correct_option": "D",
+        "explanation": ""
+    }
+]

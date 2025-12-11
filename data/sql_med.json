@@ -1,0 +1,2822 @@
+[
+    {
+        "number": 1,
+        "question_text": "What is the purpose of the MySQL Workbench's \"Schema Inspector\" tool?",
+        "option_a": "It generates random data for testing purposes.",
+        "option_b": "It analyzes the structure and properties of database schemas.",
+        "option_c": "It visualizes query execution plans for optimization.",
+        "option_d": "It automates the backup and recovery processes.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 2,
+        "question_text": "In the context of database transactions, what does the acronym ACID stand for?",
+        "option_a": "Atomicity, Consistency, Isolation, Durability",
+        "option_b": "Association, Complexity, Integration, Dependability",
+        "option_c": "Aggregation, Concurrency, Integrity, Durability",
+        "option_d": "Authentication, Compression, Indexing, Decoding",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 3,
+        "question_text": "Which MySQL client is commonly used for real-time monitoring of database activities?",
+        "option_a": "MySQL Monitor",
+        "option_b": "MySQL Shell",
+        "option_c": "MySQL Workbench",
+        "option_d": "MySQL Command Line Interface (CLI)",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 4,
+        "question_text": "What is the purpose of the MySQL Shell's \"PROMPT\" command?",
+        "option_a": "To execute SQL queries in a batch mode.",
+        "option_b": "To customize the appearance of the command prompt.",
+        "option_c": "To establish connections to remote database servers.",
+        "option_d": "To automate the generation of SQL statements.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 5,
+        "question_text": "Which type of database is characterized by its ability to handle hierarchical relationships and is often used in scenarios involving social networks and recommendation systems?",
+        "option_a": "Document Store",
+        "option_b": "Key-Value Store",
+        "option_c": "Column-family Store",
+        "option_d": "Graph Database",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 6,
+        "question_text": "In the context of database security, what is the purpose of the MySQL Role-Based Access Control (RBAC) system?",
+        "option_a": "To enforce data encryption for stored records.",
+        "option_b": "To define and manage user access permissions.",
+        "option_c": "To automatically generate SQL statements for optimization.",
+        "option_d": "To monitor and log database activities in real-time.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 7,
+        "question_text": "What is the primary function of the MySQL Workbench's \"Routine Editor\"?",
+        "option_a": "To create visual representations of query plans.",
+        "option_b": "To design and modify stored procedures and functions.",
+        "option_c": "To automatically generate SQL statements for database operations. 1",
+        "option_d": "To analyze and optimize database performance.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 8,
+        "question_text": "Which level of database normalization involves removing partial dependencies by decomposing the table into smaller ones?",
+        "option_a": "First Normal Form (1NF)",
+        "option_b": "Second Normal Form (2NF)",
+        "option_c": "Third Normal Form (3NF)",
+        "option_d": "Boyce-Codd Normal Form (BCNF)",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 9,
+        "question_text": "What is the significance of the MySQL Workbench's \"Data Export\" feature?",
+        "option_a": "It automatically backs up the entire database.",
+        "option_b": "It exports query results to various file formats.",
+        "option_c": "It optimizes query performance through indexing.",
+        "option_d": "It generates random test data for the database.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 10,
+        "question_text": "In the context of NoSQL databases, what differentiates a Column-family Store from other types?",
+        "option_a": "It is optimized for handling document-oriented data.",
+        "option_b": "It stores data in tables with rows and columns like a relational database.",
+        "option_c": "It is specifically designed for handling large amounts of unstructured data.",
+        "option_d": "It organizes data into column families, allowing efficient retrieval of related data.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 11,
+        "question_text": "Which term refers to the property of a relational database that ensures each column holds only one type of data?",
+        "option_a": "Data Normalization",
+        "option_b": "Data Abstraction",
+        "option_c": "Data Integrity",
+        "option_d": "Data Consistency",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 12,
+        "question_text": "In an Object-Relational Database, what is an advantage of using user-defined data types?",
+        "option_a": "Improved query performance",
+        "option_b": "Enhanced data security",
+        "option_c": "Increased data complexity",
+        "option_d": "Greater flexibility in data representation",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 13,
+        "question_text": "What is the purpose of the MySQL Monitor's \"EXPLAIN\" statement?",
+        "option_a": "To execute complex SQL queries",
+        "option_b": "To analyze and optimize query execution plans",
+        "option_c": "To monitor server resource utilization",
+        "option_d": "To create database backups",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 14,
+        "question_text": "Which MySQL client provides a command-line interface and is often used for scripting and automation? 2",
+        "option_a": "MySQL Monitor",
+        "option_b": "MySQL Shell",
+        "option_c": "MySQL Workbench",
+        "option_d": "MySQL Command Line Interface (CLI)",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 15,
+        "question_text": "In the context of NoSQL databases, what is a characteristic feature of a document-oriented database?",
+        "option_a": "Table-based data structure",
+        "option_b": "Schema-less data representation",
+        "option_c": "Fixed and rigid data schema",
+        "option_d": "Strict adherence to ACID properties",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 16,
+        "question_text": "Which statement is true about the JOIN operation in relational databases?",
+        "option_a": "INNER JOIN returns all rows when there is a match in both tables.",
+        "option_b": "LEFT JOIN returns only unmatched rows from the left table.",
+        "option_c": "RIGHT JOIN returns only unmatched rows from the right table.",
+        "option_d": "FULL OUTER JOIN returns only matched rows from both tables.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 17,
+        "question_text": "What is the primary function of the MySQL Workbench's \"Database Design\" feature?",
+        "option_a": "Real-time monitoring of database activities",
+        "option_b": "Query optimization and performance tuning",
+        "option_c": "Visual design and modeling of database schemas",
+        "option_d": "Automatic generation of SQL statements",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 18,
+        "question_text": "In a relational database, what is the purpose of the FOREIGN KEY constraint?",
+        "option_a": "Ensures each column holds only one type of data.",
+        "option_b": "Defines a unique identifier for each record.",
+        "option_c": "Establishes a link between two tables.",
+        "option_d": "Allows for sorting records based on specific criteria.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 19,
+        "question_text": "Which NoSQL database type is optimized for handling large amounts of unstructured data such as documents and images?",
+        "option_a": "Key-Value Store",
+        "option_b": "Document Store",
+        "option_c": "Column-family Store",
+        "option_d": "Graph Database",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 20,
+        "question_text": "What is the significance of the ACID properties in database transactions?",
+        "option_a": "They ensure a high level of data redundancy.",
+        "option_b": "They guarantee consistency and integrity of database transactions.",
+        "option_c": "They control access to the database and ensure data security. 3",
+        "option_d": "They optimize query performance through indexing.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 21,
+        "question_text": "In the context of DBMS, what is the purpose of a stored procedure?",
+        "option_a": "To store data temporarily during a transaction",
+        "option_b": "To define and execute reusable sets of SQL statements",
+        "option_c": "To create virtual tables for complex data representation",
+        "option_d": "To enforce data integrity constraints",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 22,
+        "question_text": "What distinguishes an Object Relational Database Management System (ORDBMS) from a Relational Database Management System (RDBMS)?",
+        "option_a": "ORDBMS supports only simple data types.",
+        "option_b": "RDBMS allows for the storage of complex objects.",
+        "option_c": "ORDBMS extends the functionality of RDBMS with object-oriented features.",
+        "option_d": "RDBMS is optimized for handling unstructured data.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 23,
+        "question_text": "Which type of NoSQL database is suitable for applications requiring high-speed read and write operations with low-latency response times?",
+        "option_a": "Document Store",
+        "option_b": "Key-Value Store",
+        "option_c": "Column-family Store",
+        "option_d": "Graph Database",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 24,
+        "question_text": "What is the purpose of the MySQL Workbench's \"Performance Dashboard\" feature?",
+        "option_a": "Real-time monitoring of database activities",
+        "option_b": "Query optimization and performance tuning",
+        "option_c": "Visual design and modeling of database schemas",
+        "option_d": "Automatic generation of SQL statements",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 25,
+        "question_text": "Which normalization form ensures that data redundancy is minimized and dependencies are fully functional dependent on the primary key?",
+        "option_a": "First Normal Form (1NF)",
+        "option_b": "Second Normal Form (2NF)",
+        "option_c": "Third Normal Form (3NF)",
+        "option_d": "Boyce-Codd Normal Form (BCNF)",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 26,
+        "question_text": "What role does the MySQL Shell play in the administration of MySQL databases?",
+        "option_a": "It provides a graphical interface for designing databases.",
+        "option_b": "It enables users to monitor real-time database activities.",
+        "option_c": "It offers a command-line interface for database administration.",
+        "option_d": "It automatically generates SQL statements for database operations.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 27,
+        "question_text": "Which SQL command is used to add a new column to an existing table in a relational database? 4",
+        "option_a": "ALTER TABLE",
+        "option_b": "CREATE COLUMN",
+        "option_c": "MODIFY TABLE",
+        "option_d": "INSERT COLUMN",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 28,
+        "question_text": "What is the primary advantage of using a NoSQL database over a relational database for handling large volumes of unstructured data?",
+        "option_a": "Improved query performance",
+        "option_b": "Enhanced data consistency",
+        "option_c": "Greater flexibility in data modeling",
+        "option_d": "Strict adherence to ACID properties",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 29,
+        "question_text": "What is the role of the MySQL Monitor in the context of database administration?",
+        "option_a": "It provides a graphical interface for designing databases.",
+        "option_b": "It offers a command-line interface for real-time monitoring.",
+        "option_c": "It facilitates visual modeling of database schemas.",
+        "option_d": "It automates the generation of SQL statements.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 30,
+        "question_text": "In a relational database, what does the term \"cardinality\" refer to?",
+        "option_a": "The number of columns in a table",
+        "option_b": "The number of rows in a table",
+        "option_c": "The uniqueness of values in a column",
+        "option_d": "The relationships between tables and the number of related records",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 31,
+        "question_text": "What is the purpose of the MySQL Workbench's \"Schema Migration\" feature?",
+        "option_a": "It enables real-time synchronization of multiple databases.",
+        "option_b": "It automates the process of migrating data between tables.",
+        "option_c": "It facilitates the migration of database schemas across different servers.",
+        "option_d": "It generates random test data for schema testing.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 32,
+        "question_text": "In the context of database indexing, what is the primary advantage of using a composite index over a single-column index?",
+        "option_a": "Improved query performance for specific columns.",
+        "option_b": "Increased flexibility in defining data types.",
+        "option_c": "Enhanced data security through encryption.",
+        "option_d": "Efficient retrieval of data for queries involving multiple columns.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 33,
+        "question_text": "What role does the MySQL Shell's \"JavaScript Mode\" play in database administration?",
+        "option_a": "It executes JavaScript code for application development.",
+        "option_b": "It integrates JavaScript functions into SQL queries.",
+        "option_c": "It provides a JavaScript-based interface for MySQL interactions. 5",
+        "option_d": "It automates the backup and recovery processes using JavaScript.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 34,
+        "question_text": "Which SQL statement is used to remove all records from a table in a relational database without deleting the table itself?",
+        "option_a": "DELETE TABLE",
+        "option_b": "DROP TABLE",
+        "option_c": "REMOVE FROM TABLE",
+        "option_d": "TRUNCATE TABLE",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 35,
+        "question_text": "In the context of database design, what is the purpose of a \"Surrogate Key\"?",
+        "option_a": "It is a key generated by the system for internal use, unrelated to any business data.",
+        "option_b": "It is a key that uniquely identifies a record based on business-related information.",
+        "option_c": "It is a key that represents the relationship between two tables.",
+        "option_d": "It is a key used for sorting records in ascending order.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 36,
+        "question_text": "What is the primary function of the MySQL Workbench's \"Schema Synchronization\" tool?",
+        "option_a": "It analyzes and optimizes query execution plans.",
+        "option_b": "It compares and synchronizes database schemas between servers.",
+        "option_c": "It automates the generation of SQL statements for data manipulation.",
+        "option_d": "It monitors real-time database activities and performance.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 37,
+        "question_text": "In the context of NoSQL databases, what is a characteristic feature of a Key-Value Store?",
+        "option_a": "It organizes data into documents with flexible schemas.",
+        "option_b": "It stores data as key-value pairs, allowing fast retrieval.",
+        "option_c": "It represents data as interconnected nodes in a graph structure.",
+        "option_d": "It focuses on storing and retrieving large unstructured files.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 38,
+        "question_text": "What does the term \"Normalization\" aim to achieve in the context of relational databases?",
+        "option_a": "It minimizes data redundancy and dependency.",
+        "option_b": "It maximizes the number of columns in a table.",
+        "option_c": "It increases the complexity of data structures.",
+        "option_d": "It enforces strict adherence to the ACID properties.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 39,
+        "question_text": "In MySQL, what is the purpose of the \"USE\" statement in the MySQL Shell?",
+        "option_a": "It creates a new user with specified privileges.",
+        "option_b": "It changes the active database for subsequent queries.",
+        "option_c": "It optimizes the execution plan for a specific query.",
+        "option_d": "It triggers the automatic backup process for the entire database.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 40,
+        "question_text": "Which type of database index is specifically designed to improve the performance of queries involving sorting and ordering of data? 6",
+        "option_a": "Hash Index",
+        "option_b": "Clustered Index",
+        "option_c": "Bitmap Index",
+        "option_d": "Non-clustered Index",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 41,
+        "question_text": "What is the primary purpose of a Conceptual Data Model in database design?",
+        "option_a": "To define how data will be physically stored in the database.",
+        "option_b": "To represent the high-level structure and relationships between entities.",
+        "option_c": "To specify the exact data types for each attribute in the database.",
+        "option_d": "To implement complex business logic within the database.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 42,
+        "question_text": "According to Codd\u2019s 12 rules for RDBMS, which rule emphasizes the separation of the user's view and the physical representation of data?",
+        "option_a": "Rule 2: Information Rule",
+        "option_b": "Rule 4: Active Online Catalog Based on The Relational Model",
+        "option_c": "Rule 7: High-Level Insert, Update, and Delete",
+        "option_d": "Rule 9: Logical Data Independence",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 43,
+        "question_text": "In the context of database design, what is the purpose of a Logical Data Model?",
+        "option_a": "To define how data will be physically stored in the database.",
+        "option_b": "To represent the high-level structure and relationships between entities.",
+        "option_c": "To specify the exact data types for each attribute in the database.",
+        "option_d": "To provide a blueprint for the implementation of complex business logic within the database.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 44,
+        "question_text": "When designing an Entity-Relationship Diagram (ERD), what does a diamond shape represent?",
+        "option_a": "Entity",
+        "option_b": "Attribute",
+        "option_c": "Relationship",
+        "option_d": "Key Constraint",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 45,
+        "question_text": "Which category of SQL commands is responsible for defining, modifying, and managing database structures such as tables and indexes?",
+        "option_a": "Data Definition Language (DDL)",
+        "option_b": "Data Manipulation Language (DML)",
+        "option_c": "Data Control Language (DCL)",
+        "option_d": "Transaction Control Language (TCL)",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 46,
+        "question_text": "What is the primary purpose of the SQL statement \"ALTER TABLE\" in database management?",
+        "option_a": "To create a new table in the database.",
+        "option_b": "To modify the structure of an existing table.",
+        "option_c": "To insert new records into a table. 7",
+        "option_d": "To retrieve data from one or more tables.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 47,
+        "question_text": "According to Codd\u2019s 12 rules for RDBMS, which rule emphasizes the support for multiple user views in the database?",
+        "option_a": "Rule 3: Systematic Treatment of Null Values",
+        "option_b": "Rule 5: The Comprehensive Data Sublanguage Rule",
+        "option_c": "Rule 8: Physical Data Independence",
+        "option_d": "Rule 10: Integrity Independence",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 48,
+        "question_text": "Which SQL command is used to remove all records from a table in a database, but retains the structure for future use?",
+        "option_a": "DELETE",
+        "option_b": "DROP",
+        "option_c": "TRUNCATE",
+        "option_d": "REMOVE",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 49,
+        "question_text": "What is the primary function of Data Control Language (DCL) SQL commands?",
+        "option_a": "To query and retrieve data from the database.",
+        "option_b": "To define and modify the structure of database objects.",
+        "option_c": "To control access and permissions to the database.",
+        "option_d": "To insert, update, and delete records in a table.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 50,
+        "question_text": "In the context of database transactions, what does the acronym \"TCL\" stand for?",
+        "option_a": "Transactional Control Language",
+        "option_b": "Table Column Language",
+        "option_c": "Temporary Constraint Language",
+        "option_d": "Transactional Command Line",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 51,
+        "question_text": "When designing a Conceptual Data Model, what is the primary focus?",
+        "option_a": "Defining the physical storage of data.",
+        "option_b": "Specifying data types for each attribute.",
+        "option_c": "Representing high-level business entities and relationships.",
+        "option_d": "Implementing complex business logic.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 52,
+        "question_text": "In an Entity-Relationship Diagram (ERD), what does the cardinality of a relationship describe?",
+        "option_a": "The uniqueness of values in an attribute.",
+        "option_b": "The number of attributes in an entity.",
+        "option_c": "The type of data stored in a table.",
+        "option_d": "The number of instances of one entity related to another.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 53,
+        "question_text": "Which Codd\u2019s 12 rules for RDBMS emphasizes the independence of physical storage structures from logical data structures? 8",
+        "option_a": "Rule 6: The View Updating Rule",
+        "option_b": "Rule 8: Physical Data Independence",
+        "option_c": "Rule 10: Integrity Independence",
+        "option_d": "Rule 12: The Nonsubversion Rule",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 54,
+        "question_text": "What does the SQL command \"CREATE TABLE\" do in the database?",
+        "option_a": "Adds a new column to an existing table.",
+        "option_b": "Removes a table and its data from the database.",
+        "option_c": "Defines a new table along with its attributes and data types.",
+        "option_d": "Modifies the structure of an existing table.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 55,
+        "question_text": "Which SQL statement is used to permanently remove a table and its associated data from the database?",
+        "option_a": "DELETE TABLE",
+        "option_b": "DROP TABLE",
+        "option_c": "REMOVE TABLE",
+        "option_d": "ERASE TABLE",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 56,
+        "question_text": "According to Codd\u2019s 12 rules for RDBMS, which rule ensures that views are updatable by the system?",
+        "option_a": "Rule 1: Information Rule",
+        "option_b": "Rule 3: Systematic Treatment of Null Values",
+        "option_c": "Rule 6: The View Updating Rule",
+        "option_d": "Rule 9: Logical Data Independence",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 57,
+        "question_text": "Which SQL command falls under the category of Data Manipulation Language (DML)?",
+        "option_a": "CREATE",
+        "option_b": "SELECT",
+        "option_c": "GRANT",
+        "option_d": "COMMIT",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 58,
+        "question_text": "What is the primary purpose of the SQL statement \"GRANT\" in database management?",
+        "option_a": "To create a new user account in the database.",
+        "option_b": "To modify the structure of an existing table.",
+        "option_c": "To control access and permissions for database objects.",
+        "option_d": "To insert new records into a table.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 59,
+        "question_text": "In the context of database transactions, what does the \"ROLLBACK\" statement do?",
+        "option_a": "Commits the changes made during a transaction.",
+        "option_b": "Undoes or cancels the changes made during a transaction.",
+        "option_c": "Creates a new transaction within the database. 9",
+        "option_d": "Adds a new record to the database.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 60,
+        "question_text": "Which category of SQL commands is responsible for querying and retrieving data from the database?",
+        "option_a": "Data Definition Language (DDL)",
+        "option_b": "Data Manipulation Language (DML)",
+        "option_c": "Data Control Language (DCL)",
+        "option_d": "Transaction Control Language (TCL)",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 61,
+        "question_text": "In the context of database design, what is the purpose of the \"CASCADE\" keyword when used in conjunction with the \"DROP\" statement?",
+        "option_a": "It removes a specific record from the table.",
+        "option_b": "It drops the table and all dependent objects like views and indexes.",
+        "option_c": "It modifies the structure of an existing table.",
+        "option_d": "It creates a new table in the database.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 62,
+        "question_text": "What does the SQL statement \"ALTER TABLE ADD CONSTRAINT\" allow you to do?",
+        "option_a": "Add a new column to an existing table.",
+        "option_b": "Add a foreign key constraint to an existing table.",
+        "option_c": "Modify the data types of existing columns.",
+        "option_d": "Remove a constraint from an existing table.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 63,
+        "question_text": "According to Codd\u2019s 12 rules for RDBMS, which rule emphasizes the support for distributed databases?",
+        "option_a": "Rule 2: Information Rule",
+        "option_b": "Rule 4: Active Online Catalog Based on The Relational Model",
+        "option_c": "Rule 11: Distribution Independence",
+        "option_d": "Rule 12: The Nonsubversion Rule",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 64,
+        "question_text": "Which SQL command is used to rename an existing table in a database?",
+        "option_a": "MODIFY TABLE",
+        "option_b": "RENAME TABLE",
+        "option_c": "ALTER TABLE RENAME",
+        "option_d": "UPDATE TABLE",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 65,
+        "question_text": "What is the primary purpose of the SQL statement \"REVOKE\" in database management?",
+        "option_a": "To grant specific permissions to a user.",
+        "option_b": "To remove specific permissions from a user.",
+        "option_c": "To modify the structure of an existing table.",
+        "option_d": "To create a new user account in the database.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 66,
+        "question_text": "In a conceptual data model, what does a double oval shape represent? 10",
+        "option_a": "Entity",
+        "option_b": "Attribute",
+        "option_c": "Relationship",
+        "option_d": "Key Constraint",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 67,
+        "question_text": "According to Codd\u2019s 12 rules for RDBMS, which rule emphasizes the independence of the application from the database system?",
+        "option_a": "Rule 4: Active Online Catalog Based on The Relational Model",
+        "option_b": "Rule 7: High-Level Insert, Update, and Delete",
+        "option_c": "Rule 10: Integrity Independence",
+        "option_d": "Rule 12: The Nonsubversion Rule",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 68,
+        "question_text": "Which SQL command is used to add a new column with a default value to an existing table?",
+        "option_a": "ADD COLUMN DEFAULT",
+        "option_b": "MODIFY COLUMN DEFAULT",
+        "option_c": "ALTER TABLE ADD COLUMN DEFAULT",
+        "option_d": "INSERT COLUMN DEFAULT",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 69,
+        "question_text": "What is the primary purpose of the \"INDEX\" keyword in the SQL \"CREATE TABLE\" statement?",
+        "option_a": "To define a primary key constraint.",
+        "option_b": "To create a new table in the database.",
+        "option_c": "To specify the data type of a column.",
+        "option_d": "To create an index on one or more columns for faster data retrieval.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 70,
+        "question_text": "In a Logical Data Model, what does a foreign key represent?",
+        "option_a": "The primary key of the table.",
+        "option_b": "A column that uniquely identifies each record.",
+        "option_c": "A reference to the primary key of another table.",
+        "option_d": "The relationship between two attributes.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 71,
+        "question_text": "What is the primary purpose of normalization in a relational database?",
+        "option_a": "To increase data redundancy",
+        "option_b": "To introduce data anomalies",
+        "option_c": "To simplify data retrieval",
+        "option_d": "To complicate data storage",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 72,
+        "question_text": "Which Normal Form (NF) ensures that there are no repeating groups of data in a table and each cell contains a single value? 11",
+        "option_a": "1st Normal Form (1NF)",
+        "option_b": "2nd Normal Form (2NF)",
+        "option_c": "3rd Normal Form (3NF)",
+        "option_d": "Boyce-Codd Normal Form (BCNF)",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 73,
+        "question_text": "Difficult Question: Explain the concept of Functional Dependency in the context of a relational database.",
+        "option_a": "Functional Dependency is the relationship between attributes that uniquely identifies each record in a table.",
+        "option_b": "Functional Dependency is the reliance of one attribute on another within a table, affecting data redundancy.",
+        "option_c": "Functional Dependency is the process of normalizing data to eliminate anomalies.",
+        "option_d": "Functional Dependency is the introduction of redundancy to improve data retrieval efficiency.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 74,
+        "question_text": "affecting data redundancy. What is the primary goal of normalization in the context of database design?",
+        "option_a": "To complicate data storage",
+        "option_b": "To increase data anomalies",
+        "option_c": "To simplify data structure and reduce redundancy",
+        "option_d": "To introduce repeating groups of data",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 75,
+        "question_text": "Intermediate Question: In the process of normalization, what is the purpose of the Second Normal Form (2NF)?",
+        "option_a": "To eliminate repeating groups of data",
+        "option_b": "To ensure each column holds a single value",
+        "option_c": "To establish relationships between tables",
+        "option_d": "To introduce redundancy for data consistency",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 76,
+        "question_text": "Difficult Question: 12 Explain the concept of BCNF (Boyce-Codd Normal Form) in database normalization.",
+        "option_a": "BCNF ensures that every determinant is a candidate key.",
+        "option_b": "BCNF allows partial dependency between attributes.",
+        "option_c": "BCNF allows redundancy to improve data retrieval efficiency.",
+        "option_d": "BCNF focuses on introducing anomalies for better data management.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 77,
+        "question_text": "What is the main purpose of the DELETE statement in SQL's Data Manipulation Language (DML)?",
+        "option_a": "To add new records to a table.",
+        "option_b": "To modify existing records in a table.",
+        "option_c": "To remove records from a table.",
+        "option_d": "To create a backup of the entire database.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 78,
+        "question_text": "Intermediate Question: In the context of normalization, what problem does the Third Normal Form (3NF) address?",
+        "option_a": "Repeating groups of data",
+        "option_b": "Partial dependency on a composite key",
+        "option_c": "Functional dependency between attributes",
+        "option_d": "Data redundancy due to transitive dependencies",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 79,
+        "question_text": "Difficult Question: What is the key distinction between TRUNCATE and DELETE statements in SQL's Data Manipulation Language (DML)?",
+        "option_a": "TRUNCATE is used for removing specific records, while DELETE removes all records.",
+        "option_b": "DELETE is a DML command, while TRUNCATE is a DDL command.",
+        "option_c": "TRUNCATE is faster but cannot be rolled back, while DELETE is slower but allows rollback.",
+        "option_d": "DELETE requires the specification of conditions, while TRUNCATE removes all records.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 80,
+        "question_text": "rollback. 13 What is the primary goal of normalization in a relational database?",
+        "option_a": "Increase data redundancy",
+        "option_b": "Simplify data retrieval",
+        "option_c": "Introduce repeating groups of data",
+        "option_d": "Complicate data storage",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 81,
+        "question_text": "Intermediate Question: In the context of database normalization, what does the Second Normal Form (2NF) address?",
+        "option_a": "Repeating groups of data",
+        "option_b": "Partial dependency on a composite key",
+        "option_c": "Functional dependency between attributes",
+        "option_d": "Transitive dependencies",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 82,
+        "question_text": "Difficult Question: Explain the concept of transitive dependency and how it relates to normalization.",
+        "option_a": "Transitive dependency is the reliance of one attribute on another, affecting data redundancy.",
+        "option_b": "Transitive dependency occurs when one non-prime attribute depends on another non-prime attribute in a table.",
+        "option_c": "Transitive dependency is eliminated by Boyce-Codd Normal Form (BCNF) to ensure every determinant is a candidate key.",
+        "option_d": "Transitive dependency is a form of redundancy that is intentionally introduced for data consistency.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 83,
+        "question_text": "attribute in a table. Easy Question: 14 What is the primary purpose of the First Normal Form (1NF) in the normalization process?",
+        "option_a": "Eliminate repeating groups of data",
+        "option_b": "Establish relationships between tables",
+        "option_c": "Ensure every determinant is a candidate key",
+        "option_d": "Introduce redundancy for data consistency",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 84,
+        "question_text": "Intermediate Question: In the context of database design, why is normalization important?",
+        "option_a": "To increase data redundancy",
+        "option_b": "To complicate data storage",
+        "option_c": "To simplify data structure and reduce redundancy",
+        "option_d": "To introduce anomalies for better data management",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 85,
+        "question_text": "Difficult Question: Compare and contrast Third Normal Form (3NF) with Boyce-Codd Normal Form (BCNF), highlighting their respective contributions to database normalization.",
+        "option_a": "3NF addresses data redundancy due to transitive dependencies, while BCNF ensures every determinant is a candidate key.",
+        "option_b": "3NF focuses on eliminating repeating groups of data, while BCNF specifically handles partial dependencies.",
+        "option_c": "3NF introduces redundancy for data consistency, whereas BCNF emphasizes functional dependencies.",
+        "option_d": "3NF and BCNF are synonymous terms, representing different stages of the normalization process.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 86,
+        "question_text": "determinant is a candidate key. In the context of database normalization, what is the primary objective of Third Normal Form (3NF)? 15",
+        "option_a": "To reduce data redundancy caused by transitive dependencies.",
+        "option_b": "To eliminate repeating groups of data.",
+        "option_c": "To enhance data consistency through redundancy.",
+        "option_d": "To manage partial dependencies.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 87,
+        "question_text": ". What is the purpose of Boyce-Codd Normal Form (BCNF) in the normalization process?",
+        "option_a": "To eliminate repeating groups of data.",
+        "option_b": "To reduce data redundancy caused by transitive dependencies.",
+        "option_c": "To manage partial dependencies.",
+        "option_d": "To ensure that every determinant is a candidate key.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 88,
+        "question_text": "In normalization, what does the term \"transitive dependency\" refer to?",
+        "option_a": "The reliance of one attribute on another, affecting data redundancy.",
+        "option_b": "The elimination of repeating groups of data.",
+        "option_c": "The introduction of redundancy for data consistency.",
+        "option_d": "The redundancy was intentionally introduced for data management.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 89,
+        "question_text": "What is the primary goal of normalization in a relational database?",
+        "option_a": "To increase data redundancy.",
+        "option_b": "To complicate data storage.",
+        "option_c": "To simplify data structure and reduce redundancy.",
+        "option_d": "To introduce anomalies for better data management.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 90,
+        "question_text": "In the context of normalization, what is the focus of Second Normal Form (2NF)?",
+        "option_a": "Eliminating repeating groups of data.",
+        "option_b": "Ensuring each column holds a single value. 16",
+        "option_c": "Managing partial dependencies.",
+        "option_d": "Establishing relationships between tables.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 91,
+        "question_text": "Which of the following is a characteristic of Boyce-Codd Normal Form (BCNF)?",
+        "option_a": "Eliminating repeating groups of data.",
+        "option_b": "Managing partial dependencies.",
+        "option_c": "Ensuring every determinant is a candidate key.",
+        "option_d": "Simplifying data retrieval.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 92,
+        "question_text": "What problem does the Third Normal Form (3NF) address in the normalization process?",
+        "option_a": "Repeating groups of data.",
+        "option_b": "Partial dependency on a composite key.",
+        "option_c": "Functional dependency between attributes.",
+        "option_d": "Data redundancy due to transitive dependencies.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 93,
+        "question_text": "What is the purpose of Boyce-Codd Normal Form (BCNF) in the normalization process?",
+        "option_a": "To eliminate repeating groups of data.",
+        "option_b": "To reduce data redundancy caused by transitive dependencies.",
+        "option_c": "To manage partial dependencies.",
+        "option_d": "To ensure that every determinant is a candidate key.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 94,
+        "question_text": "In normalization, what does the term \"transitive dependency\" refer to?",
+        "option_a": "The reliance of one attribute on another, affecting data redundancy.",
+        "option_b": "The elimination of repeating groups of data.",
+        "option_c": "The introduction of redundancy for data consistency.",
+        "option_d": "The redundancy intentionally introduced for data management. 17",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 95,
+        "question_text": "What is the primary goal of normalization in a relational database?",
+        "option_a": "To increase data redundancy.",
+        "option_b": "To complicate data storage.",
+        "option_c": "To simplify data structure and reduce redundancy.",
+        "option_d": "To introduce anomalies for better data management.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 96,
+        "question_text": "In the context of normalization, what is the focus of Second Normal Form (2NF)?",
+        "option_a": "Eliminating repeating groups of data.",
+        "option_b": "Ensuring each column holds a single value.",
+        "option_c": "Managing partial dependencies.",
+        "option_d": "Establishing relationships between tables.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 97,
+        "question_text": "Which of the following is a characteristic of Boyce-Codd Normal Form (BCNF)?",
+        "option_a": "Eliminating repeating groups of data.",
+        "option_b": "Managing partial dependencies.",
+        "option_c": "Ensuring every determinant is a candidate key.",
+        "option_d": "Simplifying data retrieval.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 98,
+        "question_text": "What problem does the Third Normal Form (3NF) address in the normalization process?",
+        "option_a": "Repeating groups of data.",
+        "option_b": "Partial dependency on a composite key.",
+        "option_c": "Functional dependency between attributes.",
+        "option_d": "Data redundancy due to transitive dependencies.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 99,
+        "question_text": "18 What is the primary objective of the First Normal Form (1NF) in the normalization process?",
+        "option_a": "Eliminating repeating groups of data.",
+        "option_b": "Ensuring each column holds a single value.",
+        "option_c": "Managing partial dependencies.",
+        "option_d": "Simplifying data retrieval.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 100,
+        "question_text": "In the context of normalization, what is a characteristic of a table in Boyce-Codd Normal Form (BCNF)?",
+        "option_a": "It may contain repeating groups of data.",
+        "option_b": "Every determinant is a candidate key.",
+        "option_c": "Partial dependencies are allowed.",
+        "option_d": "It introduces redundancy for data consistency.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 101,
+        "question_text": "Which Normal Form (NF) focuses on eliminating partial dependencies in a table?",
+        "option_a": "First Normal Form (1NF).",
+        "option_b": "Second Normal Form (2NF).",
+        "option_c": "Third Normal Form (3NF).",
+        "option_d": "Boyce-Codd Normal Form (BCNF).",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 102,
+        "question_text": "What is the primary purpose of normalization in the context of database design?",
+        "option_a": "To increase data redundancy.",
+        "option_b": "To complicate data storage.",
+        "option_c": "To simplify data structure and reduce redundancy.",
+        "option_d": "To introduce anomalies for better data management.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 103,
+        "question_text": "19 What is the primary purpose of normalization in a relational database?",
+        "option_a": "To increase data redundancy.",
+        "option_b": "To complicate data storage.",
+        "option_c": "To simplify data structure and reduce redundancy.",
+        "option_d": "To introduce anomalies for better data management.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 104,
+        "question_text": "Which Normal Form (NF) ensures that there are no partial dependencies in a table?",
+        "option_a": "Second Normal Form (2NF).",
+        "option_b": "Third Normal Form (3NF).",
+        "option_c": "Boyce-Codd Normal Form (BCNF).",
+        "option_d": "First Normal Form (1NF).",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 105,
+        "question_text": "In the context of normalization, what does the term \"partial dependency\" refer to?",
+        "option_a": "The reliance of one attribute on another, affecting data redundancy.",
+        "option_b": "The elimination of repeating groups of data.",
+        "option_c": "The introduction of redundancy for data consistency.",
+        "option_d": "The dependency of non-prime attributes on a part of a candidate key.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 106,
+        "question_text": "Which of the following is a characteristic of a table in Third Normal Form (3NF)?",
+        "option_a": "Every determinant is a candidate key.",
+        "option_b": "Partial dependencies are eliminated.",
+        "option_c": "It may contain repeating groups of data.",
+        "option_d": "Functional dependencies between attributes are allowed.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 107,
+        "question_text": "What is the goal of normalization regarding data redundancy? 20",
+        "option_a": "To introduce redundancy for data consistency.",
+        "option_b": "To eliminate all forms of redundancy.",
+        "option_c": "To manage partial dependencies.",
+        "option_d": "To ensure every determinant is a candidate key.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 108,
+        "question_text": "What is the primary purpose of the INSERT statement in SQL's Data Manipulation Language (DML)?",
+        "option_a": "To modify existing records in a table.",
+        "option_b": "To remove records from a table.",
+        "option_c": "To add new records to a table.",
+        "option_d": "To create a backup of the entire database.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 109,
+        "question_text": "In the context of SQL's UPDATE statement, what does the WHERE clause determine?",
+        "option_a": "The columns to be updated.",
+        "option_b": "The new values to be inserted.",
+        "option_c": "The conditions for updating specific records.",
+        "option_d": "The order in which records are updated.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 110,
+        "question_text": "What does the DELETE statement in SQL's Data Manipulation Language (DML) do?",
+        "option_a": "Adds new records to a table.",
+        "option_b": "Modifies existing records in a table.",
+        "option_c": "Removes specific records from a table.",
+        "option_d": "Creates a copy of the table structure.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 111,
+        "question_text": "In the context of the SQL INSERT statement, what does the VALUES clause specify?",
+        "option_a": "The conditions for inserting records.",
+        "option_b": "The order of columns in the table.",
+        "option_c": "The new values to be inserted into columns.",
+        "option_d": "The data types of the columns.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 112,
+        "question_text": "21 Explain the concept of a cascading delete in a relational database and its relationship to the DELETE statement.",
+        "option_a": "Cascading delete allows automatic deletion of related records in child tables when a record in the parent table is deleted.",
+        "option_b": "Cascading delete is a type of join operation in SQL.",
+        "option_c": "DELETE statement cannot be used in conjunction with cascading delete.",
+        "option_d": "Cascading delete is a feature only available in NoSQL databases.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 113,
+        "question_text": "the parent table is deleted. Which statement is correct regarding the INSERT statement in SQL?",
+        "option_a": "INSERT is used to modify existing records.",
+        "option_b": "INSERT is used to remove records from a table.",
+        "option_c": "INSERT is used to add new records to a table.",
+        "option_d": "INSERT is used for creating a backup of the database.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 114,
+        "question_text": "What is the purpose of the WHERE clause in the UPDATE statement in SQL?",
+        "option_a": "To specify the values to be updated.",
+        "option_b": "To define the order of the updated records.",
+        "option_c": "To filter the records to be updated based on a condition.",
+        "option_d": "To specify the columns to be updated.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 115,
+        "question_text": "Explain the key difference between the DELETE and TRUNCATE statements in SQL's Data Manipulation Language (DML).",
+        "option_a": "DELETE is used for removing specific records, while TRUNCATE removes all records.",
+        "option_b": "DELETE requires the specification of conditions, while TRUNCATE removes all records.",
+        "option_c": "TRUNCATE is faster but cannot be rolled back, while DELETE is slower but allows rollback.",
+        "option_d": "DELETE is a DML command, while TRUNCATE is a DDL command.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 116,
+        "question_text": "rollback. Explain the concept of a correlated subquery in the context of the DELETE statement.",
+        "option_a": "A subquery that is not related to the main query.",
+        "option_b": "A subquery that depends on the values of the outer query. 22",
+        "option_c": "A subquery that always returns a single value.",
+        "option_d": "A subquery used only with the INSERT statement.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 117,
+        "question_text": "What happens if you execute an UPDATE statement without a WHERE clause?",
+        "option_a": "It updates all records in the table.",
+        "option_b": "It generates an error.",
+        "option_c": "It only updates the first record in the table.",
+        "option_d": "It does not perform any updates.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 118,
+        "question_text": "In the context of the DELETE statement, what is the purpose of the RETURNING clause in some SQL databases?",
+        "option_a": "To specify the columns to be deleted.",
+        "option_b": "To return the deleted records after deletion.",
+        "option_c": "To provide conditions for deletion.",
+        "option_d": "To filter the records before deletion.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 119,
+        "question_text": "What is the role of the MERGE statement in SQL, and how does it relate to DML operations?",
+        "option_a": "MERGE is used for updating records based on a condition.",
+        "option_b": "MERGE is used for inserting or updating records based on a condition.",
+        "option_c": "MERGE is used for deleting records based on a condition.",
+        "option_d": "MERGE is an alternative for the DELETE statement.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 120,
+        "question_text": "Which DML statement is used to undo changes made by the current transaction in SQL?",
+        "option_a": "COMMIT",
+        "option_b": "ROLLBACK",
+        "option_c": "SAVEPOINT",
+        "option_d": "GRANT",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 121,
+        "question_text": "What does the DELETE statement in SQL's Data Manipulation Language (DML) do?",
+        "option_a": "Adds new records to a table.",
+        "option_b": "Modifies existing records in a table.",
+        "option_c": "Removes specific records from a table. 23",
+        "option_d": "Creates a copy of the table structure.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 122,
+        "question_text": "In the context of the SQL INSERT statement, what does the VALUES clause specify?",
+        "option_a": "The conditions for inserting records.",
+        "option_b": "The order of columns in the table.",
+        "option_c": "The new values to be inserted into columns.",
+        "option_d": "The data types of the columns.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 123,
+        "question_text": "Explain the concept of a cascading delete in a relational database and its relationship to the DELETE statement.",
+        "option_a": "Cascading delete allows automatic deletion of related records in child tables when a record in the parent table is deleted. Cascading delete allows automatic deletion of related records in child tables when a record in the parent INSERT is used to modify existing records.",
+        "option_b": "Cascading delete is a type of join operation in SQL. INSERT is used to remove records from a table.",
+        "option_c": "DELETE statement cannot be used in conjunction with cascading delete. INSERT is used to add new records to a table.",
+        "option_d": "Cascading delete is a feature only available in NoSQL databases. Answer: table is deleted. Which statement is correct regarding the INSERT statement in SQL? INSERT is used for creating a backup of the database.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 124,
+        "question_text": "What is the purpose of the WHERE clause in the UPDATE statement in SQL?",
+        "option_a": "To specify the values to be updated.",
+        "option_b": "To define the order of the updated records.",
+        "option_c": "To filter the records to be updated based on a condition.",
+        "option_d": "To specify the columns to be updated.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 125,
+        "question_text": "Explain the difference between the DELETE and TRUNCATE statements in SQL. 24",
+        "option_a": "DELETE is used for removing specific records, while TRUNCATE removes all records.",
+        "option_b": "DELETE requires the specification of conditions, while TRUNCATE removes all records.",
+        "option_c": "TRUNCATE is faster but cannot be rolled back, while DELETE is slower but allows rollback.",
+        "option_d": "DELETE is a DML command, while TRUNCATE is a DDL command.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 126,
+        "question_text": "In the context of transactions, what is the purpose of the SAVEPOINT statement in SQL?",
+        "option_a": "To permanently save changes made by the transaction.",
+        "option_b": "To mark a point within a transaction to which you can later roll back.",
+        "option_c": "To commit the transaction and make changes permanent.",
+        "option_d": "To insert new records into the database.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 127,
+        "question_text": "What does the COMMIT statement do in SQL?",
+        "option_a": "Rolls back the current transaction.",
+        "option_b": "Saves changes made during the current transaction.",
+        "option_c": "Undoes the effects of the last executed DML statement.",
+        "option_d": "Deletes all records from a table.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 128,
+        "question_text": "How does the INSERT statement handle NULL values in SQL?",
+        "option_a": "It inserts a default value for NULL.",
+        "option_b": "It ignores NULL values and inserts the rest of the data.",
+        "option_c": "It inserts NULL values as-is.",
+        "option_d": "It generates an error if NULL values are encountered.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 129,
+        "question_text": "Explain the concept of a nested transaction in SQL and its relationship to the ROLLBACK statement.",
+        "option_a": "A nested transaction allows transactions within transactions and requires multiple ROLLBACK statements to undo changes.",
+        "option_b": "A nested transaction has no connection to the ROLLBACK statement.",
+        "option_c": "ROLLBACK statement is not applicable to nested transactions.",
+        "option_d": "Nested transactions prevent the use of ROLLBACK statements.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 130,
+        "question_text": "ROLLBACK statements to undo changes. 25 What is the primary purpose of the UPDATE statement in SQL's Data Manipulation Language (DML)?",
+        "option_a": "To add new records to a table.",
+        "option_b": "To modify existing records in a table.",
+        "option_c": "To remove records from a table.",
+        "option_d": "To create a backup of the entire database.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 131,
+        "question_text": "In SQL's DELETE statement, what happens if you omit the WHERE clause?",
+        "option_a": "An error is generated.",
+        "option_b": "All records in the table are deleted.",
+        "option_c": "Only the first record is deleted.",
+        "option_d": "The DELETE statement does not execute.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 132,
+        "question_text": "Explain the concept of an updatable view in SQL and its relationship to the UPDATE statement.",
+        "option_a": "An updatable view allows updates on multiple tables simultaneously.",
+        "option_b": "An updatable view is not connected to the UPDATE statement.",
+        "option_c": "An updatable view is a view that can be modified through the UPDATE statement.",
+        "option_d": "UPDATE statement cannot be used with updatable views.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 133,
+        "question_text": "Which statement is true about the ROLLBACK statement in SQL?",
+        "option_a": "It permanently saves changes made by the transaction.",
+        "option_b": "It undoes the effects of the last executed DML statement.",
+        "option_c": "It adds new records to a table.",
+        "option_d": "It creates a backup of the entire database.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 134,
+        "question_text": "In SQL's INSERT statement, what is the purpose of the RETURNING clause in some database systems?",
+        "option_a": "To specify the columns to be inserted.",
+        "option_b": "To return the inserted records after insertion.",
+        "option_c": "To filter the records before insertion.",
+        "option_d": "To provide conditions for insertion.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 135,
+        "question_text": "26 Explain the role of constraints in DML operations, particularly in INSERT and UPDATE statements.",
+        "option_a": "Constraints restrict the use of INSERT and UPDATE statements.",
+        "option_b": "Constraints are not applicable to DML operations.",
+        "option_c": "Constraints ensure data integrity and validate the values being inserted or updated.",
+        "option_d": "Constraints only apply to DELETE statements.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 136,
+        "question_text": "What is the purpose of the DISTINCT keyword in a SELECT statement in MySQL?",
+        "option_a": "To filter records based on a condition.",
+        "option_b": "To retrieve unique values from a specified column.",
+        "option_c": "To sort the result set in ascending order.",
+        "option_d": "To perform mathematical operations on numeric columns.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 137,
+        "question_text": "Explain the function of the GROUP BY clause in SQL, particularly in the context of aggregate functions.",
+        "option_a": "It groups records based on a condition.",
+        "option_b": "It filters out null values from the result set.",
+        "option_c": "It organizes data into subsets for aggregate function calculations.",
+        "option_d": "It combines multiple tables in a query.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 138,
+        "question_text": "What does the LIKE operator in MySQL allow you to do in a WHERE clause?",
+        "option_a": "Retrieve distinct values.",
+        "option_b": "Perform aggregate functions.",
+        "option_c": "Search for a specified pattern in a column.",
+        "option_d": "Sort the result set.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 139,
+        "question_text": "Intermediate Question: Explain the purpose of the HAVING clause in SQL and when it is used.",
+        "option_a": "HAVING is used for sorting the result set.",
+        "option_b": "HAVING filters records before they are grouped.",
+        "option_c": "HAVING is equivalent to the WHERE clause. 27",
+        "option_d": "HAVING is used for limiting the number of rows in a result set.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 140,
+        "question_text": "Hard Question: In MySQL, what is the significance of the BETWEEN... AND operators in a WHERE clause?",
+        "option_a": "They are used for sorting the result set.",
+        "option_b": "They filter records based on a specified range.",
+        "option_c": "They are used for performing aggregate functions.",
+        "option_d": "They determine the foreign key relationships.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 141,
+        "question_text": "Describe the role of the FOREIGN KEY constraint in a MySQL database and its impact on data integrity.",
+        "option_a": "FOREIGN KEY ensures a column has a unique value in a table.",
+        "option_b": "FOREIGN KEY establishes a link between two tables based on a common column.",
+        "option_c": "FOREIGN KEY prevents the use of aggregate functions.",
+        "option_d": "FOREIGN KEY is used for encrypting sensitive data.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 142,
+        "question_text": "What does the ORDER BY clause do in a SQL query, specifically when used with the DESC keyword?",
+        "option_a": "It filters records based on a condition.",
+        "option_b": "It retrieves distinct values from a specified column.",
+        "option_c": "It organizes data into subsets for aggregate functions.",
+        "option_d": "It sorts the result set in descending order.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 143,
+        "question_text": "Explain the purpose of the CHECK constraint in MySQL and when it is typically used.",
+        "option_a": "CHECK ensures that a column cannot contain NULL values.",
+        "option_b": "CHECK enforces a condition on the values allowed in a column.",
+        "option_c": "CHECK is used to establish foreign key relationships.",
+        "option_d": "CHECK is specific to defining primary keys.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 144,
+        "question_text": "Describe the role of the MAX() function in MySQL's aggregate functions and provide an example of its usage.",
+        "option_a": "MAX() calculates the average value of a numeric column.",
+        "option_b": "MAX() returns the highest value in a numeric column. 28",
+        "option_c": "MAX() counts the number of rows in a result set.",
+        "option_d": "MAX() is used for sorting the result set.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 145,
+        "question_text": "What is the purpose of the IN operator in a SQL query?",
+        "option_a": "It is used for sorting the result set.",
+        "option_b": "It filters records based on a specified pattern.",
+        "option_c": "It retrieves distinct values from a specified column.",
+        "option_d": "It checks if a value matches any value in a list.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 146,
+        "question_text": "Intermediate Question: Explain the concept of a DEFAULT constraint in MySQL and how it is used when creating a table.",
+        "option_a": "DEFAULT sets the default order for sorting.",
+        "option_b": "DEFAULT is used to specify the default values for a column.",
+        "option_c": "DEFAULT prevents the use of NULL values.",
+        "option_d": "DEFAULT is only applicable to primary keys.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 147,
+        "question_text": "Hard Question: In MySQL, what is the purpose of the DISTINCT keyword when used in conjunction with the COUNT() function?",
+        "option_a": "It counts the total number of distinct values in a column.",
+        "option_b": "It counts only the NULL values in a column.",
+        "option_c": "It counts the total number of rows in a result set.",
+        "option_d": "It counts the number of distinct combinations of values in multiple columns.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 148,
+        "question_text": "In a MySQL database, you have a table named 'Employees' with columns 'EmployeeID', 'Salary', and 'DepartmentID'. Which SQL query accurately retrieves the highest salary within each department, considering only those departments where the average salary is greater than 50000?",
+        "option_a": "SELECT DepartmentID, MAX(Salary) AS HighestSalary FROM Employees GROUP BY DepartmentID HAVING AVG(Salary) > 50000; 29 It includes all rows from the 'Products' table and only matching rows from the 'Suppliers' table.",
+        "option_b": "SELECT DepartmentID, MAX(Salary) AS HighestSalary FROM Employees WHERE AVG(Salary) > 50000 GROUP BY DepartmentID; It includes all rows from both the 'Products' and 'Suppliers' tables.",
+        "option_c": "SELECT DepartmentID, MAX(Salary) AS HighestSalary FROM Employees GROUP BY DepartmentID HAVING MAX(Salary) > 50000; It includes only matching rows from both the 'Products' and 'Suppliers' tables.",
+        "option_d": "SELECT DepartmentID, MAX(Salary) AS HighestSalary FROM Employees WHERE DepartmentID IN (SELECT DepartmentID FROM Employees WHERE AVG(Salary) > 50000) GROUP BY DepartmentID; Consider a table named 'Products' with columns 'ProductID', 'ProductName', and 'SupplierID'. What is the role of the INNER JOIN clause in the following SQL query? SELECT Products.ProductID, Products.ProductName, Suppliers.SupplierName FROM Products INNER JOIN Suppliers ON Products.SupplierID = Suppliers.SupplierID; It excludes all rows from the 'Products' table and only includes matching rows from the 'Suppliers' table.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 149,
+        "question_text": "30 Consider a table named 'Orders' with columns 'OrderID', 'CustomerID', 'OrderDate', and 'TotalAmount'. Which SQL query correctly retrieves the total number of orders placed by each customer, but only for customers who have placed orders on multiple distinct dates?",
+        "option_a": "SELECT CustomerID, COUNT(DISTINCT OrderDate) AS OrdersPerCustomer FROM Orders GROUP BY CustomerID HAVING COUNT(DISTINCT OrderDate) > 1;",
+        "option_b": "SELECT CustomerID, COUNT(OrderID) AS OrdersPerCustomer FROM Orders GROUP BY CustomerID HAVING COUNT(DISTINCT OrderDate) > 1;",
+        "option_c": "SELECT CustomerID, COUNT(DISTINCT OrderDate) AS OrdersPerCustomer FROM Orders WHERE COUNT(DISTINCT OrderDate) > 1 GROUP BY CustomerID;",
+        "option_d": "SELECT CustomerID, COUNT(OrderID) AS OrdersPerCustomer FROM Orders GROUP BY CustomerID HAVING COUNT(OrderDate) > 1;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 150,
+        "question_text": "SELECT CustomerID, COUNT(DISTINCT OrderDate) AS OrdersPerCustomer FROM Orders GROUP BY CustomerID HAVING COUNT(DISTINCT OrderDate) > 1; In the context of database constraints, which statement accurately describes the purpose of the FOREIGN KEY constraint?",
+        "option_a": "FOREIGN KEY ensures a column has a unique value in a table.",
+        "option_b": "FOREIGN KEY establishes a link between two tables based on a common column. 31",
+        "option_c": "FOREIGN KEY prevents the use of aggregate functions.",
+        "option_d": "FOREIGN KEY is used to specify the default values for a column.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 151,
+        "question_text": "In a MySQL database, you have a table named 'Customers' with columns 'CustomerID', 'CustomerName', and 'Country', and you want to ensure that the 'Country' column only allows values from a predefined set of countries. Which type of constraint would you use for this purpose?",
+        "option_a": "PRIMARY KEY constraint.",
+        "option_b": "CHECK constraint.",
+        "option_c": "UNIQUE constraint.",
+        "option_d": "DEFAULT constraint.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 152,
+        "question_text": "Consider a table named 'Employees' with columns 'EmployeeID', 'EmployeeName', and 'DepartmentID'. You want to enforce that each employee must be assigned to a department, and no employee can be without a department. Which type of constraint is suitable for this requirement?",
+        "option_a": "PRIMARY KEY constraint.",
+        "option_b": "FOREIGN KEY constraint.",
+        "option_c": "CHECK constraint.",
+        "option_d": "NOT NULL constraint.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 153,
+        "question_text": "Explanation: The NOT NULL constraint ensures that a column cannot contain NULL values, which is appropriate for enforcing that each employee must be assigned to a department. 32 In the context of database constraints, what is the purpose of a UNIQUE constraint in MySQL?",
+        "option_a": "It ensures that a column cannot have duplicate values within the same table.",
+        "option_b": "It establishes a link between two tables based on a common column.",
+        "option_c": "It enforces a condition on the values allowed in a column.",
+        "option_d": "It specifies the default values for a column.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 154,
+        "question_text": "You are designing a database for a library system, and you want to ensure that each book in the 'Books' table has a unique ISBN (International Standard Book Number). Which type of constraint would you apply to the 'ISBN' column?",
+        "option_a": "PRIMARY KEY constraint.",
+        "option_b": "FOREIGN KEY constraint.",
+        "option_c": "UNIQUE constraint.",
+        "option_d": "CHECK constraint.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 155,
+        "question_text": "Consider a table named 'Students' with columns 'StudentID', 'StudentName', and 'TestScore'. You want to retrieve the names of students who have not taken the test yet. Which SQL query accurately achieves this, considering that the 'TestScore' column may contain NULL values?",
+        "option_a": "SELECT StudentName FROM Students WHERE TestScore = NULL;",
+        "option_b": "SELECT StudentName FROM Students WHERE TestScore IS NULL; 33",
+        "option_c": "SELECT StudentName FROM Students WHERE TestScore = '';",
+        "option_d": "SELECT StudentName FROM Students WHERE TestScore != NULL; You are tasked with modifying an existing table named 'Products' in a MySQL database. You need to add a new column named 'DiscountPercentage' to the table. Which SQL statement achieves this? ALTER TABLE Products ADD COLUMN DiscountPercentage DECIMAL(5, 2); UPDATE TABLE Products SET DiscountPercentage DECIMAL(5, 2); MODIFY TABLE Products ADD COLUMN DiscountPercentage DECIMAL(5, 2); INSERT INTO Products (DiscountPercentage DECIMAL(5, 2)); Consider two tables, 'Employees' and 'Departments,' with the following structures: Employees: EmployeeID, EmployeeName, Salary, DepartmentID Departments: DepartmentID, DepartmentName, Location You want to retrieve a list of all employee names along with their respective department names for employees earning a salary greater than 50000. Which SQL query correctly achieves this using the SQL Standard Syntax for Joins? SELECT EmployeeName, DepartmentName FROM Employees, Departments WHERE Employees.Salary > 50000 AND Employees.DepartmentID = Departments.DepartmentID; 34 SELECT EmployeeName, DepartmentName FROM Employees JOIN Departments ON Employees.DepartmentID = Departments.DepartmentID WHERE Employees.Salary > 50000; SELECT EmployeeName, DepartmentName FROM Employees JOIN Departments USING (DepartmentID) WHERE Salary > 50000; SELECT EmployeeName, DepartmentName FROM Employees CROSS JOIN Departments WHERE Salary > 50000; Consider two tables, 'Orders' and 'Customers,' with the following structures: Orders: OrderID, CustomerID, OrderDate, TotalAmount Customers: CustomerID, CustomerName, Country You want to retrieve a list of all customer names along with the total amount they have spent on orders. Additionally, include customers who have not placed any orders. Which SQL query correctly achieves this using the SQL Standard Syntax for Joins? SELECT CustomerName, SUM(TotalAmount) AS TotalSpent FROM Customers LEFT JOIN Orders ON Customers.CustomerID = Orders.CustomerID GROUP BY CustomerName; SELECT CustomerName, SUM(TotalAmount) AS TotalSpent FROM Customers JOIN Orders USING (CustomerID) GROUP BY CustomerName; SELECT CustomerName, SUM(TotalAmount) AS TotalSpent 35 FROM Customers RIGHT JOIN Orders ON Customers.CustomerID = Orders.CustomerID GROUP BY CustomerName; SELECT CustomerName, SUM(TotalAmount) AS TotalSpent FROM Customers JOIN Orders ON Customers.CustomerID = Orders.CustomerID GROUP BY CustomerName; Consider two tables, 'Students' and 'Courses,' with the following structures: Students: StudentID, StudentName, Age, DepartmentID Courses: CourseID, CourseName, DepartmentID You want to find the names of courses that have not been taken by any student in the 'Computer Science' department. Which SQL query correctly achieves this using the SQL Standard Syntax for Joins? SELECT CourseName FROM Courses LEFT JOIN Students ON Courses.DepartmentID = Students.DepartmentID WHERE Students.StudentID IS NULL AND Students.DepartmentID = 'Computer Science'; SELECT CourseName FROM Courses JOIN Students USING (DepartmentID) WHERE Students.StudentID IS NULL AND Students.DepartmentID = 'Computer Science'; SELECT CourseName FROM Courses LEFT JOIN Students ON Courses.CourseID = Students.DepartmentID WHERE Students.StudentID IS NULL AND Students.DepartmentID = 'Computer Science'; SELECT CourseName FROM Courses LEFT JOIN Students ON Courses.CourseID = Students.DepartmentID WHERE Students.StudentID IS NULL AND Courses.DepartmentID = 'Computer Science'; 36",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 156,
+        "question_text": "SELECT CourseName FROM Courses LEFT JOIN Students ON Courses.DepartmentID = Students.DepartmentID WHERE Students.StudentID IS NULL AND Students.DepartmentID = 'Computer Science'; Difficult MCQ Question 27: Consider a table named 'Employees' with columns 'EmployeeID,' 'EmployeeName,' and 'JoinDate.' You want to retrieve the employee names and their respective years of service, ordering the result by the most recently joined employees first. Which SQL query correctly achieves this using the SQL Standard Syntax for Date Operations?",
+        "option_a": "SELECT EmployeeName, YEAR(NOW()) - YEAR(JoinDate) AS YearsOfService FROM Employees ORDER BY JoinDate DESC;",
+        "option_b": "SELECT EmployeeName, TIMESTAMPDIFF(YEAR, JoinDate, NOW()) AS YearsOfService FROM Employees ORDER BY JoinDate DESC;",
+        "option_c": "SELECT EmployeeName, DATEDIFF(NOW(), JoinDate) AS YearsOfService FROM Employees ORDER BY JoinDate DESC;",
+        "option_d": "SELECT EmployeeName, YEAR(GETDATE()) - YEAR(JoinDate) AS YearsOfService FROM Employees ORDER BY JoinDate DESC;",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 157,
+        "question_text": "SELECT EmployeeName, TIMESTAMPDIFF(YEAR, JoinDate, NOW()) AS YearsOfService FROM Employees ORDER BY JoinDate DESC; You have a table named 'Products' with columns 'ProductID,' 'ProductName,' and 'Price.' You want to retrieve the top 5 most expensive products. Which SQL query correctly achieves this using the SQL Standard Syntax for Limiting Rows?",
+        "option_a": "SELECT ProductName, Price 37 FROM Products ORDER BY Price DESC LIMIT 5;",
+        "option_b": "SELECT ProductName, MAX(Price) AS Top5Expensive FROM Products LIMIT 5;",
+        "option_c": "SELECT TOP 5 ProductName, Price FROM Products ORDER BY Price DESC;",
+        "option_d": "SELECT ProductName, Price FROM Products ORDER BY Price DESC FETCH FIRST 5 ROWS ONLY;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 158,
+        "question_text": "SELECT ProductName, Price FROM Products ORDER BY Price DESC LIMIT 5; Q: Which relational algebra operation is used to eliminate rows that do not satisfy a specified condition?",
+        "option_a": "Union",
+        "option_b": "Projection",
+        "option_c": "Selection",
+        "option_d": "Intersection",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 159,
+        "question_text": "What type of join returns all rows from both tables, with matching rows from both sides where available, and fills in NULLs for non-matching rows?",
+        "option_a": "Inner Join",
+        "option_b": "Outer Join",
+        "option_c": "Natural Join 38",
+        "option_d": "Cross Join",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 160,
+        "question_text": "In SQL, what is the standard keyword for specifying an INNER JOIN?",
+        "option_a": "INNER",
+        "option_b": "JOIN",
+        "option_c": "INTERSECT",
+        "option_d": "AND",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 161,
+        "question_text": "Q: In SQL, what is the purpose of the AUTO_INCREMENT attribute?",
+        "option_a": "Enforces uniqueness in a column",
+        "option_b": "Automatically increments the value of a column",
+        "option_c": "Sets a default value for a column",
+        "option_d": "Specifies a foreign key constraint",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 162,
+        "question_text": "Q: What is the main difference between UNION and UNION ALL in SQL?",
+        "option_a": "UNION removes duplicate rows, while UNION ALL does not.",
+        "option_b": "UNION ALL removes duplicate rows, while UNION does not.",
+        "option_c": "Both UNION and UNION ALL remove duplicate rows.",
+        "option_d": "Neither UNION nor UNION ALL removes duplicate rows.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 163,
+        "question_text": "Q: Which SQL statement is used to copy the structure of an existing table without copying any data?",
+        "option_a": "SELECT INTO",
+        "option_b": "COPY TABLE",
+        "option_c": "CREATE TABLE",
+        "option_d": "DUPLICATE TABLE",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 164,
+        "question_text": "Q: In MySQL, what is the data type commonly used for columns with the AUTO_INCREMENT attribute?",
+        "option_a": "INT",
+        "option_b": "VARCHAR",
+        "option_c": "FLOAT",
+        "option_d": "DATE",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 165,
+        "question_text": "39 Q: Which type of join returns all rows when there is a match in one of the tables, and NULL values for columns from the table that does not have a match?",
+        "option_a": "Inner Join",
+        "option_b": "Left Outer Join",
+        "option_c": "Right Outer Join",
+        "option_d": "Cross Join",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 166,
+        "question_text": "Q: What does a Cross (or Cartesian) Join do in SQL?",
+        "option_a": "Returns only matching rows from both tables.",
+        "option_b": "Returns the product of rows from both tables, without any condition.",
+        "option_c": "Combines rows based on a specified condition.",
+        "option_d": "Returns the intersection of rows from both tables.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 167,
+        "question_text": "Q: Which SQL keyword is used to perform set difference (similar to the MINUS operation in relational algebra)?",
+        "option_a": "DIFF",
+        "option_b": "EXCEPT",
+        "option_c": "MINUS",
+        "option_d": "NOT IN",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 168,
+        "question_text": "Q: In SQL, what is the purpose of the INSERT INTO...SELECT statement?",
+        "option_a": "Copies the structure of a table.",
+        "option_b": "Copies data from one table to another.",
+        "option_c": "Deletes data from a table.",
+        "option_d": "Renames a table.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 169,
+        "question_text": "Q: What is the primary characteristic of a Natural Join in SQL?",
+        "option_a": "It uses the NATURAL keyword to specify the join.",
+        "option_b": "It joins tables based on columns with the same name.",
+        "option_c": "It always returns all rows from both tables. 40",
+        "option_d": "It excludes common columns from the result.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 170,
+        "question_text": "Q: When would you prefer to use UNION ALL over UNION?",
+        "option_a": "When you want to include duplicate rows.",
+        "option_b": "When you want to exclude duplicate rows.",
+        "option_c": "UNION ALL does not exist; it's the same as UNION.",
+        "option_d": "Both UNION and UNION ALL behave the same way.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 171,
+        "question_text": "Consider a table named 'Students' with columns 'StudentID,' 'StudentName,' and 'GPA.' You want to retrieve the names of students who have a GPA greater than 3.5. Which SQL query correctly achieves this using the SQL Standard Syntax for Selection?",
+        "option_a": "SELECT StudentName FROM Students WHERE GPA > 3.5;",
+        "option_b": "SELECT StudentName FROM Students FILTER BY GPA > 3.5;",
+        "option_c": "SELECT StudentName FROM Students HAVING GPA > 3.5;",
+        "option_d": "SELECT StudentName FROM Students SELECT GPA > 3.5;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 172,
+        "question_text": "SELECT StudentName FROM Students WHERE GPA > 3.5; 41 In SQL, what is the purpose of the GROUP BY clause?",
+        "option_a": "Filters rows based on a specified condition.",
+        "option_b": "Groups rows based on the values in one or more columns.",
+        "option_c": "Combines rows from two tables based on a condition.",
+        "option_d": "Sorts the result set in ascending or descending order.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 173,
+        "question_text": "In SQL, when is the HAVING clause used?",
+        "option_a": "To filter rows before they are grouped.",
+        "option_b": "To filter rows after they are grouped.",
+        "option_c": "To specify conditions for a join operation.",
+        "option_d": "To order the result set.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 174,
+        "question_text": "Q: What is the main difference between INNER JOIN and LEFT JOIN in SQL?",
+        "option_a": "INNER JOIN returns all rows from both tables.",
+        "option_b": "LEFT JOIN returns unmatched rows from the left table.",
+        "option_c": "INNER JOIN returns unmatched rows from the left table.",
+        "option_d": "There is no difference; they are synonymous.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 175,
+        "question_text": "Q: Which SQL function is used to calculate the average of a numeric column?",
+        "option_a": "COUNT",
+        "option_b": "AVG",
+        "option_c": "SUM",
+        "option_d": "MAX",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 176,
+        "question_text": "Q: In SQL, what is the purpose of the ORDER BY clause?",
+        "option_a": "To filter rows based on a specified condition.",
+        "option_b": "To group rows based on the values in one or more columns.",
+        "option_c": "To sort the result set in ascending or descending order.",
+        "option_d": "To select certain columns from a table.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 177,
+        "question_text": "Consider two tables, 'Customers' and 'Orders,' with the following structures: Customers: CustomerID, CustomerName, Country Orders: OrderID, CustomerID, OrderDate, TotalAmount You want to retrieve the names of customers who have placed orders and the total amount they have spent. Additionally, include customers who have not placed any orders. Which SQL query correctly achieves this using the SQL Standard Syntax for Joins? 42",
+        "option_a": "SELECT CustomerName, SUM(TotalAmount) AS TotalSpent FROM Customers LEFT JOIN Orders ON Customers.CustomerID = Orders.CustomerID GROUP BY CustomerName;",
+        "option_b": "SELECT CustomerName, SUM(TotalAmount) AS TotalSpent FROM Customers JOIN Orders USING (CustomerID) GROUP BY CustomerName;",
+        "option_c": "SELECT CustomerName, SUM(TotalAmount) AS TotalSpent FROM Customers RIGHT JOIN Orders ON Customers.CustomerID = Orders.CustomerID GROUP BY CustomerName;",
+        "option_d": "SELECT CustomerName, SUM(TotalAmount) AS TotalSpent FROM Customers JOIN Orders ON Customers.CustomerID = Orders.CustomerID GROUP BY CustomerName;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 178,
+        "question_text": "SELECT CustomerName, SUM(TotalAmount) AS TotalSpent FROM Customers LEFT JOIN Orders ON Customers.CustomerID = Orders.CustomerID GROUP BY CustomerName; Consider a table named 'Employees' with columns 'EmployeeID,' 'EmployeeName,' 'Salary,' and 'DepartmentID.' You want to retrieve the names of employees who earn a salary greater than the average salary within their respective departments. Which SQL query correctly achieves this using the SQL Standard Syntax for Subqueries?",
+        "option_a": "SELECT EmployeeName FROM Employees WHERE Salary > AVG(Salary) OVER (PARTITION BY DepartmentID);",
+        "option_b": "SELECT EmployeeName 43 FROM Employees WHERE Salary > (SELECT AVG(Salary) FROM Employees WHERE DepartmentID = Employees.DepartmentID);",
+        "option_c": "SELECT EmployeeName FROM Employees WHERE Salary > AVG(Salary) OVER PARTITION BY DepartmentID;",
+        "option_d": "SELECT EmployeeName FROM Employees WHERE Salary > (SELECT AVG(Salary) FROM Employees GROUP BY DepartmentID);",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 179,
+        "question_text": "SELECT EmployeeName FROM Employees WHERE Salary > (SELECT AVG(Salary) FROM Employees WHERE DepartmentID = Employees.DepartmentID); You have a table named 'Products' with columns 'ProductID,' 'ProductName,' 'CategoryID,' and 'Price.' You want to find the average price for each product category. Which SQL query correctly achieves this using the SQL Standard Syntax for Aggregation?",
+        "option_a": "SELECT CategoryID, AVG(Price) AS AvgPrice FROM Products GROUP BY CategoryID;",
+        "option_b": "SELECT CategoryID, AVG(Price) AS AvgPrice FROM Products ORDER BY AvgPrice DESC;",
+        "option_c": "SELECT CategoryID, AVG(Price) AS AvgPrice FROM Products HAVING AvgPrice > 50;",
+        "option_d": "SELECT CategoryID, AVG(Price) AS AvgPrice FROM Products WHERE AvgPrice > 50;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 180,
+        "question_text": "SELECT CategoryID, AVG(Price) AS AvgPrice 44 FROM Products GROUP BY CategoryID; Q: In SQL, what is the purpose of the DISTINCT keyword?",
+        "option_a": "Groups rows based on the values in one or more columns.",
+        "option_b": "Filters rows based on a specified condition.",
+        "option_c": "Removes duplicate rows from the result set.",
+        "option_d": "Combines rows from two tables based on a condition.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 181,
+        "question_text": "Q: In SQL, what is the primary purpose of a foreign key constraint?",
+        "option_a": "Ensures the uniqueness of values in a column.",
+        "option_b": "Defines a default value for a column.",
+        "option_c": "Establishes a link between two tables based on a common column.",
+        "option_d": "Specifies conditions for filtering rows in a query.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 182,
+        "question_text": "Q: In SQL, what does the UPDATE statement do?",
+        "option_a": "Inserts new rows into a table.",
+        "option_b": "Deletes rows from a table.",
+        "option_c": "Modifies existing data in a table.",
+        "option_d": "Creates a new table.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 183,
+        "question_text": "Q: What is the purpose of the CHECK constraint in SQL?",
+        "option_a": "Enforces referential integrity between tables.",
+        "option_b": "Ensures the uniqueness of values in a column.",
+        "option_c": "Specifies conditions that must be met for data to be valid.",
+        "option_d": "Sets a default value for a column.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 184,
+        "question_text": "Consider a table named 'Orders' with columns 'OrderID,' 'CustomerID,' and 'TotalAmount.' You want to retrieve the orders where the total amount is greater than the average total amount for each customer. Which type of subquery is suitable for this scenario?",
+        "option_a": "Subquery",
+        "option_b": "Correlated Subquery",
+        "option_c": "EXISTS 45",
+        "option_d": "NOT EXISTS",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 185,
+        "question_text": "In the context of database transactions, which TCL (Transaction Control Language) command is used to permanently save changes made during the current transaction?",
+        "option_a": "COMMIT",
+        "option_b": "ROLLBACK",
+        "option_c": "SAVEPOINT",
+        "option_d": "GRANT",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 186,
+        "question_text": "You want to create a view named 'HighSalaryEmployees' that displays the names of employees earning a salary greater than 70000. Which type of view is suitable for this scenario?",
+        "option_a": "Simple View",
+        "option_b": "Complex View",
+        "option_c": "Materialized View",
+        "option_d": "Indexed View",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 187,
+        "question_text": "Consider a scenario where you want to grant specific privileges on a table to another user. Which DCL (Data Control Language) command would you use for this purpose?",
+        "option_a": "GRANT",
+        "option_b": "REVOKE",
+        "option_c": "GRANT OPTION",
+        "option_d": "DENY 46",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 188,
+        "question_text": "You want to create a temporary table named 'TempOrders' to store temporary data during a session. Which SQL statement correctly achieves this?",
+        "option_a": "CREATE TABLE TempOrders AS SELECT * FROM Orders;",
+        "option_b": "CREATE TEMPORARY TABLE TempOrders AS SELECT * FROM Orders;",
+        "option_c": "DECLARE @TempOrders TABLE AS SELECT * FROM Orders;",
+        "option_d": "CREATE TEMP TABLE TempOrders AS SELECT * FROM Orders;",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 189,
+        "question_text": "CREATE TEMPORARY TABLE TempOrders AS SELECT * FROM Orders; You have a table named 'Products' with columns 'ProductID,' 'ProductName,' and 'CategoryID.' You want to retrieve a list of products along with their categories where the category is not 'Electronics.' Which type of subquery is suitable for this scenario?",
+        "option_a": "Subquery",
+        "option_b": "Correlated Subquery",
+        "option_c": "EXISTS",
+        "option_d": "NOT EXISTS",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 190,
+        "question_text": "In a database transaction, what does the ROLLBACK command do?",
+        "option_a": "Commits the changes made during the current transaction.",
+        "option_b": "Saves the changes made during the current transaction as a permanent record.",
+        "option_c": "Undoes the changes made during the current transaction, reverting the database to its state before the transaction began.",
+        "option_d": "Creates a savepoint in the current transaction.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 191,
+        "question_text": "before the transaction began. 47 You want to create a complex view that involves joining multiple tables and includes aggregate functions. Which type of view is suitable for this scenario?",
+        "option_a": "Simple View",
+        "option_b": "Complex View",
+        "option_c": "Materialized View",
+        "option_d": "Indexed View",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 192,
+        "question_text": "In the context of database security, what does the GRANT OPTION in the GRANT command allow?",
+        "option_a": "Allows the user to commit changes to the database.",
+        "option_b": "Allows the user to revoke privileges from other users.",
+        "option_c": "Allows the user to grant the same privileges to other users.",
+        "option_d": "Allows the user to create temporary tables.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 193,
+        "question_text": "You want to create a temporary table named 'TempOrders' to store temporary data during a session. Which SQL statement correctly drops this temporary table?",
+        "option_a": "DROP TABLE TempOrders;",
+        "option_b": "DELETE FROM TempOrders;",
+        "option_c": "REMOVE TEMPORARY TABLE TempOrders;",
+        "option_d": "DROP TEMPORARY TABLE TempOrders;",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 194,
+        "question_text": "DROP TEMPORARY TABLE TempOrders; Consider a scenario where you want to grant SELECT privileges on a view named 'MonthlySales' to a user named 'Analyst.' Which SQL statement correctly achieves this? 48",
+        "option_a": "GRANT SELECT ON MonthlySales TO Analyst;",
+        "option_b": "GRANT SELECT, INSERT, UPDATE, DELETE ON MonthlySales TO Analyst;",
+        "option_c": "GRANT ALL PRIVILEGES ON MonthlySales TO Analyst;",
+        "option_d": "GRANT READ ACCESS ON MonthlySales TO Analyst;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 195,
+        "question_text": "GRANT SELECT ON MonthlySales TO Analyst; In a database transaction, you want to create a savepoint named 'BeforeUpdate' before making updates to a critical table. Which SQL statement correctly achieves this?",
+        "option_a": "SAVEPOINT BeforeUpdate; CREATE INDEX idx_HighValueCustomers ON HighValueCustomers; CHECK IF EXISTS (SELECT * FROM TableName WHERE ColumnName = 'Value'); Subquery",
+        "option_b": "CREATE SAVEPOINT BeforeUpdate; CREATE VIEW idx_HighValueCustomers AS SELECT * FROM HighValueCustomers; IF NOT EXISTS (SELECT * FROM TableName WHERE ColumnName = 'Value') Correlated Subquery",
+        "option_c": "ROLLBACK TO Savepoint 'BeforeUpdate'; CREATE INDEX ON HighValueCustomers (TotalPurchases); INSERT INTO TableName (ColumnName) VALUES ('Value') IF NOT EXISTS (SELECT * EXISTS",
+        "option_d": "SAVEPOINT 'BeforeUpdate'; You have a view named 'HighValueCustomers' that displays customers with total purchases exceeding 1000. You want to create an index on this view for better performance. Which SQL statement correctly achieves this? CREATE INDEX idx_HighValueCustomers FOR VIEW HighValueCustomers; In a specific use case, you want to check if a particular record exists in a table before inserting a new record. Which SQL statement is suitable for this scenario? INSERT INTO TableName (ColumnName) VALUES ('Value'); FROM TableName WHERE ColumnName = 'Value'); IF EXISTS (SELECT * FROM TableName WHERE ColumnName = 'Value') INSERT INTO TableName (ColumnName) VALUES ('Value'); 49 You have a table named 'Orders' with columns 'OrderID,' 'CustomerID,' and 'TotalAmount.' You want to retrieve the orders where the total amount is greater than the average total amount for each customer. Which SQL query correctly achieves this using a correlated subquery? SELECT OrderID, CustomerID, TotalAmount FROM Orders WHERE TotalAmount > (SELECT AVG(TotalAmount) FROM Orders WHERE CustomerID = Orders.CustomerID); SELECT OrderID, CustomerID, TotalAmount FROM Orders HAVING TotalAmount > AVG(TotalAmount) OVER (PARTITION BY CustomerID); SELECT OrderID, CustomerID, TotalAmount FROM Orders WHERE TotalAmount > AVG(TotalAmount) OVER (PARTITION BY CustomerID); SELECT OrderID, CustomerID, TotalAmount FROM Orders HAVING TotalAmount > (SELECT AVG(TotalAmount) FROM Orders); Consider a scenario where you have a table named 'Employees' with columns 'EmployeeID,' 'EmployeeName,' and 'Salary.' You want to find the employees who earn a salary greater than the average salary within their respective departments. Which type of subquery is most suitable for this scenario? NOT EXISTS 50",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 196,
+        "question_text": "Consider a scenario where you have a table named 'Products' with columns 'ProductID,' 'ProductName,' and 'Price.' You want to retrieve the names of products that have a price greater than the average price for their respective categories. Which SQL query correctly achieves this using a correlated subquery?",
+        "option_a": "SELECT ProductName FROM Products WHERE Price > (SELECT AVG(Price) FROM Products WHERE CategoryID = Products.CategoryID); SELECT OrderID, CustomerID, OrderDate SELECT CategoryName, SUM(TotalSales)",
+        "option_b": "SELECT ProductName FROM Products HAVING Price > AVG(Price) OVER (PARTITION BY CategoryID); SELECT OrderID, CustomerID, OrderDate SELECT ProductName, SUM(TotalSales)",
+        "option_c": "SELECT ProductName FROM Products WHERE Price > AVG(Price) OVER (PARTITION BY CategoryID); SELECT OrderID, CustomerID, OrderDate SELECT CategoryName, TotalSales",
+        "option_d": "SELECT ProductName FROM Products HAVING Price > (SELECT AVG(Price) FROM Products); You have a table named 'Orders' with columns 'OrderID,' 'CustomerID,' and 'OrderDate.' You want to retrieve the order details for customers who placed an order on the same day as their first order. Which SQL query correctly achieves this using a correlated subquery? FROM Orders WHERE OrderDate = (SELECT MIN(OrderDate) FROM Orders WHERE CustomerID = Orders.CustomerID); FROM Orders HAVING OrderDate = FIRST_VALUE(OrderDate) OVER (PARTITION BY CustomerID ORDER BY OrderDate); FROM Orders WHERE OrderDate = FIRST_VALUE(OrderDate) OVER (PARTITION BY CustomerID); SELECT OrderID, CustomerID, OrderDate FROM Orders 51 HAVING OrderDate = (SELECT MIN(OrderDate) FROM Orders); You have a complex view named 'ProductSales' that aggregates sales information from multiple tables. You want to find the total sales amount for each product category. Which SQL query correctly achieves this using the view? FROM ProductSales GROUP BY CategoryName; FROM ProductSales GROUP BY ProductName; FROM ProductSales; SELECT AVG(TotalSales) AS AvgSales FROM ProductSales;",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 197,
+        "question_text": "SELECT CategoryName, SUM(TotalSales) FROM ProductSales GROUP BY CategoryName; In a MySQL database, what is the primary purpose of an index?",
+        "option_a": "To store data in a sorted order.",
+        "option_b": "To create a backup of the database.",
+        "option_c": "To speed up the retrieval of rows by providing a quick lookup mechanism.",
+        "option_d": "To enforce data integrity constraints.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 198,
+        "question_text": "Which type of index in MySQL allows for faster retrieval but may slow down write operations? 52",
+        "option_a": "B-tree Index",
+        "option_b": "Hash Index",
+        "option_c": "Full-text Index",
+        "option_d": "Clustered Index",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 199,
+        "question_text": "What is the benefit of using temporary tables in a database?",
+        "option_a": "To permanently store data.",
+        "option_b": "To improve data security.",
+        "option_c": "To store intermediate results during complex queries or data processing.",
+        "option_d": "To enforce data integrity constraints.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 200,
+        "question_text": "Which storage engine in MySQL is known for supporting transactions and providing high reliability, making it suitable for applications with complex relationships between tables?",
+        "option_a": "MyISAM",
+        "option_b": "InnoDB",
+        "option_c": "MEMORY",
+        "option_d": "ARCHIVE",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 201,
+        "question_text": "What does the acronym \"ACID\" stand for in the context of database transactions?",
+        "option_a": "Atomicity, Concurrency, Isolation, Durability",
+        "option_b": "Association, Constraints, Integrity, Data 53",
+        "option_c": "Aggregation, Consistency, Indexing, Database",
+        "option_d": "Allowing, Controlling, Implementing, Databases",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 202,
+        "question_text": "In the context of MySQL, what is a Database Instance?",
+        "option_a": "A single row of a table.",
+        "option_b": "A snapshot of the database at a specific point in time.",
+        "option_c": "An independent copy of the entire database.",
+        "option_d": "A running copy of the MySQL server with its own set of memory and resources.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 203,
+        "question_text": "Which type of index in MySQL is suitable for improving performance in wildcard searches and full-text search operations?",
+        "option_a": "B-tree Index",
+        "option_b": "Hash Index",
+        "option_c": "Full-text Index",
+        "option_d": "Clustered Index",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 204,
+        "question_text": "What is the primary advantage of using the InnoDB storage engine over MyISAM in MySQL?",
+        "option_a": "InnoDB supports full-text search operations.",
+        "option_b": "InnoDB provides better performance for read-heavy workloads.",
+        "option_c": "InnoDB supports transactions and ensures data consistency.",
+        "option_d": "InnoDB requires less disk space for storage. 54",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 205,
+        "question_text": "In the context of MySQL, what does the term \"Schema\" refer to?",
+        "option_a": "A graphical representation of the database structure.",
+        "option_b": "A subset of a table containing specific columns.",
+        "option_c": "A collection of tables and related objects.",
+        "option_d": "A mechanism for enforcing data integrity constraints.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 206,
+        "question_text": "Which ACID property ensures that a transaction, once committed, will persist even in the event of a system failure?",
+        "option_a": "Atomicity",
+        "option_b": "Consistency",
+        "option_c": "Isolation",
+        "option_d": "Durability",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 207,
+        "question_text": "What is the purpose of the ARCHIVE storage engine in MySQL?",
+        "option_a": "To store large binary objects like images and documents.",
+        "option_b": "To store historical versions of data.",
+        "option_c": "To support full-text search operations.",
+        "option_d": "To optimize queries with complex joins.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 208,
+        "question_text": "What is the primary benefit of using indexes in a database? 55",
+        "option_a": "To enforce data integrity constraints.",
+        "option_b": "To speed up the retrieval of rows by providing a quick lookup mechanism.",
+        "option_c": "To create a backup of the database.",
+        "option_d": "To improve data security.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 209,
+        "question_text": "Which type of index in MySQL is suitable for improving performance in equality searches, such as WHERE column = value?",
+        "option_a": "B-tree Index",
+        "option_b": "Hash Index",
+        "option_c": "Full-text Index",
+        "option_d": "Clustered Index",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 210,
+        "question_text": "In a scenario where a table has multiple columns that are often used together in queries, which type of index is most suitable to improve query performance?",
+        "option_a": "Single-column Index",
+        "option_b": "Composite Index",
+        "option_c": "Unique Index",
+        "option_d": "Full-text Index",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 211,
+        "question_text": "What is the drawback of using too many indexes on a table?",
+        "option_a": "Increased data security.",
+        "option_b": "Improved query performance. 56",
+        "option_c": "Increased storage space and slower write operations.",
+        "option_d": "Enforced data consistency.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 212,
+        "question_text": "In the context of MySQL, what is the purpose of a UNIQUE index?",
+        "option_a": "To ensure that the index is unique across multiple tables.",
+        "option_b": "To create a clustered index on a column.",
+        "option_c": "To enforce the uniqueness of values in the indexed column(s).",
+        "option_d": "To speed up full-text search operations.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 213,
+        "question_text": "Consider a scenario where a database system is handling a high volume of concurrent transactions, and there is a need to maintain the consistency of data. Which ACID property plays a crucial role in ensuring that each transaction brings the database from one valid state to another, preserving data correctness even in the presence of concurrent activities?",
+        "option_a": "Atomicity",
+        "option_b": "Consistency",
+        "option_c": "Isolation",
+        "option_d": "Durability",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 214,
+        "question_text": "What is the primary benefit of using stored procedures in MySQL programming?",
+        "option_a": "Improved data security.",
+        "option_b": "Enhanced data storage mechanisms.",
+        "option_c": "Efficient code reuse and maintenance. 57",
+        "option_d": "Faster query execution for SELECT statements.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 215,
+        "question_text": "In the context of stored procedures, what is the purpose of the IN parameter?",
+        "option_a": "To return a value from the stored procedure.",
+        "option_b": "To pass input values into the stored procedure.",
+        "option_c": "To provide output values from the stored procedure.",
+        "option_d": "To perform conditional branching within the stored procedure.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 216,
+        "question_text": "When creating a stored procedure in MySQL, what does the OUT parameter allow?",
+        "option_a": "It allows passing input values into the stored procedure.",
+        "option_b": "It allows returning a value from the stored procedure.",
+        "option_c": "It allows defining variables within the stored procedure.",
+        "option_d": "It allows performing conditional branching within the stored procedure.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 217,
+        "question_text": "In a scenario where a stored procedure needs to both receive input values and return a result, which type of parameter should be used?",
+        "option_a": "IN parameter",
+        "option_b": "OUT parameter",
+        "option_c": "INOUT parameter",
+        "option_d": "INPUT-OUTPUT parameter",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 218,
+        "question_text": "58 What is a primary advantage of using stored procedures over ad-hoc SQL statements in MySQL programming?",
+        "option_a": "Stored procedures provide better data security.",
+        "option_b": "Ad-hoc SQL statements offer more flexibility.",
+        "option_c": "Stored procedures enhance code reusability and maintainability.",
+        "option_d": "Ad-hoc SQL statements are executed faster.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 219,
+        "question_text": "In MySQL, what is the significance of the BEGIN...END block when creating a stored procedure?",
+        "option_a": "It defines the execution schedule of the stored procedure.",
+        "option_b": "It marks the boundaries of the stored procedure's code block.",
+        "option_c": "It specifies the input parameters for the stored procedure.",
+        "option_d": "It indicates the start and end points for transaction handling.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 220,
+        "question_text": "When a stored procedure is created without parameters in MySQL, how can it be invoked or executed?",
+        "option_a": "By using the EXECUTE statement.",
+        "option_b": "By calling the stored procedure name directly.",
+        "option_c": "By executing a separate script file.",
+        "option_d": "By using the RUN command in the MySQL shell.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 221,
+        "question_text": "In MySQL stored procedures, what is the primary purpose of the INOUT parameter?",
+        "option_a": "To pass input values into the stored procedure. 59",
+        "option_b": "To return a value from the stored procedure.",
+        "option_c": "To define variables within the stored procedure.",
+        "option_d": "To both pass input values and return a result from the stored procedure.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 222,
+        "question_text": "What is the key advantage of using stored procedures for security in MySQL programming?",
+        "option_a": "Stored procedures encrypt data during execution.",
+        "option_b": "Stored procedures prevent SQL injection attacks.",
+        "option_c": "Stored procedures require user authentication for each execution.",
+        "option_d": "Stored procedures automatically handle encryption of stored data.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 223,
+        "question_text": "In a MySQL stored procedure, what is the primary distinction between the LOOP and WHILE flow control statements?",
+        "option_a": "LOOP is used for unconditional repetitive execution, while WHILE is used for conditional repetition.",
+        "option_b": "WHILE is used for unconditional repetitive execution, while LOOP is used for conditional repetition.",
+        "option_c": "Both LOOP and WHILE are identical and can be used interchangeably.",
+        "option_d": "LOOP and WHILE serve the same purpose but are used in different contexts within a stored procedure.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 224,
+        "question_text": "repetition. Consider a scenario where a MySQL stored procedure needs to iterate over a set of records until a specific condition is met. Which flow control statement is most suitable for this task?",
+        "option_a": "LOOP",
+        "option_b": "WHILE 60",
+        "option_c": "REPEAT",
+        "option_d": "IF-ELSE-THEN",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 225,
+        "question_text": "In the context of MySQL stored procedures, what is the primary purpose of the SWITCH CASE statement?",
+        "option_a": "To handle conditional branching based on a range of values.",
+        "option_b": "There is no SWITCH CASE statement in MySQL stored procedures.",
+        "option_c": "To execute a block of code repeatedly until a condition is met.",
+        "option_d": "To simplify the syntax of multiple IF-ELSE-THEN statements.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 226,
+        "question_text": "Which flow control statement in MySQL stored procedures is particularly useful when you want to execute a block of code at least once, even if the condition is initially false?",
+        "option_a": "LOOP",
+        "option_b": "WHILE",
+        "option_c": "REPEAT",
+        "option_d": "IF-ELSE-THEN",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 227,
+        "question_text": "In a MySQL stored procedure, how can the GOTO statement be emulated to provide a way to jump to a specific label within the code?",
+        "option_a": "By using the SIGNAL SQLSTATE statement.",
+        "option_b": "By utilizing the LEAVE statement.",
+        "option_c": "There is no direct equivalent to GOTO in MySQL stored procedures. 61",
+        "option_d": "By employing the RESIGNAL statement.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 228,
+        "question_text": "In a MySQL stored procedure, when is the LEAVE statement typically used in conjunction with the LOOP flow control statement?",
+        "option_a": "To exit the loop unconditionally.",
+        "option_b": "To skip the current iteration and proceed to the next one.",
+        "option_c": "There is no need to use LEAVE with LOOP.",
+        "option_d": "To pause the execution of the loop temporarily.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 229,
+        "question_text": "Consider a scenario where a MySQL stored procedure contains a WHILE statement. How can you prevent an infinite loop by ensuring a specific condition is met during each iteration?",
+        "option_a": "By using the BREAK statement.",
+        "option_b": "By incorporating a REPEAT statement within the WHILE loop.",
+        "option_c": "By utilizing the SIGNAL SQLSTATE statement.",
+        "option_d": "There is no direct way to prevent an infinite loop in MySQL stored procedures.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 230,
+        "question_text": "In a MySQL stored procedure, how can you emulate a SWITCH CASE-like behavior when dealing with multiple conditions?",
+        "option_a": "By using multiple IF-ELSE-THEN statements.",
+        "option_b": "By employing the CASE statement.",
+        "option_c": "There is no direct equivalent to SWITCH CASE in MySQL stored procedures.",
+        "option_d": "By combining IF statements with GOTO statements. 62",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 231,
+        "question_text": "In MySQL stored procedures, what is the primary purpose of the ITERATE statement in the context of a LOOP?",
+        "option_a": "To initiate the loop execution.",
+        "option_b": "To skip the current iteration and proceed to the next one.",
+        "option_c": "To reiterate the current iteration.",
+        "option_d": "There is no ITERATE statement in MySQL stored procedures.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 232,
+        "question_text": "Consider a MySQL stored procedure that uses conditional statements. How can you achieve a scenario where multiple conditions are checked, and only the first true condition is executed, skipping the rest?",
+        "option_a": "By using nested IF statements.",
+        "option_b": "By employing the LEAVE statement.",
+        "option_c": "By utilizing the SIGNAL SQLSTATE statement.",
+        "option_d": "There is no direct way to achieve this behavior in MySQL stored procedures.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 233,
+        "question_text": "MySQL stored procedures, how can you achieve the functionality of a \"do-while\" loop, where the loop body is executed at least once, and then the condition is checked for repetition?",
+        "option_a": "By using the LOOP statement.",
+        "option_b": "By combining REPEAT and UNTIL statements.",
+        "option_c": "By employing the WHILE statement.",
+        "option_d": "There is no direct way to create a \"do-while\" loop in MySQL stored procedures. 63",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 234,
+        "question_text": "Consider a MySQL stored procedure that requires handling different conditions based on the values of a variable. What is the limitation of using multiple IF-ELSE-THEN statements for this purpose?",
+        "option_a": "It is not a recommended practice in stored procedures.",
+        "option_b": "Only a single condition can be evaluated in each IF-ELSE-THEN statement.",
+        "option_c": "The conditions must be mutually exclusive.",
+        "option_d": "It may lead to a performance degradation for large datasets.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 235,
+        "question_text": "In MySQL stored procedures, what is the purpose of the SIGNAL SQLSTATE statement in the context of conditional statements?",
+        "option_a": "To execute a block of code repeatedly until a condition is met.",
+        "option_b": "To handle errors by signaling a specific SQLSTATE value.",
+        "option_c": "To emulate the functionality of a SWITCH CASE statement.",
+        "option_d": "There is no SIGNAL SQLSTATE statement in MySQL stored procedures.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 236,
+        "question_text": "In a MySQL stored procedure that involves a LOOP, how can you ensure that the loop exits when a specific condition is met within the loop body?",
+        "option_a": "By using the BREAK statement.",
+        "option_b": "By incorporating the LEAVE statement.",
+        "option_c": "By utilizing the EXIT statement.",
+        "option_d": "There is no way to exit a loop prematurely in MySQL stored procedures.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 237,
+        "question_text": "64 Consider a scenario where a MySQL stored procedure needs to handle a range of values for a variable and execute different code blocks for each range. Which statement is most suitable for this task?",
+        "option_a": "LOOP",
+        "option_b": "WHILE",
+        "option_c": "CASE",
+        "option_d": "IF-ELSE-THEN",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 238,
+        "question_text": "Consider a scenario where a MySQL stored procedure uses a WHILE statement. How can you prevent an infinite loop by ensuring a specific condition is met during each iteration?",
+        "option_a": "By using the BREAK statement.",
+        "option_b": "By incorporating a REPEAT statement within the WHILE loop.",
+        "option_c": "By utilizing the SIGNAL SQLSTATE statement.",
+        "option_d": "There is no direct way to prevent an infinite loop in MySQL stored procedures.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 239,
+        "question_text": "In MySQL stored procedures, when might you use the CONTINUE statement within a LOOP?",
+        "option_a": "To initiate the loop execution.",
+        "option_b": "To skip the current iteration and proceed to the next one.",
+        "option_c": "To reiterate the current iteration.",
+        "option_d": "There is no CONTINUE statement in MySQL stored procedures.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 240,
+        "question_text": "In a MySQL stored procedure, when is the CONTINUE statement typically used within a LOOP? 65",
+        "option_a": "To initiate the loop execution.",
+        "option_b": "To skip the current iteration and proceed to the next one.",
+        "option_c": "To reiterate the current iteration.",
+        "option_d": "There is no CONTINUE statement in MySQL stored procedures.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 241,
+        "question_text": "You are tasked with creating a MySQL stored procedure that updates the salary of an employee based on their performance. The procedure takes two parameters: employeeID (IN) and performanceRating (IN). Which type of parameter is appropriate for passing the performance rating into the stored procedure?",
+        "option_a": "IN parameter",
+        "option_b": "OUT parameter",
+        "option_c": "INOUT parameter",
+        "option_d": "INPUT-OUTPUT parameter",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 242,
+        "question_text": "In a MySQL stored procedure, what is the role of the SIGNAL SQLSTATE statement when used in conjunction with conditional statements?",
+        "option_a": "To execute a block of code repeatedly until a condition is met.",
+        "option_b": "To handle errors by signaling a specific SQLSTATE value.",
+        "option_c": "To emulate the functionality of a SWITCH CASE statement.",
+        "option_d": "There is no SIGNAL SQLSTATE statement in MySQL stored procedures.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 243,
+        "question_text": "66 Consider a MySQL stored procedure that involves nested LOOP statements. How can you exit the outer loop from within the inner loop?",
+        "option_a": "By using the BREAK statement.",
+        "option_b": "By incorporating the LEAVE statement.",
+        "option_c": "By utilizing the EXIT statement.",
+        "option_d": "There is no direct way to exit the outer loop from within the inner loop.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 244,
+        "question_text": "In a MySQL stored procedure that involves a LOOP with the ITERATE statement, what is the primary purpose of the ITERATE statement?",
+        "option_a": "To initiate the loop execution.",
+        "option_b": "To skip the current iteration and proceed to the next one.",
+        "option_c": "To reiterate the current iteration.",
+        "option_d": "There is no ITERATE statement in MySQL stored procedures.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 245,
+        "question_text": "In a MySQL stored procedure that involves a LOOP with the ITERATE statement, what is the primary purpose of the ITERATE statement?",
+        "option_a": "To initiate the loop execution.",
+        "option_b": "To skip the current iteration and proceed to the next one.",
+        "option_c": "To reiterate the current iteration.",
+        "option_d": "There is no ITERATE statement in MySQL stored procedures. 67",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 246,
+        "question_text": "Consider a scenario where a MySQL stored function named CalculateDiscount is designed to calculate a discount based on the total purchase amount. The function takes two parameters: totalAmount (IN) and discountPercentage (IN). The function should return the discounted amount. What is the appropriate way to define the function signature?",
+        "option_a": "CREATE FUNCTION CalculateDiscount(totalAmount DECIMAL(10, 2), discountPercentage DECIMAL(5, 2)) RETURNS DECIMAL(10, 2)",
+        "option_b": "CREATE FUNCTION CalculateDiscount(IN totalAmount DECIMAL(10, 2), IN discountPercentage DECIMAL(5, 2)) RETURNS DECIMAL(10, 2)",
+        "option_c": "CREATE FUNCTION CalculateDiscount(INOUT totalAmount DECIMAL(10, 2), INOUT discountPercentage DECIMAL(5, 2)) RETURNS DECIMAL(10, 2)",
+        "option_d": "CREATE FUNCTION CalculateDiscount(totalAmount DECIMAL(10, 2), discountPercentage DECIMAL(5, 2)) RETURNS VOID",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 247,
+        "question_text": "discountPercentage DECIMAL(5, 2)) RETURNS DECIMAL(10, 2) You are designing a MySQL stored function named GenerateRandomString that generates a random alphanumeric string of a specified length. The function takes one parameter: stringLength (IN). Which built-in MySQL function is most suitable for generating random strings within the function body?",
+        "option_a": "CONCAT",
+        "option_b": "RAND",
+        "option_c": "SUBSTRING",
+        "option_d": "LENGTH",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 248,
+        "question_text": "68 In a MySQL stored function that calculates the square root of a given numeric value, you want to handle cases where the input value is negative. Which MySQL built-in function is suitable for determining the absolute value of a numeric expression within the function?",
+        "option_a": "ABS",
+        "option_b": "SQRT",
+        "option_c": "POWER",
+        "option_d": "LOG",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 249,
+        "question_text": "Consider a MySQL stored function named GetEmployeeBonus that calculates the bonus for an employee based on their salary and performance rating. The function takes two parameters: salary (IN) and performanceRating (IN). The bonus is calculated as 5% of the salary for a performance rating above 3.5. How can you implement this logic within the function using a conditional statement?",
+        "option_a": "Using the CASE statement.",
+        "option_b": "Using the IF-ELSE-THEN statement.",
+        "option_c": "Using the SWITCH CASE statement.",
+        "option_d": "Using the GOTO statement.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 250,
+        "question_text": "You are tasked with creating a MySQL stored function named ConcatenateNames that concatenates the first name and last name of an employee. The function takes two parameters: firstName (IN) and lastName (IN). How can you concatenate these values within the function body?",
+        "option_a": "CONCAT(firstName, ' ', lastName)",
+        "option_b": "firstName || ' ' || lastName 69",
+        "option_c": "firstName + ' ' + lastName",
+        "option_d": "JOIN(firstName, ' ', lastName)",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 251,
+        "question_text": "You are creating a MySQL stored function named GetStringLength that calculates and returns the length of a given string. The function takes one parameter: inputString (IN). Which MySQL built-in function is most suitable for obtaining the length of a string within the function?",
+        "option_a": "LENGTH",
+        "option_b": "CHAR_LENGTH",
+        "option_c": "SUBSTRING",
+        "option_d": "CONCAT",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 252,
+        "question_text": "In a MySQL stored function named CalculateTax, you need to calculate the tax amount based on the income of an individual. The function takes one parameter: income (IN). Which mathematical function is suitable for performing exponentiation (raising a number to a power) within the function body to calculate the tax?",
+        "option_a": "POWER",
+        "option_b": "SQRT",
+        "option_c": "ABS",
+        "option_d": "LOG",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 253,
+        "question_text": "Consider a MySQL stored function named GetProductDiscount that calculates the discount percentage for a product based on its category. The function takes one parameter: productCategory 70 (IN). Which MySQL built-in function is most suitable for implementing a conditional logic to determine the discount percentage based on the product category?",
+        "option_a": "IF",
+        "option_b": "CASE",
+        "option_c": "SWITCH",
+        "option_d": "DECODE",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 254,
+        "question_text": "You are designing a MySQL stored function named GetFormattedDate that returns the current date in a specific format. The function does not take any parameters. Which MySQL built-in function is most suitable for obtaining the current date in a specific format within the function body?",
+        "option_a": "NOW()",
+        "option_b": "CURDATE()",
+        "option_c": "DATE_FORMAT()",
+        "option_d": "GETDATE()",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 255,
+        "question_text": "In a MySQL stored function named CalculateAverage, you want to iterate through a set of values and calculate their average. Which loop construct is appropriate for this task?",
+        "option_a": "WHILE",
+        "option_b": "REPEAT",
+        "option_c": "LOOP",
+        "option_d": "FOR 71",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 256,
+        "question_text": "You are designing a MySQL stored function named GenerateRandomPassword that generates a random password of a specified length. The function does not take any parameters. Which MySQL built-in function is most suitable for generating random characters within the function body?",
+        "option_a": "RAND",
+        "option_b": "CONCAT",
+        "option_c": "SUBSTRING",
+        "option_d": "CHAR",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 257,
+        "question_text": "Consider a scenario where a MySQL stored function named CalculateBonus calculates a bonus based on an employee's salary and performance rating. The function takes two parameters: salary (IN) and performanceRating (IN). You want to exit the function if the performance rating is below a certain threshold. Which loop control statement is suitable for this purpose?",
+        "option_a": "ITERATE",
+        "option_b": "LEAVE",
+        "option_c": "CONTINUE",
+        "option_d": "EXIT",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 258,
+        "question_text": "In a MySQL stored function named GetFormattedDateTime, you need to return the current date and time in a specific format. The function does not take any parameters. Which MySQL built-in function is most suitable for obtaining the current date and time in a specific format within the function body? 72",
+        "option_a": "NOW()",
+        "option_b": "CURTIME()",
+        "option_c": "DATE_FORMAT()",
+        "option_d": "GETDATE()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 259,
+        "question_text": "Consider a MySQL stored procedure where you need to scroll backward and forward through a result set and allow modifications to the data. Which combination of cursor types would be appropriate for this requirement?",
+        "option_a": "Asensitive, Read-Only",
+        "option_b": "Insensitive, Read-Only",
+        "option_c": "Asensitive, Nonscrollable",
+        "option_d": "Insensitive, Nonscrollable",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 260,
+        "question_text": "In MySQL, what is the primary purpose of a cursor in the context of database operations?",
+        "option_a": "To store and retrieve data from tables.",
+        "option_b": "To manage database connections.",
+        "option_c": "To execute SQL queries.",
+        "option_d": "To traverse and process a result set row by row.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 261,
+        "question_text": "73 In a MySQL stored procedure, when declaring a cursor using the DECLARE statement, which constructor clause allows the cursor to be scrollable both forward and backward?",
+        "option_a": "FORWARD_ONLY",
+        "option_b": "SCROLL",
+        "option_c": "DYNAMIC",
+        "option_d": "STATIC",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 262,
+        "question_text": "You are designing a MySQL stored procedure that needs to fetch rows from a result set without allowing modifications. Which constructor clause should you use when declaring the cursor to achieve this?",
+        "option_a": "READ_ONLY",
+        "option_b": "FOR UPDATE",
+        "option_c": "NO_SCROLL",
+        "option_d": "STATIC",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 263,
+        "question_text": "Consider a scenario where a MySQL stored procedure requires immediate reflection of modifications made to the underlying data in the result set. Which constructor clause should be used when declaring the cursor to achieve this?",
+        "option_a": "ASYNCHRONOUS",
+        "option_b": "SENSITIVE",
+        "option_c": "IMMEDIATE",
+        "option_d": "REFLECTIVE 74",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 264,
+        "question_text": "In MySQL triggers, what is the purpose of the OLD and NEW trigger variables?",
+        "option_a": "They store the previous and new values of columns affected by the trigger.",
+        "option_b": "They define conditions for triggering the BEFORE and AFTER triggers.",
+        "option_c": "They represent the order of execution for trigger actions.",
+        "option_d": "They specify the duration of the trigger's effect.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 265,
+        "question_text": "When using an AFTER INSERT trigger in MySQL, which trigger variable is used to refer to the new values inserted into the table?",
+        "option_a": "OLD",
+        "option_b": "NEW",
+        "option_c": "INSERTED",
+        "option_d": "VALUES",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 266,
+        "question_text": "In a real-world scenario, when might you choose to use a BEFORE trigger in MySQL?",
+        "option_a": "To perform actions after the changes have been committed to the database.",
+        "option_b": "To enforce data integrity constraints before changes are applied.",
+        "option_c": "To log changes made to the database for audit purposes.",
+        "option_d": "There is no practical use for BEFORE triggers in MySQL. 75",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 267,
+        "question_text": "You are implementing a trigger in MySQL to update an audit log table whenever a record is deleted from a primary table. Which type of trigger (BEFORE or AFTER) would be more suitable for this scenario?",
+        "option_a": "BEFORE",
+        "option_b": "AFTER",
+        "option_c": "Both can be used interchangeably.",
+        "option_d": "It depends on the specific use case.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 268,
+        "question_text": "In MySQL triggers, what is the primary purpose of using the BEFORE keyword when defining a trigger?",
+        "option_a": "It specifies that the trigger will execute before any other triggers associated with the same event.",
+        "option_b": "It indicates that the trigger will execute before the changes made by the triggering statement are committed to the database.",
+        "option_c": "It enforces the order of execution for multiple triggers on the same event.",
+        "option_d": "It ensures that the trigger will execute only if certain conditions are met.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 269,
+        "question_text": "are committed to the database. When using an AFTER UPDATE trigger in MySQL, how can you reference the values of the columns before the update operation within the trigger body?",
+        "option_a": "Using the OLD trigger variable.",
+        "option_b": "Using the NEW trigger variable. 76",
+        "option_c": "By directly referencing the column names.",
+        "option_d": "There is no way to reference the old values in an AFTER UPDATE trigger.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 270,
+        "question_text": "You are designing a MySQL trigger that needs to perform actions based on a condition before any modifications are made to the data. Which type of trigger (BEFORE or AFTER) and which trigger variable (OLD or NEW) should you use for this scenario?",
+        "option_a": "BEFORE trigger with OLD trigger variable.",
+        "option_b": "BEFORE trigger with NEW trigger variable.",
+        "option_c": "AFTER trigger with OLD trigger variable.",
+        "option_d": "AFTER trigger with NEW trigger variable.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 271,
+        "question_text": "In a MySQL trigger defined as AFTER DELETE, which trigger variable should be used to reference the values of the columns before the deletion operation?",
+        "option_a": "OLD",
+        "option_b": "NEW",
+        "option_c": "DELETED",
+        "option_d": "VALUES",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 272,
+        "question_text": "What is a key distinction between a Document Store and a Key-Value Store in NoSQL databases?",
+        "option_a": "Document Stores use tables, while Key-Value Stores use documents.",
+        "option_b": "Document Stores store data in a tabular format. 77",
+        "option_c": "Document Stores allow nested and hierarchical structures in data.",
+        "option_d": "Key-Value Stores support complex queries.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 273,
+        "question_text": "In MongoDB, how would you analogize a relation or table in a relational database to the corresponding MongoDB concept?",
+        "option_a": "Collections",
+        "option_b": "Tuples",
+        "option_c": "Records",
+        "option_d": "Fields",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 274,
+        "question_text": "What is the MongoDB equivalent of a tuple or record in a relational database?",
+        "option_a": "Collections",
+        "option_b": "Documents",
+        "option_c": "Fields",
+        "option_d": "Indexes",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 275,
+        "question_text": "In MongoDB, what is the primary purpose of the UPSERT operation?",
+        "option_a": "To update existing documents.",
+        "option_b": "To insert a new document if it does not exist or update it if it does. 78",
+        "option_c": "To sort the documents in a collection.",
+        "option_d": "To perform complex read operations.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 276,
+        "question_text": "When working with MongoDB operators, what does the $elemMatch operator primarily facilitate?",
+        "option_a": "Sorting documents in a collection.",
+        "option_b": "Indexing fields.",
+        "option_c": "Updating multiple documents simultaneously.",
+        "option_d": "Querying arrays for matching elements.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 277,
+        "question_text": "In MongoDB, when considering the use of the $text operator for text search, what is a key consideration regarding the fields involved?",
+        "option_a": "The fields must be of type \"string.\"",
+        "option_b": "The fields must be of type \"text.\"",
+        "option_c": "The fields must be indexed using a compound index.",
+        "option_d": "The fields must be part of a sharded collection.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 278,
+        "question_text": "In MongoDB indexing, what is the significance of the \"sparse\" option when creating an index?",
+        "option_a": "It ensures that the index only includes documents with non-null values for the indexed field.",
+        "option_b": "It allows indexing of arrays within documents. 79",
+        "option_c": "It enforces uniqueness for the indexed field.",
+        "option_d": "It speeds up the indexing process for large collections.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 279,
+        "question_text": "When performing complex read operations in MongoDB using the aggregation framework, what does the $lookup stage primarily enable?",
+        "option_a": "Sorting documents in multiple collections.",
+        "option_b": "Joining documents from two collections.",
+        "option_c": "Indexing fields in the aggregation pipeline.",
+        "option_d": "Upsert operations on the aggregated data.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 280,
+        "question_text": "Consider a MongoDB collection named \"employees\" with documents representing employee data. Using the MongoDB shell, write a query to find all employees whose salary is greater than $50,000. Which query accomplishes this task?",
+        "option_a": "db.employees.find({ salary: { $gt: 50000 } })",
+        "option_b": "db.employees.query({ salary: { $gt: 50000 } })",
+        "option_c": "db.find(employees, { salary: { $gt: 50000 } })",
+        "option_d": "db.employees.select({ salary: { $gt: 50000 } })",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 281,
+        "question_text": "Assuming you have a MongoDB collection named \"products\" containing documents with a field \"category\" representing product categories. Write a query to find the distinct product categories in the collection. Which query accomplishes this task?",
+        "option_a": "db.products.distinct(\"category\") 80",
+        "option_b": "db.products.find(\"category\").distinct()",
+        "option_c": "db.distinct(products, \"category\")",
+        "option_d": "db.products.unique(\"category\")",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 282,
+        "question_text": "Suppose you have a MongoDB collection named \"orders\" with documents representing customer orders. Write a query to retrieve orders where the order date is within a specific date range, let's say from January 1, 2023, to February 1, 2023. Which query accomplishes this task?",
+        "option_a": "db.orders.find({ orderDate: { $gte: ISODate(\"2023-01-01\"), $lt: ISODate(\"2023-02-01\") } })",
+        "option_b": "db.orders.select({ orderDate: { $gte: \"2023-01-01\", $lt: \"2023-02-01\" } })",
+        "option_c": "db.find(orders, { orderDate: { $gte: \"2023-01-01\", $lt: \"2023-02-01\" } })",
+        "option_d": "db.orders.query({ orderDate: { $gte: ISODate(\"2023-01-01\"), $lt: ISODate(\"2023-02-01\") } })",
+        "correct_option": "A",
+        "explanation": ""
+    }
+]

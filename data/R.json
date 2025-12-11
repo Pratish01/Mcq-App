@@ -1,0 +1,2972 @@
+[
+    {
+        "number": 1,
+        "question_text": "Question: What is the main purpose of the R project for Statistical Computing?",
+        "option_a": "To develop advanced machine learning algorithms.",
+        "option_b": "To provide a platform for statistical analysis and data visualization.",
+        "option_c": "To create video games.",
+        "option_d": "To design graphical user interfaces.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 2,
+        "question_text": "Question: Which of the following is not a key feature of the R programming language?",
+        "option_a": "Extensive data visualization capabilities.",
+        "option_b": "Built-in support for 3D modeling.",
+        "option_c": "Powerful statistical analysis functions.",
+        "option_d": "Active and vibrant community.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 3,
+        "question_text": "Question: What is the first step you need to perform to start using R?",
+        "option_a": "Write code in a text editor.",
+        "option_b": "Install R on your computer.",
+        "option_c": "Create an account on a coding platform.",
+        "option_d": "Download a web browser.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 4,
+        "question_text": "Question: Which of the following is an advantage of using R for statistical computing?",
+        "option_a": "Limited support for data visualization.",
+        "option_b": "Narrow range of statistical functions.",
+        "option_c": "Closed-source nature.",
+        "option_d": "Active and supportive user community.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 5,
+        "question_text": "Question: Which section of R documentation should you refer to if you need help on a specific function?",
+        "option_a": "FAQs (Frequently Asked Questions)",
+        "option_b": "CRAN (Comprehensive R Archive Network)",
+        "option_c": "GitHub repositories",
+        "option_d": "Help files using the ? operator",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 6,
+        "question_text": "Question: Which of the following is a popular code editor for writing and executing R code?",
+        "option_a": "Photoshop",
+        "option_b": "RStudio",
+        "option_c": "Microsoft Word",
+        "option_d": "Notepad",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 7,
+        "question_text": "Question: What is R GUI?",
+        "option_a": "A type of pie chart.",
+        "option_b": "A graphical user interface for R programming.",
+        "option_c": "A programming language.",
+        "option_d": "A mathematical equation.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 8,
+        "question_text": "Question: Which of the following is a feature of RStudio?",
+        "option_a": "It only supports basic statistical functions.",
+        "option_b": "It has limited data visualization capabilities.",
+        "option_c": "It provides an integrated development environment (IDE) for R.",
+        "option_d": "It is a standalone software for web development.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 9,
+        "question_text": "Question: What does R use as the operator for exponentiation?",
+        "option_a": "^",
+        "option_b": "**",
+        "option_c": "%",
+        "option_d": "&",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 10,
+        "question_text": "Question: What is the result of the expression 3 + 5 * 2 in R?",
+        "option_a": "13",
+        "option_b": "16",
+        "option_c": "11",
+        "option_d": "10",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 11,
+        "question_text": "Question: Which function in R is used to calculate the square root of a number?",
+        "option_a": "sqrt()",
+        "option_b": "root()",
+        "option_c": "square_root()",
+        "option_d": "sqr_root()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 12,
+        "question_text": "Question: What is the purpose of the ls() function in R?",
+        "option_a": "To load scripts from external files.",
+        "option_b": "To list all available functions in R.",
+        "option_c": "To create a list of values.",
+        "option_d": "To calculate the least squares regression.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 13,
+        "question_text": "Question: Which command is used to clear the console in R?",
+        "option_a": "clear()",
+        "option_b": "cls()",
+        "option_c": "clear.console()",
+        "option_d": "cat(\"\\014\")",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 14,
+        "question_text": "Question: In R, how would you assign the value 10 to a variable named \"x\"?",
+        "option_a": "value 10 to x",
+        "option_b": "x = 10",
+        "option_c": "10 -> x",
+        "option_d": "10 = x",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 15,
+        "question_text": "Question: Which function is used to generate a sequence of numbers in R?",
+        "option_a": "sequence()",
+        "option_b": "generate()",
+        "option_c": "seq()",
+        "option_d": "numbers()",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 16,
+        "question_text": "Question: What is the output of the expression TRUE & FALSE in R?",
+        "option_a": "TRUE",
+        "option_b": "FALSE",
+        "option_c": "NULL",
+        "option_d": "Error",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 17,
+        "question_text": "Question: Which function is used to round a numeric value to a specified number of decimal places?",
+        "option_a": "round()",
+        "option_b": "decimal()",
+        "option_c": "approx()",
+        "option_d": "float()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 18,
+        "question_text": "Question: Which symbol is used to represent the assignment operator in R?",
+        "option_a": "=",
+        "option_b": "->",
+        "option_c": ">-",
+        "option_d": ":=",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 19,
+        "question_text": "Question: What does the function head() do in R?",
+        "option_a": "It returns the first few rows of a data frame.",
+        "option_b": "It calculates the average of a vector.",
+        "option_c": "It generates a histogram plot.",
+        "option_d": "It computes the cumulative sum of a sequence.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 20,
+        "question_text": "Question: What is the purpose of the length() function in R?",
+        "option_a": "To determine the number of elements in a vector.",
+        "option_b": "To calculate the length of a string.",
+        "option_c": "To find the distance between two points.",
+        "option_d": "To measure the size of a data frame.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 21,
+        "question_text": "Question: Which function can be used to concatenate two or more strings in R?",
+        "option_a": "combine()",
+        "option_b": "concat()",
+        "option_c": "paste()",
+        "option_d": "merge()",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 22,
+        "question_text": "Question: What is the result of the expression 5 %/% 2 in R?",
+        "option_a": "2.5",
+        "option_b": "2",
+        "option_c": "2.0",
+        "option_d": "2.2",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 23,
+        "question_text": "Question: Which function is used to generate random numbers from a normal distribution in R?",
+        "option_a": "random()",
+        "option_b": "rnorm()",
+        "option_c": "norm_rand()",
+        "option_d": "random_normal()",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 24,
+        "question_text": "Question: In R, how would you comment out a single line of code?",
+        "option_a": "/* This is a comment */",
+        "option_b": "# This is a comment",
+        "option_c": "// This is a comment",
+        "option_d": "% This is a comment",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 25,
+        "question_text": "Question: What is the purpose of the max() function in R?",
+        "option_a": "To calculate the minimum value in a dataset.",
+        "option_b": "To find the maximum value in a dataset.",
+        "option_c": "To compute the mean of a dataset.",
+        "option_d": "To sort the elements of a dataset.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 26,
+        "question_text": "Question: Which operator is used to access elements from a vector or data frame by their index?",
+        "option_a": "$",
+        "option_b": "*",
+        "option_c": "@",
+        "option_d": "&",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 27,
+        "question_text": "Question: What is the outcome of the expression factorial(4) in R?",
+        "option_a": "16",
+        "option_b": "24",
+        "option_c": "8",
+        "option_d": "4",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 28,
+        "question_text": "Question: Which function is used to calculate the mean of a numeric vector in R?",
+        "option_a": "avg()",
+        "option_b": "mean()",
+        "option_c": "calculate_mean()",
+        "option_d": "numeric_mean()",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 29,
+        "question_text": "Question: What is the purpose of the sample() function in R?",
+        "option_a": "To sort a dataset in ascending order.",
+        "option_b": "To randomly shuffle the elements of a vector.",
+        "option_c": "To calculate the median of a dataset.",
+        "option_d": "To remove duplicates from a dataset.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 30,
+        "question_text": "Question: Which function is used to read data from a CSV file in R?",
+        "option_a": "read_csv()",
+        "option_b": "import_csv()",
+        "option_c": "load_csv()",
+        "option_d": "csv_read()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 31,
+        "question_text": "Question: What is the result of the expression log(1) in R?",
+        "option_a": "0",
+        "option_b": "1",
+        "option_c": "Undefined",
+        "option_d": "Error",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 32,
+        "question_text": "Question: Which function is used to create a scatter plot in R?",
+        "option_a": "scatterplot()",
+        "option_b": "plot_scatter()",
+        "option_c": "scatter()",
+        "option_d": "plot()",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 33,
+        "question_text": "Question: How would you calculate the standard deviation of a vector in R?",
+        "option_a": "std_deviation()",
+        "option_b": "calculate_sd()",
+        "option_c": "sd()",
+        "option_d": "standard_dev()",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 34,
+        "question_text": "Question: What does the readLines() function do in R?",
+        "option_a": "It reads numeric values from a file.",
+        "option_b": "It reads lines of text from a file into a character vector.",
+        "option_c": "It calculates the line length of a text file.",
+        "option_d": "It reads only the last line of a file.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 35,
+        "question_text": "Question: Which function is used to perform matrix multiplication in R?",
+        "option_a": "mult()",
+        "option_b": "matrix_mult()",
+        "option_c": "*",
+        "option_d": "%*%",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 36,
+        "question_text": "Question: What is the output of the expression sum(1:5) in R?",
+        "option_a": "15",
+        "option_b": "10",
+        "option_c": "25",
+        "option_d": "6",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 37,
+        "question_text": "Question: Which function is used to create a histogram in R?",
+        "option_a": "histogram()",
+        "option_b": "create_hist()",
+        "option_c": "hist()",
+        "option_d": "plot_hist()",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 38,
+        "question_text": "Question: What does the str() function do in R?",
+        "option_a": "It converts a number to a string.",
+        "option_b": "It computes the square root of a number.",
+        "option_c": "It displays the structure of an R object.",
+        "option_d": "It generates a random string.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 39,
+        "question_text": "Question: Which function is used to find the minimum value of a vector in R?",
+        "option_a": "minimum()",
+        "option_b": "min()",
+        "option_c": "find_min()",
+        "option_d": "vector_min()",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 40,
+        "question_text": "Question: What is the outcome of the expression c(1, 2, 3) + c(2, 3, 4) in R?",
+        "option_a": "[1, 2, 3, 2, 3, 4]",
+        "option_b": "[3, 5, 7]",
+        "option_c": "[1, 2, 3, 4, 5, 6]",
+        "option_d": "Error",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 41,
+        "question_text": "Question: Which function is used to generate a boxplot in R?",
+        "option_a": "plot_box()",
+        "option_b": "boxplot()",
+        "option_c": "create_boxplot()",
+        "option_d": "draw_box()",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 42,
+        "question_text": "Question: What is the outcome of the expression rep(1, times = 3) in R?",
+        "option_a": "[1, 1, 1]",
+        "option_b": "[1, 3]",
+        "option_c": "[3]",
+        "option_d": "Error",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 43,
+        "question_text": "Question: Which function is used to transform a character string to uppercase in R?",
+        "option_a": "to_upper()",
+        "option_b": "uppercase()",
+        "option_c": "upper()",
+        "option_d": "toupper()",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 44,
+        "question_text": "Question: What is the purpose of the which() function in R?",
+        "option_a": "To determine the location of TRUE values in a logical vector.",
+        "option_b": "To find the indices of maximum values in a vector.",
+        "option_c": "To calculate the cumulative sum of a numeric vector.",
+        "option_d": "To select specific elements from a data frame.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 45,
+        "question_text": "Question: Which function is used to perform element-wise multiplication of two vectors in R?",
+        "option_a": "*",
+        "option_b": "%*%",
+        "option_c": "multiply()",
+        "option_d": "element_mult()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 46,
+        "question_text": "Question: What is the output of the expression mean(c(2, 4, 6), na.rm = TRUE) in R?",
+        "option_a": "4",
+        "option_b": "3",
+        "option_c": "12",
+        "option_d": "Error",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 47,
+        "question_text": "Question: Which function is used to read data from an Excel file in R?",
+        "option_a": "read_excel()",
+        "option_b": "import_excel()",
+        "option_c": "load_excel()",
+        "option_d": "excel_read()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 48,
+        "question_text": "Question: What is the purpose of the table() function in R?",
+        "option_a": "To create a table of numbers.",
+        "option_b": "To compute the sum of a dataset.",
+        "option_c": "To calculate the mean of a categorical variable.",
+        "option_d": "To generate a frequency table of categorical data.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 49,
+        "question_text": "Question: How would you generate a sequence of numbers from 1 to 10 in R?",
+        "option_a": "seq(1, 10)",
+        "option_b": "generate(1, 10)",
+        "option_c": "1:10",
+        "option_d": "sequence(1, 10)",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 50,
+        "question_text": "Question: Which function is used to remove missing values from a vector in R?",
+        "option_a": "clean_na()",
+        "option_b": "remove_missing()",
+        "option_c": "na.omit()",
+        "option_d": "delete_na()",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 51,
+        "question_text": "Question: What is the primary motivation behind the development of the R project for Statistical Computing?",
+        "option_a": "To replace traditional statistical software.",
+        "option_b": "To create a general-purpose programming language.",
+        "option_c": "To provide a platform for developing video games.",
+        "option_d": "To enable collaboration among statisticians.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 52,
+        "question_text": "Question: Which statement accurately describes R's position in the programming world?",
+        "option_a": "R is a high-level programming language primarily used for web development.",
+        "option_b": "R is a domain-specific language used exclusively for mathematical operations.",
+        "option_c": "R is an open-source programming language designed for statistical analysis and data visualization.",
+        "option_d": "R is a closed-source language that focuses on hardware-level programming.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 53,
+        "question_text": "Question: How does R differ from conventional programming languages like Python or Java?",
+        "option_a": "R has limited support for statistical calculations.",
+        "option_b": "R is primarily used for front-end web development.",
+        "option_c": "R focuses exclusively on data visualization.",
+        "option_d": "R is tailored for statistical analysis and data manipulation.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 54,
+        "question_text": "Question: What is the recommended way to install R on your computer?",
+        "option_a": "Download and install it from the official R website.",
+        "option_b": "Purchase a commercial license from a software vendor.",
+        "option_c": "Use a virtual machine to run R online.",
+        "option_d": "R is pre-installed on all computers.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 55,
+        "question_text": "Question: Which feature of R makes it suitable for handling large datasets?",
+        "option_a": "Limited memory management capabilities.",
+        "option_b": "Lack of support for parallel processing.",
+        "option_c": "Built-in support for handling big data.",
+        "option_d": "R is not well-suited for large datasets.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 56,
+        "question_text": "Question: What is the significance of the help() function in R?",
+        "option_a": "It displays detailed information about the R project's history.",
+        "option_b": "It provides assistance in finding online programming resources.",
+        "option_c": "It generates random code snippets for practice.",
+        "option_d": "It offers documentation and examples for R functions.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 57,
+        "question_text": "Question: Which code editor is known for its integration with R and its excellent data visualization features?",
+        "option_a": "Notepad++",
+        "option_b": "Visual Studio Code",
+        "option_c": "Sublime Text",
+        "option_d": "RStudio",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 58,
+        "question_text": "Question: How does RStudio enhance the R programming experience compared to other code editors?",
+        "option_a": "It focuses on code highlighting only.",
+        "option_b": "It provides advanced 3D modeling capabilities.",
+        "option_c": "It offers an integrated environment with features like code completion, debugging, and data visualization.",
+        "option_d": "It is designed specifically for game development using R.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 59,
+        "question_text": "Question: In RStudio, what is the purpose of the \"Console\" pane?",
+        "option_a": "It displays the source code of the project.",
+        "option_b": "It allows you to browse the web while programming.",
+        "option_c": "It shows real-time data visualizations.",
+        "option_d": "It provides an interactive interface for executing R code.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 60,
+        "question_text": "Question: What does the symbol %/% represent in R for mathematical operations?",
+        "option_a": "Floor division operator",
+        "option_b": "Exponentiation operator",
+        "option_c": "Ceiling division operator",
+        "option_d": "Modular arithmetic operator",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 61,
+        "question_text": "Question: Which of the following is a common mistake when using the ^ operator for exponentiation in R?",
+        "option_a": "Using ^ for addition instead of exponentiation.",
+        "option_b": "Applying the operator to non-numeric data.",
+        "option_c": "Using it for string concatenation.",
+        "option_d": "Omitting the base or exponent value.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 62,
+        "question_text": "Question: What happens when you attempt to use a variable that hasn't been defined in R?",
+        "option_a": "R automatically assigns a default value to the variable.",
+        "option_b": "R prompts you to enter a value for the variable.",
+        "option_c": "R raises an error indicating the variable is not found.",
+        "option_d": "R displays a warning and continues execution.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 63,
+        "question_text": "Question: Which operator is used to access specific elements in a matrix or data frame in R?",
+        "option_a": "$",
+        "option_b": "*",
+        "option_c": "@",
+        "option_d": "&",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 64,
+        "question_text": "Question: In R, what does the :: operator do?",
+        "option_a": "It calculates the cross product of two vectors.",
+        "option_b": "It performs element-wise division of two vectors.",
+        "option_c": "It accesses functions and data from specific packages.",
+        "option_d": "It generates a sequence of numbers with a specified step size.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 65,
+        "question_text": "Question: How would you generate a sequence of odd numbers from 1 to 10 in R?",
+        "option_a": "odd_seq(1, 10)",
+        "option_b": "seq(1, 10, by = 2)",
+        "option_c": "odd(1:10)",
+        "option_d": "range(1, 10, odd)",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 66,
+        "question_text": "Question: What is the outcome of the expression TRUE && FALSE in R?",
+        "option_a": "TRUE",
+        "option_b": "FALSE",
+        "option_c": "NULL",
+        "option_d": "Error",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 67,
+        "question_text": "Question: Which function can be used to calculate the absolute value of a number in R?",
+        "option_a": "abs()",
+        "option_b": "absolute()",
+        "option_c": "value()",
+        "option_d": "positive()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 68,
+        "question_text": "Question: How can you effectively comment out multiple lines of code in R?",
+        "option_a": "Using # at the beginning of each line.",
+        "option_b": "Wrapping the code within /* */.",
+        "option_c": "Using ## at the beginning of each line.",
+        "option_d": "Enclosing the code within # and #.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 69,
+        "question_text": "Question: Which function is used to calculate the factorial of a number in R?",
+        "option_a": "factorial()",
+        "option_b": "factor()",
+        "option_c": "fact()",
+        "option_d": "calc_factorial()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 70,
+        "question_text": "Question: In R, what is the purpose of the sink() function?",
+        "option_a": "It records the execution time of a code block.",
+        "option_b": "It redirects output to a file or connection.",
+        "option_c": "It generates random numbers within a specified range.",
+        "option_d": "It calculates the average of numeric values.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 71,
+        "question_text": "Question: Which function is used to calculate the mean of a numeric vector in R while ignoring missing values?",
+        "option_a": "mean()",
+        "option_b": "avg()",
+        "option_c": "calculate_mean()",
+        "option_d": "na.mean()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 72,
+        "question_text": "Question: What does the expression 1:10 + 2 evaluate to in R?",
+        "option_a": "3, 4, 5, ..., 12",
+        "option_b": "1, 2, 3, ..., 12",
+        "option_c": "Error",
+        "option_d": "3, 3, 3, ..., 3",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 73,
+        "question_text": "Question: How can you check the type of a variable in R?",
+        "option_a": "Using the type() function.",
+        "option_b": "Using the class() function.",
+        "option_c": "Checking the variable name length.",
+        "option_d": "Applying the typeof() function.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 74,
+        "question_text": "Question: What is the result of the expression sum(NA, 1, 2, 3, na.rm = TRUE) in R?",
+        "option_a": "6",
+        "option_b": "1",
+        "option_c": "NA",
+        "option_d": "Error",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 75,
+        "question_text": "Question: Which function is used to create a character string in R by concatenating values?",
+        "option_a": "concat()",
+        "option_b": "paste()",
+        "option_c": "combine()",
+        "option_d": "cat()",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 76,
+        "question_text": "Question: What is the outcome of the expression sqrt(-1) in R?",
+        "option_a": "0",
+        "option_b": "1",
+        "option_c": "-1",
+        "option_d": "NaN (Not a Number)",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 77,
+        "question_text": "Question: Which of the following code snippets will generate a vector of all prime numbers between 1 and 20 in R?",
+        "option_a": "prime_seq <- seq(1, 20); prime_numbers <- prime_seq[is_prime(prime_seq)]",
+        "option_b": "prime_numbers <- c(2, 3, 5, 7, 11, 13, 17, 19)",
+        "option_c": "prime_numbers <- filter(1:20, is_prime)",
+        "option_d": "prime_numbers <- which(is_prime(1:20))",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 78,
+        "question_text": "Question: What is the purpose of the %in% operator in R?",
+        "option_a": "It checks if a number is a prime number.",
+        "option_b": "It verifies if a vector is present within another vector.",
+        "option_c": "It determines if an element is a factor of another element.",
+        "option_d": "It calculates the modulus of two numbers.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 79,
+        "question_text": "Question: Which function is used to calculate the median of a numeric vector in R?",
+        "option_a": "calculate_median()",
+        "option_b": "median()",
+        "option_c": "med()",
+        "option_d": "numeric_median()",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 80,
+        "question_text": "Question: In R, what is the result of the expression c(1, 2, 3) * c(2, 3, 4)?",
+        "option_a": "2, 6, 12",
+        "option_b": "1, 4, 7",
+        "option_c": "2, 3, 4",
+        "option_d": "Error",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 81,
+        "question_text": "Question: Which function is used to calculate the cumulative sum of a numeric vector in R?",
+        "option_a": "cum_sum()",
+        "option_b": "cumulative_sum()",
+        "option_c": "cumsum()",
+        "option_d": "sum_cum()",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 82,
+        "question_text": "Question: What is the purpose of the which.max() function in R?",
+        "option_a": "It returns the index of the maximum value in a vector.",
+        "option_b": "It calculates the sum of elements exceeding a threshold.",
+        "option_c": "It generates a matrix of logical values based on comparison.",
+        "option_d": "It computes the maximum value within specified conditions.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 83,
+        "question_text": "Question: In R, what does the data.frame() function do?",
+        "option_a": "It creates a mathematical formula for regression analysis.",
+        "option_b": "It generates a data frame from input vectors.",
+        "option_c": "It calculates the frame rate for graphical output.",
+        "option_d": "It computes the average of data frame columns.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 84,
+        "question_text": "Question: Which function is used to calculate the standard deviation of a numeric vector in R?",
+        "option_a": "std_dev()",
+        "option_b": "calculate_sd()",
+        "option_c": "sd()",
+        "option_d": "standard_deviation()",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 85,
+        "question_text": "Question: What is the outcome of the expression log(0) in R?",
+        "option_a": "-\u221e",
+        "option_b": "0",
+        "option_c": "Undefined",
+        "option_d": "Error",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 86,
+        "question_text": "Question: Which function in R is used to generate a random permutation of a given vector?",
+        "option_a": "shuffle()",
+        "option_b": "random_permutation()",
+        "option_c": "sample()",
+        "option_d": "permute()",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 87,
+        "question_text": "Question: What is the purpose of the read.table() function in R?",
+        "option_a": "It reads data from a CSV file.",
+        "option_b": "It performs mathematical table operations.",
+        "option_c": "It creates a table of random numbers.",
+        "option_d": "It generates a table of statistical functions.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 88,
+        "question_text": "Question: How would you create a matrix of zeros with 3 rows and 4 columns in R?",
+        "option_a": "matrix(0, 3, 4)",
+        "option_b": "zeros_matrix(3, 4)",
+        "option_c": "matrix(3, 4)",
+        "option_d": "create_matrix(3, 4, 0)",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 89,
+        "question_text": "Question: In R, which function is used to transform a character string to lowercase?",
+        "option_a": "to_lower()",
+        "option_b": "lowercase()",
+        "option_c": "lower()",
+        "option_d": "tolower()",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 90,
+        "question_text": "Question: What does the rev() function do in R?",
+        "option_a": "It reverses the order of elements in a vector.",
+        "option_b": "It calculates the square root of a number.",
+        "option_c": "It computes the cumulative sum of a sequence.",
+        "option_d": "It generates a vector of random values.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 91,
+        "question_text": "Question: In R, which function is used to compute the factorial of a sequence of numbers?",
+        "option_a": "seq_factorial()",
+        "option_b": "factorial_seq()",
+        "option_c": "factorial()",
+        "option_d": "apply_factorial()",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 92,
+        "question_text": "Question: What is the output of the expression mean(c(NA, 2, 3), na.rm = TRUE) in R?",
+        "option_a": "2",
+        "option_b": "2.5",
+        "option_c": "NA",
+        "option_d": "Error",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 93,
+        "question_text": "Question: How would you extract the first and last elements of a vector x in R?",
+        "option_a": "x[1, length(x)]",
+        "option_b": "x[1, -1]",
+        "option_c": "x[1, length(x)-1]",
+        "option_d": "x[1, -length(x)]",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 94,
+        "question_text": "Question: Which function is used to calculate the cumulative product of a numeric vector in R?",
+        "option_a": "cumulative_product()",
+        "option_b": "cumprod()",
+        "option_c": "product_cumulative()",
+        "option_d": "prod_cum()",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 95,
+        "question_text": "Question: In R, what is the outcome of the expression which(TRUE)?",
+        "option_a": "1",
+        "option_b": "TRUE",
+        "option_c": "FALSE",
+        "option_d": "Error",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 96,
+        "question_text": "Question: What does the expression 1:5 %o% 1:3 generate in R?",
+        "option_a": "A matrix with all ones",
+        "option_b": "A matrix with outer products of two vectors",
+        "option_c": "A sequence of numbers",
+        "option_d": "Error",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 97,
+        "question_text": "Question: Which function is used to calculate the geometric mean of a numeric vector in R?",
+        "option_a": "geom_mean()",
+        "option_b": "calculate_geometric_mean()",
+        "option_c": "geomean()",
+        "option_d": "geom_mean_calc()",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 98,
+        "question_text": "Question: What is the result of the expression identical(c(1, 2, 3), c(1:3)) in R?",
+        "option_a": "TRUE",
+        "option_b": "FALSE",
+        "option_c": "NA",
+        "option_d": "Error",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 99,
+        "question_text": "Question: In R, which function is used to calculate the cumulative maximum of a numeric vector?",
+        "option_a": "max_cum()",
+        "option_b": "cumulative_max()",
+        "option_c": "cummax()",
+        "option_d": "maximum_cumulative()",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 100,
+        "question_text": "Question: How would you calculate the correlation coefficient between two vectors x and y in R?",
+        "option_a": "correlation(x, y)",
+        "option_b": "corrcoef(x, y)",
+        "option_c": "cor(x, y)",
+        "option_d": "covariance(x, y)",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 101,
+        "question_text": "Question: Which of the following is not a fundamental data type in R?",
+        "option_a": "Numeric",
+        "option_b": "Boolean",
+        "option_c": "Complex",
+        "option_d": "String",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 102,
+        "question_text": "Question: In R, which data type is used to represent text and character strings?",
+        "option_a": "txt",
+        "option_b": "str",
+        "option_c": "char",
+        "option_d": "character",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 103,
+        "question_text": "Question: What is the data type of the result when dividing an integer by a numeric value in R?",
+        "option_a": "Numeric",
+        "option_b": "Integer",
+        "option_c": "Character",
+        "option_d": "Logical",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 104,
+        "question_text": "Question: Which data type is used to represent categorical or factor variables in R?",
+        "option_a": "enum",
+        "option_b": "cat",
+        "option_c": "category",
+        "option_d": "factor",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 105,
+        "question_text": "Question: What does the typeof() function in R return?",
+        "option_a": "The variable name",
+        "option_b": "The memory address of the variable",
+        "option_c": "The data type of the variable",
+        "option_d": "The size of the variable in bytes",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 106,
+        "question_text": "Question: Which of the following is an example of a vectorized data structure in R?",
+        "option_a": "Matrix",
+        "option_b": "List",
+        "option_c": "Data frame",
+        "option_d": "Character string",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 107,
+        "question_text": "Question: What is the primary characteristic of a vector in R?",
+        "option_a": "It can hold data of different types.",
+        "option_b": "It can hold data of the same type.",
+        "option_c": "It is a multidimensional data structure.",
+        "option_d": "It can hold complex numbers only.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 108,
+        "question_text": "Question: Which function is used to create a vector in R?",
+        "option_a": "list()",
+        "option_b": "vector()",
+        "option_c": "create_vector()",
+        "option_d": "c()",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 109,
+        "question_text": "Question: What is the purpose of a matrix in R?",
+        "option_a": "To store data of different types.",
+        "option_b": "To store data in a single column.",
+        "option_c": "To represent multidimensional arrays.",
+        "option_d": "To store data in a tabular format with rows and columns.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 110,
+        "question_text": "Question: How can you access an individual element in a matrix named mat at row 2 and column 3?",
+        "option_a": "mat[2, 3]",
+        "option_b": "mat(2, 3)",
+        "option_c": "mat[3, 2]",
+        "option_d": "mat[2][3]",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 111,
+        "question_text": "Question: What is the primary difference between a matrix and an array in R?",
+        "option_a": "Matrices can have more than two dimensions.",
+        "option_b": "Arrays can hold data of different types.",
+        "option_c": "Matrices are used for numerical data only.",
+        "option_d": "Arrays can have different row and column lengths.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 112,
+        "question_text": "Question: Which function is used to create an array in R?",
+        "option_a": "arr()",
+        "option_b": "create_array()",
+        "option_c": "array()",
+        "option_d": "make_array()",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 113,
+        "question_text": "Question: What is a characteristic of a list in R?",
+        "option_a": "It can hold only numeric data.",
+        "option_b": "It can hold data of different types and lengths.",
+        "option_c": "It is limited to two dimensions.",
+        "option_d": "It cannot contain functions.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 114,
+        "question_text": "Question: How can you access the third element in a list named my_list?",
+        "option_a": "my_list[2]",
+        "option_b": "my_list[3]",
+        "option_c": "my_list[[3]]",
+        "option_d": "my_list$3",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 115,
+        "question_text": "Question: What is the primary purpose of a data frame in R?",
+        "option_a": "To store only numeric data.",
+        "option_b": "To store data of different types and lengths in a tabular format.",
+        "option_c": "To store images and graphical data.",
+        "option_d": "To store only character strings.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 116,
+        "question_text": "Question: How can you create a data frame in R using existing vectors?",
+        "option_a": "create_df()",
+        "option_b": "new_dataframe()",
+        "option_c": "df()",
+        "option_d": "data.frame()",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 117,
+        "question_text": "Question: What is the outcome of the expression nrow(df) in R, where df is a data frame?",
+        "option_a": "The number of columns in the data frame",
+        "option_b": "The total number of elements in the data frame",
+        "option_c": "The number of unique values in the data frame",
+        "option_d": "The number of rows in the data frame",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 118,
+        "question_text": "Question: In a data frame, what is the equivalent of a column in a database table?",
+        "option_a": "Row",
+        "option_b": "Value",
+        "option_c": "Cell",
+        "option_d": "Variable",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 119,
+        "question_text": "Question: Which function is used to read data from a CSV file into a data frame in R?",
+        "option_a": "import_csv()",
+        "option_b": "read_csv()",
+        "option_c": "load_csv()",
+        "option_d": "csv_read()",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 120,
+        "question_text": "Question: How can you check the dimensions of a data frame named df in R?",
+        "option_a": "dim(df)",
+        "option_b": "size(df)",
+        "option_c": "length(df)",
+        "option_d": "dimensions(df)",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 121,
+        "question_text": "Question: What is the primary difference between a list and a data frame in R?",
+        "option_a": "Lists can only store one type of data.",
+        "option_b": "Data frames can only hold numerical data.",
+        "option_c": "Lists can have multiple dimensions.",
+        "option_d": "Data frames have a tabular structure with named columns.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 122,
+        "question_text": "Question: Which data structure is used to store heterogeneous data in R?",
+        "option_a": "Matrix",
+        "option_b": "List",
+        "option_c": "Data frame",
+        "option_d": "Array",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 123,
+        "question_text": "Question: What is the result of the expression length(list(\"a\", 1, TRUE)) in R?",
+        "option_a": "1",
+        "option_b": "2",
+        "option_c": "3",
+        "option_d": "Error",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 124,
+        "question_text": "Question: In R, which function is used to add new columns to an existing data frame?",
+        "option_a": "add_column()",
+        "option_b": "new_column()",
+        "option_c": "attach_column()",
+        "option_d": "mutate()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 125,
+        "question_text": "Question: What is the primary characteristic of a factor variable in R?",
+        "option_a": "It can only hold numeric values.",
+        "option_b": "It can hold data of different types and lengths.",
+        "option_c": "It is used for plotting data.",
+        "option_d": "It represents categorical data with predefined levels.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 126,
+        "question_text": "Question: What is the outcome of the expression as.character(123) in R?",
+        "option_a": "\"123\"",
+        "option_b": "123",
+        "option_c": "Character vector with one element",
+        "option_d": "Error",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 127,
+        "question_text": "Question: In R, which data structure is used to store 2D tabular data where each column can have different data types?",
+        "option_a": "Matrix",
+        "option_b": "Array",
+        "option_c": "Data frame",
+        "option_d": "List",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 128,
+        "question_text": "Question: What is the result of the expression dim(matrix(1:10, ncol = 2)) in R?",
+        "option_a": "2",
+        "option_b": "10",
+        "option_c": "NULL",
+        "option_d": "5",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 129,
+        "question_text": "Question: In R, what does the cbind() function do?",
+        "option_a": "It combines vectors horizontally into a matrix.",
+        "option_b": "It computes the cumulative binding of elements.",
+        "option_c": "It converts vectors to factors.",
+        "option_d": "It calculates the column-wise sum of a matrix.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 130,
+        "question_text": "Question: How can you extract a column named age from a data frame named df in R?",
+        "option_a": "df.age",
+        "option_b": "df$age",
+        "option_c": "df[age]",
+        "option_d": "df.column(age)",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 131,
+        "question_text": "Question: What is the purpose of the cbind() function in R?",
+        "option_a": "To combine data frames vertically.",
+        "option_b": "To combine vectors horizontally into a matrix.",
+        "option_c": "To bind columns of different data types.",
+        "option_d": "To compute cumulative binding of elements.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 132,
+        "question_text": "Question: Which function is used to merge two data frames based on common columns?",
+        "option_a": "merge()",
+        "option_b": "combine()",
+        "option_c": "join()",
+        "option_d": "merge_data_frames()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 133,
+        "question_text": "Question: What is the outcome of the expression unique(c(1, 2, 1, 3, 2)) in R?",
+        "option_a": "1, 2, 3",
+        "option_b": "1, 2",
+        "option_c": "1, 2, 3, 2",
+        "option_d": "3",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 134,
+        "question_text": "Question: In R, which data structure is used to represent key-value pairs?",
+        "option_a": "Vector",
+        "option_b": "List",
+        "option_c": "Data frame",
+        "option_d": "Named list",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 135,
+        "question_text": "Question: What is the primary purpose of a named list in R?",
+        "option_a": "To store only numeric data.",
+        "option_b": "To store data in a tabular format.",
+        "option_c": "To store data with labels for easy retrieval.",
+        "option_d": "To store complex numbers.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 136,
+        "question_text": "Question: What is the result of the expression is.na(c(NA, 1, 2)) in R?",
+        "option_a": "TRUE, FALSE, FALSE",
+        "option_b": "FALSE, TRUE, TRUE",
+        "option_c": "NA, NA, NA",
+        "option_d": "Error",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 137,
+        "question_text": "Question: In R, which data structure is used to represent hierarchical data?",
+        "option_a": "Vector",
+        "option_b": "List",
+        "option_c": "Array",
+        "option_d": "Nested list",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 138,
+        "question_text": "Question: What does the str() function do in R when applied to a data frame?",
+        "option_a": "It calculates the structure of the data frame.",
+        "option_b": "It converts the data frame to a string.",
+        "option_c": "It counts the number of rows and columns.",
+        "option_d": "It calculates the sum of numerical columns.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 139,
+        "question_text": "Question: What is the outcome of the expression max(c(5, 7, 3), na.rm = TRUE) in R?",
+        "option_a": "7",
+        "option_b": "5",
+        "option_c": "3",
+        "option_d": "NA",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 140,
+        "question_text": "Question: In R, what is the purpose of the t() function?",
+        "option_a": "It computes the transpose of a matrix.",
+        "option_b": "It calculates the cumulative sum of a vector.",
+        "option_c": "It converts numeric data to character data.",
+        "option_d": "It creates a transposed data frame.",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 141,
+        "question_text": "Question: How can you combine two data frames df1 and df2 vertically, keeping all rows from both data frames?",
+        "option_a": "rbind(df1, df2)",
+        "option_b": "cbind(df1, df2)",
+        "option_c": "merge(df1, df2, by = NULL)",
+        "option_d": "bind_rows(df1, df2)",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 142,
+        "question_text": "Question: In R, what does the table() function do?",
+        "option_a": "It calculates the mean of a numeric vector.",
+        "option_b": "It generates a contingency table for categorical data.",
+        "option_c": "It calculates the sum of all elements in a matrix.",
+        "option_d": "It creates a cross-tabulation of two numeric vectors.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 143,
+        "question_text": "Question: What is the outcome of the expression unlist(list(1:3, 4:6)) in R?",
+        "option_a": "1, 2, 3",
+        "option_b": "1:6",
+        "option_c": "1, 2, 3, 4, 5, 6",
+        "option_d": "Error",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 144,
+        "question_text": "Question: Which function is used to convert a character vector to a factor variable in R?",
+        "option_a": "as.factor()",
+        "option_b": "to.factor()",
+        "option_c": "convert.factor()",
+        "option_d": "factorize()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 145,
+        "question_text": "Question: In R, what is the outcome of the expression sum(is.na(c(NA, 1, NA, 2)))?",
+        "option_a": "0",
+        "option_b": "1",
+        "option_c": "2",
+        "option_d": "3",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 146,
+        "question_text": "Question: What is the result of the expression dim(array(1:6, dim = c(2, 3))) in R?",
+        "option_a": "2",
+        "option_b": "3",
+        "option_c": "NULL",
+        "option_d": "2, 3",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 147,
+        "question_text": "Question: How can you convert a numeric vector x to a logical vector in R, where values greater than 0 are TRUE and others are FALSE?",
+        "option_a": "as.logical(x)",
+        "option_b": "logical(x)",
+        "option_c": "x > 0",
+        "option_d": "convert_logical(x)",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 148,
+        "question_text": "Question: In R, which function is used to generate a sequence of numbers with a specified step size?",
+        "option_a": "seq()",
+        "option_b": "create_sequence()",
+        "option_c": "generate_seq()",
+        "option_d": "numeric_sequence()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 149,
+        "question_text": "Question: What is the outcome of the expression c(1, 2, 3) + c(2, 3, 4) in R?",
+        "option_a": "3, 5, 7",
+        "option_b": "3, 6, 7",
+        "option_c": "Error",
+        "option_d": "1, 2, 3, 2, 3, 4",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 150,
+        "question_text": "Question: In R, which function is used to find the indices of non-NA/NaN values in a vector?",
+        "option_a": "find_na()",
+        "option_b": "which()",
+        "option_c": "locate()",
+        "option_d": "non_na_indices()",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 151,
+        "question_text": "Question: What is the output of the following code in R? r Copy code x <- c(1, 2, 3) y <- x y[2] <- 5 print(x)",
+        "option_a": "1, 2, 3",
+        "option_b": "1, 5, 3",
+        "option_c": "5, 2, 3",
+        "option_d": "Error",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 152,
+        "question_text": "Question: In R, what is the result of the expression as.numeric(\"42\")?",
+        "option_a": "\"42\"",
+        "option_b": "42",
+        "option_c": "numeric(42)",
+        "option_d": "Error",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 153,
+        "question_text": "Question: What does the rep() function in R do?",
+        "option_a": "Creates a list of repeated elements.",
+        "option_b": "Generates a vector by repeating elements.",
+        "option_c": "Reverses the order of elements in a vector.",
+        "option_d": "Calculates the running total of a vector.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 154,
+        "question_text": "Question: How can you check if a vector x contains any missing values (NA) in R?",
+        "option_a": "is_na(x)",
+        "option_b": "anyNA(x)",
+        "option_c": "has_na(x)",
+        "option_d": "contains_na(x)",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 155,
+        "question_text": "Question: What is the result of the expression sum(1:10, na.rm = TRUE) in R if NA values are present in the vector?",
+        "option_a": "55",
+        "option_b": "NA",
+        "option_c": "45",
+        "option_d": "Error",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 156,
+        "question_text": "Question: What is the outcome of the expression 1:5 * 2:4 in R?",
+        "option_a": "2, 6, 12",
+        "option_b": "1, 8, 27",
+        "option_c": "1, 2, 3, 4, 5",
+        "option_d": "Error",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 157,
+        "question_text": "Question: In R, which function is used to concatenate multiple character vectors?",
+        "option_a": "concatenate()",
+        "option_b": "combine()",
+        "option_c": "paste()",
+        "option_d": "join()",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 158,
+        "question_text": "Question: What does the expression TRUE + 2 evaluate to in R?",
+        "option_a": "TRUE",
+        "option_b": "3",
+        "option_c": "2",
+        "option_d": "Error",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 159,
+        "question_text": "Question: Which function is used to calculate the mean of a numeric vector x in R, excluding NA values?",
+        "option_a": "mean(x, na.rm = TRUE)",
+        "option_b": "average(x)",
+        "option_c": "calculate_mean(x)",
+        "option_d": "na.mean(x)",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 160,
+        "question_text": "Question: In R, how can you generate a sequence of numbers from 10 to 1 in descending order?",
+        "option_a": "seq(10, 1)",
+        "option_b": "seq(1, 10, -1)",
+        "option_c": "sequence(10, 1)",
+        "option_d": "generate_seq(10, 1)",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 161,
+        "question_text": "Question: What does the order() function do in R?",
+        "option_a": "It sorts a vector in descending order.",
+        "option_b": "It rearranges a matrix by column values.",
+        "option_c": "It returns the index order that would sort a vector.",
+        "option_d": "It generates a sequence of values based on order.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 162,
+        "question_text": "Question: How can you convert a matrix mat into a data frame in R?",
+        "option_a": "data_frame(mat)",
+        "option_b": "convert_to_df(mat)",
+        "option_c": "as.data.frame(mat)",
+        "option_d": "mat_to_df(mat)",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 163,
+        "question_text": "Question: In R, which function is used to find the union of two vectors?",
+        "option_a": "union()",
+        "option_b": "combine()",
+        "option_c": "merge()",
+        "option_d": "intersect()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 164,
+        "question_text": "Question: What is the outcome of the expression rev(\"hello\") in R?",
+        "option_a": "\"olleh\"",
+        "option_b": "hello",
+        "option_c": "Error",
+        "option_d": "\"h\"",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 165,
+        "question_text": "Question: How can you create a named vector in R with elements \"a\", \"b\", and \"c\" named as \"alpha\", \"beta\", and \"gamma\"?",
+        "option_a": "c(\"alpha\" = \"a\", \"beta\" = \"b\", \"gamma\" = \"c\")",
+        "option_b": "named_vector(c(\"a\", \"b\", \"c\"), c(\"alpha\", \"beta\", \"gamma\"))",
+        "option_c": "vector(c(\"a\", \"b\", \"c\"), names = c(\"alpha\", \"beta\", \"gamma\"))",
+        "option_d": "create_named_vector(c(\"a\", \"b\", \"c\"), c(\"alpha\", \"beta\", \"gamma\"))",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 166,
+        "question_text": "Question: In R, which function is used to compute the element-wise square root of a vector?",
+        "option_a": "sqrt()",
+        "option_b": "square_root()",
+        "option_c": "element_sqrt()",
+        "option_d": "sqrt_elements()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 167,
+        "question_text": "Question: What is the result of the expression sum(1:5, 2) in R?",
+        "option_a": "15",
+        "option_b": "18",
+        "option_c": "20",
+        "option_d": "Error",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 168,
+        "question_text": "Question: In R, what does the expression 1:5 %/% 2 evaluate to?",
+        "option_a": "0, 1, 2, 2, 2",
+        "option_b": "0, 0, 1, 1, 2",
+        "option_c": "0.5, 1, 1.5, 2, 2.5",
+        "option_d": "Error",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 169,
+        "question_text": "Question: Which function is used to calculate the cumulative product of a vector in R?",
+        "option_a": "cumprod()",
+        "option_b": "product_cumulative()",
+        "option_c": "cumulative_product()",
+        "option_d": "prod_cum()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 170,
+        "question_text": "Question: What is the purpose of the order() function in R?",
+        "option_a": "To sort elements in a vector.",
+        "option_b": "To rearrange the columns of a data frame.",
+        "option_c": "To calculate the cumulative order of a sequence.",
+        "option_d": "To find the order of elements in a vector.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 171,
+        "question_text": "Question: In R, how can you extract all even elements from a numeric vector x?",
+        "option_a": "x[x %% 2 == 0]",
+        "option_b": "x[x % 2 == 0]",
+        "option_c": "x[x mod 2 == 0]",
+        "option_d": "even(x)",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 172,
+        "question_text": "Question: What is the outcome of the expression c(1, 2) + c(3, 4, 5) in R?",
+        "option_a": "4, 6",
+        "option_b": "1, 2, 3, 4, 5",
+        "option_c": "Error",
+        "option_d": "4, 8, 10",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 173,
+        "question_text": "What is the purpose of using packages in R?",
+        "option_a": "They are required for R to run on different operating systems.",
+        "option_b": "They provide a way to organize and share R code and functions.",
+        "option_c": "They are alternative names for R objects.",
+        "option_d": "They automatically install R on your system.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 174,
+        "question_text": "Which function is used to install a package in R?",
+        "option_a": "load_package()",
+        "option_b": "install.packages()",
+        "option_c": "import_package()",
+        "option_d": "load_library()",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 175,
+        "question_text": "What does the library() function do in R?",
+        "option_a": "It loads a dataset from a package.",
+        "option_b": "It uninstalls a package from the system.",
+        "option_c": "It imports functions and datasets from a package for use.",
+        "option_d": "It exports data to a package.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 176,
+        "question_text": "Which of the following is NOT a popular package for data manipulation in R?",
+        "option_a": "dplyr",
+        "option_b": "tidyr",
+        "option_c": "plyr",
+        "option_d": "pandas",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 177,
+        "question_text": "What's the purpose of the requireNamespace() function in R?",
+        "option_a": "It installs a package from CRAN.",
+        "option_b": "It checks if a package is installed and loads it if available.",
+        "option_c": "It creates a new namespace for a package.",
+        "option_d": "It removes a package from the system.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 178,
+        "question_text": "Handling Data in R Workspace: In R, what does the term \"data frame\" refer to?",
+        "option_a": "A variable that stores numerical data.",
+        "option_b": "A collection of R packages.",
+        "option_c": "A two-dimensional tabular data structure.",
+        "option_d": "A graphical representation of data.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 179,
+        "question_text": "How can you access a specific element in a data frame in R?",
+        "option_a": "Using the get() function",
+        "option_b": "Using the subset() function",
+        "option_c": "Using the $ operator",
+        "option_d": "Using the access() function",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 180,
+        "question_text": "Which function is used to list all the variables (columns) in a data frame?",
+        "option_a": "list_vars()",
+        "option_b": "columns()",
+        "option_c": "names()",
+        "option_d": "variables()",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 181,
+        "question_text": "To remove missing values (NA) from a data frame df, which function should be used?",
+        "option_a": "remove_missing(df)",
+        "option_b": "na.omit(df)",
+        "option_c": "drop_na(df)",
+        "option_d": "clean_data(df)",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 182,
+        "question_text": "What's the purpose of the str() function in R?",
+        "option_a": "It creates a scatter plot of two variables.",
+        "option_b": "It converts a string to a numeric value.",
+        "option_c": "It displays the structure of an R object, showing its components.",
+        "option_d": "It computes the statistical correlation between variables.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 183,
+        "question_text": "What is the primary purpose of using R packages?",
+        "option_a": "To organize your R code into functions.",
+        "option_b": "To share your R code with others.",
+        "option_c": "To provide a collection of functions for specific tasks.",
+        "option_d": "To make your R code run faster.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 184,
+        "question_text": "Which function is used to install a package in R?",
+        "option_a": "install()",
+        "option_b": "load_package()",
+        "option_c": "import.packages()",
+        "option_d": "install.packages()",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 185,
+        "question_text": "How do you load a package in R after it's been installed?",
+        "option_a": "import(package_name)",
+        "option_b": "attach(package_name)",
+        "option_c": "library(package_name)",
+        "option_d": "load(package_name)",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 186,
+        "question_text": "Which package in R is commonly used for data manipulation and transformation?",
+        "option_a": "base",
+        "option_b": "dplyr",
+        "option_c": "stats",
+        "option_d": "math",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 187,
+        "question_text": "What's the purpose of the requireNamespace() function in R?",
+        "option_a": "To check if a namespace is required for a package.",
+        "option_b": "To create a new namespace for a package.",
+        "option_c": "To load a package's namespace into the current session.",
+        "option_d": "To install a package from CRAN.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 188,
+        "question_text": "Handling Data in R Workspace: In R, what data structure is commonly used to store tabular data?",
+        "option_a": "Array",
+        "option_b": "List",
+        "option_c": "Data frame",
+        "option_d": "Matrix",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 189,
+        "question_text": "How can you access the first few rows of a data frame df?",
+        "option_a": "df[start:end, ]",
+        "option_b": "head(df, n)",
+        "option_c": "df[1:n, ]",
+        "option_d": "subset(df, n)",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 190,
+        "question_text": "Which function is used to rename columns in a data frame?",
+        "option_a": "rename_columns()",
+        "option_b": "rename_vars()",
+        "option_c": "rename(df, new_names)",
+        "option_d": "colnames(df)",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 191,
+        "question_text": "What function can be used to calculate basic summary statistics for each column in a data frame?",
+        "option_a": "describe()",
+        "option_b": "summary()",
+        "option_c": "stats()",
+        "option_d": "summarize()",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 192,
+        "question_text": "How do you remove a variable (column) named \"Age\" from a data frame df?",
+        "option_a": "df$Age <- NULL",
+        "option_b": "df <- remove(df, \"Age\")",
+        "option_c": "df <- df[-\"Age\"]",
+        "option_d": "df <- df %>% drop_var(\"Age\")",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 193,
+        "question_text": "Reading & Importing Data: Which function is used to read data from a comma-separated values (CSV) file in R?",
+        "option_a": "read.csv()",
+        "option_b": "read_txt()",
+        "option_c": "read.table()",
+        "option_d": "import_csv()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 194,
+        "question_text": "To read an Excel file in R, you need to use a package such as:",
+        "option_a": "xlsx",
+        "option_b": "readxl",
+        "option_c": "excelr",
+        "option_d": "xlsio",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 195,
+        "question_text": "How can you read a JSON file into R?",
+        "option_a": "read.json()",
+        "option_b": "json_read()",
+        "option_c": "fromJSON()",
+        "option_d": "load_json()",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 196,
+        "question_text": "What function can be used to connect and retrieve data from a MySQL database?",
+        "option_a": "connect_mysql()",
+        "option_b": "dbConnect()",
+        "option_c": "mysql_connect()",
+        "option_d": "dbConnectMySQL()",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 197,
+        "question_text": "When importing data from a database, what does SQL stand for?",
+        "option_a": "Structured Query Language",
+        "option_b": "Simple Query Language",
+        "option_c": "Standard Query Logic",
+        "option_d": "String Query Library",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 198,
+        "question_text": "Exporting Data from R: Which function is used to write data to a CSV file in R?",
+        "option_a": "write.csv()",
+        "option_b": "write_txt()",
+        "option_c": "write.table()",
+        "option_d": "export_csv()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 199,
+        "question_text": "To export data to an Excel file in R, which package is commonly used?",
+        "option_a": "xlsx",
+        "option_b": "writexl",
+        "option_c": "excelr",
+        "option_d": "openxlsx",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 200,
+        "question_text": "How can you save a data frame named df as an R data file?",
+        "option_a": "save_rdata(df, \"data_file.RData\")",
+        "option_b": "save_r(df, file = \"data_file.RData\")",
+        "option_c": "save(df, file = \"data_file.RData\")",
+        "option_d": "save_rdata(\"data_file.RData\", df)",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 201,
+        "question_text": "Which function can be used to export data to a JSON file?",
+        "option_a": "write_json()",
+        "option_b": "json_export()",
+        "option_c": "toJSON()",
+        "option_d": "save_json()",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 202,
+        "question_text": "What's the purpose of the fwrite() function in the data.table package?",
+        "option_a": "To write formatted text files.",
+        "option_b": "To write binary files.",
+        "option_c": "To write data tables to disk quickly.",
+        "option_d": "To write Excel files.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 203,
+        "question_text": "What is an R package?",
+        "option_a": "A collection of datasets",
+        "option_b": "A collection of functions and data",
+        "option_c": "A type of variable in R",
+        "option_d": "A visualization tool",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 204,
+        "question_text": "Which function is used to install packages from the Comprehensive R Archive Network (CRAN)?",
+        "option_a": "install_package()",
+        "option_b": "load_package()",
+        "option_c": "require()",
+        "option_d": "install.packages()",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 205,
+        "question_text": "How can you load a package named \"dplyr\"?",
+        "option_a": "use(\"dplyr\")",
+        "option_b": "import(dplyr)",
+        "option_c": "library(dplyr)",
+        "option_d": "require_package(\"dplyr\")",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 206,
+        "question_text": "Which package is commonly used for data visualization in R?",
+        "option_a": "dtlplot",
+        "option_b": "visR",
+        "option_c": "ggplot2",
+        "option_d": "dataViz",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 207,
+        "question_text": "What's the purpose of the library() function in R?",
+        "option_a": "To load a dataset",
+        "option_b": "To install a package",
+        "option_c": "To load a package",
+        "option_d": "To remove a package",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 208,
+        "question_text": "Handling Data in R Workspace: What is a data frame in R?",
+        "option_a": "A list of vectors",
+        "option_b": "A single value",
+        "option_c": "A matrix with equal rows and columns",
+        "option_d": "A two-dimensional table of data",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 209,
+        "question_text": "How can you access the first 5 rows of a data frame named \"df\"?",
+        "option_a": "df[1:5, ]",
+        "option_b": "head(df, n = 5)",
+        "option_c": "df[1:5]",
+        "option_d": "subset(df, 1:5)",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 210,
+        "question_text": "Which function is used to rename columns in a data frame?",
+        "option_a": "rename_vars()",
+        "option_b": "change_colnames()",
+        "option_c": "rename(df, new_names)",
+        "option_d": "colnames(df)",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 211,
+        "question_text": "What function is used to calculate the mean of a numeric vector in R?",
+        "option_a": "avg()",
+        "option_b": "mean()",
+        "option_c": "average()",
+        "option_d": "numeric_mean()",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 212,
+        "question_text": "How do you remove missing values (NA) from a data frame named \"data\"?",
+        "option_a": "clean_data(data)",
+        "option_b": "data <- remove_na(data)",
+        "option_c": "data <- na.omit(data)",
+        "option_d": "data <- data[!is.na(data), ]",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 213,
+        "question_text": "Reading & Importing Data: Which function is used to read a CSV file named \"data.csv\" into R?",
+        "option_a": "read.csv(\"data.csv\")",
+        "option_b": "load_csv(\"data.csv\")",
+        "option_c": "read_data(\"data.csv\")",
+        "option_d": "import(\"data.csv\")",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 214,
+        "question_text": "What package is commonly used to read Excel files in R?",
+        "option_a": "xlsx",
+        "option_b": "readxl",
+        "option_c": "excelR",
+        "option_d": "excelread",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 215,
+        "question_text": "To import data from a JSON file, which function is typically used?",
+        "option_a": "read_json()",
+        "option_b": "json_import()",
+        "option_c": "fromJSON()",
+        "option_d": "json_read()",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 216,
+        "question_text": "How can you establish a connection to a SQLite database in R?",
+        "option_a": "connect_sqlite()",
+        "option_b": "sqlite_connect()",
+        "option_c": "DBI::dbConnect()",
+        "option_d": "create_connection(\"SQLite\")",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 217,
+        "question_text": "In the context of importing data from databases, what does ODBC stand for?",
+        "option_a": "Open Database Collection",
+        "option_b": "Object-Driven Binary Connector",
+        "option_c": "Object-Database Communication",
+        "option_d": "Open Database Connectivity",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 218,
+        "question_text": "Exporting Data from R: Which function is used to write a data frame to a CSV file in R?",
+        "option_a": "write.csv()",
+        "option_b": "save_csv()",
+        "option_c": "export_csv()",
+        "option_d": "write_file()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 219,
+        "question_text": "To export data to an Excel file, what package is commonly used?",
+        "option_a": "xlsx",
+        "option_b": "writexl",
+        "option_c": "openxlsx",
+        "option_d": "exportxl",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 220,
+        "question_text": "How can you save an R object named \"my_data\" as an R data file?",
+        "option_a": "save_rdata(my_data, \"data.RData\")",
+        "option_b": "save(my_data, file = \"data.RData\")",
+        "option_c": "save_data(my_data, \"data.RData\")",
+        "option_d": "export(my_data, \"data.RData\")",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 221,
+        "question_text": "What function is used to export data to a JSON file?",
+        "option_a": "write_json()",
+        "option_b": "json_export()",
+        "option_c": "toJSON()",
+        "option_d": "export_json()",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 222,
+        "question_text": "What's the purpose of the write.table() function in R?",
+        "option_a": "To write data to a text file",
+        "option_b": "To write data to an Excel file",
+        "option_c": "To write data to a CSV file",
+        "option_d": "To write data to a binary file",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 223,
+        "question_text": "What is the tidyverse in R?",
+        "option_a": "A built-in R function for data cleaning",
+        "option_b": "A set of packages designed for data analysis and manipulation",
+        "option_c": "An alternative to base R functions for visualization",
+        "option_d": "A programming language for statistical computing",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 224,
+        "question_text": "Which of the following is NOT a package included in the tidyverse?",
+        "option_a": "dplyr",
+        "option_b": "ggplot2",
+        "option_c": "base",
+        "option_d": "tidyr",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 225,
+        "question_text": "What does the concept of \"tidy data\" refer to in the context of the tidyverse?",
+        "option_a": "Data that is free from any errors or inconsistencies",
+        "option_b": "Data that is easy to clean and prepare for analysis",
+        "option_c": "Data that is organized in a consistent and structured format",
+        "option_d": "Data that is collected using tidyverse functions only",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 226,
+        "question_text": "Which tidyverse package is used for data visualization and plotting?",
+        "option_a": "lubridate",
+        "option_b": "stringr",
+        "option_c": "tidyr",
+        "option_d": "ggplot2",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 227,
+        "question_text": "The %>% operator, also known as the pipe operator, is used to:",
+        "option_a": "Compare two data frames",
+        "option_b": "Assign a value to a variable",
+        "option_c": "Chain together multiple operations on data",
+        "option_d": "Load packages from the tidyverse",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 228,
+        "question_text": "Manipulating and Processing Data in R: What is the primary purpose of the dplyr package within the tidyverse?",
+        "option_a": "Importing data from external sources",
+        "option_b": "Data visualization and plotting",
+        "option_c": "Data manipulation and transformation",
+        "option_d": "Statistical modeling and hypothesis testing",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 229,
+        "question_text": "Which dplyr function is used to select specific columns from a data frame?",
+        "option_a": "select()",
+        "option_b": "filter()",
+        "option_c": "mutate()",
+        "option_d": "summarize()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 230,
+        "question_text": "In dplyr, what does the filter() function do?",
+        "option_a": "Rearranges the rows of a data frame",
+        "option_b": "Adds new columns to a data frame",
+        "option_c": "Selects rows that meet specified conditions",
+        "option_d": "Computes summary statistics for columns",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 231,
+        "question_text": "The arrange() function in dplyr is used to:",
+        "option_a": "Group data based on a variable",
+        "option_b": "Calculate the mean of a numeric variable",
+        "option_c": "Sort rows of a data frame based on one or more variables",
+        "option_d": "Combine multiple data frames into one",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 232,
+        "question_text": "What does the mutate() function in dplyr do?",
+        "option_a": "Deletes specified columns from a data frame",
+        "option_b": "Applies a function to each element of a column",
+        "option_c": "Creates a new column by modifying existing columns",
+        "option_d": "Renames columns in a data frame",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 233,
+        "question_text": "Which package in the tidyverse is commonly used for working with dates and times?",
+        "option_a": "tidyr",
+        "option_b": "dplyr",
+        "option_c": "stringr",
+        "option_d": "lubridate",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 234,
+        "question_text": "The tibble data structure in the tidyverse is an enhanced version of:",
+        "option_a": "Matrix",
+        "option_b": "List",
+        "option_c": "Data frame",
+        "option_d": "Vector",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 235,
+        "question_text": "Which function is used to convert between long and wide formats in the tidyr package?",
+        "option_a": "gather()",
+        "option_b": "pivot_longer()",
+        "option_c": "spread()",
+        "option_d": "reshape()",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 236,
+        "question_text": "The magrittr package provides the %<>% operator, which is used for:",
+        "option_a": "Filtering data",
+        "option_b": "Reassigning modified data to the same object",
+        "option_c": "Performing matrix multiplication",
+        "option_d": "Creating new variables",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 237,
+        "question_text": "The pipe operator %>% is used to pass:",
+        "option_a": "Values from left to right through a sequence of functions",
+        "option_b": "Functions from right to left",
+        "option_c": "Vectors to functions only",
+        "option_d": "Arguments to base R functions",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 238,
+        "question_text": "Manipulating and Processing Data in R: What does the anti_join() function in dplyr do?",
+        "option_a": "Joins two data frames and keeps only unmatched rows",
+        "option_b": "Removes all rows with missing values",
+        "option_c": "Performs a case-sensitive string comparison",
+        "option_d": "Creates a Cartesian product of two data frames",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 239,
+        "question_text": "The function case_when() in dplyr is used for:",
+        "option_a": "Selecting a specific case from a data frame",
+        "option_b": "Renaming columns based on specific conditions",
+        "option_c": "Mutating values based on multiple conditions",
+        "option_d": "Reordering factors within a column",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 240,
+        "question_text": "Which dplyr function calculates the cumulative sum of a numeric column?",
+        "option_a": "cum_sum()",
+        "option_b": "cumulative_sum()",
+        "option_c": "cumulative()",
+        "option_d": "cumsum()",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 241,
+        "question_text": "What does the across() function in dplyr allow you to do?",
+        "option_a": "Create new variables using existing columns",
+        "option_b": "Apply a function to multiple columns",
+        "option_c": "Filter data within multiple ranges",
+        "option_d": "Perform aggregation on grouped data",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 242,
+        "question_text": "In the context of data manipulation, what is the purpose of the rowwise() function in dplyr?",
+        "option_a": "Select specific rows from a data frame",
+        "option_b": "Create a new column for each row",
+        "option_c": "Apply a function to each row of a data frame",
+        "option_d": "Rearrange rows based on a specific variable",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 243,
+        "question_text": "Which function is used to create a data frame in R?",
+        "option_a": "create_df()",
+        "option_b": "make_data_frame()",
+        "option_c": "data_frame()",
+        "option_d": "data.frame()",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 244,
+        "question_text": "How can you access the third row of a data frame named df?",
+        "option_a": "df[3, ]",
+        "option_b": "df[3]",
+        "option_c": "df[row = 3]",
+        "option_d": "df$row[3]",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 245,
+        "question_text": "What is the result of head(df, n = 10)?",
+        "option_a": "First 10 rows of the data frame",
+        "option_b": "First 6 rows of the data frame",
+        "option_c": "Last 10 rows of the data frame",
+        "option_d": "Last 6 rows of the data frame",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 246,
+        "question_text": "How can you sort a data frame named df in ascending order based on the column Age?",
+        "option_a": "sort(df, by = \"Age\")",
+        "option_b": "arrange(df, Age)",
+        "option_c": "order(df, Age)",
+        "option_d": "df <- df[order(df$Age), ]",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 247,
+        "question_text": "The cbind() function is used to:",
+        "option_a": "Combine two data frames vertically",
+        "option_b": "Combine two data frames horizontally",
+        "option_c": "Concatenate two character vectors",
+        "option_d": "Convert data frames into matrices",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 248,
+        "question_text": "Extracting, Combining, Merging, and Reshaping Data Frames: Which function is used to extract unique values from a column of a data frame?",
+        "option_a": "distinct()",
+        "option_b": "unique()",
+        "option_c": "uniqueness()",
+        "option_d": "extract_unique()",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 249,
+        "question_text": "What does the inner_join() function do in dplyr?",
+        "option_a": "Combines two data frames and keeps only matching rows",
+        "option_b": "Appends one data frame below the other",
+        "option_c": "Performs an element-wise addition",
+        "option_d": "Converts data frame rows into columns",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 250,
+        "question_text": "What function can be used to reshape a data frame from wide to long format?",
+        "option_a": "spread()",
+        "option_b": "widen()",
+        "option_c": "melt()",
+        "option_d": "longify()",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 251,
+        "question_text": "What is the purpose of the pivot_longer() function in tidyr?",
+        "option_a": "Converts long data into wide data",
+        "option_b": "Converts wide data into long data",
+        "option_c": "Performs a left outer join on two data frames",
+        "option_d": "Calculates the cumulative sum of a column",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 252,
+        "question_text": "When combining data frames with the merge() function, what argument specifies the column(s) to merge on?",
+        "option_a": "by",
+        "option_b": "on",
+        "option_c": "column",
+        "option_d": "key",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 253,
+        "question_text": "What's the primary benefit of using a data frame over a matrix in R?",
+        "option_a": "Data frames can hold only numeric values.",
+        "option_b": "Data frames can store multiple data types and have row names.",
+        "option_c": "Data frames have faster computation capabilities.",
+        "option_d": "Data frames consume less memory.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 254,
+        "question_text": "How do you create a data frame with columns named \"Name\" and \"Age\"?",
+        "option_a": "df <- data.frame(Name, Age)",
+        "option_b": "df <- data.frame(c(\"Name\", \"Age\"))",
+        "option_c": "df <- create_df(\"Name\", \"Age\")",
+        "option_d": "df <- data.frame(list(Name, Age))",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 255,
+        "question_text": "What's the result of df$Column when accessing a column named \"Column\" in a data frame?",
+        "option_a": "A vector containing the values of the column",
+        "option_b": "A new data frame with only the \"Column\" column",
+        "option_c": "An error, since the $ operator doesn't work for data frames",
+        "option_d": "A data frame with one row containing the value of the \"Column\" column",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 256,
+        "question_text": "How can you sort a data frame named df by the column \"Score\" in descending order?",
+        "option_a": "df_sorted <- arrange(df, desc(Score))",
+        "option_b": "df_sorted <- sort(df, by = \"Score\", decreasing = TRUE)",
+        "option_c": "df_sorted <- sort(df, by = \"Score\")",
+        "option_d": "df_sorted <- arrange(df, Score)",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 257,
+        "question_text": "What is the purpose of the sample_n() function in dplyr?",
+        "option_a": "It creates a random sample from a data frame.",
+        "option_b": "It selects a random number of rows from a data frame.",
+        "option_c": "It shuffles the rows of a data frame.",
+        "option_d": "It computes the mean of a numeric column.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 258,
+        "question_text": "Extracting, Combining, Merging, and Reshaping Data Frames: Which function is used to extract rows from a data frame based on a logical condition?",
+        "option_a": "extract_rows()",
+        "option_b": "filter()",
+        "option_c": "subset()",
+        "option_d": "rows_where()",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 259,
+        "question_text": "What is the purpose of the bind_rows() function in dplyr?",
+        "option_a": "It binds data frames column-wise.",
+        "option_b": "It binds data frames row-wise.",
+        "option_c": "It combines data frames using a specific column as a key.",
+        "option_d": "It reshapes a data frame from long to wide format.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 260,
+        "question_text": "In the context of merging data frames using the merge() function, what does the all.x argument do?",
+        "option_a": "It performs an inner join between data frames.",
+        "option_b": "It includes all rows from the left data frame.",
+        "option_c": "It removes all duplicate rows.",
+        "option_d": "It includes all rows from the right data frame.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 261,
+        "question_text": "Which function is used to convert a data frame from wide to long format in tidyr?",
+        "option_a": "reshape_long()",
+        "option_b": "spread_long()",
+        "option_c": "gather()",
+        "option_d": "pivot_long()",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 262,
+        "question_text": "When using the pivot_wider() function in tidyr, what argument is used to specify which column values to spread?",
+        "option_a": "cols",
+        "option_b": "values",
+        "option_c": "names_from",
+        "option_d": "values_from",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 263,
+        "question_text": "In R, what is the purpose of a function?",
+        "option_a": "To assign a value to a variable",
+        "option_b": "To create a new data frame",
+        "option_c": "To encapsulate a sequence of instructions",
+        "option_d": "To generate random numbers",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 264,
+        "question_text": "Which of the following is NOT a part of a function's structure?",
+        "option_a": "Argument(s)",
+        "option_b": "Return value",
+        "option_c": "Body",
+        "option_d": "Data frame",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 265,
+        "question_text": "How do you define a custom function in R?",
+        "option_a": "new_function() { }",
+        "option_b": "function_name { }",
+        "option_c": "function function_name() { }",
+        "option_d": "function_name() { }",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 266,
+        "question_text": "What is the role of the return() statement within a function?",
+        "option_a": "It prints a value to the console.",
+        "option_b": "It assigns a value to a variable.",
+        "option_c": "It specifies the output of the function.",
+        "option_d": "It generates a random number.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 267,
+        "question_text": "What does the term \"scope\" refer to in the context of functions?",
+        "option_a": "The range of values a function can return",
+        "option_b": "The environment in which a function is defined and executed",
+        "option_c": "The number of arguments a function can accept",
+        "option_d": "The length of a function's code",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 268,
+        "question_text": "Built-in Functions in R (Numeric, Character, Statistical): What does the as.numeric() function do in R?",
+        "option_a": "Converts a numeric vector to a character vector",
+        "option_b": "Converts a character vector to a numeric vector",
+        "option_c": "Computes the sum of a numeric vector",
+        "option_d": "Rounds a numeric vector to the nearest integer",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 269,
+        "question_text": "The function toupper() is used to:",
+        "option_a": "Remove leading and trailing whitespace",
+        "option_b": "Convert a character vector to uppercase",
+        "option_c": "Replace specific substrings in a character vector",
+        "option_d": "Convert a numeric vector to uppercase",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 270,
+        "question_text": "Which function is used to compute the mean of a numeric vector?",
+        "option_a": "avg()",
+        "option_b": "mean()",
+        "option_c": "average()",
+        "option_d": "numeric_mean()",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 271,
+        "question_text": "What does the min() function return when applied to a character vector?",
+        "option_a": "The minimum value based on alphabetical order",
+        "option_b": "An error, since min() cannot be used with characters",
+        "option_c": "The number of characters in the vector",
+        "option_d": "The first character in the vector",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 272,
+        "question_text": "What does the sd() function calculate?",
+        "option_a": "The standard deviation of a numeric vector",
+        "option_b": "The sum of differences between elements of a vector",
+        "option_c": "The sample data in a vector",
+        "option_d": "The square of the differences between elements of a vector",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 273,
+        "question_text": "Interactive Reporting with R Markdown: R Markdown is used for:",
+        "option_a": "Creating interactive plots in R",
+        "option_b": "Writing and sharing documents with R code and output",
+        "option_c": "Running statistical analyses",
+        "option_d": "Importing external datasets",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 274,
+        "question_text": "How can you include R code chunks in an R Markdown document?",
+        "option_a": "By using HTML tags",
+        "option_b": "By enclosing the code in << >>= and @ delimiters",
+        "option_c": "By using curly braces { }",
+        "option_d": "By using the <code> element",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 275,
+        "question_text": "Which YAML header option is used to specify the title of an R Markdown document?",
+        "option_a": "output",
+        "option_b": "title",
+        "option_c": "author",
+        "option_d": "format",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 276,
+        "question_text": "In R Markdown, how can you create a level 1 header?",
+        "option_a": "Using ##",
+        "option_b": "Using ###",
+        "option_c": "Using #",
+        "option_d": "Using ####",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 277,
+        "question_text": "What is the purpose of the output field in the YAML header of an R Markdown document?",
+        "option_a": "To specify the output format of the document",
+        "option_b": "To define a new R function",
+        "option_c": "To import external packages",
+        "option_d": "To create a new code chunk",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 278,
+        "question_text": "What is the output of the following R code? r Copy code my_function <- function(x, y) { x + y } result <- my_function(3, 5) print(result)",
+        "option_a": "8",
+        "option_b": "my_function",
+        "option_c": "Error",
+        "option_d": "35",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 279,
+        "question_text": "Which R function is used to remove missing values from a vector?",
+        "option_a": "remove_na()",
+        "option_b": "clean_na()",
+        "option_c": "na.omit()",
+        "option_d": "filter_na()",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 280,
+        "question_text": "In R, the paste() function is used to:",
+        "option_a": "Perform element-wise multiplication",
+        "option_b": "Combine character vectors into a single string",
+        "option_c": "Sort elements in a vector",
+        "option_d": "Calculate the mean of a numeric vector",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 281,
+        "question_text": "What does the rep() function do in R?",
+        "option_a": "Computes the mean of a numeric vector",
+        "option_b": "Generates random values from a distribution",
+        "option_c": "Repeats a vector or elements of a vector",
+        "option_d": "Removes duplicates from a vector",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 282,
+        "question_text": "What's the role of the length() function in R?",
+        "option_a": "Counts the number of elements in a vector",
+        "option_b": "Computes the sum of a numeric vector",
+        "option_c": "Calculates the median of a numeric vector",
+        "option_d": "Measures the dispersion of data points",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 283,
+        "question_text": "Built-in Functions in R (Numeric, Character, Statistical): The toupper() function converts all characters in a character vector to uppercase. What's its counterpart to convert to lowercase?",
+        "option_a": "tolower()",
+        "option_b": "convert_lower()",
+        "option_c": "to_lower()",
+        "option_d": "case_lower()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 284,
+        "question_text": "What does the round() function do in R?",
+        "option_a": "Returns the smallest integer greater than or equal to a number",
+        "option_b": "Rounds a numeric vector to the nearest integer",
+        "option_c": "Computes the absolute value of a numeric vector",
+        "option_d": "Raises a number to a specified power",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 285,
+        "question_text": "What is the output of the following R code? r Copy code vec <- c(\"apple\", \"banana\", \"cherry\") result <- substr(vec, 2, 4) print(result)",
+        "option_a": "\"ppl\", \"ana\", \"her\"",
+        "option_b": "\"a\", \"b\", \"c\"",
+        "option_c": "\"pple\", \"banana\", \"cherry\"",
+        "option_d": "\"e\", \"e\", \"e\"",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 286,
+        "question_text": "The median() function calculates the median of a numeric vector. What's its counterpart to calculate the mean?",
+        "option_a": "mean()",
+        "option_b": "avg()",
+        "option_c": "average()",
+        "option_d": "mid()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 287,
+        "question_text": "The sum() function calculates the sum of a numeric vector. What's its counterpart to calculate the product?",
+        "option_a": "product()",
+        "option_b": "prod()",
+        "option_c": "multiply()",
+        "option_d": "times()",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 288,
+        "question_text": "Interactive Reporting with R Markdown: R Markdown documents can be rendered to various output formats such as HTML, PDF, and Word. What is the function used to render an R Markdown document?",
+        "option_a": "render_rmd()",
+        "option_b": "knit()",
+        "option_c": "generate()",
+        "option_d": "export()",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 289,
+        "question_text": "How can you include an R code chunk in an R Markdown document that won't display any code output?",
+        "option_a": "echo = FALSE",
+        "option_b": "output = NULL",
+        "option_c": "hide_output = TRUE",
+        "option_d": "code_output = FALSE",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 290,
+        "question_text": "Which YAML header option is used to specify the output format of an R Markdown document?",
+        "option_a": "output",
+        "option_b": "format",
+        "option_c": "output_format",
+        "option_d": "output_type",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 291,
+        "question_text": "In R Markdown, how do you create an inline expression for mathematical notation?",
+        "option_a": "{math}",
+        "option_b": "$$",
+        "option_c": "@",
+        "option_d": "$",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 292,
+        "question_text": "What is the purpose of the knitr package in R Markdown?",
+        "option_a": "It creates interactive visualizations.",
+        "option_b": "It generates random numbers for reports.",
+        "option_c": "It converts R Markdown documents to PDF format.",
+        "option_d": "It knits R code and output into a final document.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 293,
+        "question_text": "In R, which of the following commands will create a vector?",
+        "option_a": "x <- c(1.1, 2.2, 3.3)",
+        "option_b": "x = [1.1, 2.2, 3.3]",
+        "option_c": "vector x = (1.1, 2.2, 3.3)",
+        "option_d": "x <- {1.1, 2.2, 3.3}",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 294,
+        "question_text": "What is the basic data structure in R for storing numeric, integer, or complex type data?",
+        "option_a": "Data frame",
+        "option_b": "List",
+        "option_c": "Matrix",
+        "option_d": "Vector",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 295,
+        "question_text": "Which function in R is used to load external data from a .csv file?",
+        "option_a": "read.csv()",
+        "option_b": "load.csv()",
+        "option_c": "import.csv()",
+        "option_d": "open.csv()",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 296,
+        "question_text": "Which of the following is a correct way to declare a function in R?",
+        "option_a": "function myFunc() { }",
+        "option_b": "myFunc <- function() { }",
+        "option_c": "def myFunc(): {}",
+        "option_d": "create myFunc() { }",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 297,
+        "question_text": "How do you install a package in R?",
+        "option_a": "install.packages(\"package_name\")",
+        "option_b": "R.install(\"package_name\")",
+        "option_c": "package.install(\"package_name\")",
+        "option_d": "get.package(\"package_name\")",
+        "correct_option": "A",
+        "explanation": ""
+    }
+]

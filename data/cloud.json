@@ -1,0 +1,2572 @@
+[
+    {
+        "number": 1,
+        "question_text": "What term is used to describe a model for delivering on-demand computing resources over the internet?",
+        "option_a": "Cloud computing I A",
+        "option_b": "Edge computing B",
+        "option_c": "Traditional computing M",
+        "option_d": "Hybrid computing",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 2,
+        "question_text": "Which computing paradigm invMolves processing data closer to the source of data to reduce latency?",
+        "option_a": "Cloud computing C",
+        "option_b": "Traditional computing A",
+        "option_c": "Edge computing D",
+        "option_d": "Hybrid computing C",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 3,
+        "question_text": "What are the main characteristics of cloud computing?",
+        "option_a": "Broad Network Access, Scalability, Flexibility",
+        "option_b": "On-Demand Self-Service, Reliability, Global Reach",
+        "option_c": "Resource Pooling, Rapid Elasticity, Measured Service",
+        "option_d": "All of the above",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 4,
+        "question_text": "I A Which cloud service model allows users to build, deploy, and manage applications without worrying about the underlying infrastructure? B",
+        "option_a": "Infrastructure as a Service (IaaS) M",
+        "option_b": "Platform as a Service (PaaS) U",
+        "option_c": "Software as a Service (SaaS) M",
+        "option_d": "Function as a Service (FaaS)",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 5,
+        "question_text": "C Which cloud vendor offers a service called \"Amazon S3\" for scalable object A storage? D",
+        "option_a": "AWS (Amazon Web Services)",
+        "option_b": "C Azure (Microsoft Azure)",
+        "option_c": "GCP (Google Cloud Platform)",
+        "option_d": "All of the above",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 6,
+        "question_text": "What is the primary benefit of cloud computing?",
+        "option_a": "Cost Savings",
+        "option_b": "On-Premises Infrastructure Management I",
+        "option_c": "Limited Scalability A",
+        "option_d": "Increased Latency B",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 7,
+        "question_text": "M Which cloud vendor offers a service called \"Azure Functions\" for serverless computing? U",
+        "option_a": "AWS (Amazon Web Services) M",
+        "option_b": "Azure (Microsoft Azure) C",
+        "option_c": "GCP (Google Cloud Platform) A",
+        "option_d": "All of the above D",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 8,
+        "question_text": "WChat type of cloud computing paradigm involves the use of physical servers and on-premises infrastructure?",
+        "option_a": "Cloud computing",
+        "option_b": "Traditional computing",
+        "option_c": "Edge computing",
+        "option_d": "Hybrid computing",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 9,
+        "question_text": "Which cloud vendor offers a service called \"Google BigQuery\" for data I analytics and querying large datasets? A",
+        "option_a": "AWS (Amazon Web Services) B",
+        "option_b": "Azure (Microsoft Azure) M",
+        "option_c": "GCP (Google Cloud Platform) U",
+        "option_d": "All of the above M",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 10,
+        "question_text": "Which cloud computing service model allows users to access and use C applications over the internet without the need for installation? A",
+        "option_a": "Infrastructure as a Service (IaaS) D",
+        "option_b": "Platform as a Service (PaaS)",
+        "option_c": "C Software as a Service (SaaS)",
+        "option_d": "Function as a Service (FaaS)",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 11,
+        "question_text": "What term is used to describe a model for delivering on-demand computing resources over the internet?",
+        "option_a": "Cloud computing",
+        "option_b": "Edge computing",
+        "option_c": "Traditional computing",
+        "option_d": "Hybrid computing",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 12,
+        "question_text": "I Which computing paradigm involves processing data closer to the source of A data to reduce latency? B",
+        "option_a": "Cloud computing",
+        "option_b": "Traditional computing M",
+        "option_c": "Edge computing",
+        "option_d": "Hybrid computing",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 13,
+        "question_text": "What are the main characteristics of cloud computing? M",
+        "option_a": "Broad Network Access, Scalability, Flexibility",
+        "option_b": "On-Demand Self-Service, Reliability, Global Reach",
+        "option_c": "Resource Pooling, Rapid Elasticity, Measured Service C",
+        "option_d": "All of the above",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 14,
+        "question_text": "A Which cloud service model allows users to build, deploy, and manage applications without worrying about the underlying infrastructure? D",
+        "option_a": "Infrastructure as a Service (IaaS)",
+        "option_b": "C Platform as a Service (PaaS)",
+        "option_c": "Software as a Service (SaaS)",
+        "option_d": "Function as a Service (FaaS)",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 15,
+        "question_text": "Which cloud vendor offers a service called \"Amazon S3\" for scalable object storage?",
+        "option_a": "AWS (Amazon Web Services)",
+        "option_b": "Azure (Microsoft Azure)",
+        "option_c": "GCP (Google Cloud Platform)",
+        "option_d": "All of the above",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 16,
+        "question_text": "What is the primary benefit of cloud computing? I",
+        "option_a": "Cost Savings A",
+        "option_b": "On-Premises Infrastructure Management",
+        "option_c": "Limited Scalability B",
+        "option_d": "Increased Latency",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 17,
+        "question_text": "M Which cloud vendor offers a service called \"Azure Functions\" for serverless computing? U",
+        "option_a": "AWS (Amazon Web Services)",
+        "option_b": "Azure (Microsoft Azure) M",
+        "option_c": "GCP (Google Cloud Platform)",
+        "option_d": "All of the above",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 18,
+        "question_text": "C What type of cloud computing paradigm involves the use of physical servers and on-premises infrastructure? A",
+        "option_a": "Cloud computing D",
+        "option_b": "Traditional computing",
+        "option_c": "Edge computing",
+        "option_d": "C Hybrid computing",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 19,
+        "question_text": "Which cloud vendor offers a service called \"Google BigQuery\" for data analytics and querying large datasets?",
+        "option_a": "AWS (Amazon Web Services)",
+        "option_b": "Azure (Microsoft Azure)",
+        "option_c": "GCP (Google Cloud Platform)",
+        "option_d": "All of the above",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 20,
+        "question_text": "Which cloud computing service model allows users to access and use applications over the internet without the need for installation?",
+        "option_a": "Infrastructure as a Service (IaaS) I",
+        "option_b": "Platform as a Service (PaaS) A",
+        "option_c": "Software as a Service (SaaS)",
+        "option_d": "Function as a Service (FaaS) B",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 21,
+        "question_text": "M Which cloud vendor provides services like Amazon EC2 (Elastic Compute Cloud) and Amazon S3 (Simple Storage Service)? U",
+        "option_a": "AWS (Amazon Web Services)",
+        "option_b": "Azure (Microsoft Azure) M",
+        "option_c": "GCP (Google Cloud Platform)",
+        "option_d": "All of the above",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 22,
+        "question_text": "C If a company wants to build and deploy applications without worrying about the underlying infrastructure, which cloud service model should they choose? A",
+        "option_a": "Infrastructure as a Service (IaaS) D",
+        "option_b": "Platform as a Service (PaaS)",
+        "option_c": "Software as a Service (SaaS)",
+        "option_d": "C Function as a Service (FaaS)",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 23,
+        "question_text": "Which of the following is NOT a characteristic of cloud computing?",
+        "option_a": "Rapid Elasticity",
+        "option_b": "On-Demand Self-Service",
+        "option_c": "Limited Scalability",
+        "option_d": "Measured Service",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 24,
+        "question_text": "One of the main benefits of cloud computing is:",
+        "option_a": "Increased Latency",
+        "option_b": "Cost Savings I",
+        "option_c": "On-Premises Infrastructure Management A",
+        "option_d": "Limited Accessibility",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 25,
+        "question_text": "B Which cloud vendor provides services like Google Compute Engine and Google Cloud Storage? M",
+        "option_a": "AWS (Amazon Web Services)",
+        "option_b": "Azure (Microsoft Azure) U",
+        "option_c": "GCP (Google Cloud Platform)",
+        "option_d": "All of the above M",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 26,
+        "question_text": "In which computing paradigm are computing resources managed and maintained on physical servers and data centers owned by the organization? C",
+        "option_a": "Cloud computing A",
+        "option_b": "Traditional computing",
+        "option_c": "Edge computing D",
+        "option_d": "Hybrid computing",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 27,
+        "question_text": "WChich cloud service model provides users with access to applications over the internet without the need for installation?",
+        "option_a": "Infrastructure as a Service (IaaS)",
+        "option_b": "Platform as a Service (PaaS)",
+        "option_c": "Software as a Service (SaaS)",
+        "option_d": "Function as a Service (FaaS)",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 28,
+        "question_text": "If a company wants to process data closer to the source of data to reduce latency, which computing paradigm should they consider?",
+        "option_a": "Cloud computing",
+        "option_b": "Traditional computing",
+        "option_c": "Edge computing I",
+        "option_d": "Hybrid computing A",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 29,
+        "question_text": "Which cloud vendor offers a service called \"AWS Lambda\" for serverless B computing? M",
+        "option_a": "AWS (Amazon Web Services)",
+        "option_b": "Azure (Microsoft Azure)",
+        "option_c": "GCP (Google Cloud Platform) U",
+        "option_d": "All of the above",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 30,
+        "question_text": "Which cloud computing service model allows users to access and use applications over the internet without the need for installation? C",
+        "option_a": "Infrastructure as a Service (IaaS) A",
+        "option_b": "Platform as a Service (PaaS)",
+        "option_c": "Software as a Service (SaaS) D",
+        "option_d": "Function as a Service (FaaS)",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 31,
+        "question_text": "IfC a company wants to build and deploy applications without worrying about the underlying infrastructure, which cloud service model should they choose?",
+        "option_a": "Infrastructure as a Service (IaaS)",
+        "option_b": "Platform as a Service (PaaS)",
+        "option_c": "Software as a Service (SaaS)",
+        "option_d": "Function as a Service (FaaS)",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 32,
+        "question_text": "One of the main benefits of cloud computing is:",
+        "option_a": "Increased Latency",
+        "option_b": "Cost Savings",
+        "option_c": "On-Premises Infrastructure Management",
+        "option_d": "Limited Accessibility I",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 33,
+        "question_text": "A Which cloud vendor provides services like Amazon EC2 (Elastic Compute Cloud) and Amazon S3 (Simple Storage Service)? B",
+        "option_a": "AWS (Amazon Web Services) M",
+        "option_b": "Azure (Microsoft Azure)",
+        "option_c": "GCP (Google Cloud Platform)",
+        "option_d": "All of the above U",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 34,
+        "question_text": "Which cloud vendor offers a serMvice called \"Azure Functions\" for serverless computing?",
+        "option_a": "AWS (Amazon Web Services) C",
+        "option_b": "Azure (Microsoft Azure)",
+        "option_c": "GCP (Google Cloud Platform) A",
+        "option_d": "All of the above",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 35,
+        "question_text": "D In which computing paradigm are computing resources managed and maintained on physical servers and data centers owned by the organization? C",
+        "option_a": "Cloud computing",
+        "option_b": "Traditional computing",
+        "option_c": "Edge computing",
+        "option_d": "Hybrid computing",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 36,
+        "question_text": "Which cloud vendor provides services like Google Compute Engine and Google Cloud Storage?",
+        "option_a": "AWS (Amazon Web Services)",
+        "option_b": "Azure (Microsoft Azure)",
+        "option_c": "GCP (Google Cloud Platform)",
+        "option_d": "All of the above",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 37,
+        "question_text": "I Which of the following is NOT a characteristic of cloud computing? A",
+        "option_a": "Rapid Elasticity B",
+        "option_b": "On-Demand Self-Service",
+        "option_c": "Limited Scalability M",
+        "option_d": "Measured Service",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 38,
+        "question_text": "Which cloud vendor offers a service calUled \"Google BigQuery\" for data analytics and querying large datasets? M",
+        "option_a": "AWS (Amazon Web Services)",
+        "option_b": "Azure (Microsoft Azure)",
+        "option_c": "GCP (Google Cloud Platform) C",
+        "option_d": "All of the above",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 39,
+        "question_text": "A If a company wants to process data closer to the source of data to reduce latency, which computing paradigm should they consider? D",
+        "option_a": "Cloud computing",
+        "option_b": "C Traditional computing",
+        "option_c": "Edge computing",
+        "option_d": "Hybrid computing",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 40,
+        "question_text": "What does SaaS stand for in the context of cloud computing?",
+        "option_a": "Software and Applications Sharing",
+        "option_b": "Software as a Service",
+        "option_c": "System as a Solution",
+        "option_d": "Storage and Access Services",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 41,
+        "question_text": "Which of the following is NOT a characteristic of the SaaS model? I",
+        "option_a": "Automatic Updates A",
+        "option_b": "Internet Connectivity Dependency",
+        "option_c": "High Level of Customization B",
+        "option_d": "Scalability",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 42,
+        "question_text": "M SaaS applications are typically accessed through:",
+        "option_a": "Dedicated hardware provided by the vUendor",
+        "option_b": "Installation on local servers",
+        "option_c": "Web browsers over the interneMt",
+        "option_d": "Local network connections",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 43,
+        "question_text": "C Which of the following is a primary benefit of the SaaS model for businesses?",
+        "option_a": "High upfront costs for software licenses A",
+        "option_b": "Lower maintenance and infrastructure costs",
+        "option_c": "Complex and time-consuming deployment process D",
+        "option_d": "Limited access to automatic updates",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 44,
+        "question_text": "C In the SaaS model, who is responsible for managing software updates and security patches?",
+        "option_a": "End-users",
+        "option_b": "System administrators",
+        "option_c": "Software vendors/providers",
+        "option_d": "External consultants",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 45,
+        "question_text": "Which of the following is a potential disadvantage of the SaaS model?",
+        "option_a": "High customization options",
+        "option_b": "Data security concerns",
+        "option_c": "Dependency on internal IT resources",
+        "option_d": "Slower software deployment I",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 46,
+        "question_text": "A Which of the following cloud computing models involves the delivery of B infrastructure over the internet?",
+        "option_a": "IaaS (Infrastructure as a Service) M",
+        "option_b": "PaaS (Platform as a Service)",
+        "option_c": "SaaS (Software as a Service)",
+        "option_d": "DaaS (Data as a Service) U",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 47,
+        "question_text": "M Which of the following scenarios is an example of using SaaS?",
+        "option_a": "A company hosts its custom software on its private servers.",
+        "option_b": "A company uses a cloud-based CRM system accessed through a web browser. C",
+        "option_c": "A company creates its operating system for internal use.",
+        "option_d": "A company uses cloud-based virtual machines for development purposes. A",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 48,
+        "question_text": "Which of the following is an example of a popular SaaS application used for team collaboration and communication?",
+        "option_a": "Microsoft Excel",
+        "option_b": "Adobe Photoshop",
+        "option_c": "Slack",
+        "option_d": "AutoCAD",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 49,
+        "question_text": "I What type of application is best suited for the SaaS model? A",
+        "option_a": "Applications that require extensive customization",
+        "option_b": "Applications that have high processing requirements B",
+        "option_c": "Applications that need offline access only",
+        "option_d": "Applications that require frequent updates and user access from various M locations",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 50,
+        "question_text": "various locations U Which of the following statemeMnts about data backup in the SaaS model is true?",
+        "option_a": "Users are responsible for setting up their own data backups.",
+        "option_b": "Data backups are automatically managed by the SaaS provider. C",
+        "option_c": "Data backups are stored on users' local devices.",
+        "option_d": "Data backups are not available in the SaaS model. A",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 51,
+        "question_text": "Which cloud computing model offers the highest level of customization and control over the underlying infrastructure?",
+        "option_a": "IaaS (Infrastructure as a Service)",
+        "option_b": "PaaS (Platform as a Service)",
+        "option_c": "SaaS (Software as a Service)",
+        "option_d": "DaaS (Data as a Service)",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 52,
+        "question_text": "I Which aspect of the SaaS model helps businesses quickly adapt to changes in A user demand?",
+        "option_a": "Automatic updates B",
+        "option_b": "Scalability",
+        "option_c": "High customization options M",
+        "option_d": "Low subscription costs",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 53,
+        "question_text": "U SaaS providers ensure data security by:",
+        "option_a": "Encrypting data during transmMission only",
+        "option_b": "Allowing unrestricted access to customer data",
+        "option_c": "Complying with industry-standard security practices",
+        "option_d": "Making all customer data publicly accessible C",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 54,
+        "question_text": "Which of the following is a benefit of the SaaS model for software providers?",
+        "option_a": "Increased control over software deployment",
+        "option_b": "Lower revenue streams due to lower subscription fees",
+        "option_c": "Reduced need for customer support",
+        "option_d": "Direct management of customers' hardware and infrastructure",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 55,
+        "question_text": "What is one way to address concerns about data security in the SaaS model?",
+        "option_a": "Avoid using cloud-based solutions altogether",
+        "option_b": "Implement strict security measures within the organization I",
+        "option_c": "Rely solely on the SaaS provider for security A",
+        "option_d": "Choose reputable and security-focused SaaS providers",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 56,
+        "question_text": "B In the SaaS model, who is responsible for managing software compatibility M with different devices and operating systems?",
+        "option_a": "End-users",
+        "option_b": "System administrators U",
+        "option_c": "Software vendors/providers",
+        "option_d": "External consultants M",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 57,
+        "question_text": "Which of the following is an example of a SaaS application used for financial C management and accounting?",
+        "option_a": "Microsoft Office Suite A",
+        "option_b": "QuickBooks Online",
+        "option_c": "Adobe Creative Cloud D",
+        "option_d": "Evernote",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 58,
+        "question_text": "C Which cloud computing model offers a complete development environment for building, testing, and deploying applications?",
+        "option_a": "IaaS (Infrastructure as a Service)",
+        "option_b": "PaaS (Platform as a Service)",
+        "option_c": "SaaS (Software as a Service)",
+        "option_d": "DaaS (Data as a Service)",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 59,
+        "question_text": "Which of the following statements about SaaS applications is true?",
+        "option_a": "SaaS applications require local installation on users' devices.",
+        "option_b": "SaaS applications are accessible only through dedicated servers.",
+        "option_c": "SaaS applications offer high customization options for each user.",
+        "option_d": "SaaS applications can be accessed via web browsers. I",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 60,
+        "question_text": "A B Which of the following is an advantage of the SaaS model in terms of software licensing? M",
+        "option_a": "Perpetual licensing options",
+        "option_b": "High upfront license costs",
+        "option_c": "No need for individual software licensUes for each user",
+        "option_d": "Unlimited software customization",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 61,
+        "question_text": "Which cloud computing model allows developers to focus solely on application development, while the underlying infrastructure and maintenance are C managed by the provider?",
+        "option_a": "IaaS (Infrastructure as a Service) A",
+        "option_b": "PaaS (Platform as a Service)",
+        "option_c": "SaaS (Software as a Service) D",
+        "option_d": "DaaS (Data as a Service)",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 62,
+        "question_text": "C Which of the following is a common pricing model for SaaS applications?",
+        "option_a": "Pay-per-use",
+        "option_b": "Per device licensing",
+        "option_c": "One-time purchase",
+        "option_d": "Perpetual licensing",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 63,
+        "question_text": "Which of the following is NOT a typical SaaS application category?",
+        "option_a": "Customer Relationship Management (CRM)",
+        "option_b": "Project Management",
+        "option_c": "Desktop Publishing",
+        "option_d": "Human Resources Management",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 64,
+        "question_text": "I A Which cloud computing model focuses on delivering data over the internet rather than applications or infrastructure? B",
+        "option_a": "IaaS (Infrastructure as a Service)",
+        "option_b": "PaaS (Platform as a Service) M",
+        "option_c": "SaaS (Software as a Service)",
+        "option_d": "DaaS (Data as a Service)",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 65,
+        "question_text": "Which aspect of the SaaS modeMl allows businesses to access software and data from different locations and devices?",
+        "option_a": "Scalability",
+        "option_b": "Internet connectivity C",
+        "option_c": "High customization options",
+        "option_d": "Automatic updates A",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 66,
+        "question_text": "Which cloud computing model allows users to rent virtual servers and computing resources?",
+        "option_a": "IaaS (Infrastructure as a Service)",
+        "option_b": "PaaS (Platform as a Service)",
+        "option_c": "SaaS (Software as a Service)",
+        "option_d": "DaaS (Data as a Service)",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 67,
+        "question_text": "I Which of the following is a potential disadvantage of the SaaS model? A",
+        "option_a": "High upfront costs for software licenses",
+        "option_b": "Limited accessibility from various devices B",
+        "option_c": "Reduced data security compared to traditional software",
+        "option_d": "Dependency on the availability of local servers M",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 68,
+        "question_text": "Which cloud computing model allows uUsers to access applications over the internet through a web browser?",
+        "option_a": "IaaS (Infrastructure as a ServiMce)",
+        "option_b": "PaaS (Platform as a Service)",
+        "option_c": "SaaS (Software as a Service)",
+        "option_d": "DaaS (Data as a Service) C",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 69,
+        "question_text": "Which of the following is a characteristic of the SaaS model that allows users to access the latest features automatically?",
+        "option_a": "Data synchronization",
+        "option_b": "Automatic updates",
+        "option_c": "Local installations",
+        "option_d": "Frequent backups",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 70,
+        "question_text": "Which of the following cloud computing models is most suitable for developers who need a ready-to-use development environment? I",
+        "option_a": "IaaS (Infrastructure as a Service) A",
+        "option_b": "PaaS (Platform as a Service)",
+        "option_c": "SaaS (Software as a Service) B",
+        "option_d": "DaaS (Data as a Service)",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 71,
+        "question_text": "M Which of the following is a potential drawback of the SaaS model for companies with strict data compliance Urequirements?",
+        "option_a": "Limited scalability options",
+        "option_b": "Reduced data accessibility froMm various locations",
+        "option_c": "Increased control over software updates",
+        "option_d": "Data residency and compliance concerns",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 72,
+        "question_text": "Which of the following is an example of a SaaS application used for email and productivity tools?",
+        "option_a": "Microsoft Office Suite",
+        "option_b": "Trello",
+        "option_c": "Adobe Creative Cloud",
+        "option_d": "Google Workspace (formerly G Suite)",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 73,
+        "question_text": "What is the primary role of the SaaS provider in the event of a system outage or disruption?",
+        "option_a": "Data restoration I",
+        "option_b": "System maintenance A",
+        "option_c": "Automatic software updates",
+        "option_d": "Prompt issue resolution and support B",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 74,
+        "question_text": "M In the SaaS model, which entity typically owns and maintains the underlying infrastructure, including servers and networking equipment?",
+        "option_a": "The end-users U",
+        "option_b": "The software vendors/providers",
+        "option_c": "The IT department of the userM's organization",
+        "option_d": "Third-party data centers",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 75,
+        "question_text": "C Which cloud computing model allows businesses to deploy and manage their applications and services using cloud-based tools? A",
+        "option_a": "IaaS (Infrastructure as a Service) Excessive control over software updates",
+        "option_b": "PaaS (Platform as a Service) D Lack of internet connectivity",
+        "option_c": "SaaS (Software as a Service) Compatibility with legacy systems",
+        "option_d": "DaaS (Data as a Service) ACnswer: B) PaaS (Platform as a Service) Which of the following is a common concern for businesses adopting the SaaS model? Reduced software customization",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 76,
+        "question_text": "Which cloud computing model involves the delivery of software applications over the internet?",
+        "option_a": "IaaS (Infrastructure as a Service)",
+        "option_b": "PaaS (Platform as a Service) I",
+        "option_c": "SaaS (Software as a Service) A",
+        "option_d": "DaaS (Data as a Service)",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 77,
+        "question_text": "B Which of the following is a potential advantage of the SaaS model for M end-users?",
+        "option_a": "Higher upfront costs for software licenses",
+        "option_b": "Limited access to automatic updates U",
+        "option_c": "Lower maintenance and infrastructure costs",
+        "option_d": "Higher level of software custoMmization",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 78,
+        "question_text": "In the SaaS model, which party is responsible for managing software and C hardware maintenance?",
+        "option_a": "End-users A",
+        "option_b": "System administrators",
+        "option_c": "Software vendors/providers D",
+        "option_d": "External consultants",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 79,
+        "question_text": "C Which of the following is an example of a SaaS application used for customer relationship management?",
+        "option_a": "Microsoft Office Suite",
+        "option_b": "Salesforce",
+        "option_c": "Adobe Creative Cloud",
+        "option_d": "Slack",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 80,
+        "question_text": "Which cloud computing model provides users with access to databases and data management tools?",
+        "option_a": "IaaS (Infrastructure as a Service)",
+        "option_b": "PaaS (Platform as a Service) I",
+        "option_c": "SaaS (Software as a Service) A",
+        "option_d": "DaaS (Data as a Service)",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 81,
+        "question_text": "B What is the primary benefit of the SaaS model for end-users? M",
+        "option_a": "Lower maintenance and infrastructure costs",
+        "option_b": "Greater control over software updates",
+        "option_c": "Higher level of software customizationU",
+        "option_d": "Unlimited offline access to data",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 82,
+        "question_text": "Which of the following is a characteristic of the SaaS model that allows users to access software from anywhere with an internet connection? C",
+        "option_a": "High level of customization",
+        "option_b": "Automatic updates A",
+        "option_c": "Scalability",
+        "option_d": "Accessibility D",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 83,
+        "question_text": "WChich cloud computing model offers a complete software development and deployment platform?",
+        "option_a": "IaaS (Infrastructure as a Service)",
+        "option_b": "PaaS (Platform as a Service)",
+        "option_c": "SaaS (Software as a Service)",
+        "option_d": "DaaS (Data as a Service)",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 84,
+        "question_text": "Which of the following is an example of a SaaS application used for video conferencing and online meetings?",
+        "option_a": "Microsoft Teams",
+        "option_b": "Asana",
+        "option_c": "Adobe Illustrator",
+        "option_d": "Dropbox I",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 85,
+        "question_text": "A What is the primary responsibility of the SaaS provider in terms of data B security?",
+        "option_a": "Data backup and recovery M",
+        "option_b": "Hardware maintenance",
+        "option_c": "Software customization",
+        "option_d": "Data generation and storage U",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 86,
+        "question_text": "M Which cloud computing model allows users to rent computing resources like virtual machines and storage?",
+        "option_a": "IaaS (Infrastructure as a Service) C",
+        "option_b": "PaaS (Platform as a Service)",
+        "option_c": "SaaS (Software as a Service) A",
+        "option_d": "DaaS (Data as a Service)",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 87,
+        "question_text": "D Which of the following is a potential disadvantage of the SaaS model for users inC areas with limited internet connectivity?",
+        "option_a": "High upfront costs for software licenses",
+        "option_b": "Reduced data security",
+        "option_c": "Dependency on continuous internet access",
+        "option_d": "Incompatibility with web browsers",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 88,
+        "question_text": "In the SaaS model, what does \"multi-tenancy\" refer to?",
+        "option_a": "The ability to access software from multiple locations",
+        "option_b": "The simultaneous use of a single application instance by multiple users",
+        "option_c": "The integration of multiple SaaS applications into a single platform",
+        "option_d": "The presence of multiple data centers in different geographical locations",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 89,
+        "question_text": "I Which of the following is an example of a SaaS application used for document A editing and collaboration?",
+        "option_a": "Microsoft Office Suite B",
+        "option_b": "Zoom",
+        "option_c": "Adobe Creative Cloud M",
+        "option_d": "Slack",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 90,
+        "question_text": "U Which cloud computing model involves providing access to a specific data set through the internet? M",
+        "option_a": "IaaS (Infrastructure as a Service)",
+        "option_b": "PaaS (Platform as a Service)",
+        "option_c": "SaaS (Software as a Service) C",
+        "option_d": "DaaS (Data as a Service)",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 91,
+        "question_text": "A Which of the following statements is true regarding data ownership in the D SaaS model?",
+        "option_a": "End-users have full ownership and control of all data stored in the SaaS apCplication.",
+        "option_b": "SaaS providers have full ownership and control of all data stored in the application.",
+        "option_c": "Data ownership is shared between end-users and the SaaS provider.",
+        "option_d": "Data ownership is not a concern in the SaaS model.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 92,
+        "question_text": "Which aspect of the SaaS model helps businesses reduce the time required for software deployment?",
+        "option_a": "High level of customization",
+        "option_b": "Scalability",
+        "option_c": "Automatic updates",
+        "option_d": "Centralized data storage",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 93,
+        "question_text": "I A Which of the following cloud computing models is most suitable for developers who want to focus on building applications rather than managing B infrastructure?",
+        "option_a": "IaaS (Infrastructure as a Service) M",
+        "option_b": "PaaS (Platform as a Service)",
+        "option_c": "SaaS (Software as a Service)",
+        "option_d": "DaaS (Data as a Service) U",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 94,
+        "question_text": "M Which of the following is an example of a SaaS application used for online customer support and ticket management?",
+        "option_a": "Microsoft Office Suite C",
+        "option_b": "Zendesk",
+        "option_c": "Adobe Creative Cloud A",
+        "option_d": "Dropbox",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 95,
+        "question_text": "D Which aspect of the SaaS model ensures that customers have access to the laCtest software features without manual intervention?",
+        "option_a": "Automatic updates",
+        "option_b": "Scalability",
+        "option_c": "Internet connectivity",
+        "option_d": "Data security measures",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 96,
+        "question_text": "In the SaaS model, who is responsible for ensuring that the software complies with industry regulations and standards?",
+        "option_a": "End-users",
+        "option_b": "System administrators",
+        "option_c": "Software vendors/providers",
+        "option_d": "External consultants",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 97,
+        "question_text": "I A Which of the following is a common pricing model for SaaS applications?",
+        "option_a": "Pay-per-use B",
+        "option_b": "Per device licensing",
+        "option_c": "One-time purchase M",
+        "option_d": "Perpetual licensing",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 98,
+        "question_text": "U Which cloud computing model allows businesses to deploy and manage their applications and services using Mcloud-based tools?",
+        "option_a": "IaaS (Infrastructure as a Service)",
+        "option_b": "PaaS (Platform as a Service)",
+        "option_c": "SaaS (Software as a Service) C",
+        "option_d": "DaaS (Data as a Service)",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 99,
+        "question_text": "Which aspect of the SaaS model allows businesses to easily scale their software usage based on their needs?",
+        "option_a": "Scalability",
+        "option_b": "Automatic updates",
+        "option_c": "High level of customization",
+        "option_d": "Internet connectivity",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 100,
+        "question_text": "What is one of the primary concerns for businesses adopting the SaaS model? I",
+        "option_a": "Limited software availability A",
+        "option_b": "High upfront costs for software licenses",
+        "option_c": "Reduced software customization B",
+        "option_d": "Dependency on local servers",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 101,
+        "question_text": "M What is virtualization in the context of cloud computing?",
+        "option_a": "Running multiple instances of the samUe physical server",
+        "option_b": "Emulating hardware and software on a physical machine",
+        "option_c": "Simulating network connectioMns in a cloud environment",
+        "option_d": "Migrating physical servers to a cloud-based platform",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 102,
+        "question_text": "C Which technology enables the creation of virtual machines in cloud computing? A",
+        "option_a": "Hypervisor Improved data security",
+        "option_b": "Load balancer D Faster internet connectivity",
+        "option_c": "Firewall Enhanced hardware performance",
+        "option_d": "Router ACnswer: A) Hypervisor What is the primary benefit of virtualization in cloud computing? Efficient resource utilization",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 103,
+        "question_text": "In a virtualized environment, what does a hypervisor do?",
+        "option_a": "Monitors network traffic",
+        "option_b": "Manages virtual machines and their resources",
+        "option_c": "Secures data during transmission",
+        "option_d": "Optimizes cloud storage usage I",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 104,
+        "question_text": "A Which of the following is NOT a type of virtualization used in cloud B computing?",
+        "option_a": "Server virtualization M",
+        "option_b": "Network virtualization",
+        "option_c": "Storage virtualization",
+        "option_d": "Hardware virtualization U",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 105,
+        "question_text": "M What is the purpose of server virtualization in cloud computing?",
+        "option_a": "To create virtual networks for cloud services",
+        "option_b": "To run multiple operating systems on a physical server C",
+        "option_c": "To manage cloud storage resources efficiently",
+        "option_d": "To improve internet connectivity for cloud users A",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 106,
+        "question_text": "How does virtualization contribute to cost savings in cloud computing?",
+        "option_a": "By reducing the number of users accessing cloud services",
+        "option_b": "By consolidating multiple virtual machines on a single physical server",
+        "option_c": "By increasing the cloud provider's service charges",
+        "option_d": "By limiting the number of virtual networks in the cloud",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 107,
+        "question_text": "Which of the following virtualization techniques allows a single physical I server to run multiple virtual servers, each with its own operating system? A",
+        "option_a": "Network virtualization",
+        "option_b": "Server virtualization B",
+        "option_c": "Storage virtualization",
+        "option_d": "Hardware virtualization M",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 108,
+        "question_text": "What is the primary advantage of netwUork virtualization in cloud computing?",
+        "option_a": "Increased processing power for virtual machines",
+        "option_b": "Enhanced security for cloud reMsources",
+        "option_c": "Improved data storage efficiency",
+        "option_d": "Better isolation and management of virtual networks",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 109,
+        "question_text": "In cloud computing, what is the main role of a hypervisor?",
+        "option_a": "To allocate resources to virtual machines",
+        "option_b": "To secure cloud data centers",
+        "option_c": "To manage cloud billing and invoicing",
+        "option_d": "To create virtual networks for cloud users",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 110,
+        "question_text": "What is storage virtualization in cloud computing?",
+        "option_a": "Simulating network connections for cloud users",
+        "option_b": "Emulating storage devices within a virtual machine",
+        "option_c": "Combining multiple physical storage resources into a single virtual storage pool I",
+        "option_d": "Creating virtual data centers for cloud providers A",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 111,
+        "question_text": "storage pool B Which virtualization technique is used to optimize and abstract physical M storage resources in cloud computing?",
+        "option_a": "Network virtualization",
+        "option_b": "Server virtualization U",
+        "option_c": "Storage virtualization",
+        "option_d": "Hardware virtualization M",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 112,
+        "question_text": "What does hardware virtualization involve in cloud computing? C",
+        "option_a": "Creating virtual data centers for cloud services",
+        "option_b": "Emulating hardware components on virtual machines A",
+        "option_c": "Simulating network connections for cloud users",
+        "option_d": "Combining multiple physical servers into a single resource pool D",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 113,
+        "question_text": "WChat is the primary benefit of hardware virtualization in cloud computing?",
+        "option_a": "Improved network performance",
+        "option_b": "Enhanced cloud data security",
+        "option_c": "Better resource utilization and flexibility",
+        "option_d": "Faster internet connectivity for cloud users",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 114,
+        "question_text": "Which virtualization technology enables cloud providers to allocate and manage computing resources dynamically?",
+        "option_a": "Hardware virtualization",
+        "option_b": "Network virtualization",
+        "option_c": "Server virtualization",
+        "option_d": "Software-defined networking (SDN)",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 115,
+        "question_text": "I A Which of the following virtualization techniques is used to partition a physical server into multiple isolated virtual machines? B",
+        "option_a": "Network virtualization",
+        "option_b": "Server virtualization M",
+        "option_c": "Storage virtualization",
+        "option_d": "Hardware virtualization",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 116,
+        "question_text": "What is the main advantage of Musing network virtualization in cloud computing?",
+        "option_a": "Faster processing speeds for virtual machines",
+        "option_b": "Enhanced cloud data storage capacity C",
+        "option_c": "Improved isolation and security for virtual networks",
+        "option_d": "Increased hardware resources for cloud users A",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 117,
+        "question_text": "What is the purpose of Network Address Translation (NAT) in cloud computing?",
+        "option_a": "To convert virtual IP addresses to physical IP addresses",
+        "option_b": "To create virtual networks within a physical data center",
+        "option_c": "To provide secure remote access to virtual machines",
+        "option_d": "To manage network traffic between virtual machines",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 118,
+        "question_text": "I In a virtualized environment, what is the role of a load balancer? A",
+        "option_a": "To manage and optimize storage resources",
+        "option_b": "To distribute network traffic evenly across multiple virtual machines B",
+        "option_c": "To allocate computing resources to virtual machines",
+        "option_d": "To secure data transmission between virtual machines M",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 119,
+        "question_text": "Which virtualization technique allows cUloud providers to dynamically allocate computing resources based on demand?",
+        "option_a": "Hardware virtualization M",
+        "option_b": "Network virtualization",
+        "option_c": "Server virtualization",
+        "option_d": "Auto-scaling C",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 120,
+        "question_text": "Which of the following is a potential drawback of hardware virtualization in cloud computing?",
+        "option_a": "Reduced data storage capacity",
+        "option_b": "Increased network latency",
+        "option_c": "Limited hardware resource utilization",
+        "option_d": "Overhead due to virtualization layers",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 121,
+        "question_text": "Which virtualization technology allows multiple operating systems to run simultaneously on a single physical server?",
+        "option_a": "Server virtualization I",
+        "option_b": "Network virtualization A",
+        "option_c": "Storage virtualization",
+        "option_d": "Hardware virtualization B",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 122,
+        "question_text": "M What is the primary benefit of using storage virtualization in cloud computing?",
+        "option_a": "Faster network speeds for virtual machUines",
+        "option_b": "Enhanced data security in cloud storage",
+        "option_c": "Improved storage resource maMnagement",
+        "option_d": "Increased hardware performance for cloud users",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 123,
+        "question_text": "C Which of the following is a characteristic of a virtual machine in cloud computing? A",
+        "option_a": "It requires a dedicated physical server for operation It eliminates the need for network virtualization",
+        "option_b": "It runs a single operating system at a time D It enables secure data transmission between virtual machines",
+        "option_c": "It shares physical resources with other virtual machines It allows multiple operating systems to run on a single server",
+        "option_d": "It operates independently of a hypervisor ACnswer: C) It shares physical resources with other virtual machines What is the main advantage of using hypervisor-based virtualization in cloud computing? It enhances hardware performance in cloud data centers",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 124,
+        "question_text": "Which of the following is a potential limitation of network virtualization in cloud computing?",
+        "option_a": "Inability to allocate virtual machines to physical servers",
+        "option_b": "Reduced security for cloud-based applications I",
+        "option_c": "Limited scalability for virtual networks A",
+        "option_d": "Increased complexity in managing network traffic",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 125,
+        "question_text": "B In the context of virtualization, what does a snapshot refer to? M",
+        "option_a": "A virtual copy of a physical server's configuration",
+        "option_b": "A backup of a virtual machine's data",
+        "option_c": "A summary of network traffic betweenU virtual machines",
+        "option_d": "A point-in-time image of a virtual machine's state",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 126,
+        "question_text": "What is the primary benefit of server virtualization in cloud computing?",
+        "option_a": "Enhanced security measures for cloud data centers C",
+        "option_b": "Improved physical server performance",
+        "option_c": "Efficient use of hardware resources and reduced hardware costs A",
+        "option_d": "Increased network speed for virtual machines",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 127,
+        "question_text": "D Which virtualization technique allows cloud providers to create isolated enCvironments for individual users or applications?",
+        "option_a": "Network virtualization",
+        "option_b": "Server virtualization",
+        "option_c": "Storage virtualization",
+        "option_d": "Containerization",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 128,
+        "question_text": "What is the primary purpose of using containers in cloud computing?",
+        "option_a": "To improve internet connectivity for virtual machines",
+        "option_b": "To consolidate multiple physical servers into a single resource pool",
+        "option_c": "To enable efficient deployment and scalability of applications",
+        "option_d": "To create virtual networks for cloud services",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 129,
+        "question_text": "I Which virtualization technology is commonly used to create and manage A isolated environments for individual applications or services?",
+        "option_a": "Server virtualization B",
+        "option_b": "Network virtualization",
+        "option_c": "Containerization M",
+        "option_d": "Storage virtualization",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 130,
+        "question_text": "U What is a key advantage of using containerization over traditional virtual machines in cloud computing? M",
+        "option_a": "Containers consume fewer hardware resources",
+        "option_b": "Containers support multiple operating systems",
+        "option_c": "Containers require less network bandwidth C",
+        "option_d": "Containers provide better data security",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 131,
+        "question_text": "What is the primary benefit of using network virtualization in cloud computing?",
+        "option_a": "Improved security for cloud data centers",
+        "option_b": "Better utilization of physical network resources",
+        "option_c": "Faster internet connectivity for cloud users",
+        "option_d": "Enhanced data storage capacity",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 132,
+        "question_text": "Which virtualization technique allows cloud providers to create and manage I virtualized storage resources from multiple physical storage devices? A",
+        "option_a": "Server virtualization",
+        "option_b": "Network virtualization B",
+        "option_c": "Storage virtualization",
+        "option_d": "Containerization M",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 133,
+        "question_text": "What is a virtual machine snapshot in cUloud computing?",
+        "option_a": "A backup of a virtual machine's data",
+        "option_b": "A summary of network trafficM between virtual machines",
+        "option_c": "A point-in-time image of a virtual machine's state",
+        "option_d": "A virtual copy of a physical server's configuration",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 134,
+        "question_text": "What is the primary advantage of using containerization in cloud computing?",
+        "option_a": "Improved hardware resource utilization",
+        "option_b": "Enhanced data security in cloud storage",
+        "option_c": "Better isolation and management of virtual networks",
+        "option_d": "Faster deployment and scalability of applications",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 135,
+        "question_text": "In the context of cloud computing, what is the main function of a load balancer?",
+        "option_a": "To optimize and abstract physical storage resources I",
+        "option_b": "To manage and allocate computing resources to virtual machines A",
+        "option_c": "To distribute network traffic evenly across multiple virtual machines",
+        "option_d": "To secure data transmission between virtual machines B",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 136,
+        "question_text": "M Which of the following is NOT a type of virtualization commonly used in cloud computing?",
+        "option_a": "Server virtualization U",
+        "option_b": "Network virtualization",
+        "option_c": "Containerization M",
+        "option_d": "Hardware virtualization",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 137,
+        "question_text": "C What is the primary role of a hypervisor in virtualization?",
+        "option_a": "To manage virtual machines and their resources A To increase physical server count",
+        "option_b": "To convert virtual IP addresses to physical IP addresses To optimize network performance for cloud users",
+        "option_c": "To create isolated environments for individual applications D To create virtual data centers for cloud services",
+        "option_d": "To combine multiple physical storage resources into a single virtual storage pool ACnswer: A) To manage virtual machines and their resources What is the main purpose of using virtualization in cloud computing? To consolidate multiple virtual machines on a single physical server",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 138,
+        "question_text": "Which of the following virtualization techniques enables cloud providers to create multiple isolated environments for individual applications or services within a single operating system instance?",
+        "option_a": "Server virtualization I",
+        "option_b": "Network virtualization A",
+        "option_c": "Containerization",
+        "option_d": "Storage virtualization B",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 139,
+        "question_text": "M What is the main advantage of using network virtualization in cloud computing?",
+        "option_a": "Improved hardware performance for clUoud users",
+        "option_b": "Enhanced data security in cloud storage",
+        "option_c": "Efficient allocation of computMing resources",
+        "option_d": "Better isolation and management of virtual networks",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 140,
+        "question_text": "What is the primary advantage of using containerization over traditional virtual machines in cloud computing?",
+        "option_a": "Better hardware resource utilization",
+        "option_b": "Improved data security for cloud users",
+        "option_c": "Enhanced support for legacy applications",
+        "option_d": "Higher level of network performance",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 141,
+        "question_text": "In the context of virtualization, what does a snapshot refer to?",
+        "option_a": "A backup of a virtual machine's data",
+        "option_b": "A virtual copy of a physical server's configuration I",
+        "option_c": "A point-in-time image of a virtual machine's state A",
+        "option_d": "A summary of network traffic between virtual machines",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 142,
+        "question_text": "B What is the primary benefit of using virtualization in cloud computing? M",
+        "option_a": "To increase the physical server count",
+        "option_b": "To consolidate multiple physical servers into a single machine",
+        "option_c": "To optimize network performance for cUloud users",
+        "option_d": "To improve data security within the cloud environment",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 143,
+        "question_text": "Which of the following is NOT a characteristic of containerization in cloud computing? C",
+        "option_a": "Containers are typically faster to start and stop than virtual machines",
+        "option_b": "Containers support multiple operating systems A",
+        "option_c": "Containers consume more hardware resources than virtual machines",
+        "option_d": "Containers run on a shared operating system kernel D",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 144,
+        "question_text": "WChat is the purpose of Network Address Translation (NAT) in cloud computing?",
+        "option_a": "To provide secure remote access to virtual machines",
+        "option_b": "To manage network traffic between virtual machines",
+        "option_c": "To convert virtual IP addresses to physical IP addresses",
+        "option_d": "To create virtual networks within a physical data center",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 145,
+        "question_text": "Which virtualization technology allows multiple virtual machines to share the same physical network interface while remaining isolated from each other?",
+        "option_a": "Network Address Translation (NAT)",
+        "option_b": "Virtual LAN (VLAN)",
+        "option_c": "Virtual Private Network (VPN)",
+        "option_d": "Software-defined networking (SDN) I",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 146,
+        "question_text": "A What is the main advantage of using containerization in cloud computing? B",
+        "option_a": "Faster deployment and scalability of applications",
+        "option_b": "Enhanced data security in cloud storage M",
+        "option_c": "Better isolation and management of virtual networks",
+        "option_d": "Improved hardware resource utilization",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 147,
+        "question_text": "In the context of cloud computiMng, what is the main function of a load balancer?",
+        "option_a": "To optimize and abstract physical storage resources",
+        "option_b": "To manage and allocate computing resources to virtual machines C",
+        "option_c": "To distribute network traffic evenly across multiple virtual machines",
+        "option_d": "To secure data transmission between virtual machines A",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 148,
+        "question_text": "What does Virtual Machine (VM) provisioning refer to in cloud computing?",
+        "option_a": "Creating and configuring virtual networks for cloud users",
+        "option_b": "Allocating computing resources to virtual machines",
+        "option_c": "Creating and deploying virtual machines for cloud users",
+        "option_d": "Managing virtual machine snapshots",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 149,
+        "question_text": "Which step is NOT part of the VM provisioning process? I",
+        "option_a": "Creating a virtual machine image A",
+        "option_b": "Specifying VM hardware resources",
+        "option_c": "Initiating data migration B",
+        "option_d": "Assigning network settings to the VM",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 150,
+        "question_text": "M What is a VM image in the context of VM provisioning?",
+        "option_a": "A virtual machine snapshot U",
+        "option_b": "A template for creating a virtual machine",
+        "option_c": "A backup of a running virtual Mmachine",
+        "option_d": "A virtual disk for storing data",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 151,
+        "question_text": "C Which of the following is a potential benefit of automated VM provisioning?",
+        "option_a": "Reduced hardware utilization A",
+        "option_b": "Manual allocation of VM resources",
+        "option_c": "Increased deployment time for VMs D",
+        "option_d": "Faster and consistent VM deployment",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 152,
+        "question_text": "C Which type of VM provisioning allows users to quickly deploy new VMs based on pre-defined templates?",
+        "option_a": "Manual provisioning",
+        "option_b": "Automatic provisioning",
+        "option_c": "Dynamic provisioning",
+        "option_d": "Image-based provisioning",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 153,
+        "question_text": "In VM provisioning, what is the role of a cloud orchestration tool?",
+        "option_a": "To create VM images from physical servers",
+        "option_b": "To allocate physical resources to VMs",
+        "option_c": "To automate the deployment and management of VMs",
+        "option_d": "To optimize network performance for VMs I",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 154,
+        "question_text": "A Which aspect of VM provisioning involves specifying the number of CPUs, B memory, and storage for a virtual machine?",
+        "option_a": "Configuring network settings M",
+        "option_b": "Defining the VM image",
+        "option_c": "Allocating hardware resources",
+        "option_d": "Initiating data migration U",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 155,
+        "question_text": "M What is the primary benefit of template-based VM provisioning?",
+        "option_a": "Simplified management of VM snapshots",
+        "option_b": "Increased data security for VMs C",
+        "option_c": "Faster and standardized VM deployment",
+        "option_d": "Higher level of network performance A",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 156,
+        "question_text": "Which VM provisioning method is most suitable for environments where resource demands fluctuate frequently?",
+        "option_a": "Image-based provisioning",
+        "option_b": "Template-based provisioning",
+        "option_c": "Dynamic provisioning",
+        "option_d": "Manual provisioning",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 157,
+        "question_text": "I What does Virtual Machine (VM) migration refer to in cloud computing? A",
+        "option_a": "Creating a virtual machine image",
+        "option_b": "Moving a running VM from one physical server to another B",
+        "option_c": "Deploying a new VM on a virtualized network",
+        "option_d": "Allocating hardware resources to VMs M",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 158,
+        "question_text": "What is the primary purpose of VM miUgration in cloud computing?",
+        "option_a": "To create virtual machine images",
+        "option_b": "To optimize network performaMnce for VMs",
+        "option_c": "To consolidate VMs on a single physical server",
+        "option_d": "To allocate hardware resources to VMs",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 159,
+        "question_text": "C Which of the following is NOT a common VM migration method? A",
+        "option_a": "Live migration Live migration",
+        "option_b": "Cold migration D Cold migration",
+        "option_c": "Image-based migration Image-based migration",
+        "option_d": "Template-based migration ACnswer: D) Template-based migration Which VM migration method allows a VM to be moved from one physical host to another without any noticeable downtime or disruption? Dynamic migration",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 160,
+        "question_text": "In VM migration, what is the primary benefit of using live migration over cold migration?",
+        "option_a": "Faster migration process",
+        "option_b": "Lower resource utilization during migration I",
+        "option_c": "Reduced network latency A",
+        "option_d": "Better data security during migration",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 161,
+        "question_text": "B Which VM migration method involves shutting down the VM before moving M it to another physical host?",
+        "option_a": "Live migration",
+        "option_b": "Cold migration U",
+        "option_c": "Dynamic migration",
+        "option_d": "Template-based migration M",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 162,
+        "question_text": "What is the purpose of using VM migration in cloud computing? C",
+        "option_a": "To create virtual machine snapshots",
+        "option_b": "To improve data security within the cloud environment A",
+        "option_c": "To optimize network performance for VMs",
+        "option_d": "To balance resource usage and workload across physical servers D",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 163,
+        "question_text": "WChich VM migration method is typically faster but may cause short periods of downtime during the migration process?",
+        "option_a": "Live migration",
+        "option_b": "Cold migration",
+        "option_c": "Dynamic migration",
+        "option_d": "Image-based migration",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 164,
+        "question_text": "What is the primary advantage of using live migration in cloud computing?",
+        "option_a": "Higher data transfer speeds during migration",
+        "option_b": "Seamless migration without VM downtime",
+        "option_c": "Lower resource utilization during migration",
+        "option_d": "More secure data transmission between physical hosts",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 165,
+        "question_text": "I A Which VM migration method allows a VM to be moved to another physical host while it is running, without the need for a complete VM image transfer? B",
+        "option_a": "Live migration",
+        "option_b": "Cold migration M",
+        "option_c": "Image-based migration",
+        "option_d": "Dynamic migration",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 166,
+        "question_text": "Which VM migration method iMs most suitable for scenarios where a VM needs to be moved to a different data center or geographical location?",
+        "option_a": "Live migration",
+        "option_b": "Cold migration C",
+        "option_c": "Image-based migration",
+        "option_d": "Dynamic migration A",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 167,
+        "question_text": "What is the main purpose of using VM migration in cloud computing?",
+        "option_a": "To create virtual machine snapshots",
+        "option_b": "To improve data security within the cloud environment",
+        "option_c": "To optimize network performance for VMs",
+        "option_d": "To balance resource usage and workload across physical servers",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 168,
+        "question_text": "I What does Virtual Machine (VM) provisioning refer to in cloud computing? A",
+        "option_a": "Creating and configuring virtual networks for cloud users",
+        "option_b": "Allocating computing resources to virtual machines B",
+        "option_c": "Creating and deploying virtual machines for cloud users",
+        "option_d": "Managing virtual machine snapshots M",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 169,
+        "question_text": "Which step is NOT part of the VM provUisioning process?",
+        "option_a": "Creating a virtual machine image",
+        "option_b": "Specifying VM hardware resoMurces",
+        "option_c": "Initiating data migration",
+        "option_d": "Assigning network settings to the VM",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 170,
+        "question_text": "C What is a VM image in the context of VM provisioning? A",
+        "option_a": "A virtual machine snapshot Reduced hardware utilization",
+        "option_b": "A template for creating a virtual machine D Manual allocation of VM resources",
+        "option_c": "A backup of a running virtual machine Increased deployment time for VMs",
+        "option_d": "A virtual disk for storing data ACnswer: B) A template for creating a virtual machine Which of the following is a potential benefit of automated VM provisioning? Faster and consistent VM deployment",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 171,
+        "question_text": "Which type of VM provisioning allows users to quickly deploy new VMs based on pre-defined templates?",
+        "option_a": "Manual provisioning",
+        "option_b": "Automatic provisioning I",
+        "option_c": "Dynamic provisioning A",
+        "option_d": "Image-based provisioning",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 172,
+        "question_text": "B In VM provisioning, what is the role of a cloud orchestration tool? M",
+        "option_a": "To create VM images from physical servers",
+        "option_b": "To allocate physical resources to VMs",
+        "option_c": "To automate the deployment and manaUgement of VMs",
+        "option_d": "To optimize network performance for VMs",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 173,
+        "question_text": "Which aspect of VM provisioning involves specifying the number of CPUs, memory, and storage for a virtual machine? C",
+        "option_a": "Configuring network settings",
+        "option_b": "Defining the VM image A",
+        "option_c": "Allocating hardware resources",
+        "option_d": "Initiating data migration D",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 174,
+        "question_text": "WChat is the primary benefit of template-based VM provisioning?",
+        "option_a": "Simplified management of VM snapshots",
+        "option_b": "Increased data security for VMs",
+        "option_c": "Faster and standardized VM deployment",
+        "option_d": "Higher level of network performance",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 175,
+        "question_text": "Which type of VM provisioning involves setting up VMs manually without using pre-defined templates or automation?",
+        "option_a": "Image-based provisioning",
+        "option_b": "Template-based provisioning",
+        "option_c": "Dynamic provisioning",
+        "option_d": "Manual provisioning",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 176,
+        "question_text": "I A Which VM provisioning method is most suitable for environments where resource demands fluctuate frequently? B",
+        "option_a": "Image-based provisioning",
+        "option_b": "Template-based provisioning M",
+        "option_c": "Dynamic provisioning",
+        "option_d": "Manual provisioning",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 177,
+        "question_text": "What does Virtual Machine (VMM) migration refer to in cloud computing?",
+        "option_a": "Creating a virtual machine image",
+        "option_b": "Moving a running VM from one physical server to another",
+        "option_c": "Deploying a new VM on a virtualized network C",
+        "option_d": "Allocating hardware resources to VMs",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 178,
+        "question_text": "Which of the following is NOT a common VM migration method?",
+        "option_a": "Live migration",
+        "option_b": "Cold migration",
+        "option_c": "Image-based migration",
+        "option_d": "Template-based migration",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 179,
+        "question_text": "Which VM migration method allows a VM to be moved from one physical host to another without any noticeable downtime or disruption?",
+        "option_a": "Live migration I",
+        "option_b": "Cold migration A",
+        "option_c": "Image-based migration",
+        "option_d": "Dynamic migration B",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 180,
+        "question_text": "M In VM migration, what is the primary benefit of using live migration over cold migration?",
+        "option_a": "Faster migration process U",
+        "option_b": "Lower resource utilization during migration",
+        "option_c": "Reduced network latency M",
+        "option_d": "Better data security during migration",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 181,
+        "question_text": "C Which VM migration method involves shutting down the VM before moving it to another physical host? A",
+        "option_a": "Live migration To create virtual machine snapshots",
+        "option_b": "Cold migration D To improve data security within the cloud environment",
+        "option_c": "Dynamic migration To optimize network performance for VMs",
+        "option_d": "Template-based migration ACnswer: B) Cold migration What is the purpose of using VM migration in cloud computing? To balance resource usage and workload across physical servers",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 182,
+        "question_text": "Which VM migration method is typically faster but may cause short periods of downtime during the migration process?",
+        "option_a": "Live migration",
+        "option_b": "Cold migration I",
+        "option_c": "Dynamic migration A",
+        "option_d": "Image-based migration",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 183,
+        "question_text": "B What is the primary advantage of using live migration in cloud computing? M",
+        "option_a": "Higher data transfer speeds during migration",
+        "option_b": "Seamless migration without VM downtime",
+        "option_c": "Lower resource utilization during migrUation",
+        "option_d": "More secure data transmission between physical hosts",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 184,
+        "question_text": "Which VM migration method allows a VM to be moved to another physical host while it is running, without the need for a complete VM image transfer? C",
+        "option_a": "Live migration",
+        "option_b": "Cold migration A",
+        "option_c": "Image-based migration",
+        "option_d": "Dynamic migration D",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 185,
+        "question_text": "WChat does PaaS stand for in cloud computing?",
+        "option_a": "Platform as a Service",
+        "option_b": "Platform and Software Service",
+        "option_c": "Public and Software Solution",
+        "option_d": "Private and Application Service",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 186,
+        "question_text": "What is the main characteristic of PaaS in cloud computing?",
+        "option_a": "It provides virtualized hardware resources over the internet.",
+        "option_b": "It allows users to develop, run, and manage applications without the complexity of infrastructure management.",
+        "option_c": "It offers ready-to-use software applications and services to end-users.",
+        "option_d": "It provides on-demand access to virtual machines. I",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 187,
+        "question_text": "A complexity of infrastructure management. B Which cloud service model abstracts the underlying infrastructure, operating system, and runtime environment, allowing developers to focus solely on M application development?",
+        "option_a": "Infrastructure as a Service (IaaS)",
+        "option_b": "Software as a Service (SaaS) U",
+        "option_c": "Platform as a Service (PaaS)",
+        "option_d": "Function as a Service (FaaS) M",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 188,
+        "question_text": "What is the primary benefit of using PaaS for application development? C",
+        "option_a": "Reduced hardware costs",
+        "option_b": "Increased data security A",
+        "option_c": "Simplified application deployment",
+        "option_d": "Improved network performance D",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 189,
+        "question_text": "WChich of the following is NOT a typical component of a PaaS offering?",
+        "option_a": "Application development tools",
+        "option_b": "Virtual machines",
+        "option_c": "Database management system",
+        "option_d": "Runtime environment",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 190,
+        "question_text": "What is the role of a PaaS provider in cloud computing?",
+        "option_a": "To manage and allocate computing resources to virtual machines",
+        "option_b": "To create and deploy virtual machines for end-users",
+        "option_c": "To offer ready-to-use software applications to customers",
+        "option_d": "To provide the underlying platform and runtime environment for application development",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 191,
+        "question_text": "I application development A Which programming languages and frameworks are typically supported by B PaaS providers for application development?",
+        "option_a": "Only proprietary languages and frameworks M",
+        "option_b": "Only a single programming language",
+        "option_c": "Multiple programming languages and frameworks",
+        "option_d": "Only open-source programming languUages and frameworks",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 192,
+        "question_text": "M What is the main advantage of using PaaS for application development over traditional on-premises development?",
+        "option_a": "Greater control over the underlying infrastructure C",
+        "option_b": "Higher level of data security",
+        "option_c": "Faster development and deployment cycles A",
+        "option_d": "Reduced reliance on the internet for application access",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 193,
+        "question_text": "D Which cloud service model provides users with virtualized hardware reCsources, allowing them to install and manage their own software applications and operating systems?",
+        "option_a": "Platform as a Service (PaaS)",
+        "option_b": "Infrastructure as a Service (IaaS)",
+        "option_c": "Software as a Service (SaaS)",
+        "option_d": "Function as a Service (FaaS)",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 194,
+        "question_text": "Which of the following is NOT a potential limitation of using PaaS for application development?",
+        "option_a": "Vendor lock-in",
+        "option_b": "Limited control over underlying infrastructure",
+        "option_c": "Longer development and deployment cycles",
+        "option_d": "Dependency on the internet for application access I",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 195,
+        "question_text": "A In PaaS, what is the responsibility of the application developer? B",
+        "option_a": "Managing and configuring the underlying infrastructure",
+        "option_b": "Developing and managing the software application M",
+        "option_c": "Creating virtual machines and managing networking",
+        "option_d": "Providing hardware resources to end-users",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 196,
+        "question_text": "Which cloud service model alloMws customers to access software applications over the internet without the need for installation or maintenance?",
+        "option_a": "Platform as a Service (PaaS)",
+        "option_b": "Infrastructure as a Service (IaaS) C",
+        "option_c": "Software as a Service (SaaS)",
+        "option_d": "Function as a Service (FaaS) A",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 197,
+        "question_text": "What is the main advantage of using PaaS for application development?",
+        "option_a": "Lower cost compared to traditional on-premises development",
+        "option_b": "Increased control over the underlying infrastructure",
+        "option_c": "Simplified application deployment and management",
+        "option_d": "Better data security for application data",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 198,
+        "question_text": "What does PaaS stand for in cloud computing?",
+        "option_a": "Platform as a Service I",
+        "option_b": "Product as a Service A",
+        "option_c": "Public and Software Solution",
+        "option_d": "Private and Application Service B",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 199,
+        "question_text": "M Which of the following is NOT a characteristic of PaaS in cloud computing?",
+        "option_a": "It provides virtualized hardware resources over the internet.",
+        "option_b": "It allows users to develop, run, and maUnage applications without the complexity of infrastructure management.",
+        "option_c": "It offers ready-to-use softwareM applications and services to end-users.",
+        "option_d": "It provides on-demand access to virtual machines.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 200,
+        "question_text": "C What is the primary purpose of PaaS in cloud computing?",
+        "option_a": "To provide virtual machines and storage resources to end-users. A Infrastructure as a Service (IaaS)",
+        "option_b": "To offer ready-to-use software applications and services to customers. Software as a Service (SaaS)",
+        "option_c": "To provide a development platform and runtime environment for building and D deploying applications. Platform as a Service (PaaS)",
+        "option_d": "To manage and allocate computing resources to virtual machines. ACnswer: C) To provide a development platform and runtime environment for building and deploying applications. Which cloud service model abstracts the underlying infrastructure, operating system, and runtime environment? Function as a Service (FaaS)",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 201,
+        "question_text": "What is the main advantage of using PaaS for application development?",
+        "option_a": "Increased data security for application data.",
+        "option_b": "Simplified application deployment and management. I",
+        "option_c": "Greater control over the underlying infrastructure. A",
+        "option_d": "Lower cost compared to traditional on-premises development.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 202,
+        "question_text": "B Which of the following is a typical component of a PaaS offering? M",
+        "option_a": "Ready-to-use software applications for end-users.",
+        "option_b": "Virtual machines and hardware resources.",
+        "option_c": "Database management system and devUelopment tools.",
+        "option_d": "Managed networking and security services.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 203,
+        "question_text": "What is the role of a PaaS provider in cloud computing?",
+        "option_a": "To provide the underlying platform and runtime environment for application C development.",
+        "option_b": "To offer ready-to-use software applications and services to customers. A",
+        "option_c": "To manage and allocate computing resources to virtual machines.",
+        "option_d": "To create virtual machines and manage networking for end-users. D",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 204,
+        "question_text": "application development. C Which programming languages and frameworks are typically supported by PaaS providers for application development?",
+        "option_a": "Only a single programming language.",
+        "option_b": "Only proprietary languages and frameworks.",
+        "option_c": "Multiple programming languages and frameworks.",
+        "option_d": "Only open-source programming languages and frameworks.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 205,
+        "question_text": "What is the main advantage of using PaaS for application development over traditional on-premises development?",
+        "option_a": "Lower cost of hardware infrastructure.",
+        "option_b": "Higher level of data security. I",
+        "option_c": "Faster development and deployment cycles. A",
+        "option_d": "Reduced reliance on the internet for application access.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 206,
+        "question_text": "B Which cloud service model provides users with virtualized hardware M resources, allowing them to install and manage their own software applications and operating systems?",
+        "option_a": "Platform as a Service (PaaS) U",
+        "option_b": "Infrastructure as a Service (IaaS)",
+        "option_c": "Software as a Service (SaaS) M",
+        "option_d": "Function as a Service (FaaS)",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 207,
+        "question_text": "C In PaaS, what is the primary responsibility of the application developer?",
+        "option_a": "Managing and configuring the underlying infrastructure. A",
+        "option_b": "Developing and managing the software application.",
+        "option_c": "Creating virtual machines and managing networking. D",
+        "option_d": "Providing hardware resources to end-users.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 208,
+        "question_text": "C Which cloud service model allows customers to access software applications over the internet without the need for installation or maintenance?",
+        "option_a": "Platform as a Service (PaaS)",
+        "option_b": "Infrastructure as a Service (IaaS)",
+        "option_c": "Software as a Service (SaaS)",
+        "option_d": "Function as a Service (FaaS)",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 209,
+        "question_text": "What does the term \"runtime environment\" refer to in the context of PaaS?",
+        "option_a": "The time period during which the application is running.",
+        "option_b": "The hardware infrastructure provided by the PaaS provider.",
+        "option_c": "The virtual machines used to execute the application code.",
+        "option_d": "The software and libraries required to run the application. I",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 210,
+        "question_text": "A What is the main advantage of using PaaS for application development? B",
+        "option_a": "Lower cost compared to traditional on-premises development.",
+        "option_b": "Simplified application deployment and management. M",
+        "option_c": "Increased control over the underlying infrastructure.",
+        "option_d": "Better data security for application data.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 211,
+        "question_text": "Which of the following is NOT Ma potential limitation of using PaaS for application development?",
+        "option_a": "Vendor lock-in.",
+        "option_b": "Limited control over the underlying infrastructure. C",
+        "option_c": "Longer development and deployment cycles.",
+        "option_d": "Dependency on the internet for application access. A",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 212,
+        "question_text": "What does the term \"elasticity\" refer to in the context of PaaS?",
+        "option_a": "The ability of PaaS providers to offer multiple programming languages",
+        "option_b": "The automatic scaling of computing resources based on demand",
+        "option_c": "The capability to deploy applications across multiple cloud providers",
+        "option_d": "The use of containers for application isolation",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 213,
+        "question_text": "Which component of PaaS allows developers to build, test, and deploy I applications in a collaborative environment? A",
+        "option_a": "Development tools",
+        "option_b": "Database management system B",
+        "option_c": "Runtime environment",
+        "option_d": "Deployment manager M",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 214,
+        "question_text": "What is the main advantage of using a cUloud-based database management system in a PaaS environment?",
+        "option_a": "Lower data storage costs M",
+        "option_b": "Improved data security",
+        "option_c": "Reduced data latency",
+        "option_d": "Easy scalability and management of databases C",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 215,
+        "question_text": "Which of the following best describes the role of a PaaS provider in application development?",
+        "option_a": "Managing and configuring the operating system of virtual machines",
+        "option_b": "Providing ready-to-use software applications for end-users",
+        "option_c": "Offering a development platform and runtime environment for building and deploying applications",
+        "option_d": "Allowing customers to directly access and control physical hardware resources",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 216,
+        "question_text": "building and deploying applications I Which programming paradigm does PaaS often support, enabling developers A to build scalable and resilient applications?",
+        "option_a": "Object-oriented programming B",
+        "option_b": "Procedural programming",
+        "option_c": "Functional programming M",
+        "option_d": "Event-driven programming",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 217,
+        "question_text": "U In PaaS, what is the role of a deployment manager?",
+        "option_a": "Managing virtual machines anMd hardware resources",
+        "option_b": "Facilitating collaboration among developers in real-time",
+        "option_c": "Ensuring data security for applications and databases",
+        "option_d": "Automating the deployment and scaling of applications C",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 218,
+        "question_text": "How does PaaS enable faster application development and deployment?",
+        "option_a": "By providing access to high-performance computing resources",
+        "option_b": "By allowing developers to write code in a low-level language",
+        "option_c": "By abstracting the underlying infrastructure and automating application management",
+        "option_d": "By offering unlimited storage capacity for applications",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 219,
+        "question_text": "application management Which cloud service model allows customers to access software applications I over the internet and pay for usage on a subscription basis? A",
+        "option_a": "Infrastructure as a Service (IaaS)",
+        "option_b": "Platform as a Service (PaaS) B",
+        "option_c": "Software as a Service (SaaS)",
+        "option_d": "Function as a Service (FaaS) M",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 220,
+        "question_text": "Which of the following is NOT a typicaUl feature of PaaS development platforms?",
+        "option_a": "Version control and collaboratMion tools",
+        "option_b": "Integration with third-party cloud providers",
+        "option_c": "Built-in security and access controls",
+        "option_d": "Auto-scaling and load balancing capabilities C",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 221,
+        "question_text": "Which cloud service model allows customers to run small code snippets or functions in response to specific events without managing the underlying infrastructure?",
+        "option_a": "Infrastructure as a Service (IaaS)",
+        "option_b": "Platform as a Service (PaaS)",
+        "option_c": "Software as a Service (SaaS)",
+        "option_d": "Function as a Service (FaaS)",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 222,
+        "question_text": "What does the term \"vendor lock-in\" refer to in the context of PaaS? I",
+        "option_a": "The need to rely on multiple cloud providers for different services A",
+        "option_b": "The inability to switch to a different programming language or framework",
+        "option_c": "The restriction of data access to a specific geographic region B",
+        "option_d": "The dependency on a single PaaS provider, making it difficult to migrate to another platform M",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 223,
+        "question_text": "migrate to another platform U Which of the following is NOT Ma typical step in deploying an application over the cloud?",
+        "option_a": "Developing the application code C",
+        "option_b": "Procuring physical servers for hosting the application",
+        "option_c": "Configuring the application's runtime environment A",
+        "option_d": "Uploading the application to the cloud platform D",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 224,
+        "question_text": "WChich of the following cloud deployment models involves deploying an application on a cloud infrastructure that is shared among multiple organizations?",
+        "option_a": "Public Cloud",
+        "option_b": "Private Cloud",
+        "option_c": "Hybrid Cloud",
+        "option_d": "Community Cloud",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 225,
+        "question_text": "Which of the following is a benefit of using containerization technology for application deployment in the cloud? I",
+        "option_a": "Increased hardware utilization A",
+        "option_b": "Reduced network latency",
+        "option_c": "Easier application scaling B",
+        "option_d": "Elimination of data backups M",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 226,
+        "question_text": "U What is the role of load balancers in cloud application deployment? M",
+        "option_a": "Ensuring data backup and recovery",
+        "option_b": "Monitoring the performance of cloud servers",
+        "option_c": "Distributing incoming network traffic across multiple servers C",
+        "option_d": "Managing the cloud infrastructure's security A",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 227,
+        "question_text": "D What is the primary benefit of using serverless computing (Function as a Service - FaaS) for application deployment in the cloud? C",
+        "option_a": "Greater control over the underlying infrastructure",
+        "option_b": "Reduced need for DevOps teams",
+        "option_c": "Lower cost compared to other cloud service models",
+        "option_d": "Pay-as-you-go pricing based on actual usage",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 228,
+        "question_text": "Which cloud deployment model provides dedicated cloud infrastructure for a single organization?",
+        "option_a": "Public Cloud",
+        "option_b": "Private Cloud",
+        "option_c": "Hybrid Cloud",
+        "option_d": "Community Cloud I A",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 229,
+        "question_text": "B What is the purpose of continuous integration and continuous deployment (CI/CD) in cloud application deployment? M",
+        "option_a": "To automate the process of infrastructure provisioning",
+        "option_b": "To optimize the use of cloud resources",
+        "option_c": "To continuously test and deliver applicUation changes",
+        "option_d": "To manage data replication and backups M",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 230,
+        "question_text": "What is the main advantage of using Infrastructure as Code (IaC) for cloud C application deployment?",
+        "option_a": "Simplified application monitoring A Infrastructure as a Service (IaaS)",
+        "option_b": "Faster application deployment times Platform as a Service (PaaS)",
+        "option_c": "Automatic data backups D Software as a Service (SaaS)",
+        "option_d": "Greater control over network security ACnswer: B) Faster application deployment times Which cloud service model provides pre-built software applications that users can access over the internet? Function as a Service (FaaS)",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 231,
+        "question_text": "How does auto-scaling benefit cloud application deployment?",
+        "option_a": "It reduces the cost of cloud resources.",
+        "option_b": "It ensures data redundancy and fault tolerance. I",
+        "option_c": "It automatically adjusts the number of resources based on workload changes. A",
+        "option_d": "It improves the security of the cloud infrastructure. B",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 232,
+        "question_text": "changes. M What is the purpose of using a content delivery network (CDN) in cloud application deployment? U",
+        "option_a": "To provide secure access to cloud resources",
+        "option_b": "To optimize application perforMmance and reduce latency",
+        "option_c": "To automate the process of application testing",
+        "option_d": "To manage data replication for disaster recovery C",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 233,
+        "question_text": "What is the purpose of blue-green deployment in cloud application deployment?",
+        "option_a": "To automate the process of infrastructure scaling",
+        "option_b": "To ensure data replication for disaster recovery",
+        "option_c": "To provide a consistent runtime environment for applications",
+        "option_d": "To minimize downtime during application updates",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 234,
+        "question_text": "I How does serverless computing (Function as a Service - FaaS) simplify cloud A application deployment? B",
+        "option_a": "By providing direct access to physical servers",
+        "option_b": "By eliminating the need for application monitoring M",
+        "option_c": "By automatically managing server resources",
+        "option_d": "By reducing the need for application backups U",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 235,
+        "question_text": "M Which cloud deployment model involves using a combination of on-premises resources and cloud resources to deploy an application? C",
+        "option_a": "Public Cloud",
+        "option_b": "Private Cloud A",
+        "option_c": "Hybrid Cloud",
+        "option_d": "Community Cloud D",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 236,
+        "question_text": "C What is the purpose of disaster recovery planning in cloud application deployment?",
+        "option_a": "To reduce the cost of cloud resources",
+        "option_b": "To ensure data security in the cloud",
+        "option_c": "To optimize application performance",
+        "option_d": "To prepare for potential disruptions and data loss",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 237,
+        "question_text": "Which cloud service model offers developers the most control over the application's runtime environment and configuration? I",
+        "option_a": "Infrastructure as a Service (IaaS) A",
+        "option_b": "Platform as a Service (PaaS)",
+        "option_c": "Software as a Service (SaaS) B",
+        "option_d": "Function as a Service (FaaS) M",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 238,
+        "question_text": "U How does a blue-green deployment strategy help ensure application availability during updates? M",
+        "option_a": "By automatically scaling the application based on demand",
+        "option_b": "By running two identical environments simultaneously C",
+        "option_c": "By providing load balancing for incoming traffic",
+        "option_d": "By using containerization technology A",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 239,
+        "question_text": "D How does auto-scaling benefit cloud application deployment? C",
+        "option_a": "It reduces the cost of cloud resources.",
+        "option_b": "It ensures data redundancy and fault tolerance.",
+        "option_c": "It automatically adjusts the number of resources based on workload changes.",
+        "option_d": "It improves the security of the cloud infrastructure.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 240,
+        "question_text": "changes. What is the primary advantage of using a multi-region deployment for cloud applications?",
+        "option_a": "Reduced network latency I",
+        "option_b": "Lower subscription costs A",
+        "option_c": "Simplified application monitoring",
+        "option_d": "Improved data security B",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 241,
+        "question_text": "M What is the purpose of using a blue-green deployment in cloud application deployment? U",
+        "option_a": "To automate the process of infMrastructure scaling",
+        "option_b": "To ensure data replication for disaster recovery",
+        "option_c": "To provide a consistent runtime environment for applications",
+        "option_d": "To minimize downtime during application updates C",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 242,
+        "question_text": "Which cloud service model allows customers to focus solely on application development without worrying about infrastructure management?",
+        "option_a": "Software as a Service (SaaS)",
+        "option_b": "Platform as a Service (PaaS)",
+        "option_c": "Infrastructure as a Service (IaaS) I",
+        "option_d": "Function as a Service (FaaS) A",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 243,
+        "question_text": "B What is the primary responsibility of the cloud user in the SaaS model? M",
+        "option_a": "Managing the underlying infrastructure and virtual machines.",
+        "option_b": "Developing and managing the softwareU application.",
+        "option_c": "Providing security and network monitoring for the cloud platform.",
+        "option_d": "Configuring the database manMagement system.",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 244,
+        "question_text": "In which cloud service model is the application development environment abstracted, and developers have control over application code and configurations?",
+        "option_a": "Software as a Service (SaaS)",
+        "option_b": "Platform as a Service (PaaS)",
+        "option_c": "Infrastructure as a Service (IaaS)",
+        "option_d": "Function as a Service (FaaS)",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 245,
+        "question_text": "I What is the primary benefit of using SaaS for end-users? A",
+        "option_a": "Greater control over the underlying infrastructure. B",
+        "option_b": "Customizability of the software application.",
+        "option_c": "Lower cost compared to traditional software licenses. M",
+        "option_d": "Simplified access to software applications over the internet.",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 246,
+        "question_text": "U Which cloud service model is most suitable for developers who want to manage the runtime environmeMnt and application code?",
+        "option_a": "Software as a Service (SaaS)",
+        "option_b": "Platform as a Service (PaaS) C",
+        "option_c": "Infrastructure as a Service (IaaS)",
+        "option_d": "Function as a Service (FaaS) A",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 247,
+        "question_text": "D Which cloud service model allows customers to access virtualized hardware reCsources and manage their own software applications and operating systems?",
+        "option_a": "Software as a Service (SaaS)",
+        "option_b": "Platform as a Service (PaaS)",
+        "option_c": "Infrastructure as a Service (IaaS)",
+        "option_d": "Function as a Service (FaaS)",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 248,
+        "question_text": "Which cloud service model abstracts the underlying infrastructure, operating system, and runtime environment?",
+        "option_a": "Software as a Service (SaaS) I",
+        "option_b": "Platform as a Service (PaaS) A",
+        "option_c": "Infrastructure as a Service (IaaS)",
+        "option_d": "Function as a Service (FaaS) B",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 249,
+        "question_text": "M What is the primary benefit of using IaaS for cloud users? U",
+        "option_a": "No need to manage the underlying infrastructure.",
+        "option_b": "Access to ready-to-use softwaMre applications.",
+        "option_c": "Simplified application development and management.",
+        "option_d": "Higher level of data security for application data. C",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 250,
+        "question_text": "What is the primary purpose of Amazon EC2 in AWS?",
+        "option_a": "To store and manage data in the cloud",
+        "option_b": "To provide a scalable and resizable virtual server in the cloud",
+        "option_c": "To enable real-time data analytics",
+        "option_d": "To host websites and web applications",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 251,
+        "question_text": "I A Which of the following operating systems is NOT supported by Amazon EC2 instances? B",
+        "option_a": "Windows Server M",
+        "option_b": "Ubuntu Linux",
+        "option_c": "macOS",
+        "option_d": "CentOS U",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 252,
+        "question_text": "What does the term \"elastic\" refer to in Amazon EC2? C",
+        "option_a": "The ability to scale the number of instances automatically based on demand",
+        "option_b": "The ability to adjust the CPU and memory configuration of instances A",
+        "option_c": "The capability to allocate storage resources dynamically",
+        "option_d": "The ability to use multiple availability zones for redundancy D",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 253,
+        "question_text": "deCmand How are EC2 instances billed in AWS?",
+        "option_a": "Fixed monthly fee",
+        "option_b": "Hourly or per-minute basis, depending on the instance type",
+        "option_c": "Annual subscription fee",
+        "option_d": "Pay-as-you-go with a one-time setup cost",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 254,
+        "question_text": "Which AWS service is used to manage and automate the deployment of EC2 instances? I",
+        "option_a": "AWS CloudFormation A",
+        "option_b": "Amazon S3",
+        "option_c": "Amazon RDS B",
+        "option_d": "AWS Lambda M",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 255,
+        "question_text": "What is the purpose of an Amazon MacUhine Image (AMI) in EC2?",
+        "option_a": "To create and manage virtual nMetworks for EC2 instances",
+        "option_b": "To store data backups for EC2 instances",
+        "option_c": "To define the software configuration for EC2 instances",
+        "option_d": "To monitor and log EC2 instance activities C",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 256,
+        "question_text": "Which AWS service allows you to automatically replace unhealthy instances in an EC2 Auto Scaling group?",
+        "option_a": "AWS Elastic Beanstalk",
+        "option_b": "AWS Lambda",
+        "option_c": "AWS Auto Scaling",
+        "option_d": "AWS EC2 Load Balancer I",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 257,
+        "question_text": "A What is the minimum and maximum number of instances that can be B configured in an EC2 Auto Scaling group? M",
+        "option_a": "Minimum: 1, Maximum: Unlimited",
+        "option_b": "Minimum: 0, Maximum: 1",
+        "option_c": "Minimum: 1, Maximum: 10 U",
+        "option_d": "Minimum: 2, Maximum: 5 M",
+        "correct_option": "A",
+        "explanation": ""
+    }
+]

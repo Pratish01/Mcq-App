@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row g-4">
+  <div class="col-md-5">
+    <div class="card card-glass p-4">
+      <h4 class="mb-3">Start a New Quiz</h4>
+      <form action="{{ url_for('quiz') }}" method="get">
+        <div class="mb-3">
+          <label class="form-label">Subject</label>
+          <select name="subject" class="form-select" required>
+            <option value="">-- Select Subject --</option>
+            {% for s in subjects %}
+              <option value="{{ s }}">{{ s }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Level</label>
+          <select name="level" class="form-select" required>
+            <option value="">-- Select Level --</option>
+            {% for l in levels %}
+              <option value="{{ l }}">{{ l }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <button class="btn btn-success w-100">Start Quiz</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="col-md-7">
+    <div class="card card-glass p-4">
+      <h4 class="mb-3">Your Recent Attempts</h4>
+      {% if attempts %}
+        <table class="table table-dark table-striped align-middle">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Subject</th>
+              <th>Level</th>
+              <th>Score</th>
+              <th>Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for a in attempts %}
+              <tr>
+                <td>{{ loop.index }}</td>
+                <td>{{ a.subject }}</td>
+                <td>{{ a.level }}</td>
+                <td>{{ a.score }}/{{ a.total_questions }}</td>
+                <td>{{ a.created_at.strftime("%d-%m-%Y %H:%M") }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      {% else %}
+        <p class="text-muted">No attempts yet. Start your first quiz!</p>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endblock %}

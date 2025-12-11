@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card card-glass p-4">
+  <h3 class="mb-1">{{ subject }} - {{ level }} Quiz Result</h3>
+  <p class="mb-3">
+    You scored <strong>{{ score }} / {{ total }}</strong>
+  </p>
+
+  {% for r in results %}
+    {% set q = r.question %}
+    <div class="mb-3 p-3 rounded bg-dark bg-opacity-50">
+      <h5>Q{{ q.number }}. {{ q.question_text }}</h5>
+
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item bg-transparent border-secondary
+            {% if r.chosen == 'A' and not r.is_correct %}option-wrong{% endif %}
+            {% if q.correct_option == 'A' %} option-correct{% endif %}">
+          A) {{ q.option_a }}
+          {% if q.correct_option == 'A' %}
+            <span class="badge bg-success ms-2">Correct</span>
+          {% endif %}
+          {% if r.chosen == 'A' and not r.is_correct %}
+            <span class="badge bg-danger ms-2">Your Choice</span>
+          {% endif %}
+        </li>
+        <li class="list-group-item bg-transparent border-secondary
+            {% if r.chosen == 'B' and not r.is_correct %}option-wrong{% endif %}
+            {% if q.correct_option == 'B' %} option-correct{% endif %}">
+          B) {{ q.option_b }}
+          {% if q.correct_option == 'B' %}
+            <span class="badge bg-success ms-2">Correct</span>
+          {% endif %}
+          {% if r.chosen == 'B' and not r.is_correct %}
+            <span class="badge bg-danger ms-2">Your Choice</span>
+          {% endif %}
+        </li>
+        <li class="list-group-item bg-transparent border-secondary
+            {% if r.chosen == 'C' and not r.is_correct %}option-wrong{% endif %}
+            {% if q.correct_option == 'C' %} option-correct{% endif %}">
+          C) {{ q.option_c }}
+          {% if q.correct_option == 'C' %}
+            <span class="badge bg-success ms-2">Correct</span>
+          {% endif %}
+          {% if r.chosen == 'C' and not r.is_correct %}
+            <span class="badge bg-danger ms-2">Your Choice</span>
+          {% endif %}
+        </li>
+        <li class="list-group-item bg-transparent border-secondary
+            {% if r.chosen == 'D' and not r.is_correct %}option-wrong{% endif %}
+            {% if q.correct_option == 'D' %} option-correct{% endif %}">
+          D) {{ q.option_d }}
+          {% if q.correct_option == 'D' %}
+            <span class="badge bg-success ms-2">Correct</span>
+          {% endif %}
+          {% if r.chosen == 'D' and not r.is_correct %}
+            <span class="badge bg-danger ms-2">Your Choice</span>
+          {% endif %}
+        </li>
+      </ul>
+
+      {% if not r.is_correct %}
+        <p class="mt-2 text-warning">
+          You selected: {{ r.chosen if r.chosen else "No answer" }}.
+          Correct answer is: <strong>{{ q.correct_option }}</strong>
+        </p>
+      {% endif %}
+
+      {% if q.explanation %}
+        <p class="mt-1 text-info">
+          Explanation: {{ q.explanation }}
+        </p>
+      {% endif %}
+    </div>
+  {% endfor %}
+
+  <a href="{{ url_for('dashboard') }}" class="btn btn-outline-light mt-3">Back to Dashboard</a>
+</div>
+{% endblock %}

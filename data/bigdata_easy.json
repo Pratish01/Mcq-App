@@ -1,0 +1,542 @@
+[
+    {
+        "number": 1,
+        "question_text": " What is the primary use case of Apache Kafka?",
+        "option_a": "Real-time stream processing",
+        "option_b": "Data storage and retrieval",
+        "option_c": "Real-time data visualization",
+        "option_d": "High-performance machine learning",
+        "correct_option": "B"
+    },
+    {
+        "number": 2,
+        "question_text": " Which of the following is NOT a key feature of Apache Spark?",
+        "option_a": "Fault tolerance",
+        "option_b": "Real-time stream processing",
+        "option_c": "In-memory processing",
+        "option_d": "Distributed computing",
+        "correct_option": "B"
+    },
+    {
+        "number": 3,
+        "question_text": " In Apache Kafka, what is a consumer group?",
+        "option_a": "A group of consumers sharing the same group ID to read data from different topics simultaneously.",
+        "option_b": "A group of consumers that have a shared state and consume messages from the same topic in parallel.",
+        "option_c": "A group of brokers responsible for handling consumer requests.",
+        "option_d": "A group of producers that produce messages to the same topic.",
+        "correct_option": "A"
+    },
+    {
+        "number": 4,
+        "question_text": " Which of the following is true regarding Spark's RDD (Resilient Distributed Dataset)?",
+        "option_a": "RDD is immutable and can only be modified through transformations.",
+        "option_b": "RDD is a mutable data structure that can be modified in place.",
+        "option_c": "RDD is an acronym for Real-time Data Distribution.",
+        "option_d": "RDD is a specialized data storage format used by Spark for efficient data retrieval.",
+        "correct_option": "A"
+    },
+    {
+        "number": 5,
+        "question_text": " In Kafka, what is the role of a broker?",
+        "option_a": "Brokers are responsible for processing data streams in real-time.",
+        "option_b": "Brokers are responsible for storing and managing the messages in topics.",
+        "option_c": "Brokers are the consumers of data from producers. CDAC KHARGHAR",
+        "option_d": "Brokers are responsible for optimizing Spark jobs.",
+        "correct_option": "B"
+    },
+    {
+        "number": 6,
+        "question_text": " What does Spark's lazy evaluation mean?",
+        "option_a": "Spark doesn't start processing data until an action is triggered.",
+        "option_b": "Spark processes data in real-time without any delay.",
+        "option_c": "Spark processes data in batches, waiting for a specific time interval.",
+        "option_d": "Spark evaluates data lazily and skips unnecessary computations.",
+        "correct_option": "A"
+    },
+    {
+        "number": 7,
+        "question_text": " Which of the following is true regarding Kafka topics?",
+        "option_a": "Topics are exclusive to a single consumer group.",
+        "option_b": "Topics can only be read sequentially by consumers.",
+        "option_c": "Topics are immutable and cannot be modified once created.",
+        "option_d": "Topics can only be created by the Kafka administrator.",
+        "correct_option": "C"
+    },
+    {
+        "number": 8,
+        "question_text": " What is the main advantage of using Kafka over traditional messaging systems?",
+        "option_a": "Kafka guarantees exactly-once message delivery semantics.",
+        "option_b": "Kafka provides a more straightforward API for data processing.",
+        "option_c": "Kafka supports real-time analytics and machine learning.",
+        "option_d": "Kafka has lower latency and higher throughput for data ingestion.",
+        "correct_option": "D"
+    },
+    {
+        "number": 9,
+        "question_text": " Which of the following is a real-time stream processing framework often used with Apache Kafka?",
+        "option_a": "Apache Hadoop",
+        "option_b": "Apache Flink",
+        "option_c": "Apache Hive",
+        "option_d": "Apache Zeppelin",
+        "correct_option": "B"
+    },
+    {
+        "number": 10,
+        "question_text": " In Kafka, what happens if a consumer lags behind the producer significantly? CDAC KHARGHAR",
+        "option_a": "Kafka automatically discards the lagging consumer and starts a new one.",
+        "option_b": "Kafka stops the producer until the consumer catches up.",
+        "option_c": "Kafka automatically replays the messages for the lagging consumer.",
+        "option_d": "Kafka increases the message retention time to allow the consumer to catch up.",
+        "correct_option": "D"
+    },
+    {
+        "number": 11,
+        "question_text": " What is the primary programming language used for writing Apache Spark applications?",
+        "option_a": "Java",
+        "option_b": "Python",
+        "option_c": "C++",
+        "option_d": "Scala",
+        "correct_option": "D"
+    },
+    {
+        "number": 12,
+        "question_text": " Which of the following is NOT a Spark deployment mode?",
+        "option_a": "Standalone Mode",
+        "option_b": "YARN Mode",
+        "option_c": "Kubernetes Mode",
+        "option_d": "Cluster Mode",
+        "correct_option": "C"
+    },
+    {
+        "number": 13,
+        "question_text": " In Kafka, what is the purpose of a producer's acknowledgment setting \"all\"?",
+        "option_a": "The producer acknowledges messages only when all consumers have processed them.",
+        "option_b": "The producer waits for acknowledgment from all replicas before considering a message as sent.",
+        "option_c": "The producer acknowledges messages only when they have been processed by all partitions.",
+        "option_d": "The producer waits for acknowledgment from all consumers before sending the next message.",
+        "correct_option": "B"
+    },
+    {
+        "number": 14,
+        "question_text": " Which Spark component is responsible for scheduling tasks within the cluster?",
+        "option_a": "Driver",
+        "option_b": "Executor",
+        "option_c": "Master",
+        "option_d": "Scheduler CDAC KHARGHAR",
+        "correct_option": "D"
+    },
+    {
+        "number": 15,
+        "question_text": " What is the main difference between Kafka and traditional message queuing systems like RabbitMQ or ActiveMQ?",
+        "option_a": "Kafka supports distributed stream processing, while traditional message queuing systems do not.",
+        "option_b": "Kafka provides higher throughput and lower latency, while traditional systems have lower performance.",
+        "option_c": "Kafka uses a push-based model, while traditional systems use a pull-based model for message consumption.",
+        "option_d": "Kafka guarantees message delivery in the order they are produced, while traditional systems may not.",
+        "correct_option": "C"
+    },
+    {
+        "number": 16,
+        "question_text": " Which of the following is a benefit of using Spark's DataFrame API over RDDs?",
+        "option_a": "DataFrame API provides more fine-grained control over partitioning and caching.",
+        "option_b": "DataFrame API allows for lazy evaluation and optimized query optimization.",
+        "option_c": "DataFrame API is more memory-efficient and requires less garbage collection.",
+        "option_d": "DataFrame API provides a more expressive and user-friendly syntax for data processing.",
+        "correct_option": "D"
+    },
+    {
+        "number": 17,
+        "question_text": " What is the role of Apache ZooKeeper in Apache Kafka?",
+        "option_a": "ZooKeeper is used for distributed locking and coordination of Kafka brokers.",
+        "option_b": "ZooKeeper is responsible for storing and managing the data in Kafka topics.",
+        "option_c": "ZooKeeper is the primary messaging system used in Kafka's data pipeline.",
+        "option_d": "ZooKeeper provides real-time analytics and data visualization capabilities.",
+        "correct_option": "A"
+    },
+    {
+        "number": 18,
+        "question_text": " Which Spark deployment mode allows multiple Spark applications to share the same cluster?",
+        "option_a": "Standalone Mode",
+        "option_b": "YARN Mode",
+        "option_c": "Kubernetes Mode",
+        "option_d": "Cluster Mode",
+        "correct_option": "B"
+    },
+    {
+        "number": 19,
+        "question_text": " What is the primary advantage of using Spark Streaming over traditional batch processing systems like Apache Hadoop MapReduce?",
+        "option_a": "Spark Streaming guarantees exactly-once processing semantics.",
+        "option_b": "Spark Streaming provides lower latency for real-time data processing.",
+        "option_c": "Spark Streaming allows for simpler and more concise data processing code.",
+        "option_d": "Spark Streaming supports data processing across multiple nodes.",
+        "correct_option": "B"
+    },
+    {
+        "number": 20,
+        "question_text": " Which of the following is true about Spark Structured Streaming?",
+        "option_a": "Spark Structured Streaming is based on RDDs (Resilient Distributed Datasets).",
+        "option_b": "Spark Structured Streaming is a separate project and not integrated with Spark.",
+        "option_c": "Spark Structured Streaming processes data in micro-batches rather than traditional RDD batches.",
+        "option_d": "Spark Structured Streaming is primarily used for batch processing, not real-time processing.",
+        "correct_option": "C"
+    },
+    {
+        "number": 21,
+        "question_text": " Which of the following is NOT a component of Apache Spark?",
+        "option_a": "Spark Core",
+        "option_b": "Spark SQL",
+        "option_c": "Spark Streaming",
+        "option_d": "Spark Queue",
+        "correct_option": "D"
+    },
+    {
+        "number": 22,
+        "question_text": " In Apache Kafka, what is the role of a ZooKeeper?",
+        "option_a": "ZooKeeper is used for managing the metadata of Kafka topics.",
+        "option_b": "ZooKeeper is responsible for data processing in Kafka.",
+        "option_c": "ZooKeeper provides real-time analytics for Kafka consumers.",
+        "option_d": "ZooKeeper is used for distributed coordination and leadership election in Kafka.",
+        "correct_option": "D"
+    },
+    {
+        "number": 23,
+        "question_text": " What does Kafka use to ensure fault tolerance and replication of messages?",
+        "option_a": "Quorum Replication",
+        "option_b": "Leader-Follower Model CDAC KHARGHAR",
+        "option_c": "Multi-Datacenter Replication",
+        "option_d": "Paxos Consensus Algorithm",
+        "correct_option": "B"
+    },
+    {
+        "number": 24,
+        "question_text": " Which Spark transformation allows you to perform an operation on two separate RDDs and return a new RDD containing the result?",
+        "option_a": "union()",
+        "option_b": "join()",
+        "option_c": "intersect()",
+        "option_d": "subtract()",
+        "correct_option": "B"
+    },
+    {
+        "number": 25,
+        "question_text": " What is the primary use case of Apache Kafka?",
+        "option_a": "Real-time stream processing",
+        "option_b": "Data storage and retrieval",
+        "option_c": "High-performance machine learning",
+        "option_d": "Real-time data visualization",
+        "correct_option": "B"
+    },
+    {
+        "number": 26,
+        "question_text": " Which of the following is true regarding Spark's lineage graph?",
+        "option_a": "It represents the parallel execution plan of a Spark job.",
+        "option_b": "It tracks the dependencies between RDDs in a Spark application.",
+        "option_c": "It is used to visualize the real-time data flow in a Spark cluster.",
+        "option_d": "It stores the historical data lineage of RDDs.",
+        "correct_option": "B"
+    },
+    {
+        "number": 27,
+        "question_text": " In Kafka, what happens if a consumer fails to send heartbeats to the group coordinator?",
+        "option_a": "The consumer is automatically removed from the consumer group.",
+        "option_b": "The consumer's offset is reset to the beginning of the topic.",
+        "option_c": "The consumer's offset is reset to the last committed offset.",
+        "option_d": "The consumer is flagged for a manual reassignment of partitions.",
+        "correct_option": "A"
+    },
+    {
+        "number": 28,
+        "question_text": " Which of the following is NOT a property of Apache Kafka?",
+        "option_a": "Scalability",
+        "option_b": "Fault tolerance",
+        "option_c": "Real-time stream processing",
+        "option_d": "Exactly-once message delivery",
+        "correct_option": "C"
+    },
+    {
+        "number": 29,
+        "question_text": " What is the benefit of using Spark's Broadcast variable?",
+        "option_a": "Broadcast variables allow sharing data efficiently across tasks in a Spark job.",
+        "option_b": "Broadcast variables enable real-time data visualization in Spark applications.",
+        "option_c": "Broadcast variables reduce the memory usage of Spark executors.",
+        "option_d": "Broadcast variables automatically handle fault tolerance in Spark.",
+        "correct_option": "A"
+    },
+    {
+        "number": 30,
+        "question_text": " In Kafka, what is the purpose of a consumer offset?",
+        "option_a": "It indicates the size of the Kafka topic.",
+        "option_b": "It tracks the progress of a consumer in a topic.",
+        "option_c": "It represents the unique ID of a consumer in a group.",
+        "option_d": "It denotes the number of partitions in a Kafka cluster.",
+        "correct_option": "B"
+    },
+    {
+        "number": 31,
+        "question_text": " Which of the following Spark actions triggers the execution of transformations and returns results to the driver program?",
+        "option_a": "collect()",
+        "option_b": "count()",
+        "option_c": "reduce()",
+        "option_d": "save()",
+        "correct_option": "A"
+    },
+    {
+        "number": 32,
+        "question_text": " What is the role of Apache ZooKeeper in Apache Kafka?",
+        "option_a": "ZooKeeper provides real-time analytics and data visualization capabilities.",
+        "option_b": "ZooKeeper is responsible for data storage and retrieval in Kafka.",
+        "option_c": "ZooKeeper is used for distributed locking and coordination of Kafka brokers. CDAC KHARGHAR",
+        "option_d": "ZooKeeper acts as a consumer in Kafka, processing data from producers.",
+        "correct_option": "C"
+    },
+    {
+        "number": 33,
+        "question_text": " Which Spark deployment mode is suitable for local development and testing on a single machine?",
+        "option_a": "Standalone Mode",
+        "option_b": "YARN Mode",
+        "option_c": "Kubernetes Mode",
+        "option_d": "Cluster Mode",
+        "correct_option": "A"
+    },
+    {
+        "number": 34,
+        "question_text": " What is the significance of Kafka partitions in a topic?",
+        "option_a": "Partitions are used to distribute Kafka brokers in a cluster.",
+        "option_b": "Partitions are used to manage consumer groups in Kafka.",
+        "option_c": "Partitions enable parallelism and scalability in Kafka.",
+        "option_d": "Partitions store the metadata of Kafka topics.",
+        "correct_option": "C"
+    },
+    {
+        "number": 35,
+        "question_text": " What does Apache Spark's DAG (Directed Acyclic Graph) represent?",
+        "option_a": "It represents the execution plan of Spark transformations.",
+        "option_b": "It visualizes the data flow between Spark RDDs.",
+        "option_c": "It is used for partitioning data in Spark applications.",
+        "option_d": "It stores the historical lineage of Spark jobs.",
+        "correct_option": "A"
+    },
+    {
+        "number": 36,
+        "question_text": " Which of the following is a benefit of using Kafka Connect?",
+        "option_a": "Kafka Connect allows real-time stream processing with Apache Spark.",
+        "option_b": "Kafka Connect enables seamless data integration between Kafka and Spark.",
+        "option_c": "Kafka Connect automatically handles consumer offset management.",
+        "option_d": "Kafka Connect is a messaging system used for collecting and storing data.",
+        "correct_option": "B"
+    },
+    {
+        "number": 37,
+        "question_text": " What is the primary programming language used for writing Apache Kafka applications? CDAC KHARGHAR",
+        "option_a": "Java",
+        "option_b": "Python",
+        "option_c": "C++",
+        "option_d": "Scala",
+        "correct_option": "A"
+    },
+    {
+        "number": 38,
+        "question_text": " In Spark Streaming, what is the role of a micro-batch?",
+        "option_a": "Micro-batch represents the time interval for batch processing in Spark.",
+        "option_b": "Micro-batch is a small portion of data processed in real-time.",
+        "option_c": "Micro-batch is a parallel computing unit in a Spark cluster.",
+        "option_d": "Micro-batch is the smallest unit of data in Spark Streaming.",
+        "correct_option": "B"
+    },
+    {
+        "number": 39,
+        "question_text": " Which of the following Spark transformations allows you to filter elements based on a condition and return a new RDD?",
+        "option_a": "map()",
+        "option_b": "reduce()",
+        "option_c": "filter()",
+        "option_d": "groupBy()",
+        "correct_option": "C"
+    },
+    {
+        "number": 40,
+        "question_text": " What is the primary advantage of using Kafka's log compaction feature?",
+        "option_a": "Log compaction reduces the size of Kafka topics, saving storage space.",
+        "option_b": "Log compaction provides real-time analytics and data visualization capabilities.",
+        "option_c": "Log compaction guarantees exactly-once message delivery semantics.",
+        "option_d": "Log compaction ensures that Kafka retains the latest value of each key in a topic.",
+        "correct_option": "D"
+    },
+    {
+        "number": 41,
+        "question_text": " What is the main advantage of using Apache Kafka over traditional message brokers like RabbitMQ or ActiveMQ?",
+        "option_a": "Kafka supports exactly-once message delivery semantics.",
+        "option_b": "Kafka provides real-time stream processing capabilities.",
+        "option_c": "Kafka allows seamless integration with Apache Spark.",
+        "option_d": "Kafka offers lower latency and higher throughput for data ingestion. CDAC KHARGHAR",
+        "correct_option": "D"
+    },
+    {
+        "number": 42,
+        "question_text": " Which of the following is NOT a core abstraction in Apache Spark?",
+        "option_a": "RDD (Resilient Distributed Dataset)",
+        "option_b": "DataFrame",
+        "option_c": "DStream (Discretized Stream)",
+        "option_d": "Dataset",
+        "correct_option": "C"
+    },
+    {
+        "number": 43,
+        "question_text": " What is the primary use case of Spark Structured Streaming?",
+        "option_a": "Real-time stream processing",
+        "option_b": "Batch processing",
+        "option_c": "Interactive data analysis",
+        "option_d": "Machine learning",
+        "correct_option": "A"
+    },
+    {
+        "number": 44,
+        "question_text": " In Kafka, which component is responsible for persisting the messages on disk?",
+        "option_a": "Producers",
+        "option_b": "Brokers",
+        "option_c": "Consumers",
+        "option_d": "ZooKeeper",
+        "correct_option": "B"
+    },
+    {
+        "number": 45,
+        "question_text": " What does Spark's lineage information represent?",
+        "option_a": "It tracks the data lineage of RDDs for fault tolerance.",
+        "option_b": "It stores the schema information of DataFrames.",
+        "option_c": "It represents the parallel execution plan of Spark jobs.",
+        "option_d": "It keeps a log of Spark streaming events.",
+        "correct_option": "A"
+    },
+    {
+        "number": 46,
+        "question_text": " Which of the following is NOT true about Kafka topics?",
+        "option_a": "Topics can be partitioned to achieve parallelism. CDAC KHARGHAR",
+        "option_b": "Topics are stored on the Kafka brokers.",
+        "option_c": "A topic can have only one consumer group.",
+        "option_d": "Producers publish messages to topics.",
+        "correct_option": "C"
+    },
+    {
+        "number": 47,
+        "question_text": " What is the significance of Spark's Catalyst optimizer?",
+        "option_a": "It optimizes Kafka consumer group coordination for parallel processing.",
+        "option_b": "It optimizes the execution plan of Spark SQL queries.",
+        "option_c": "It ensures exactly-once message delivery semantics in Kafka.",
+        "option_d": "It optimizes data storage in Spark RDDs.",
+        "correct_option": "B"
+    },
+    {
+        "number": 48,
+        "question_text": " Which of the following is true about Apache Spark's streaming capabilities?",
+        "option_a": "Spark Streaming processes data in real-time without any delay.",
+        "option_b": "Spark Streaming supports low-level, micro-batch processing only.",
+        "option_c": "Spark Streaming guarantees exactly-once processing semantics.",
+        "option_d": "Spark Streaming can process data from Kafka topics directly without any transformation.",
+        "correct_option": "B"
+    },
+    {
+        "number": 49,
+        "question_text": " In Kafka, how does the partitioning of data in a topic affect the order of messages?",
+        "option_a": "Messages in the same partition are always processed in order, but the order is not guaranteed across different partitions.",
+        "option_b": "Kafka guarantees that messages are always processed in the order they are produced, regardless of partitioning.",
+        "option_c": "Kafka ensures that messages are processed in a round-robin manner across all partitions for load balancing.",
+        "option_d": "Messages from different partitions are processed in parallel, but the order is not guaranteed even within the same partition.",
+        "correct_option": "A"
+    },
+    {
+        "number": 50,
+        "question_text": " What is the role of a Spark Driver in a Spark application?",
+        "option_a": "The Driver is responsible for processing data in real-time and generating streaming results.",
+        "option_b": "The Driver represents the Kafka consumer group coordinator. CDAC KHARGHAR",
+        "option_c": "The Driver runs on each executor node to coordinate data processing tasks.",
+        "option_d": "The Driver runs on the master node and maintains the SparkContext.",
+        "correct_option": "D"
+    },
+    {
+        "number": 51,
+        "question_text": " Which of the following is true about Apache Kafka's message retention policy?",
+        "option_a": "Kafka retains messages forever by default to ensure data durability.",
+        "option_b": "Kafka uses a FIFO (First-In-First-Out) approach and discards old messages after a certain time.",
+        "option_c": "Kafka's message retention policy cannot be configured; it is fixed at 7 days.",
+        "option_d": "Kafka's message retention policy is determined by the number of consumers in a consumer group.",
+        "correct_option": "B"
+    },
+    {
+        "number": 52,
+        "question_text": " In Apache Spark, which transformation should be used to remove duplicates from an RDD or DataFrame?",
+        "option_a": "distinct()",
+        "option_b": "filter()",
+        "option_c": "dropDuplicates()",
+        "option_d": "removeDuplicates()",
+        "correct_option": "C"
+    },
+    {
+        "number": 53,
+        "question_text": " Which of the following is a true statement about Spark DataFrame and Spark SQL?",
+        "option_a": "Spark DataFrame is an abstraction layer on top of Spark SQL.",
+        "option_b": "Spark SQL is a new programming language introduced in Apache Spark.",
+        "option_c": "Spark DataFrame is used for batch processing, while Spark SQL is used for stream processing.",
+        "option_d": "Spark DataFrame and Spark SQL are two different ways of referring to the same concept.",
+        "correct_option": "D"
+    },
+    {
+        "number": 54,
+        "question_text": " What is the role of a Kafka consumer group?",
+        "option_a": "Consumer groups ensure that messages are consumed in parallel for better performance.",
+        "option_b": "Consumer groups manage the distribution of messages across Kafka partitions.",
+        "option_c": "Consumer groups coordinate the work of Kafka brokers in a cluster.",
+        "option_d": "Consumer groups ensure that messages are processed only once by the consumers.",
+        "correct_option": "B"
+    },
+    {
+        "number": 55,
+        "question_text": " In Spark Streaming, what does the \"window\" operation allow you to do?",
+        "option_a": "It allows you to define the time window for data processing in Spark.",
+        "option_b": "It enables you to join two DataFrames together based on a common key.",
+        "option_c": "It allows you to remove outdated data from an RDD.",
+        "option_d": "It enables you to aggregate data over a sliding or tumbling time window.",
+        "correct_option": "D"
+    },
+    {
+        "number": 56,
+        "question_text": " What is the purpose of Kafka Connect?",
+        "option_a": "Kafka Connect is used to connect Kafka with external databases.",
+        "option_b": "Kafka Connect is a Kafka consumer used for real-time data processing.",
+        "option_c": "Kafka Connect is a tool for managing Kafka consumer group coordination.",
+        "option_d": "Kafka Connect is used to integrate Kafka with external systems for data import and export.",
+        "correct_option": "D"
+    },
+    {
+        "number": 57,
+        "question_text": " Which of the following is NOT true about Apache Spark's Broadcast variable?",
+        "option_a": "Broadcast variables are used to share read-only data efficiently across tasks in a Spark job.",
+        "option_b": "Broadcast variables are useful when a large dataset needs to be shared across all nodes in a cluster.",
+        "option_c": "Broadcast variables can be modified in place during the execution of a Spark job.",
+        "option_d": "Broadcast variables help reduce the amount of data that needs to be sent over the network during data processing.",
+        "correct_option": "C"
+    },
+    {
+        "number": 58,
+        "question_text": " What is the primary benefit of using Apache Spark's Structured Streaming over traditional Spark Streaming?",
+        "option_a": "Structured Streaming supports real-time processing of unstructured data.",
+        "option_b": "Structured Streaming guarantees exactly-once message delivery semantics.",
+        "option_c": "Structured Streaming provides higher throughput and lower latency for data processing.",
+        "option_d": "Structured Streaming allows developers to use the DataFrame API for stream processing.",
+        "correct_option": "D"
+    },
+    {
+        "number": 59,
+        "question_text": " What is the significance of the Kafka Consumer Offset?",
+        "option_a": "The Consumer Offset represents the size of the consumer group in a Kafka topic.",
+        "option_b": "The Consumer Offset is a unique ID assigned to each message in a Kafka topic. CDAC KHARGHAR",
+        "option_c": "The Consumer Offset represents the current position of a consumer within a Kafka topic.",
+        "option_d": "The Consumer Offset is the Kafka broker responsible for handling consumer requests.",
+        "correct_option": "C"
+    },
+    {
+        "number": 60,
+        "question_text": " In Spark, how can you achieve fault tolerance when processing data using the DataFrame API?",
+        "option_a": "To apply a function to each element of the DStream.",
+        "option_b": "To filter the data before processing.",
+        "option_c": "To repartition the data for better parallelism.",
+        "option_d": "CSV",
+        "correct_option": "A"
+    }
+]

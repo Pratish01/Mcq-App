@@ -1,0 +1,12 @@
+[
+    {
+        "number": 1,
+        "question_text": "",
+        "option_a": "Both A and",
+        "option_b": "Correct",
+        "option_c": "Both A and",
+        "option_d": "What is the purpose of the __iter__ and __next__ methods in Python?",
+        "correct_option": "D",
+        "explanation": ""
+    }
+]

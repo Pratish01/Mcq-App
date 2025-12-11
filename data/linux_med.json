@@ -1,0 +1,1312 @@
+[
+    {
+        "number": 1,
+        "question_text": "1. Which of the following is NOT a characteristic of cloud computing?",
+        "option_a": "On-demand self-service",
+        "option_b": "Broad network access",
+        "option_c": "Resource pooling",
+        "option_d": "Limited scalability",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 2,
+        "question_text": "2. What does GPL stand for in the context of Linux?",
+        "option_a": "General Public License",
+        "option_b": "Global Programming Language",
+        "option_c": "Graphical Program Loader",
+        "option_d": "GNU Package Library",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 3,
+        "question_text": "3. Which command is used to list files and directories in Linux?",
+        "option_a": "dir",
+        "option_b": "show",
+        "option_c": "ls",
+        "option_d": "list",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 4,
+        "question_text": "4. What does SaaS stand for in cloud computing?",
+        "option_a": "Software as a Service",
+        "option_b": "System as a Service",
+        "option_c": "Storage as a Service",
+        "option_d": "Security as a Service",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 5,
+        "question_text": "5. Which of the following is a Linux text editor?",
+        "option_a": "Notepad",
+        "option_b": "WordPad",
+        "option_c": "vim",
+        "option_d": "Microsoft Word",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 6,
+        "question_text": "6. What does IaaS stand for in cloud computing?",
+        "option_a": "Internet as a Service",
+        "option_b": "Infrastructure as a Service",
+        "option_c": "Installation as a Service",
+        "option_d": "Integration as a Service",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 7,
+        "question_text": "7. Which command is used to change file permissions in Linux?",
+        "option_a": "chperm",
+        "option_b": "chmod",
+        "option_c": "chown",
+        "option_d": "chfile",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 8,
+        "question_text": "8. What is the primary function of a hypervisor in cloud computing?",
+        "option_a": "To manage databases",
+        "option_b": "To create virtual machines",
+        "option_c": "To handle network security",
+        "option_d": "To process payments",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 9,
+        "question_text": "9. Which command is used to display the contents of a file in Linux?",
+        "option_a": "show",
+        "option_b": "display",
+        "option_c": "cat",
+        "option_d": "type",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 10,
+        "question_text": "10. What does PaaS stand for in cloud computing?",
+        "option_a": "Programming as a Service",
+        "option_b": "Platform as a Service",
+        "option_c": "Performance as a Service",
+        "option_d": "Protocol as a Service",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 11,
+        "question_text": "11. Which of the following is NOT a major cloud service provider?",
+        "option_a": "Amazon Web Services (AWS)",
+        "option_b": "Microsoft Azure",
+        "option_c": "Google Cloud Platform (GCP)",
+        "option_d": "Linux Cloud Services",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 12,
+        "question_text": "12. What command is used to create a new directory in Linux?",
+        "option_a": "newdir",
+        "option_b": "md",
+        "option_c": "mkdir",
+        "option_d": "createdir",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 13,
+        "question_text": "13. Which of the following is a characteristic of elastic cloud compute?",
+        "option_a": "Fixed resource allocation",
+        "option_b": "Manual scaling only",
+        "option_c": "Automatic scaling based on demand",
+        "option_d": "Limited to specific hardware configurations",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 14,
+        "question_text": "14. What does AWS EC2 stand for?",
+        "option_a": "Elastic Cloud Computing",
+        "option_b": "Electronic Commerce Control",
+        "option_c": "Elastic Compute Cloud",
+        "option_d": "Enterprise Cloud Computing",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 15,
+        "question_text": "15. Which Linux command is used to display the current working directory?",
+        "option_a": "pwd",
+        "option_b": "cd",
+        "option_c": "ls",
+        "option_d": "dir",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 16,
+        "question_text": "16. What is the primary purpose of AWS Lambda?",
+        "option_a": "To manage databases",
+        "option_b": "To run code without provisioning servers",
+        "option_c": "To store large amounts of data",
+        "option_d": "To handle network traffic",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 17,
+        "question_text": "17. Which of the following is NOT a type of virtualization?",
+        "option_a": "Server virtualization",
+        "option_b": "Network virtualization",
+        "option_c": "Storage virtualization",
+        "option_d": "Cloud virtualization",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 18,
+        "question_text": "18. What command is used to remove a file in Linux?",
+        "option_a": "remove",
+        "option_b": "delete",
+        "option_c": "rm",
+        "option_d": "del",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 19,
+        "question_text": "19. Which AWS service is used for object storage?",
+        "option_a": "EC2",
+        "option_b": "S3",
+        "option_c": "RDS",
+        "option_d": "VPC",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 20,
+        "question_text": "20. What does VPC stand for in cloud computing?",
+        "option_a": "Virtual Private Cloud",
+        "option_b": "Very Powerful Computer",
+        "option_c": "Visual Processing Center",
+        "option_d": "Variable Performance Computing",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 21,
+        "question_text": "21. Which command is used to change the owner of a file in Linux?",
+        "option_a": "chown",
+        "option_b": "chmod",
+        "option_c": "chgrp",
+        "option_d": "chuser",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 22,
+        "question_text": "22. What is the primary function of AWS S3?",
+        "option_a": "Compute services",
+        "option_b": "Database management",
+        "option_c": "Object storage",
+        "option_d": "Network configuration",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 23,
+        "question_text": "23. Which shell is the default for most modern Linux distributions?",
+        "option_a": "sh",
+        "option_b": "csh",
+        "option_c": "bash",
+        "option_d": "zsh",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 24,
+        "question_text": "24. What does CLI stand for in the context of cloud services?",
+        "option_a": "Cloud Learning Interface",
+        "option_b": "Command Line Interface",
+        "option_c": "Centralized Linux Installation",
+        "option_d": "Client License Integration",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 25,
+        "question_text": "25. Which Linux command is used to display system information?",
+        "option_a": "sysinfo",
+        "option_b": "uname",
+        "option_c": "info",
+        "option_d": "system",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 26,
+        "question_text": "26. What is the purpose of AWS CloudFormation?",
+        "option_a": "To manage network traffic",
+        "option_b": "To provision resources using templates",
+        "option_c": "To store large datasets",
+        "option_d": "To run serverless functions",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 27,
+        "question_text": "27. Which command is used to search for a pattern in a file?",
+        "option_a": "find",
+        "option_b": "search",
+        "option_c": "locate",
+        "option_d": "grep",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 28,
+        "question_text": "28. What is the primary benefit of using containers in cloud computing?",
+        "option_a": "Increased security",
+        "option_b": "Lower costs",
+        "option_c": "Application portability",
+        "option_d": "Faster network speeds",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 29,
+        "question_text": "29. Which Linux command is used to display the last few lines of a file?",
+        "option_a": "head",
+        "option_b": "tail",
+        "option_c": "end",
+        "option_d": "last",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 30,
+        "question_text": "30. What does API stand for in cloud computing?",
+        "option_a": "Advanced Programming Interface",
+        "option_b": "Automated Process Integration",
+        "option_c": "Application Programming Interface",
+        "option_d": "Accelerated Protocol Implementation",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 31,
+        "question_text": "31. Which of the following is NOT a run level in Linux?",
+        "option_a": "0",
+        "option_b": "3",
+        "option_c": "6",
+        "option_d": "8",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 32,
+        "question_text": "32. What is the main purpose of AWS IAM?",
+        "option_a": "To manage internet access",
+        "option_b": "To control user access to AWS resources",
+        "option_c": "To integrate AI models",
+        "option_d": "To improve application performance",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 33,
+        "question_text": "33. Which command is used to create a symbolic link in Linux?",
+        "option_a": "symlink",
+        "option_b": "ln -s",
+        "option_c": "link -s",
+        "option_d": "mklink",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 34,
+        "question_text": "34. What is the primary function of a load balancer in cloud computing?",
+        "option_a": "To increase storage capacity",
+        "option_b": "To distribute network traffic across multiple servers",
+        "option_c": "To encrypt data",
+        "option_d": "To manage user authentication",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 35,
+        "question_text": "35. Which Linux command is used to compress files?",
+        "option_a": "zip",
+        "option_b": "compact",
+        "option_c": "squeeze",
+        "option_d": "shrink",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 36,
+        "question_text": "36. What does DNS stand for in the context of networking?",
+        "option_a": "Dynamic Network System",
+        "option_b": "Data Naming Service",
+        "option_c": "Domain Name System",
+        "option_d": "Digital Naming Standard",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 37,
+        "question_text": "37. Which command is used to view running processes in Linux?",
+        "option_a": "tasks",
+        "option_b": "ps",
+        "option_c": "proc",
+        "option_d": "run",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 38,
+        "question_text": "38. What is the main advantage of using a CDN (Content Delivery Network) in cloud computing?",
+        "option_a": "Increased data security",
+        "option_b": "Improved database performance",
+        "option_c": "Faster content delivery to users",
+        "option_d": "Enhanced computational power",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 39,
+        "question_text": "39. Which Linux command is used to change the group ownership of a file?",
+        "option_a": "chgrp",
+        "option_b": "groupmod",
+        "option_c": "chmod",
+        "option_d": "chown",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 40,
+        "question_text": "40. What does YAML stand for in the context of cloud configuration?",
+        "option_a": "Yet Another Markup Language",
+        "option_b": "YAML Ain't Markup Language",
+        "option_c": "Your Application Markup Language",
+        "option_d": "Yielding Automated Markup Language",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 41,
+        "question_text": "41. Which command is used to display the manual pages for a command in Linux?",
+        "option_a": "help",
+        "option_b": "info",
+        "option_c": "man",
+        "option_d": "guide",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 42,
+        "question_text": "42. What is the primary purpose of AWS CloudWatch?",
+        "option_a": "To monitor cloud resources and applications",
+        "option_b": "To manage user authentication",
+        "option_c": "To create virtual machines",
+        "option_d": "To store large datasets",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 43,
+        "question_text": "43. Which Linux command is used to find files?",
+        "option_a": "search",
+        "option_b": "locate",
+        "option_c": "find",
+        "option_d": "lookup",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 44,
+        "question_text": "44. Which command is used to rename a file in Linux?",
+        "option_a": "rename",
+        "option_b": "mv",
+        "option_c": "rn",
+        "option_d": "change",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 45,
+        "question_text": "45. What is the main purpose of containerization in cloud computing?",
+        "option_a": "To increase storage capacity",
+        "option_b": "To improve network speed",
+        "option_c": "To isolate applications and their dependencies",
+        "option_d": "To enhance CPU performance",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 46,
+        "question_text": "46. Which Linux command is used to change the current working directory?",
+        "option_a": "chdir",
+        "option_b": "cd",
+        "option_c": "pwd",
+        "option_d": "move",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 47,
+        "question_text": "47. What does RDS stand for in AWS?",
+        "option_a": "Rapid Development Service",
+        "option_b": "Relational Database Service",
+        "option_c": "Remote Data Storage",
+        "option_d": "Resource Distribution System",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 48,
+        "question_text": "48. Which of the following is NOT a cloud deployment model?",
+        "option_a": "Public cloud",
+        "option_b": "Private cloud",
+        "option_c": "Hybrid cloud",
+        "option_d": "Linear cloud",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 49,
+        "question_text": "49. What is the purpose of the 'sudo' command in Linux?",
+        "option_a": "To shutdown the system",
+        "option_b": "To switch users",
+        "option_c": "To execute commands with superuser privileges",
+        "option_d": "To create a new user account",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 50,
+        "question_text": "50. Which AWS service is used for serverless computing?",
+        "option_a": "EC2",
+        "option_b": "Lambda",
+        "option_c": "S3",
+        "option_d": "RDS",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 51,
+        "question_text": "51. What does the Linux command 'tar' stand for?",
+        "option_a": "Total Archive",
+        "option_b": "Tape Archive",
+        "option_c": "Transfer and Retrieve",
+        "option_d": "Text Archive Reader",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 52,
+        "question_text": "52. What is the main purpose of cloud orchestration?",
+        "option_a": "To manage musical compositions in the cloud",
+        "option_b": "To automate the arrangement, coordination, and management of complex cloud systems",
+        "option_c": "To optimize database queries",
+        "option_d": "To enhance graphical user interfaces",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 53,
+        "question_text": "complex cloud systems 53. Which Linux command is used to display disk usage?",
+        "option_a": "du",
+        "option_b": "df",
+        "option_c": "disk",
+        "option_d": "usage",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 54,
+        "question_text": "54. What does SLA stand for in cloud computing?",
+        "option_a": "Service Level Agreement",
+        "option_b": "System Load Average",
+        "option_c": "Secure Login Authentication",
+        "option_d": "Software License Activation",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 55,
+        "question_text": "55. Which of the following is NOT a Linux distribution?",
+        "option_a": "Ubuntu",
+        "option_b": "CentOS",
+        "option_c": "Fedora",
+        "option_d": "MacOS",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 56,
+        "question_text": "56. What is the primary purpose of AWS CloudFront?",
+        "option_a": "To provide content delivery network (CDN) services",
+        "option_b": "To manage virtual private clouds",
+        "option_c": "To handle email services",
+        "option_d": "To process big data",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 57,
+        "question_text": "57. Which Linux command is used to sort the contents of a file?",
+        "option_a": "order",
+        "option_b": "arrange",
+        "option_c": "sort",
+        "option_d": "organize",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 58,
+        "question_text": "58. What does TCP/IP stand for?",
+        "option_a": "Transfer Control Protocol/Internet Protocol",
+        "option_b": "Transmission Control Protocol/Internet Protocol",
+        "option_c": "Total Control Protocol/Internet Protocol",
+        "option_d": "Technical Control Protocol/Internet Protocol",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 59,
+        "question_text": "59. Which command is used to display the differences between two files in Linux?",
+        "option_a": "compare",
+        "option_b": "diff",
+        "option_c": "cmp",
+        "option_d": "contrast",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 60,
+        "question_text": "60. What is the main advantage of using microservices architecture in cloud computing?",
+        "option_a": "Simplified monolithic applications",
+        "option_b": "Reduced scalability",
+        "option_c": "Increased application resilience and easier updates",
+        "option_d": "Lower security",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 61,
+        "question_text": "61. Which Linux command is used to terminate a process?",
+        "option_a": "stop",
+        "option_b": "end",
+        "option_c": "terminate",
+        "option_d": "kill",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 62,
+        "question_text": "62. What does VPN stand for in networking?",
+        "option_a": "Virtual Private Network",
+        "option_b": "Very Personal Network",
+        "option_c": "Variable Protocol Network",
+        "option_d": "Visual Process Network",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 63,
+        "question_text": "63. Which of the following is NOT a benefit of cloud computing?",
+        "option_a": "Scalability",
+        "option_b": "Cost-effectiveness",
+        "option_c": "Increased physical security of hardware",
+        "option_d": "Flexibility",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 64,
+        "question_text": "64. What is the purpose of the 'cron' daemon in Linux?",
+        "option_a": "To manage network connections",
+        "option_b": "To schedule tasks to run automatically",
+        "option_c": "To control system volume",
+        "option_d": "To encrypt files",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 65,
+        "question_text": "65. Which AWS service is used for managed database services?",
+        "option_a": "EC2",
+        "option_b": "S3",
+        "option_c": "RDS",
+        "option_d": "VPC",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 66,
+        "question_text": "66. What does the Linux command 'ping' do?",
+        "option_a": "Measures network latency",
+        "option_b": "Creates a new user account",
+        "option_c": "Compresses files",
+        "option_d": "Installs software packages",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 67,
+        "question_text": "67. Which Linux command is used to display the current date and time?",
+        "option_a": "now",
+        "option_b": "time",
+        "option_c": "date",
+        "option_d": "clock",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 68,
+        "question_text": "68. What does API Gateway primarily do in cloud architecture?",
+        "option_a": "Manages user authentication",
+        "option_b": "Provides a unified interface to access multiple microservices",
+        "option_c": "Stores large amounts of data",
+        "option_d": "Runs serverless functions",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 69,
+        "question_text": "69. Which Linux command is used to change file or directory permissions recursively?",
+        "option_a": "chmod -R",
+        "option_b": "chown -R",
+        "option_c": "permmod -R",
+        "option_d": "recursive-chmod",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 70,
+        "question_text": "70. In the context of cloud computing, what does \"elasticity\" refer to?",
+        "option_a": "The ability to stretch virtual machines",
+        "option_b": "The flexibility of pricing models",
+        "option_c": "The capability to scale resources up or down based on demand",
+        "option_d": "The elasticity of network cables",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 71,
+        "question_text": "71. What is the purpose of the 'rsync' command in Linux?",
+        "option_a": "To synchronize files and directories",
+        "option_b": "To restart system services",
+        "option_c": "To manage network connections",
+        "option_d": "To run system checks",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 72,
+        "question_text": "72. Which of the following is NOT a common type of cloud service model?",
+        "option_a": "IaaS",
+        "option_b": "PaaS",
+        "option_c": "SaaS",
+        "option_d": "HaaS (Hardware as a Service)",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 73,
+        "question_text": "73. In Linux, what does the 'pipe' operator (|) do?",
+        "option_a": "Combines two commands",
+        "option_b": "Redirects output to a file",
+        "option_c": "Sends the output of one command as input to another",
+        "option_d": "Runs commands in parallel",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 74,
+        "question_text": "74. Which Linux command is used to monitor system resources in real-time?",
+        "option_a": "monitor",
+        "option_b": "top",
+        "option_c": "watch",
+        "option_d": "resource",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 75,
+        "question_text": "75. In cloud computing, what does the term \"multi-tenancy\" refer to?",
+        "option_a": "Multiple users accessing the same physical resources",
+        "option_b": "Multiple cloud providers working together",
+        "option_c": "Multiple security layers",
+        "option_d": "Multiple operating systems on one machine",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 76,
+        "question_text": "76. What does the Linux command 'sed' stand for?",
+        "option_a": "System Editor",
+        "option_b": "Stream Editor",
+        "option_c": "Secure Editor",
+        "option_d": "Script Editor",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 77,
+        "question_text": "77. What is the purpose of the 'awk' command in Linux?",
+        "option_a": "To compress files",
+        "option_b": "To search for patterns in text files",
+        "option_c": "To manipulate and analyze text data",
+        "option_d": "To manage user accounts",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 78,
+        "question_text": "78. Which Linux command is used to display the amount of free and used memory in the system?",
+        "option_a": "meminfo",
+        "option_b": "free",
+        "option_c": "memory",
+        "option_d": "ramstat",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 79,
+        "question_text": "79. In AWS, what does EBS stand for?",
+        "option_a": "Elastic Block Store",
+        "option_b": "Extended Backup Service",
+        "option_c": "Enterprise Billing System",
+        "option_d": "Elastic Bandwidth Service",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 80,
+        "question_text": "80. Which Linux command is used to create an empty file or update the timestamp of an existing file?",
+        "option_a": "create",
+        "option_b": "new",
+        "option_c": "touch",
+        "option_d": "update",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 81,
+        "question_text": "81. What is the main purpose of AWS Glacier?",
+        "option_a": "To provide fast, low-latency storage",
+        "option_b": "To offer long-term, low-cost archival storage",
+        "option_c": "To manage container orchestration",
+        "option_d": "To handle real-time data processing",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 82,
+        "question_text": "82. Which Linux command is used to securely copy files between hosts on a network?",
+        "option_a": "copy",
+        "option_b": "scp",
+        "option_c": "ftp",
+        "option_d": "move",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 83,
+        "question_text": "83. You're deploying a microservices architecture on AWS and need a service to manage API requests and responses between applications. What would you use?",
+        "option_a": "ELB (Elastic Load Balancing)",
+        "option_b": "API Gateway",
+        "option_c": "SNS (Simple Notification Service)",
+        "option_d": "SQS (Simple Queue Service)",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 84,
+        "question_text": "84. Which command is used to display the current shell in Linux?",
+        "option_a": "shell",
+        "option_b": "echo $SHELL",
+        "option_c": "ps",
+        "option_d": "whoami",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 85,
+        "question_text": "85. In AWS, what does ELB stand for?",
+        "option_a": "Elastic Load Balancer",
+        "option_b": "Extended Linux Backup",
+        "option_c": "Enterprise Level Bandwidth",
+        "option_d": "Elastic Linux Boot",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 86,
+        "question_text": "86. Which Linux command is used to display the first 10 lines of a file?",
+        "option_a": "head",
+        "option_b": "tail",
+        "option_c": "top",
+        "option_d": "start",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 87,
+        "question_text": "87. What is the purpose of AWS Elastic Container Service (ECS)?",
+        "option_a": "To manage virtual machines",
+        "option_b": "To run and manage Docker containers",
+        "option_c": "To provide block storage",
+        "option_d": "To handle email services",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 88,
+        "question_text": "88. In Linux, what does the command 'chmod 755' do?",
+        "option_a": "Gives read, write, and execute permissions to owner, and read and execute to group and others",
+        "option_b": "Gives full permissions to everyone",
+        "option_c": "Removes all permissions",
+        "option_d": "Gives read and write permissions to owner only",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 89,
+        "question_text": "execute to group and others 89. Which AWS service is used for creating and managing databases?",
+        "option_a": "EC2",
+        "option_b": "S3",
+        "option_c": "RDS",
+        "option_d": "Lambda",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 90,
+        "question_text": "90. What does the Linux command 'ps aux' do?",
+        "option_a": "Shows all running processes",
+        "option_b": "Pauses system operations",
+        "option_c": "Checks disk space usage",
+        "option_d": "Lists all users",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 91,
+        "question_text": "91. In cloud computing, what does IaC stand for?",
+        "option_a": "Internet and Computing",
+        "option_b": "Infrastructure as Code",
+        "option_c": "Integrated Cloud",
+        "option_d": "Instance and Container",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 92,
+        "question_text": "92. Which Linux command is used to create a new user?",
+        "option_a": "newuser",
+        "option_b": "adduser",
+        "option_c": "createuser",
+        "option_d": "usermod",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 93,
+        "question_text": "93. What is the main purpose of AWS CloudFormation?",
+        "option_a": "To provide content delivery services",
+        "option_b": "To manage virtual networks",
+        "option_c": "To automate infrastructure provisioning",
+        "option_d": "To handle big data processing",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 94,
+        "question_text": "94. In Linux, what does the 'crontab -e' command do?",
+        "option_a": "Executes a cron job",
+        "option_b": "Edits the crontab file",
+        "option_c": "Enables cron service",
+        "option_d": "Lists all cron jobs",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 95,
+        "question_text": "95. Which of the following is NOT a type of cloud deployment model?",
+        "option_a": "Public cloud",
+        "option_b": "Private cloud",
+        "option_c": "Hybrid cloud",
+        "option_d": "Virtual cloud",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 96,
+        "question_text": "96. What does the Linux command 'df -h' display?",
+        "option_a": "Disk usage in human-readable format",
+        "option_b": "Directory structure",
+        "option_c": "Date and time",
+        "option_d": "System processes",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 97,
+        "question_text": "97. In AWS, what does VPC stand for?",
+        "option_a": "Virtual Private Cloud",
+        "option_b": "Virtual Public Connection",
+        "option_c": "Variable Process Control",
+        "option_d": "Virtual Protocol Configuration",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 98,
+        "question_text": "98. Which Linux command is used to change file ownership?",
+        "option_a": "chmod",
+        "option_b": "chown",
+        "option_c": "chgrp",
+        "option_d": "umask",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 99,
+        "question_text": "99. What is the primary purpose of AWS Lambda?",
+        "option_a": "To provide database services",
+        "option_b": "To run code without provisioning servers",
+        "option_c": "To manage virtual machines",
+        "option_d": "To handle network traffic",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 100,
+        "question_text": "100. In Linux, what does the 'grep' command do?",
+        "option_a": "Groups files",
+        "option_b": "Searches for patterns in text",
+        "option_c": "Generates reports",
+        "option_d": "Manages processes",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 101,
+        "question_text": "101. Which AWS service is used for data warehousing?",
+        "option_a": "RDS",
+        "option_b": "DynamoDB",
+        "option_c": "Redshift",
+        "option_d": "Aurora",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 102,
+        "question_text": "102. What does the Linux command 'sudo' stand for?",
+        "option_a": "Super User Do",
+        "option_b": "System User Domain Operator",
+        "option_c": "Secure User Data Output",
+        "option_d": "Single User Direct Operation",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 103,
+        "question_text": "103. In cloud computing, what does SLA stand for?",
+        "option_a": "System Level Agreement",
+        "option_b": "Service Level Agreement",
+        "option_c": "Software License Agreement",
+        "option_d": "Secure Link Access",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 104,
+        "question_text": "104. Which Linux command is used to display the current working directory?",
+        "option_a": "pwd",
+        "option_b": "cd",
+        "option_c": "ls",
+        "option_d": "dir",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 105,
+        "question_text": "105. What is the main purpose of AWS S3?",
+        "option_a": "Compute services",
+        "option_b": "Object storage",
+        "option_c": "Database management",
+        "option_d": "Networking",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 106,
+        "question_text": "106. Which AWS service is used for content delivery?",
+        "option_a": "EC2",
+        "option_b": "S3",
+        "option_c": "CloudFront",
+        "option_d": "EBS",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 107,
+        "question_text": "107. What does the Linux command 'rm -rf' do?",
+        "option_a": "Removes files interactively",
+        "option_b": "Removes files and directories recursively and forcefully",
+        "option_c": "Renames multiple files",
+        "option_d": "Resets file permissions",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 108,
+        "question_text": "108. In cloud computing, what does PaaS stand for?",
+        "option_a": "Programming as a Service",
+        "option_b": "Platform as a Service",
+        "option_c": "Performance as a Service",
+        "option_d": "Process as a Service",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 109,
+        "question_text": "109. Which Linux command is used to display system uptime?",
+        "option_a": "time",
+        "option_b": "uptime",
+        "option_c": "sysinfo",
+        "option_d": "top",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 110,
+        "question_text": "110. What is the main purpose of AWS IAM?",
+        "option_a": "To manage internet access",
+        "option_b": "To control user access to AWS resources",
+        "option_c": "To handle billing and pricing",
+        "option_d": "To provide database services",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 111,
+        "question_text": "111. In Linux, what does the 'tar' command do?",
+        "option_a": "Terminates all running processes",
+        "option_b": "Creates and extracts archive files",
+        "option_c": "Tests and reports system errors",
+        "option_d": "Tracks and records system activities",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 112,
+        "question_text": "112. Which of the following is NOT a characteristic of cloud computing?",
+        "option_a": "On-demand self-service",
+        "option_b": "Broad network access",
+        "option_c": "Resource pooling",
+        "option_d": "Physical server management",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 113,
+        "question_text": "113. Scenario: You're a system administrator and need to find all files in the /home directory that are larger than 1GB and haven't been accessed in the last 60 days. Which Linux command would you use?",
+        "option_a": "ls -lh /home | grep \"1G\"",
+        "option_b": "find /home -size +1G -atime +60",
+        "option_c": "du -h /home | sort -rh | head -n 10",
+        "option_d": "grep -r \"1G\" /home",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 114,
+        "question_text": "Explanation: This command uses 'find' to search in /home for files larger than 1GB (-size +1G) and not accessed in the last 60 days (-atime +60). 114. Scenario: You're deploying a multi-tier web application on AWS. You need to ensure that the web servers can communicate with the application servers, but the application servers should not be directly accessible from the internet. Which AWS networking feature would you use?",
+        "option_a": "Security Groups",
+        "option_b": "Network ACLs",
+        "option_c": "VPC with public and private subnets",
+        "option_d": "Elastic IP addresses",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 115,
+        "question_text": "Explanation: Using a VPC with public and private subnets allows you to place web servers in a public subnet with internet access, while keeping application servers in a private subnet without direct internet access. 115. Scenario: You need to run a resource-intensive data processing job on your Linux server, but you want to ensure it doesn't interfere with other critical processes. How would you adjust the priority of this job?",
+        "option_a": "Use the 'top' command to monitor it",
+        "option_b": "Run it with the 'nice' command",
+        "option_c": "Use the 'kill' command to stop other processes",
+        "option_d": "Increase the server's RAM",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 116,
+        "question_text": "116. Scenario: You're managing an e-commerce application on AWS and need to implement a solution for session management that works across multiple EC2 instances. Which AWS service would be most appropriate?",
+        "option_a": "DynamoDB",
+        "option_b": "ElastiCache",
+        "option_c": "S3",
+        "option_d": "EBS",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 117,
+        "question_text": "117. You need to securely store sensitive configuration data (like API keys) for your application running on EC2 instances. Which AWS service should you use?",
+        "option_a": "S3",
+        "option_b": "EBS",
+        "option_c": "Secrets Manager",
+        "option_d": "CloudWatch",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 118,
+        "question_text": "118. You're writing a bash script to process log files. You need to extract all lines containing either \"ERROR\" or \"WARNING\" and save them to a new file. Which command would you use?",
+        "option_a": "cat logfile.txt | find \"ERROR\" \"WARNING\" > issues.txt",
+        "option_b": "grep -E \"ERROR|WARNING\" logfile.txt > issues.txt",
+        "option_c": "sed -n '/ERROR/p;/WARNING/p' logfile.txt > issues.txt",
+        "option_d": "awk '/ERROR/ || /WARNING/' logfile.txt > issues.txt",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 119,
+        "question_text": "119. Scenario: You're managing a fleet of EC2 instances and need to run the same set of commands on all of them regularly. Which AWS service would be most appropriate for this task?",
+        "option_a": "AWS Lambda",
+        "option_b": "AWS Systems Manager Run Command",
+        "option_c": "AWS CloudFormation",
+        "option_d": "AWS Batch",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 120,
+        "question_text": "120. Scenario: You need to set up a cron job to run a backup script every weekday at 11 PM. What would be the correct cron expression?",
+        "option_a": "0 23 * * 1-5",
+        "option_b": "0 11 * * 1-5",
+        "option_c": "23 0 * * 1-5",
+        "option_d": "* 23 * * 1-5",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 121,
+        "question_text": "Explanation: In a cron expression, the fields represent minute, hour, day of month, month, and day of week. This expression runs at 0 minutes past 23:00 (11 PM), every day from Monday to Friday. 121. Scenario: You're troubleshooting a network connectivity issue on your Linux server. Which command would you use to check if you can reach a specific IP address?",
+        "option_a": "ifconfig",
+        "option_b": "netstat",
+        "option_c": "ping",
+        "option_d": "route",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 122,
+        "question_text": "122. Scenario: You're deploying a containerized application on AWS and need a service to manage and scale your containers automatically. Which AWS service would you use?",
+        "option_a": "EC2",
+        "option_b": "ECS (Elastic Container Service)",
+        "option_c": "Lambda",
+        "option_d": "Elastic Beanstalk",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 123,
+        "question_text": "most frequently occurring IP addresses. 123. Which command combination would be most efficient?",
+        "option_a": "cat logfile.txt | sort | uniq -c",
+        "option_b": "grep -oE \"\\b([0-9]{1,3}.){3}[0-9]{1,3}\\b\" logfile.txt | sort | uniq -c | sort -nr | head -n 10",
+        "option_c": "awk '{print $1}' logfile.txt | sort | uniq",
+        "option_d": "sed -n 's/.([0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3})./\\1/p' logfile.txt | sort",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 124,
+        "question_text": "Explanation: This command chain extracts IP addresses, sorts them, counts unique occurrences, sorts by count in reverse order, and displays the top 10 results. 123. Scenario: You're managing an application on AWS that needs to process data in real-time as it arrives. Which AWS service would be most appropriate for this use case?",
+        "option_a": "AWS Batch",
+        "option_b": "AWS Kinesis",
+        "option_c": "AWS Glue",
+        "option_d": "AWS Redshift",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 125,
+        "question_text": "Explanation: AWS Kinesis is designed to process and analyze streaming data in real-time, making it ideal for this scenario. 124. Scenario: You need to create a backup of an entire Linux filesystem, preserving all file attributes and permissions. Which command would you use?",
+        "option_a": "cp -R / /backup",
+        "option_b": "rsync -av / /backup",
+        "option_c": "tar -cvpf backup.tar /",
+        "option_d": "dd if=/ of=/backup/image.img",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 126,
+        "question_text": "Explanation: rsync with these options will create an exact copy of the filesystem, preserving all attributes and permissions. 125. Scenario: You're setting up a new EC2 instance and need to ensure that it can access an S3 bucket without using access keys. What's the best way to accomplish this?",
+        "option_a": "Store the access keys in environment variables",
+        "option_b": "Use an IAM Role",
+        "option_c": "Hardcode the access keys in the application",
+        "option_d": "Use a VPC endpoint",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 127,
+        "question_text": "Explanation: IAM Roles provide a secure way to grant permissions to entities that you trust. Attaching an IAM Role to an EC2 instance allows it to access AWS services without the need for access keys. 126. Scenario: You need to find all files in the /var/log directory that have been modified in the last 24 hours. Which Linux command would you use?",
+        "option_a": "ls -l /var/log | grep \"$(date +%b' '%d)\"",
+        "option_b": "find /var/log -mtime -1",
+        "option_c": "du -h --time /var/log | grep \"24 hours\"",
+        "option_d": "stat /var/log/* | grep \"Modify\"",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 128,
+        "question_text": "Explanation: The find command with -mtime -1 option finds files modified in the last 24 hours. 127. Scenario: You're deploying a web application on AWS and need to implement auto-scaling based on CPU utilization. Which services would you use?",
+        "option_a": "EC2 and CloudWatch",
+        "option_b": "ECS and Fargate",
+        "option_c": "Lambda and API Gateway",
+        "option_d": "EC2, Auto Scaling groups, and CloudWatch",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 129,
+        "question_text": "128. Scenario: You need to securely transfer files between your local machine and an EC2 instance. Which protocol and tool would you use?",
+        "option_a": "FTP and FileZilla",
+        "option_b": "SCP and ssh",
+        "option_c": "HTTP and curl",
+        "option_d": "Telnet and rcp",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 130,
+        "question_text": "Explanation: SCP (Secure Copy) uses SSH for data transfer, providing a secure method for transferring files to and from an EC2 instance. 129. Scenario: You're managing a multi-container Docker application and need a service to define and run multi-container applications on AWS. Which service would you use?",
+        "option_a": "EC2",
+        "option_b": "ECS",
+        "option_c": "EKS",
+        "option_d": "Fargate",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 131,
+        "question_text": "Explanation: CloudWatch can monitor EC2 metrics and trigger alarms, while SNS can send notifications based on these alarms. 131. Scenario: You need to run a series of commands on multiple Linux servers simultaneously. Which tool would be most efficient for this task?",
+        "option_a": "ssh",
+        "option_b": "ansible",
+        "option_c": "cron",
+        "option_d": "bash script",
+        "correct_option": "B",
+        "explanation": ""
+    }
+]
