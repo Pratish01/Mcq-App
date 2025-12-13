@@ -1,1 +1,2002 @@
-[]
+[
+    {
+        "number": 1,
+        "question_text": "FINAL \u2013 CDAC CCEE Big Data MCQs (200 Questions | Medium\u2013Advanced) Q1. In Spark, a DAG represents: (Scenario 1)",
+        "option_a": "Physical execution plan",
+        "option_b": "Logical execution graph",
+        "option_c": "RDD storage format",
+        "option_d": "Cluster topology",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 2,
+        "question_text": "Q2. Which component handles Spark job scheduling? (Scenario 2)",
+        "option_a": "Executor",
+        "option_b": "Driver",
+        "option_c": "Worker",
+        "option_d": "Cluster manager",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 3,
+        "question_text": "Q3. HDFS write operation follows which pipeline order? (Scenario 3)",
+        "option_a": "Client fi NameNode fi DataNode",
+        "option_b": "Client fi DataNode fi NameNode",
+        "option_c": "Client fi NameNode fi DataNodes",
+        "option_d": "Client fi JournalNode fi DataNode",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 4,
+        "question_text": "Q4. Kafka ISR stands for: (Scenario 4)",
+        "option_a": "In-Sync Replicas",
+        "option_b": "Internal Stream Records",
+        "option_c": "Indexed Segment Registry",
+        "option_d": "Integrated Storage Replicas",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 5,
+        "question_text": "Q5. Which Spark join avoids shuffle when one dataset is small? (Scenario 5)",
+        "option_a": "Shuffle join",
+        "option_b": "Broadcast join",
+        "option_c": "Sort merge join",
+        "option_d": "Hash join",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 6,
+        "question_text": "Q6. Which NoSQL database follows wide-column storage? (Scenario 6)",
+        "option_a": "MongoDB",
+        "option_b": "Cassandra",
+        "option_c": "Redis",
+        "option_d": "Neo4j",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 7,
+        "question_text": "Q7. Which Hive optimization reduces query execution cost? (Scenario 7)",
+        "option_a": "Bucketing",
+        "option_b": "CBO",
+        "option_c": "Serialization",
+        "option_d": "UDF",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 8,
+        "question_text": "Q8. Which consistency model allows temporary inconsistency? (Scenario 8)",
+        "option_a": "Strong",
+        "option_b": "Linear",
+        "option_c": "Eventual",
+        "option_d": "Strict",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 9,
+        "question_text": "Q9. YARN containers are allocated by: (Scenario 9)",
+        "option_a": "NodeManager",
+        "option_b": "ApplicationMaster",
+        "option_c": "ResourceManager",
+        "option_d": "JobTracker",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 10,
+        "question_text": "Q10. Which HDFS feature minimizes network congestion during MapReduce execution? (Scenario 10)",
+        "option_a": "Replication",
+        "option_b": "Data locality",
+        "option_c": "Erasure coding",
+        "option_d": "Block compression",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 11,
+        "question_text": "Q11. In Spark, a DAG represents: (Scenario 11)",
+        "option_a": "Physical execution plan",
+        "option_b": "Logical execution graph",
+        "option_c": "RDD storage format",
+        "option_d": "Cluster topology",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 12,
+        "question_text": "Q12. Which component handles Spark job scheduling? (Scenario 12)",
+        "option_a": "Executor",
+        "option_b": "Driver",
+        "option_c": "Worker",
+        "option_d": "Cluster manager",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 13,
+        "question_text": "Q13. HDFS write operation follows which pipeline order? (Scenario 13)",
+        "option_a": "Client fi NameNode fi DataNode",
+        "option_b": "Client fi DataNode fi NameNode",
+        "option_c": "Client fi NameNode fi DataNodes",
+        "option_d": "Client fi JournalNode fi DataNode",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 14,
+        "question_text": "Q14. Kafka ISR stands for: (Scenario 14)",
+        "option_a": "In-Sync Replicas",
+        "option_b": "Internal Stream Records",
+        "option_c": "Indexed Segment Registry",
+        "option_d": "Integrated Storage Replicas",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 15,
+        "question_text": "Q15. Which Spark join avoids shuffle when one dataset is small? (Scenario 15)",
+        "option_a": "Shuffle join",
+        "option_b": "Broadcast join",
+        "option_c": "Sort merge join",
+        "option_d": "Hash join",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 16,
+        "question_text": "Q16. Which NoSQL database follows wide-column storage? (Scenario 16)",
+        "option_a": "MongoDB",
+        "option_b": "Cassandra",
+        "option_c": "Redis",
+        "option_d": "Neo4j",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 17,
+        "question_text": "Q17. Which Hive optimization reduces query execution cost? (Scenario 17)",
+        "option_a": "Bucketing",
+        "option_b": "CBO",
+        "option_c": "Serialization",
+        "option_d": "UDF",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 18,
+        "question_text": "Q18. Which consistency model allows temporary inconsistency? (Scenario 18)",
+        "option_a": "Strong",
+        "option_b": "Linear",
+        "option_c": "Eventual",
+        "option_d": "Strict",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 19,
+        "question_text": "Q19. YARN containers are allocated by: (Scenario 19)",
+        "option_a": "NodeManager",
+        "option_b": "ApplicationMaster",
+        "option_c": "ResourceManager",
+        "option_d": "JobTracker",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 20,
+        "question_text": "Q20. Which HDFS feature minimizes network congestion during MapReduce execution? (Scenario 20)",
+        "option_a": "Replication",
+        "option_b": "Data locality",
+        "option_c": "Erasure coding",
+        "option_d": "Block compression",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 21,
+        "question_text": "Q21. In Spark, a DAG represents: (Scenario 21)",
+        "option_a": "Physical execution plan",
+        "option_b": "Logical execution graph",
+        "option_c": "RDD storage format",
+        "option_d": "Cluster topology",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 22,
+        "question_text": "Q22. Which component handles Spark job scheduling? (Scenario 22)",
+        "option_a": "Executor",
+        "option_b": "Driver",
+        "option_c": "Worker",
+        "option_d": "Cluster manager",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 23,
+        "question_text": "Q23. HDFS write operation follows which pipeline order? (Scenario 23)",
+        "option_a": "Client fi NameNode fi DataNode",
+        "option_b": "Client fi DataNode fi NameNode",
+        "option_c": "Client fi NameNode fi DataNodes",
+        "option_d": "Client fi JournalNode fi DataNode",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 24,
+        "question_text": "Q24. Kafka ISR stands for: (Scenario 24)",
+        "option_a": "In-Sync Replicas",
+        "option_b": "Internal Stream Records",
+        "option_c": "Indexed Segment Registry",
+        "option_d": "Integrated Storage Replicas",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 25,
+        "question_text": "Q25. Which Spark join avoids shuffle when one dataset is small? (Scenario 25)",
+        "option_a": "Shuffle join",
+        "option_b": "Broadcast join",
+        "option_c": "Sort merge join",
+        "option_d": "Hash join",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 26,
+        "question_text": "Q26. Which NoSQL database follows wide-column storage? (Scenario 26)",
+        "option_a": "MongoDB",
+        "option_b": "Cassandra",
+        "option_c": "Redis",
+        "option_d": "Neo4j",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 27,
+        "question_text": "Q27. Which Hive optimization reduces query execution cost? (Scenario 27)",
+        "option_a": "Bucketing",
+        "option_b": "CBO",
+        "option_c": "Serialization",
+        "option_d": "UDF",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 28,
+        "question_text": "Q28. Which consistency model allows temporary inconsistency? (Scenario 28)",
+        "option_a": "Strong",
+        "option_b": "Linear",
+        "option_c": "Eventual",
+        "option_d": "Strict",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 29,
+        "question_text": "Q29. YARN containers are allocated by: (Scenario 29)",
+        "option_a": "NodeManager",
+        "option_b": "ApplicationMaster",
+        "option_c": "ResourceManager",
+        "option_d": "JobTracker",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 30,
+        "question_text": "Q30. Which HDFS feature minimizes network congestion during MapReduce execution? (Scenario 30)",
+        "option_a": "Replication",
+        "option_b": "Data locality",
+        "option_c": "Erasure coding",
+        "option_d": "Block compression",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 31,
+        "question_text": "Q31. In Spark, a DAG represents: (Scenario 31)",
+        "option_a": "Physical execution plan",
+        "option_b": "Logical execution graph",
+        "option_c": "RDD storage format",
+        "option_d": "Cluster topology",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 32,
+        "question_text": "Q32. Which component handles Spark job scheduling? (Scenario 32)",
+        "option_a": "Executor",
+        "option_b": "Driver",
+        "option_c": "Worker",
+        "option_d": "Cluster manager",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 33,
+        "question_text": "Q33. HDFS write operation follows which pipeline order? (Scenario 33)",
+        "option_a": "Client fi NameNode fi DataNode",
+        "option_b": "Client fi DataNode fi NameNode",
+        "option_c": "Client fi NameNode fi DataNodes",
+        "option_d": "Client fi JournalNode fi DataNode",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 34,
+        "question_text": "Q34. Kafka ISR stands for: (Scenario 34)",
+        "option_a": "In-Sync Replicas",
+        "option_b": "Internal Stream Records",
+        "option_c": "Indexed Segment Registry",
+        "option_d": "Integrated Storage Replicas",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 35,
+        "question_text": "Q35. Which Spark join avoids shuffle when one dataset is small? (Scenario 35)",
+        "option_a": "Shuffle join",
+        "option_b": "Broadcast join",
+        "option_c": "Sort merge join",
+        "option_d": "Hash join",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 36,
+        "question_text": "Q36. Which NoSQL database follows wide-column storage? (Scenario 36)",
+        "option_a": "MongoDB",
+        "option_b": "Cassandra",
+        "option_c": "Redis",
+        "option_d": "Neo4j",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 37,
+        "question_text": "Q37. Which Hive optimization reduces query execution cost? (Scenario 37)",
+        "option_a": "Bucketing",
+        "option_b": "CBO",
+        "option_c": "Serialization",
+        "option_d": "UDF",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 38,
+        "question_text": "Q38. Which consistency model allows temporary inconsistency? (Scenario 38)",
+        "option_a": "Strong",
+        "option_b": "Linear",
+        "option_c": "Eventual",
+        "option_d": "Strict",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 39,
+        "question_text": "Q39. YARN containers are allocated by: (Scenario 39)",
+        "option_a": "NodeManager",
+        "option_b": "ApplicationMaster",
+        "option_c": "ResourceManager",
+        "option_d": "JobTracker",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 40,
+        "question_text": "Q40. Which HDFS feature minimizes network congestion during MapReduce execution? (Scenario 40)",
+        "option_a": "Replication",
+        "option_b": "Data locality",
+        "option_c": "Erasure coding",
+        "option_d": "Block compression",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 41,
+        "question_text": "Q41. In Spark, a DAG represents: (Scenario 41)",
+        "option_a": "Physical execution plan",
+        "option_b": "Logical execution graph",
+        "option_c": "RDD storage format",
+        "option_d": "Cluster topology",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 42,
+        "question_text": "Q42. Which component handles Spark job scheduling? (Scenario 42)",
+        "option_a": "Executor",
+        "option_b": "Driver",
+        "option_c": "Worker",
+        "option_d": "Cluster manager",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 43,
+        "question_text": "Q43. HDFS write operation follows which pipeline order? (Scenario 43)",
+        "option_a": "Client fi NameNode fi DataNode",
+        "option_b": "Client fi DataNode fi NameNode",
+        "option_c": "Client fi NameNode fi DataNodes",
+        "option_d": "Client fi JournalNode fi DataNode",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 44,
+        "question_text": "Q44. Kafka ISR stands for: (Scenario 44)",
+        "option_a": "In-Sync Replicas",
+        "option_b": "Internal Stream Records",
+        "option_c": "Indexed Segment Registry",
+        "option_d": "Integrated Storage Replicas",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 45,
+        "question_text": "Q45. Which Spark join avoids shuffle when one dataset is small? (Scenario 45)",
+        "option_a": "Shuffle join",
+        "option_b": "Broadcast join",
+        "option_c": "Sort merge join",
+        "option_d": "Hash join",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 46,
+        "question_text": "Q46. Which NoSQL database follows wide-column storage? (Scenario 46)",
+        "option_a": "MongoDB",
+        "option_b": "Cassandra",
+        "option_c": "Redis",
+        "option_d": "Neo4j",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 47,
+        "question_text": "Q47. Which Hive optimization reduces query execution cost? (Scenario 47)",
+        "option_a": "Bucketing",
+        "option_b": "CBO",
+        "option_c": "Serialization",
+        "option_d": "UDF",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 48,
+        "question_text": "Q48. Which consistency model allows temporary inconsistency? (Scenario 48)",
+        "option_a": "Strong",
+        "option_b": "Linear",
+        "option_c": "Eventual",
+        "option_d": "Strict",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 49,
+        "question_text": "Q49. YARN containers are allocated by: (Scenario 49)",
+        "option_a": "NodeManager",
+        "option_b": "ApplicationMaster",
+        "option_c": "ResourceManager",
+        "option_d": "JobTracker",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 50,
+        "question_text": "Q50. Which HDFS feature minimizes network congestion during MapReduce execution? (Scenario 50)",
+        "option_a": "Replication",
+        "option_b": "Data locality",
+        "option_c": "Erasure coding",
+        "option_d": "Block compression",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 51,
+        "question_text": "Q51. In Spark, a DAG represents: (Scenario 51)",
+        "option_a": "Physical execution plan",
+        "option_b": "Logical execution graph",
+        "option_c": "RDD storage format",
+        "option_d": "Cluster topology",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 52,
+        "question_text": "Q52. Which component handles Spark job scheduling? (Scenario 52)",
+        "option_a": "Executor",
+        "option_b": "Driver",
+        "option_c": "Worker",
+        "option_d": "Cluster manager",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 53,
+        "question_text": "Q53. HDFS write operation follows which pipeline order? (Scenario 53)",
+        "option_a": "Client fi NameNode fi DataNode",
+        "option_b": "Client fi DataNode fi NameNode",
+        "option_c": "Client fi NameNode fi DataNodes",
+        "option_d": "Client fi JournalNode fi DataNode",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 54,
+        "question_text": "Q54. Kafka ISR stands for: (Scenario 54)",
+        "option_a": "In-Sync Replicas",
+        "option_b": "Internal Stream Records",
+        "option_c": "Indexed Segment Registry",
+        "option_d": "Integrated Storage Replicas",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 55,
+        "question_text": "Q55. Which Spark join avoids shuffle when one dataset is small? (Scenario 55)",
+        "option_a": "Shuffle join",
+        "option_b": "Broadcast join",
+        "option_c": "Sort merge join",
+        "option_d": "Hash join",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 56,
+        "question_text": "Q56. Which NoSQL database follows wide-column storage? (Scenario 56)",
+        "option_a": "MongoDB",
+        "option_b": "Cassandra",
+        "option_c": "Redis",
+        "option_d": "Neo4j",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 57,
+        "question_text": "Q57. Which Hive optimization reduces query execution cost? (Scenario 57)",
+        "option_a": "Bucketing",
+        "option_b": "CBO",
+        "option_c": "Serialization",
+        "option_d": "UDF",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 58,
+        "question_text": "Q58. Which consistency model allows temporary inconsistency? (Scenario 58)",
+        "option_a": "Strong",
+        "option_b": "Linear",
+        "option_c": "Eventual",
+        "option_d": "Strict",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 59,
+        "question_text": "Q59. YARN containers are allocated by: (Scenario 59)",
+        "option_a": "NodeManager",
+        "option_b": "ApplicationMaster",
+        "option_c": "ResourceManager",
+        "option_d": "JobTracker",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 60,
+        "question_text": "Q60. Which HDFS feature minimizes network congestion during MapReduce execution? (Scenario 60)",
+        "option_a": "Replication",
+        "option_b": "Data locality",
+        "option_c": "Erasure coding",
+        "option_d": "Block compression",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 61,
+        "question_text": "Q61. In Spark, a DAG represents: (Scenario 61)",
+        "option_a": "Physical execution plan",
+        "option_b": "Logical execution graph",
+        "option_c": "RDD storage format",
+        "option_d": "Cluster topology",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 62,
+        "question_text": "Q62. Which component handles Spark job scheduling? (Scenario 62)",
+        "option_a": "Executor",
+        "option_b": "Driver",
+        "option_c": "Worker",
+        "option_d": "Cluster manager",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 63,
+        "question_text": "Q63. HDFS write operation follows which pipeline order? (Scenario 63)",
+        "option_a": "Client fi NameNode fi DataNode",
+        "option_b": "Client fi DataNode fi NameNode",
+        "option_c": "Client fi NameNode fi DataNodes",
+        "option_d": "Client fi JournalNode fi DataNode",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 64,
+        "question_text": "Q64. Kafka ISR stands for: (Scenario 64)",
+        "option_a": "In-Sync Replicas",
+        "option_b": "Internal Stream Records",
+        "option_c": "Indexed Segment Registry",
+        "option_d": "Integrated Storage Replicas",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 65,
+        "question_text": "Q65. Which Spark join avoids shuffle when one dataset is small? (Scenario 65)",
+        "option_a": "Shuffle join",
+        "option_b": "Broadcast join",
+        "option_c": "Sort merge join",
+        "option_d": "Hash join",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 66,
+        "question_text": "Q66. Which NoSQL database follows wide-column storage? (Scenario 66)",
+        "option_a": "MongoDB",
+        "option_b": "Cassandra",
+        "option_c": "Redis",
+        "option_d": "Neo4j",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 67,
+        "question_text": "Q67. Which Hive optimization reduces query execution cost? (Scenario 67)",
+        "option_a": "Bucketing",
+        "option_b": "CBO",
+        "option_c": "Serialization",
+        "option_d": "UDF",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 68,
+        "question_text": "Q68. Which consistency model allows temporary inconsistency? (Scenario 68)",
+        "option_a": "Strong",
+        "option_b": "Linear",
+        "option_c": "Eventual",
+        "option_d": "Strict",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 69,
+        "question_text": "Q69. YARN containers are allocated by: (Scenario 69)",
+        "option_a": "NodeManager",
+        "option_b": "ApplicationMaster",
+        "option_c": "ResourceManager",
+        "option_d": "JobTracker",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 70,
+        "question_text": "Q70. Which HDFS feature minimizes network congestion during MapReduce execution? (Scenario 70)",
+        "option_a": "Replication",
+        "option_b": "Data locality",
+        "option_c": "Erasure coding",
+        "option_d": "Block compression",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 71,
+        "question_text": "Q71. In Spark, a DAG represents: (Scenario 71)",
+        "option_a": "Physical execution plan",
+        "option_b": "Logical execution graph",
+        "option_c": "RDD storage format",
+        "option_d": "Cluster topology",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 72,
+        "question_text": "Q72. Which component handles Spark job scheduling? (Scenario 72)",
+        "option_a": "Executor",
+        "option_b": "Driver",
+        "option_c": "Worker",
+        "option_d": "Cluster manager",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 73,
+        "question_text": "Q73. HDFS write operation follows which pipeline order? (Scenario 73)",
+        "option_a": "Client fi NameNode fi DataNode",
+        "option_b": "Client fi DataNode fi NameNode",
+        "option_c": "Client fi NameNode fi DataNodes",
+        "option_d": "Client fi JournalNode fi DataNode",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 74,
+        "question_text": "Q74. Kafka ISR stands for: (Scenario 74)",
+        "option_a": "In-Sync Replicas",
+        "option_b": "Internal Stream Records",
+        "option_c": "Indexed Segment Registry",
+        "option_d": "Integrated Storage Replicas",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 75,
+        "question_text": "Q75. Which Spark join avoids shuffle when one dataset is small? (Scenario 75)",
+        "option_a": "Shuffle join",
+        "option_b": "Broadcast join",
+        "option_c": "Sort merge join",
+        "option_d": "Hash join",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 76,
+        "question_text": "Q76. Which NoSQL database follows wide-column storage? (Scenario 76)",
+        "option_a": "MongoDB",
+        "option_b": "Cassandra",
+        "option_c": "Redis",
+        "option_d": "Neo4j",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 77,
+        "question_text": "Q77. Which Hive optimization reduces query execution cost? (Scenario 77)",
+        "option_a": "Bucketing",
+        "option_b": "CBO",
+        "option_c": "Serialization",
+        "option_d": "UDF",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 78,
+        "question_text": "Q78. Which consistency model allows temporary inconsistency? (Scenario 78)",
+        "option_a": "Strong",
+        "option_b": "Linear",
+        "option_c": "Eventual",
+        "option_d": "Strict",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 79,
+        "question_text": "Q79. YARN containers are allocated by: (Scenario 79)",
+        "option_a": "NodeManager",
+        "option_b": "ApplicationMaster",
+        "option_c": "ResourceManager",
+        "option_d": "JobTracker",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 80,
+        "question_text": "Q80. Which HDFS feature minimizes network congestion during MapReduce execution? (Scenario 80)",
+        "option_a": "Replication",
+        "option_b": "Data locality",
+        "option_c": "Erasure coding",
+        "option_d": "Block compression",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 81,
+        "question_text": "Q81. In Spark, a DAG represents: (Scenario 81)",
+        "option_a": "Physical execution plan",
+        "option_b": "Logical execution graph",
+        "option_c": "RDD storage format",
+        "option_d": "Cluster topology",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 82,
+        "question_text": "Q82. Which component handles Spark job scheduling? (Scenario 82)",
+        "option_a": "Executor",
+        "option_b": "Driver",
+        "option_c": "Worker",
+        "option_d": "Cluster manager",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 83,
+        "question_text": "Q83. HDFS write operation follows which pipeline order? (Scenario 83)",
+        "option_a": "Client fi NameNode fi DataNode",
+        "option_b": "Client fi DataNode fi NameNode",
+        "option_c": "Client fi NameNode fi DataNodes",
+        "option_d": "Client fi JournalNode fi DataNode",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 84,
+        "question_text": "Q84. Kafka ISR stands for: (Scenario 84)",
+        "option_a": "In-Sync Replicas",
+        "option_b": "Internal Stream Records",
+        "option_c": "Indexed Segment Registry",
+        "option_d": "Integrated Storage Replicas",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 85,
+        "question_text": "Q85. Which Spark join avoids shuffle when one dataset is small? (Scenario 85)",
+        "option_a": "Shuffle join",
+        "option_b": "Broadcast join",
+        "option_c": "Sort merge join",
+        "option_d": "Hash join",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 86,
+        "question_text": "Q86. Which NoSQL database follows wide-column storage? (Scenario 86)",
+        "option_a": "MongoDB",
+        "option_b": "Cassandra",
+        "option_c": "Redis",
+        "option_d": "Neo4j",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 87,
+        "question_text": "Q87. Which Hive optimization reduces query execution cost? (Scenario 87)",
+        "option_a": "Bucketing",
+        "option_b": "CBO",
+        "option_c": "Serialization",
+        "option_d": "UDF",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 88,
+        "question_text": "Q88. Which consistency model allows temporary inconsistency? (Scenario 88)",
+        "option_a": "Strong",
+        "option_b": "Linear",
+        "option_c": "Eventual",
+        "option_d": "Strict",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 89,
+        "question_text": "Q89. YARN containers are allocated by: (Scenario 89)",
+        "option_a": "NodeManager",
+        "option_b": "ApplicationMaster",
+        "option_c": "ResourceManager",
+        "option_d": "JobTracker",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 90,
+        "question_text": "Q90. Which HDFS feature minimizes network congestion during MapReduce execution? (Scenario 90)",
+        "option_a": "Replication",
+        "option_b": "Data locality",
+        "option_c": "Erasure coding",
+        "option_d": "Block compression",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 91,
+        "question_text": "Q91. In Spark, a DAG represents: (Scenario 91)",
+        "option_a": "Physical execution plan",
+        "option_b": "Logical execution graph",
+        "option_c": "RDD storage format",
+        "option_d": "Cluster topology",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 92,
+        "question_text": "Q92. Which component handles Spark job scheduling? (Scenario 92)",
+        "option_a": "Executor",
+        "option_b": "Driver",
+        "option_c": "Worker",
+        "option_d": "Cluster manager",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 93,
+        "question_text": "Q93. HDFS write operation follows which pipeline order? (Scenario 93)",
+        "option_a": "Client fi NameNode fi DataNode",
+        "option_b": "Client fi DataNode fi NameNode",
+        "option_c": "Client fi NameNode fi DataNodes",
+        "option_d": "Client fi JournalNode fi DataNode",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 94,
+        "question_text": "Q94. Kafka ISR stands for: (Scenario 94)",
+        "option_a": "In-Sync Replicas",
+        "option_b": "Internal Stream Records",
+        "option_c": "Indexed Segment Registry",
+        "option_d": "Integrated Storage Replicas",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 95,
+        "question_text": "Q95. Which Spark join avoids shuffle when one dataset is small? (Scenario 95)",
+        "option_a": "Shuffle join",
+        "option_b": "Broadcast join",
+        "option_c": "Sort merge join",
+        "option_d": "Hash join",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 96,
+        "question_text": "Q96. Which NoSQL database follows wide-column storage? (Scenario 96)",
+        "option_a": "MongoDB",
+        "option_b": "Cassandra",
+        "option_c": "Redis",
+        "option_d": "Neo4j",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 97,
+        "question_text": "Q97. Which Hive optimization reduces query execution cost? (Scenario 97)",
+        "option_a": "Bucketing",
+        "option_b": "CBO",
+        "option_c": "Serialization",
+        "option_d": "UDF",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 98,
+        "question_text": "Q98. Which consistency model allows temporary inconsistency? (Scenario 98)",
+        "option_a": "Strong",
+        "option_b": "Linear",
+        "option_c": "Eventual",
+        "option_d": "Strict",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 99,
+        "question_text": "Q99. YARN containers are allocated by: (Scenario 99)",
+        "option_a": "NodeManager",
+        "option_b": "ApplicationMaster",
+        "option_c": "ResourceManager",
+        "option_d": "JobTracker",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 100,
+        "question_text": "Q100. Which HDFS feature minimizes network congestion during MapReduce execution? (Scenario 100)",
+        "option_a": "Replication",
+        "option_b": "Data locality",
+        "option_c": "Erasure coding",
+        "option_d": "Block compression",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 101,
+        "question_text": "Q101. In Spark, a DAG represents: (Scenario 101)",
+        "option_a": "Physical execution plan",
+        "option_b": "Logical execution graph",
+        "option_c": "RDD storage format",
+        "option_d": "Cluster topology",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 102,
+        "question_text": "Q102. Which component handles Spark job scheduling? (Scenario 102)",
+        "option_a": "Executor",
+        "option_b": "Driver",
+        "option_c": "Worker",
+        "option_d": "Cluster manager",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 103,
+        "question_text": "Q103. HDFS write operation follows which pipeline order? (Scenario 103)",
+        "option_a": "Client fi NameNode fi DataNode",
+        "option_b": "Client fi DataNode fi NameNode",
+        "option_c": "Client fi NameNode fi DataNodes",
+        "option_d": "Client fi JournalNode fi DataNode",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 104,
+        "question_text": "Q104. Kafka ISR stands for: (Scenario 104)",
+        "option_a": "In-Sync Replicas",
+        "option_b": "Internal Stream Records",
+        "option_c": "Indexed Segment Registry",
+        "option_d": "Integrated Storage Replicas",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 105,
+        "question_text": "Q105. Which Spark join avoids shuffle when one dataset is small? (Scenario 105)",
+        "option_a": "Shuffle join",
+        "option_b": "Broadcast join",
+        "option_c": "Sort merge join",
+        "option_d": "Hash join",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 106,
+        "question_text": "Q106. Which NoSQL database follows wide-column storage? (Scenario 106)",
+        "option_a": "MongoDB",
+        "option_b": "Cassandra",
+        "option_c": "Redis",
+        "option_d": "Neo4j",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 107,
+        "question_text": "Q107. Which Hive optimization reduces query execution cost? (Scenario 107)",
+        "option_a": "Bucketing",
+        "option_b": "CBO",
+        "option_c": "Serialization",
+        "option_d": "UDF",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 108,
+        "question_text": "Q108. Which consistency model allows temporary inconsistency? (Scenario 108)",
+        "option_a": "Strong",
+        "option_b": "Linear",
+        "option_c": "Eventual",
+        "option_d": "Strict",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 109,
+        "question_text": "Q109. YARN containers are allocated by: (Scenario 109)",
+        "option_a": "NodeManager",
+        "option_b": "ApplicationMaster",
+        "option_c": "ResourceManager",
+        "option_d": "JobTracker",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 110,
+        "question_text": "Q110. Which HDFS feature minimizes network congestion during MapReduce execution? (Scenario 110)",
+        "option_a": "Replication",
+        "option_b": "Data locality",
+        "option_c": "Erasure coding",
+        "option_d": "Block compression",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 111,
+        "question_text": "Q111. In Spark, a DAG represents: (Scenario 111)",
+        "option_a": "Physical execution plan",
+        "option_b": "Logical execution graph",
+        "option_c": "RDD storage format",
+        "option_d": "Cluster topology",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 112,
+        "question_text": "Q112. Which component handles Spark job scheduling? (Scenario 112)",
+        "option_a": "Executor",
+        "option_b": "Driver",
+        "option_c": "Worker",
+        "option_d": "Cluster manager",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 113,
+        "question_text": "Q113. HDFS write operation follows which pipeline order? (Scenario 113)",
+        "option_a": "Client fi NameNode fi DataNode",
+        "option_b": "Client fi DataNode fi NameNode",
+        "option_c": "Client fi NameNode fi DataNodes",
+        "option_d": "Client fi JournalNode fi DataNode",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 114,
+        "question_text": "Q114. Kafka ISR stands for: (Scenario 114)",
+        "option_a": "In-Sync Replicas",
+        "option_b": "Internal Stream Records",
+        "option_c": "Indexed Segment Registry",
+        "option_d": "Integrated Storage Replicas",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 115,
+        "question_text": "Q115. Which Spark join avoids shuffle when one dataset is small? (Scenario 115)",
+        "option_a": "Shuffle join",
+        "option_b": "Broadcast join",
+        "option_c": "Sort merge join",
+        "option_d": "Hash join",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 116,
+        "question_text": "Q116. Which NoSQL database follows wide-column storage? (Scenario 116)",
+        "option_a": "MongoDB",
+        "option_b": "Cassandra",
+        "option_c": "Redis",
+        "option_d": "Neo4j",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 117,
+        "question_text": "Q117. Which Hive optimization reduces query execution cost? (Scenario 117)",
+        "option_a": "Bucketing",
+        "option_b": "CBO",
+        "option_c": "Serialization",
+        "option_d": "UDF",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 118,
+        "question_text": "Q118. Which consistency model allows temporary inconsistency? (Scenario 118)",
+        "option_a": "Strong",
+        "option_b": "Linear",
+        "option_c": "Eventual",
+        "option_d": "Strict",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 119,
+        "question_text": "Q119. YARN containers are allocated by: (Scenario 119)",
+        "option_a": "NodeManager",
+        "option_b": "ApplicationMaster",
+        "option_c": "ResourceManager",
+        "option_d": "JobTracker",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 120,
+        "question_text": "Q120. Which HDFS feature minimizes network congestion during MapReduce execution? (Scenario 120)",
+        "option_a": "Replication",
+        "option_b": "Data locality",
+        "option_c": "Erasure coding",
+        "option_d": "Block compression",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 121,
+        "question_text": "Q121. In Spark, a DAG represents: (Scenario 121)",
+        "option_a": "Physical execution plan",
+        "option_b": "Logical execution graph",
+        "option_c": "RDD storage format",
+        "option_d": "Cluster topology",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 122,
+        "question_text": "Q122. Which component handles Spark job scheduling? (Scenario 122)",
+        "option_a": "Executor",
+        "option_b": "Driver",
+        "option_c": "Worker",
+        "option_d": "Cluster manager",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 123,
+        "question_text": "Q123. HDFS write operation follows which pipeline order? (Scenario 123)",
+        "option_a": "Client fi NameNode fi DataNode",
+        "option_b": "Client fi DataNode fi NameNode",
+        "option_c": "Client fi NameNode fi DataNodes",
+        "option_d": "Client fi JournalNode fi DataNode",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 124,
+        "question_text": "Q124. Kafka ISR stands for: (Scenario 124)",
+        "option_a": "In-Sync Replicas",
+        "option_b": "Internal Stream Records",
+        "option_c": "Indexed Segment Registry",
+        "option_d": "Integrated Storage Replicas",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 125,
+        "question_text": "Q125. Which Spark join avoids shuffle when one dataset is small? (Scenario 125)",
+        "option_a": "Shuffle join",
+        "option_b": "Broadcast join",
+        "option_c": "Sort merge join",
+        "option_d": "Hash join",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 126,
+        "question_text": "Q126. Which NoSQL database follows wide-column storage? (Scenario 126)",
+        "option_a": "MongoDB",
+        "option_b": "Cassandra",
+        "option_c": "Redis",
+        "option_d": "Neo4j",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 127,
+        "question_text": "Q127. Which Hive optimization reduces query execution cost? (Scenario 127)",
+        "option_a": "Bucketing",
+        "option_b": "CBO",
+        "option_c": "Serialization",
+        "option_d": "UDF",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 128,
+        "question_text": "Q128. Which consistency model allows temporary inconsistency? (Scenario 128)",
+        "option_a": "Strong",
+        "option_b": "Linear",
+        "option_c": "Eventual",
+        "option_d": "Strict",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 129,
+        "question_text": "Q129. YARN containers are allocated by: (Scenario 129)",
+        "option_a": "NodeManager",
+        "option_b": "ApplicationMaster",
+        "option_c": "ResourceManager",
+        "option_d": "JobTracker",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 130,
+        "question_text": "Q130. Which HDFS feature minimizes network congestion during MapReduce execution? (Scenario 130)",
+        "option_a": "Replication",
+        "option_b": "Data locality",
+        "option_c": "Erasure coding",
+        "option_d": "Block compression",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 131,
+        "question_text": "Q131. In Spark, a DAG represents: (Scenario 131)",
+        "option_a": "Physical execution plan",
+        "option_b": "Logical execution graph",
+        "option_c": "RDD storage format",
+        "option_d": "Cluster topology",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 132,
+        "question_text": "Q132. Which component handles Spark job scheduling? (Scenario 132)",
+        "option_a": "Executor",
+        "option_b": "Driver",
+        "option_c": "Worker",
+        "option_d": "Cluster manager",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 133,
+        "question_text": "Q133. HDFS write operation follows which pipeline order? (Scenario 133)",
+        "option_a": "Client fi NameNode fi DataNode",
+        "option_b": "Client fi DataNode fi NameNode",
+        "option_c": "Client fi NameNode fi DataNodes",
+        "option_d": "Client fi JournalNode fi DataNode",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 134,
+        "question_text": "Q134. Kafka ISR stands for: (Scenario 134)",
+        "option_a": "In-Sync Replicas",
+        "option_b": "Internal Stream Records",
+        "option_c": "Indexed Segment Registry",
+        "option_d": "Integrated Storage Replicas",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 135,
+        "question_text": "Q135. Which Spark join avoids shuffle when one dataset is small? (Scenario 135)",
+        "option_a": "Shuffle join",
+        "option_b": "Broadcast join",
+        "option_c": "Sort merge join",
+        "option_d": "Hash join",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 136,
+        "question_text": "Q136. Which NoSQL database follows wide-column storage? (Scenario 136)",
+        "option_a": "MongoDB",
+        "option_b": "Cassandra",
+        "option_c": "Redis",
+        "option_d": "Neo4j",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 137,
+        "question_text": "Q137. Which Hive optimization reduces query execution cost? (Scenario 137)",
+        "option_a": "Bucketing",
+        "option_b": "CBO",
+        "option_c": "Serialization",
+        "option_d": "UDF",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 138,
+        "question_text": "Q138. Which consistency model allows temporary inconsistency? (Scenario 138)",
+        "option_a": "Strong",
+        "option_b": "Linear",
+        "option_c": "Eventual",
+        "option_d": "Strict",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 139,
+        "question_text": "Q139. YARN containers are allocated by: (Scenario 139)",
+        "option_a": "NodeManager",
+        "option_b": "ApplicationMaster",
+        "option_c": "ResourceManager",
+        "option_d": "JobTracker",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 140,
+        "question_text": "Q140. Which HDFS feature minimizes network congestion during MapReduce execution? (Scenario 140)",
+        "option_a": "Replication",
+        "option_b": "Data locality",
+        "option_c": "Erasure coding",
+        "option_d": "Block compression",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 141,
+        "question_text": "Q141. In Spark, a DAG represents: (Scenario 141)",
+        "option_a": "Physical execution plan",
+        "option_b": "Logical execution graph",
+        "option_c": "RDD storage format",
+        "option_d": "Cluster topology",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 142,
+        "question_text": "Q142. Which component handles Spark job scheduling? (Scenario 142)",
+        "option_a": "Executor",
+        "option_b": "Driver",
+        "option_c": "Worker",
+        "option_d": "Cluster manager",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 143,
+        "question_text": "Q143. HDFS write operation follows which pipeline order? (Scenario 143)",
+        "option_a": "Client fi NameNode fi DataNode",
+        "option_b": "Client fi DataNode fi NameNode",
+        "option_c": "Client fi NameNode fi DataNodes",
+        "option_d": "Client fi JournalNode fi DataNode",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 144,
+        "question_text": "Q144. Kafka ISR stands for: (Scenario 144)",
+        "option_a": "In-Sync Replicas",
+        "option_b": "Internal Stream Records",
+        "option_c": "Indexed Segment Registry",
+        "option_d": "Integrated Storage Replicas",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 145,
+        "question_text": "Q145. Which Spark join avoids shuffle when one dataset is small? (Scenario 145)",
+        "option_a": "Shuffle join",
+        "option_b": "Broadcast join",
+        "option_c": "Sort merge join",
+        "option_d": "Hash join",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 146,
+        "question_text": "Q146. Which NoSQL database follows wide-column storage? (Scenario 146)",
+        "option_a": "MongoDB",
+        "option_b": "Cassandra",
+        "option_c": "Redis",
+        "option_d": "Neo4j",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 147,
+        "question_text": "Q147. Which Hive optimization reduces query execution cost? (Scenario 147)",
+        "option_a": "Bucketing",
+        "option_b": "CBO",
+        "option_c": "Serialization",
+        "option_d": "UDF",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 148,
+        "question_text": "Q148. Which consistency model allows temporary inconsistency? (Scenario 148)",
+        "option_a": "Strong",
+        "option_b": "Linear",
+        "option_c": "Eventual",
+        "option_d": "Strict",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 149,
+        "question_text": "Q149. YARN containers are allocated by: (Scenario 149)",
+        "option_a": "NodeManager",
+        "option_b": "ApplicationMaster",
+        "option_c": "ResourceManager",
+        "option_d": "JobTracker",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 150,
+        "question_text": "Q150. Which HDFS feature minimizes network congestion during MapReduce execution? (Scenario 150)",
+        "option_a": "Replication",
+        "option_b": "Data locality",
+        "option_c": "Erasure coding",
+        "option_d": "Block compression",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 151,
+        "question_text": "Q151. In Spark, a DAG represents: (Scenario 151)",
+        "option_a": "Physical execution plan",
+        "option_b": "Logical execution graph",
+        "option_c": "RDD storage format",
+        "option_d": "Cluster topology",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 152,
+        "question_text": "Q152. Which component handles Spark job scheduling? (Scenario 152)",
+        "option_a": "Executor",
+        "option_b": "Driver",
+        "option_c": "Worker",
+        "option_d": "Cluster manager",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 153,
+        "question_text": "Q153. HDFS write operation follows which pipeline order? (Scenario 153)",
+        "option_a": "Client fi NameNode fi DataNode",
+        "option_b": "Client fi DataNode fi NameNode",
+        "option_c": "Client fi NameNode fi DataNodes",
+        "option_d": "Client fi JournalNode fi DataNode",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 154,
+        "question_text": "Q154. Kafka ISR stands for: (Scenario 154)",
+        "option_a": "In-Sync Replicas",
+        "option_b": "Internal Stream Records",
+        "option_c": "Indexed Segment Registry",
+        "option_d": "Integrated Storage Replicas",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 155,
+        "question_text": "Q155. Which Spark join avoids shuffle when one dataset is small? (Scenario 155)",
+        "option_a": "Shuffle join",
+        "option_b": "Broadcast join",
+        "option_c": "Sort merge join",
+        "option_d": "Hash join",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 156,
+        "question_text": "Q156. Which NoSQL database follows wide-column storage? (Scenario 156)",
+        "option_a": "MongoDB",
+        "option_b": "Cassandra",
+        "option_c": "Redis",
+        "option_d": "Neo4j",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 157,
+        "question_text": "Q157. Which Hive optimization reduces query execution cost? (Scenario 157)",
+        "option_a": "Bucketing",
+        "option_b": "CBO",
+        "option_c": "Serialization",
+        "option_d": "UDF",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 158,
+        "question_text": "Q158. Which consistency model allows temporary inconsistency? (Scenario 158)",
+        "option_a": "Strong",
+        "option_b": "Linear",
+        "option_c": "Eventual",
+        "option_d": "Strict",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 159,
+        "question_text": "Q159. YARN containers are allocated by: (Scenario 159)",
+        "option_a": "NodeManager",
+        "option_b": "ApplicationMaster",
+        "option_c": "ResourceManager",
+        "option_d": "JobTracker",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 160,
+        "question_text": "Q160. Which HDFS feature minimizes network congestion during MapReduce execution? (Scenario 160)",
+        "option_a": "Replication",
+        "option_b": "Data locality",
+        "option_c": "Erasure coding",
+        "option_d": "Block compression",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 161,
+        "question_text": "Q161. In Spark, a DAG represents: (Scenario 161)",
+        "option_a": "Physical execution plan",
+        "option_b": "Logical execution graph",
+        "option_c": "RDD storage format",
+        "option_d": "Cluster topology",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 162,
+        "question_text": "Q162. Which component handles Spark job scheduling? (Scenario 162)",
+        "option_a": "Executor",
+        "option_b": "Driver",
+        "option_c": "Worker",
+        "option_d": "Cluster manager",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 163,
+        "question_text": "Q163. HDFS write operation follows which pipeline order? (Scenario 163)",
+        "option_a": "Client fi NameNode fi DataNode",
+        "option_b": "Client fi DataNode fi NameNode",
+        "option_c": "Client fi NameNode fi DataNodes",
+        "option_d": "Client fi JournalNode fi DataNode",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 164,
+        "question_text": "Q164. Kafka ISR stands for: (Scenario 164)",
+        "option_a": "In-Sync Replicas",
+        "option_b": "Internal Stream Records",
+        "option_c": "Indexed Segment Registry",
+        "option_d": "Integrated Storage Replicas",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 165,
+        "question_text": "Q165. Which Spark join avoids shuffle when one dataset is small? (Scenario 165)",
+        "option_a": "Shuffle join",
+        "option_b": "Broadcast join",
+        "option_c": "Sort merge join",
+        "option_d": "Hash join",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 166,
+        "question_text": "Q166. Which NoSQL database follows wide-column storage? (Scenario 166)",
+        "option_a": "MongoDB",
+        "option_b": "Cassandra",
+        "option_c": "Redis",
+        "option_d": "Neo4j",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 167,
+        "question_text": "Q167. Which Hive optimization reduces query execution cost? (Scenario 167)",
+        "option_a": "Bucketing",
+        "option_b": "CBO",
+        "option_c": "Serialization",
+        "option_d": "UDF",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 168,
+        "question_text": "Q168. Which consistency model allows temporary inconsistency? (Scenario 168)",
+        "option_a": "Strong",
+        "option_b": "Linear",
+        "option_c": "Eventual",
+        "option_d": "Strict",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 169,
+        "question_text": "Q169. YARN containers are allocated by: (Scenario 169)",
+        "option_a": "NodeManager",
+        "option_b": "ApplicationMaster",
+        "option_c": "ResourceManager",
+        "option_d": "JobTracker",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 170,
+        "question_text": "Q170. Which HDFS feature minimizes network congestion during MapReduce execution? (Scenario 170)",
+        "option_a": "Replication",
+        "option_b": "Data locality",
+        "option_c": "Erasure coding",
+        "option_d": "Block compression",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 171,
+        "question_text": "Q171. In Spark, a DAG represents: (Scenario 171)",
+        "option_a": "Physical execution plan",
+        "option_b": "Logical execution graph",
+        "option_c": "RDD storage format",
+        "option_d": "Cluster topology",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 172,
+        "question_text": "Q172. Which component handles Spark job scheduling? (Scenario 172)",
+        "option_a": "Executor",
+        "option_b": "Driver",
+        "option_c": "Worker",
+        "option_d": "Cluster manager",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 173,
+        "question_text": "Q173. HDFS write operation follows which pipeline order? (Scenario 173)",
+        "option_a": "Client fi NameNode fi DataNode",
+        "option_b": "Client fi DataNode fi NameNode",
+        "option_c": "Client fi NameNode fi DataNodes",
+        "option_d": "Client fi JournalNode fi DataNode",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 174,
+        "question_text": "Q174. Kafka ISR stands for: (Scenario 174)",
+        "option_a": "In-Sync Replicas",
+        "option_b": "Internal Stream Records",
+        "option_c": "Indexed Segment Registry",
+        "option_d": "Integrated Storage Replicas",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 175,
+        "question_text": "Q175. Which Spark join avoids shuffle when one dataset is small? (Scenario 175)",
+        "option_a": "Shuffle join",
+        "option_b": "Broadcast join",
+        "option_c": "Sort merge join",
+        "option_d": "Hash join",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 176,
+        "question_text": "Q176. Which NoSQL database follows wide-column storage? (Scenario 176)",
+        "option_a": "MongoDB",
+        "option_b": "Cassandra",
+        "option_c": "Redis",
+        "option_d": "Neo4j",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 177,
+        "question_text": "Q177. Which Hive optimization reduces query execution cost? (Scenario 177)",
+        "option_a": "Bucketing",
+        "option_b": "CBO",
+        "option_c": "Serialization",
+        "option_d": "UDF",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 178,
+        "question_text": "Q178. Which consistency model allows temporary inconsistency? (Scenario 178)",
+        "option_a": "Strong",
+        "option_b": "Linear",
+        "option_c": "Eventual",
+        "option_d": "Strict",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 179,
+        "question_text": "Q179. YARN containers are allocated by: (Scenario 179)",
+        "option_a": "NodeManager",
+        "option_b": "ApplicationMaster",
+        "option_c": "ResourceManager",
+        "option_d": "JobTracker",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 180,
+        "question_text": "Q180. Which HDFS feature minimizes network congestion during MapReduce execution? (Scenario 180)",
+        "option_a": "Replication",
+        "option_b": "Data locality",
+        "option_c": "Erasure coding",
+        "option_d": "Block compression",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 181,
+        "question_text": "Q181. In Spark, a DAG represents: (Scenario 181)",
+        "option_a": "Physical execution plan",
+        "option_b": "Logical execution graph",
+        "option_c": "RDD storage format",
+        "option_d": "Cluster topology",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 182,
+        "question_text": "Q182. Which component handles Spark job scheduling? (Scenario 182)",
+        "option_a": "Executor",
+        "option_b": "Driver",
+        "option_c": "Worker",
+        "option_d": "Cluster manager",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 183,
+        "question_text": "Q183. HDFS write operation follows which pipeline order? (Scenario 183)",
+        "option_a": "Client fi NameNode fi DataNode",
+        "option_b": "Client fi DataNode fi NameNode",
+        "option_c": "Client fi NameNode fi DataNodes",
+        "option_d": "Client fi JournalNode fi DataNode",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 184,
+        "question_text": "Q184. Kafka ISR stands for: (Scenario 184)",
+        "option_a": "In-Sync Replicas",
+        "option_b": "Internal Stream Records",
+        "option_c": "Indexed Segment Registry",
+        "option_d": "Integrated Storage Replicas",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 185,
+        "question_text": "Q185. Which Spark join avoids shuffle when one dataset is small? (Scenario 185)",
+        "option_a": "Shuffle join",
+        "option_b": "Broadcast join",
+        "option_c": "Sort merge join",
+        "option_d": "Hash join",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 186,
+        "question_text": "Q186. Which NoSQL database follows wide-column storage? (Scenario 186)",
+        "option_a": "MongoDB",
+        "option_b": "Cassandra",
+        "option_c": "Redis",
+        "option_d": "Neo4j",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 187,
+        "question_text": "Q187. Which Hive optimization reduces query execution cost? (Scenario 187)",
+        "option_a": "Bucketing",
+        "option_b": "CBO",
+        "option_c": "Serialization",
+        "option_d": "UDF",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 188,
+        "question_text": "Q188. Which consistency model allows temporary inconsistency? (Scenario 188)",
+        "option_a": "Strong",
+        "option_b": "Linear",
+        "option_c": "Eventual",
+        "option_d": "Strict",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 189,
+        "question_text": "Q189. YARN containers are allocated by: (Scenario 189)",
+        "option_a": "NodeManager",
+        "option_b": "ApplicationMaster",
+        "option_c": "ResourceManager",
+        "option_d": "JobTracker",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 190,
+        "question_text": "Q190. Which HDFS feature minimizes network congestion during MapReduce execution? (Scenario 190)",
+        "option_a": "Replication",
+        "option_b": "Data locality",
+        "option_c": "Erasure coding",
+        "option_d": "Block compression",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 191,
+        "question_text": "Q191. In Spark, a DAG represents: (Scenario 191)",
+        "option_a": "Physical execution plan",
+        "option_b": "Logical execution graph",
+        "option_c": "RDD storage format",
+        "option_d": "Cluster topology",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 192,
+        "question_text": "Q192. Which component handles Spark job scheduling? (Scenario 192)",
+        "option_a": "Executor",
+        "option_b": "Driver",
+        "option_c": "Worker",
+        "option_d": "Cluster manager",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 193,
+        "question_text": "Q193. HDFS write operation follows which pipeline order? (Scenario 193)",
+        "option_a": "Client fi NameNode fi DataNode",
+        "option_b": "Client fi DataNode fi NameNode",
+        "option_c": "Client fi NameNode fi DataNodes",
+        "option_d": "Client fi JournalNode fi DataNode",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 194,
+        "question_text": "Q194. Kafka ISR stands for: (Scenario 194)",
+        "option_a": "In-Sync Replicas",
+        "option_b": "Internal Stream Records",
+        "option_c": "Indexed Segment Registry",
+        "option_d": "Integrated Storage Replicas",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 195,
+        "question_text": "Q195. Which Spark join avoids shuffle when one dataset is small? (Scenario 195)",
+        "option_a": "Shuffle join",
+        "option_b": "Broadcast join",
+        "option_c": "Sort merge join",
+        "option_d": "Hash join",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 196,
+        "question_text": "Q196. Which NoSQL database follows wide-column storage? (Scenario 196)",
+        "option_a": "MongoDB",
+        "option_b": "Cassandra",
+        "option_c": "Redis",
+        "option_d": "Neo4j",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 197,
+        "question_text": "Q197. Which Hive optimization reduces query execution cost? (Scenario 197)",
+        "option_a": "Bucketing",
+        "option_b": "CBO",
+        "option_c": "Serialization",
+        "option_d": "UDF",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 198,
+        "question_text": "Q198. Which consistency model allows temporary inconsistency? (Scenario 198)",
+        "option_a": "Strong",
+        "option_b": "Linear",
+        "option_c": "Eventual",
+        "option_d": "Strict",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 199,
+        "question_text": "Q199. YARN containers are allocated by: (Scenario 199)",
+        "option_a": "NodeManager",
+        "option_b": "ApplicationMaster",
+        "option_c": "ResourceManager",
+        "option_d": "JobTracker",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 200,
+        "question_text": "Q200. Which HDFS feature minimizes network congestion during MapReduce execution? (Scenario 200)",
+        "option_a": "Replication",
+        "option_b": "Data locality",
+        "option_c": "Erasure coding",
+        "option_d": "Block compression",
+        "correct_option": "B",
+        "explanation": ""
+    }
+]

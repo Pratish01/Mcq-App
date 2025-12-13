@@ -6,7 +6,7 @@ from app import app, db, Question
 DATA_DIR = "data"
 
 FILES = [
-    ("Stats", "Easy", "Stats.json"),
+    ("Big data", "Medium", "Stats_med.json"),
     # Add more subjects & levels if needed
 ]
 
