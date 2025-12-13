@@ -5,18 +5,21 @@ from flask import (
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
 from functools import wraps
-from datetime import datetime  # Correct import
+from datetime import datetime
+
+# =======================
+# App Config
+# =======================
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'change-this-to-a-secure-key'
+app.config['SECRET_KEY'] = 'change-this-secret'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///quiz.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
 
-
 # =======================
-# Database Models
+# Models
 # =======================
 
 class User(db.Model):
@@ -67,9 +70,8 @@ class QuizAnswer(db.Model):
     chosen_option = db.Column(db.String(1))
     is_correct = db.Column(db.Boolean, default=False)
 
-
 # =======================
-# Login Required Decorator
+# Login Required
 # =======================
 
 def login_required(f):
@@ -81,21 +83,12 @@ def login_required(f):
         return f(*args, **kwargs)
     return wrapper
 
-
 # =======================
-# Create Tables (1 Time)
+# DB Init
 # =======================
 
 with app.app_context():
     db.create_all()
-
-
-
-# with app.app_context():
-#     Question.query.filter_by(subject="Python", level="Medium").delete()
-#     db.session.commit()
-
-
 
 # =======================
 # Auth Routes
@@ -108,20 +101,16 @@ def register():
         email = request.form['email'].strip()
         password = request.form['password']
 
-        if not username or not email or not password:
-            flash("All fields required!", "danger")
-            return redirect(url_for('register'))
-
         if User.query.filter((User.username == username) | (User.email == email)).first():
-            flash("Username or email already exists!", "danger")
+            flash("User already exists!", "danger")
             return redirect(url_for('register'))
 
         user = User(username=username, email=email)
         user.set_password(password)
-
         db.session.add(user)
         db.session.commit()
-        flash("Registration successful! Login now.", "success")
+
+        flash("Account created! Login now.", "success")
         return redirect(url_for('login'))
 
     return render_template('register.html')
@@ -130,20 +119,21 @@ def register():
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
-        username_or_email = request.form['username_or_email'].strip()
+        username_or_email = request.form['username_or_email']
         password = request.form['password']
 
         user = User.query.filter(
-            (User.username == username_or_email) | (User.email == username_or_email)
+            (User.username == username_or_email) |
+            (User.email == username_or_email)
         ).first()
 
         if user and user.check_password(password):
             session['user_id'] = user.id
             session['username'] = user.username
-            flash("Login Successful!", "success")
+            flash("Login successful!", "success")
             return redirect(url_for('dashboard'))
-        else:
-            flash("Invalid username/email or password.", "danger")
+
+        flash("Invalid credentials!", "danger")
 
     return render_template('login.html')
 
@@ -151,63 +141,88 @@ def login():
 @app.route('/logout')
 def logout():
     session.clear()
-    flash("Logged out!", "info")
+    flash("Logged out successfully.", "info")
     return redirect(url_for('login'))
-
 
 # =======================
 # Dashboard
 # =======================
-
 @app.route('/')
 @login_required
 def dashboard():
     user_id = session['user_id']
-    attempts = QuizAttempt.query.filter_by(user_id=user_id).order_by(QuizAttempt.created_at.desc()).all()
 
-    subjects = [row[0] for row in db.session.query(Question.subject).distinct().all()]
-    levels = [row[0] for row in db.session.query(Question.level).distinct().all()]
+    attempts = QuizAttempt.query.filter_by(user_id=user_id)\
+        .order_by(QuizAttempt.created_at.desc()).all()
+
+    # Build subject -> levels mapping
+    subject_levels = {}
+    rows = db.session.query(Question.subject, Question.level).distinct().all()
+
+    for subject, level in rows:
+        subject_levels.setdefault(subject, []).append(level)
 
     return render_template(
         'dashboard.html',
         attempts=attempts,
-        subjects=subjects,
-        levels=levels
+        subject_levels=subject_levels
     )
 
-
 # =======================
-# Quiz
+# Quiz (NO REPEAT MCQs)
 # =======================
 @app.route('/quiz', methods=['GET', 'POST'])
 @login_required
 def quiz():
+    user_id = session['user_id']
+
     if request.method == 'GET':
         subject = request.args.get('subject')
         level = request.args.get('level')
-        limit = request.args.get('limit', type=int, default=0)
+        limit = request.args.get('limit', type=int, default=10)
+        mode = request.args.get('mode', 'new')  # new | all
 
-        query = Question.query.filter_by(
-            subject=subject,
-            level=level
+        base_query = Question.query.filter(
+            Question.subject == subject,
+            Question.level == level
         ).order_by(Question.number)
 
-        if limit > 0:
-            questions = query.limit(limit).all()
-        else:
-            questions = query.all()
+        # 🔹 MODE 1: ONLY NEW QUESTIONS
+        if mode == 'new':
+            attempted_qids = (
+                db.session.query(QuizAnswer.question_id)
+                .join(QuizAttempt)
+                .filter(QuizAttempt.user_id == user_id)
+                .subquery()
+            )
+
+            base_query = base_query.filter(
+                ~Question.id.in_(attempted_qids)
+            )
+
+        # 🔹 MODE 2: ALL QUESTIONS (no filtering)
+        questions = base_query.limit(limit).all() if limit > 0 else base_query.all()
 
         if not questions:
-            flash("No questions found for this subject & level.", "warning")
+            flash(
+                "No questions available for this selection.",
+                "info"
+            )
             return redirect(url_for('dashboard'))
 
-        return render_template('quiz.html', questions=questions, subject=subject, level=level)
+        return render_template(
+            'quiz.html',
+            questions=questions,
+            subject=subject,
+            level=level,
+            mode=mode
+        )
 
-    # POST → evaluate answers
+    # ---------------- POST (Evaluation) ----------------
+
     subject = request.form['subject']
     level = request.form['level']
     question_ids = request.form['question_ids'].split(',')
-    user_id = session['user_id']
 
     score = 0
     total = len(question_ids)
@@ -227,18 +242,17 @@ def quiz():
     for qid in question_ids:
         q = Question.query.get(int(qid))
         chosen = request.form.get(f"q_{qid}")
-        is_correct = (chosen == q.correct_option)
+        is_correct = chosen == q.correct_option
 
         if is_correct:
             score += 1
 
-        qa = QuizAnswer(
+        db.session.add(QuizAnswer(
             attempt_id=attempt.id,
             question_id=q.id,
-            chosen_option=chosen if chosen else None,
+            chosen_option=chosen,
             is_correct=is_correct
-        )
-        db.session.add(qa)
+        ))
 
         results.append({
             "question": q,
@@ -251,17 +265,45 @@ def quiz():
 
     return render_template(
         'result.html',
-        subject=subject,
-        level=level,
         score=score,
         total=total,
-        results=results
+        results=results,
+        subject=subject,
+        level=level
     )
 
+# =======================
+# Reset Progress
+# =======================
+@app.route('/reset-progress')
+@login_required
+def reset_progress():
+    user_id = session['user_id']
+
+    # Step 1: get attempt IDs for this user
+    attempt_ids = (
+        db.session.query(QuizAttempt.id)
+        .filter(QuizAttempt.user_id == user_id)
+        .subquery()
+    )
+
+    # Step 2: delete answers linked to those attempts
+    QuizAnswer.query.filter(
+        QuizAnswer.attempt_id.in_(attempt_ids)
+    ).delete(synchronize_session=False)
+
+    # Step 3: delete attempts
+    QuizAttempt.query.filter_by(user_id=user_id).delete()
+
+    db.session.commit()
+
+    flash("Your quiz progress has been reset successfully.", "success")
+    return redirect(url_for('dashboard'))
 
 
 # =======================
 # Run App
 # =======================
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+
+if __name__ == '__main__':
+    app.run(debug=True)

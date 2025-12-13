@@ -3,7 +3,7 @@ import pdfplumber
 import json
 import re
 
-PDF_FILE = r"C:\Users\hp\Downloads\FINAL_CDAC_CCEE_Big_Data_200_MCQs_Unique.pdf"
+PDF_FILE = r"C:\Users\hp\Downloads\Advance_Analytics_FULL_Merged_With_Answers.pdf"
 OUTPUT_FILE = "data/Stats_med.json"
 
 

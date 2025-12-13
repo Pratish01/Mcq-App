@@ -2,111 +2,205 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Dashboard</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard | MCQ Quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
         body {
-            background: #000;
+            background: linear-gradient(135deg, #141E30, #243B55);
+            min-height: 100vh;
             color: #fff;
-            font-family: Arial, sans-serif;
-            padding: 20px;
+            font-family: 'Poppins', sans-serif;
         }
-        .container {
-            max-width: 700px;
-            margin: auto;
-            padding: 20px;
+
+        .navbar {
+            background: rgba(0,0,0,0.35);
+            backdrop-filter: blur(10px);
         }
-        select, button {
-            padding: 10px;
-            margin: 8px 0;
-            border-radius: 10px;
-            border: none;
-            width: 100%;
-            background: #111827;
+
+        .card-glass {
+            background: rgba(255,255,255,0.08);
+            backdrop-filter: blur(12px);
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.45);
+            padding: 25px;
+            margin-bottom: 25px;
+        }
+
+        h4 {
+            font-weight: 600;
+        }
+
+        .btn-custom {
+            border-radius: 12px;
+            font-weight: 600;
+        }
+
+        .table {
             color: #fff;
-            font-size: 15px;
         }
-        button {
-            background: #2563eb;
-            cursor: pointer;
-            border-radius: 40px;
+
+        .table thead {
+            background: rgba(255,255,255,0.15);
         }
-        button:hover {
-            background: #1d4ed8;
-        }
-        h2 {
-            margin-bottom: 20px;
-        }
-        .attempts-section {
-            margin-top: 30px;
-        }
-        .attempt-card {
-            background: #111827;
-            padding: 12px;
-            border-radius: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #1f2937;
-        }
-        .no-data {
-            color: #bbb;
+
+        .badge {
+            font-size: 0.85rem;
         }
     </style>
 </head>
+
 <body>
 
-<div class="container">
-    <h2>Welcome, {{ session['username'] }}</h2>
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-dark px-4">
+    <span class="navbar-brand fw-bold">MCQ Quiz System</span>
 
-    <form method="GET" action="{{ url_for('quiz') }}">
-        
-        <label>Select Subject</label>
-        <select name="subject" required>
-            <option value="" disabled selected>Choose Subject</option>
-            {% for s in subjects %}
-            <option value="{{ s }}">{{ s }}</option>
+    <div>
+        <span class="me-3">Hello, {{ session.username }}</span>
+        <a href="{{ url_for('logout') }}" class="btn btn-danger btn-sm">Logout</a>
+    </div>
+</nav>
+
+<div class="container py-4">
+
+    <!-- Flash Messages -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+                <div class="alert alert-{{ category }} mt-2">{{ message }}</div>
             {% endfor %}
-        </select>
+        {% endif %}
+    {% endwith %}
 
-        <label>Select Level</label>
-        <select name="level" required>
-            <option value="" disabled selected>Choose Difficulty</option>
-            {% for l in levels %}
-            <option value="{{ l }}">{{ l }}</option>
-            {% endfor %}
-        </select>
+    <!-- ================= START QUIZ ================= -->
+    <div class="card-glass">
+        <h4 class="mb-3">🎯 Start a Quiz</h4>
 
-        <label>No. of Questions</label>
-        <select name="limit" required>
-            <option value="5">5 Questions</option>
-            <option value="10">10 Questions</option>
-            <option value="20">20 Questions</option>
-            <option value="50">50 Questions</option>
-            <option value="0">All Questions</option>
-        </select>
+        <form method="GET" action="{{ url_for('quiz') }}" class="row g-3">
 
-        <button type="submit">Start Quiz</button>
-    </form>
+            <!-- Subject -->
+            <div class="col-md-4">
+                <label class="form-label">Subject</label>
+                <select name="subject" id="subject" class="form-select" required onchange="updateLevels()">
+                    <option value="">Select Subject</option>
+                    {% for subject in subject_levels.keys() %}
+                        <option value="{{ subject }}">{{ subject }}</option>
+                    {% endfor %}
+                </select>
+            </div>
 
+            <!-- Level -->
+            <div class="col-md-4">
+                <label class="form-label">Level</label>
+                <select name="level" id="level" class="form-select" required>
+                    <option value="">Select Level</option>
+                </select>
+            </div>
 
-    <div class="attempts-section">
-        <h3>Your Previous Attempts</h3>
+            <!-- Question Limit -->
+            <div class="col-md-4">
+                <label class="form-label">Number of Questions</label>
+                <select name="limit" class="form-select">
+                    <option value="5">5</option>
+                    <option value="10" selected>10</option>
+                    <option value="20">20</option>
+                    <option value="50">50</option>
+                    <option value="0">All</option>
+                </select>
+            </div>
+
+            <!-- Mode -->
+            <input type="hidden" name="mode" id="mode" value="new">
+
+            <div class="col-12 d-flex gap-3 mt-2">
+                <button class="btn btn-success btn-custom">
+                    New Questions
+                </button>
+
+            </div>
+        </form>
+    </div>
+
+    <!-- ================= QUIZ HISTORY ================= -->
+    <div class="card-glass">
+        <h4 class="mb-3">📊 Quiz History</h4>
+
         {% if attempts %}
-            {% for a in attempts %}
-                <div class="attempt-card">
-                    <strong>{{ a.subject }} - {{ a.level }}</strong>
-                    <br>
-                    Score: {{ a.score }}/{{ a.total_questions }}
-                    <br>
-                    {{ a.created_at.strftime('%d %b %Y • %I:%M %p') }}
-                </div>
-            {% endfor %}
+            <div class="table-responsive">
+                <table class="table table-bordered align-middle">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Subject</th>
+                            <th>Level</th>
+                            <th>Score</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for a in attempts %}
+                        <tr>
+                            <td>{{ a.created_at.strftime('%d %b %Y %H:%M') }}</td>
+                            <td>{{ a.subject }}</td>
+                            <td>
+                                <span class="badge bg-info text-dark">
+                                    {{ a.level }}
+                                </span>
+                            </td>
+                            <td>
+                                <span class="badge bg-success">
+                                    {{ a.score }}/{{ a.total_questions }}
+                                </span>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
         {% else %}
-            <p class="no-data">No quiz attempts yet.</p>
+            <p class="text-muted">No quiz attempts yet.</p>
         {% endif %}
     </div>
 
+    <!-- ================= RESET ================= -->
+    <div class="text-center mt-4">
+        <a href="{{ url_for('reset_progress') }}"
+           onclick="return confirm('Are you sure you want to reset all quiz progress?');"
+           class="btn btn-danger btn-custom">
+            🔄 Reset All Progress
+        </a>
+    </div>
+
 </div>
+
+<!-- ================= JS ================= -->
+<script>
+    const subjectLevels = {{ subject_levels | tojson }};
+
+    function updateLevels() {
+        const subject = document.getElementById("subject").value;
+        const levelSelect = document.getElementById("level");
+
+        levelSelect.innerHTML = '<option value="">Select Level</option>';
+
+        if (subject && subjectLevels[subject]) {
+            subjectLevels[subject].forEach(level => {
+                const option = document.createElement("option");
+                option.value = level;
+                option.textContent = level;
+                levelSelect.appendChild(option);
+            });
+        }
+    }
+
+    function startAllQuestions() {
+        document.getElementById("mode").value = "all";
+        document.querySelector("form").submit();
+    }
+</script>
 
 </body>
 </html>
