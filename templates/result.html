@@ -18,6 +18,13 @@
             max-width: 900px;
         }
 
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
         .summary-card {
             background: #020617;
             border-radius: 16px;
@@ -73,13 +80,14 @@
             background: #020617;
         }
 
-        .btn-back {
+        .btn-dashboard {
             background: linear-gradient(90deg, #22c55e, #4ade80);
             border: none;
             color: #020617;
             font-weight: 600;
-            padding: 12px 28px;
-            border-radius: 14px;
+            padding: 10px 20px;
+            border-radius: 12px;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -88,9 +96,17 @@
 
 <div class="container py-4">
 
+    <!-- 🔹 TOP BAR -->
+    <div class="top-bar">
+        <h4>{{ subject }} — {{ level }}</h4>
+        <a href="{{ url_for('dashboard') }}" class="btn-dashboard">
+            Dashboard
+        </a>
+    </div>
+
     <!-- SUMMARY -->
     <div class="summary-card">
-        <h3>{{ subject }} — {{ level }}</h3>
+        <p class="mb-1">Your Score</p>
         <div class="score">{{ score }} / {{ total }}</div>
     </div>
 
@@ -130,8 +146,9 @@
     </div>
     {% endfor %}
 
+    <!-- 🔹 BOTTOM BUTTON -->
     <div class="text-center mt-4">
-        <a href="{{ url_for('dashboard') }}" class="btn-back">
+        <a href="{{ url_for('dashboard') }}" class="btn-dashboard">
             Back to Dashboard
         </a>
     </div>

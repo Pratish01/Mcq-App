@@ -159,7 +159,6 @@ def dashboard():
 # =======================
 # Quiz
 # =======================
-
 @app.route('/quiz', methods=['GET', 'POST'])
 @login_required
 def quiz():
@@ -170,12 +169,27 @@ def quiz():
         level = request.args.get('level')
         limit = request.args.get('limit', type=int, default=0)
 
-        query = Question.query.filter_by(subject=subject, level=level)
+        user_id = session['user_id']
+
+        # 🔹 get already solved question IDs for this user
+        solved_qids = (
+            db.session.query(QuizAnswer.question_id)
+            .join(QuizAttempt)
+            .filter(QuizAttempt.user_id == user_id)
+            .subquery()
+        )
+
+        # 🔹 fetch only UNSOLVED questions
+        query = Question.query.filter(
+            Question.subject == subject,
+            Question.level == level,
+            ~Question.id.in_(solved_qids)
+        )
 
         questions = query.limit(limit).all() if limit else query.all()
 
         if not questions:
-            flash("No questions found", "warning")
+            flash("🎉 You have already solved all questions for this level!", "success")
             return redirect(url_for('dashboard'))
 
         return render_template(
@@ -184,6 +198,9 @@ def quiz():
             subject=subject,
             level=level
         )
+
+    # -------- POST (UNCHANGED) --------
+
 
     # -------- POST --------
     subject = request.form['subject']
