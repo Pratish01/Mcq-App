@@ -47,7 +47,7 @@ class Question(db.Model):
     option_b = db.Column(db.String(255), nullable=False)
     option_c = db.Column(db.String(255), nullable=False)
     option_d = db.Column(db.String(255), nullable=False)
-    correct_option = db.Column(db.String(1), nullable=False)
+    correct_option = db.Column(db.String(10), nullable=False)
     explanation = db.Column(db.Text)
 
 
@@ -89,7 +89,6 @@ def login_required(f):
 
 with app.app_context():
     db.create_all()
-    
 
 # =======================
 # Auth Routes
@@ -98,70 +97,58 @@ with app.app_context():
 @app.route('/register', methods=['GET', 'POST'])
 def register():
     if request.method == 'POST':
-        username = request.form['username'].strip()
-        email = request.form['email'].strip()
-        password = request.form['password']
-
-        if User.query.filter((User.username == username) | (User.email == email)).first():
-            flash("User already exists!", "danger")
-            return redirect(url_for('register'))
-
-        user = User(username=username, email=email)
-        user.set_password(password)
+        user = User(
+            username=request.form['username'].strip(),
+            email=request.form['email'].strip()
+        )
+        user.set_password(request.form['password'])
         db.session.add(user)
         db.session.commit()
-
-        flash("Account created! Login now.", "success")
+        flash("Account created!", "success")
         return redirect(url_for('login'))
-
     return render_template('register.html')
 
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
-        username_or_email = request.form['username_or_email']
-        password = request.form['password']
-
         user = User.query.filter(
-            (User.username == username_or_email) |
-            (User.email == username_or_email)
+            (User.username == request.form['username_or_email']) |
+            (User.email == request.form['username_or_email'])
         ).first()
 
-        if user and user.check_password(password):
+        if user and user.check_password(request.form['password']):
             session['user_id'] = user.id
-            session['username'] = user.username
             flash("Login successful!", "success")
             return redirect(url_for('dashboard'))
 
-        flash("Invalid credentials!", "danger")
-
+        flash("Invalid credentials", "danger")
     return render_template('login.html')
 
 
 @app.route('/logout')
 def logout():
     session.clear()
-    flash("Logged out successfully.", "info")
     return redirect(url_for('login'))
 
 # =======================
 # Dashboard
 # =======================
+
 @app.route('/')
 @login_required
 def dashboard():
     user_id = session['user_id']
 
-    attempts = QuizAttempt.query.filter_by(user_id=user_id)\
-        .order_by(QuizAttempt.created_at.desc()).all()
+    attempts = QuizAttempt.query.filter_by(
+        user_id=user_id
+    ).order_by(QuizAttempt.created_at.desc()).all()
 
-    # Build subject -> levels mapping
     subject_levels = {}
     rows = db.session.query(Question.subject, Question.level).distinct().all()
 
-    for subject, level in rows:
-        subject_levels.setdefault(subject, []).append(level)
+    for s, l in rows:
+        subject_levels.setdefault(s, []).append(l)
 
     return render_template(
         'dashboard.html',
@@ -170,61 +157,40 @@ def dashboard():
     )
 
 # =======================
-# Quiz (NO REPEAT MCQs)
+# Quiz
 # =======================
+
 @app.route('/quiz', methods=['GET', 'POST'])
 @login_required
 def quiz():
-    user_id = session['user_id']
 
+    # -------- GET --------
     if request.method == 'GET':
         subject = request.args.get('subject')
         level = request.args.get('level')
-        limit = request.args.get('limit', type=int, default=10)
-        mode = request.args.get('mode', 'new')  # new | all
+        limit = request.args.get('limit', type=int, default=0)
 
-        base_query = Question.query.filter(
-            Question.subject == subject,
-            Question.level == level
-        ).order_by(Question.number)
+        query = Question.query.filter_by(subject=subject, level=level)
 
-        # 🔹 MODE 1: ONLY NEW QUESTIONS
-        if mode == 'new':
-            attempted_qids = (
-                db.session.query(QuizAnswer.question_id)
-                .join(QuizAttempt)
-                .filter(QuizAttempt.user_id == user_id)
-                .subquery()
-            )
-
-            base_query = base_query.filter(
-                ~Question.id.in_(attempted_qids)
-            )
-
-        # 🔹 MODE 2: ALL QUESTIONS (no filtering)
-        questions = base_query.limit(limit).all() if limit > 0 else base_query.all()
+        questions = query.limit(limit).all() if limit else query.all()
 
         if not questions:
-            flash(
-                "No questions available for this selection.",
-                "info"
-            )
+            flash("No questions found", "warning")
             return redirect(url_for('dashboard'))
 
         return render_template(
             'quiz.html',
             questions=questions,
             subject=subject,
-            level=level,
-            mode=mode
+            level=level
         )
 
-    # ---------------- POST (Evaluation) ----------------
-
+    # -------- POST --------
     subject = request.form['subject']
     level = request.form['level']
     question_ids = request.form['question_ids'].split(',')
 
+    user_id = session['user_id']
     score = 0
     total = len(question_ids)
 
@@ -243,7 +209,12 @@ def quiz():
     for qid in question_ids:
         q = Question.query.get(int(qid))
         chosen = request.form.get(f"q_{qid}")
-        is_correct = chosen == q.correct_option
+
+        if not chosen:
+            continue
+
+        correct = q.correct_option.strip().upper()[0]
+        is_correct = chosen.upper() == correct
 
         if is_correct:
             score += 1
@@ -264,46 +235,41 @@ def quiz():
     attempt.score = score
     db.session.commit()
 
+    print("FINAL SCORE:", score)
+
     return render_template(
         'result.html',
+        subject=subject,
+        level=level,
         score=score,
         total=total,
-        results=results,
-        subject=subject,
-        level=level
+        results=results
     )
 
 # =======================
 # Reset Progress
 # =======================
+
 @app.route('/reset-progress')
 @login_required
 def reset_progress():
     user_id = session['user_id']
 
-    # Step 1: get attempt IDs for this user
-    attempt_ids = (
-        db.session.query(QuizAttempt.id)
-        .filter(QuizAttempt.user_id == user_id)
-        .subquery()
-    )
+    attempt_ids = db.session.query(QuizAttempt.id)\
+        .filter_by(user_id=user_id).subquery()
 
-    # Step 2: delete answers linked to those attempts
     QuizAnswer.query.filter(
         QuizAnswer.attempt_id.in_(attempt_ids)
     ).delete(synchronize_session=False)
 
-    # Step 3: delete attempts
     QuizAttempt.query.filter_by(user_id=user_id).delete()
-
     db.session.commit()
 
-    flash("Your quiz progress has been reset successfully.", "success")
+    flash("Progress reset!", "success")
     return redirect(url_for('dashboard'))
 
-
 # =======================
-# Run App
+# Run
 # =======================
 
 if __name__ == '__main__':
