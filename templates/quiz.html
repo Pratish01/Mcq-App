@@ -2,369 +2,165 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{{ subject }} - {{ level }} Quiz</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quiz | MCQ App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
-        :root {
-            --bg: #050814;
-            --card: #111827;
-            --card-hover: #1f2937;
-            --text-main: #e5e7eb;
-            --text-muted: #9ca3af;
-            --accent: #3b82f6;
-            --accent-soft: #1d4ed8;
-            --danger: #ef4444;
-            --success: #22c55e;
-        }
-
-        * { box-sizing: border-box; }
-
         body {
-            margin: 0;
-            padding: 24px;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-            background: radial-gradient(circle at top, #111827 0, #020617 45%, #000 100%);
-            color: var(--text-main);
-        }
-
-        .page {
-            max-width: 900px;
-            margin: 0 auto;
-        }
-
-        .header-row {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 16px;
-        }
-
-        .title {
-            font-size: 20px;
-            font-weight: 600;
-        }
-
-        .meta {
-            font-size: 14px;
-            color: var(--text-muted);
-        }
-
-        .progress-bar-wrap {
-            width: 100%;
-            height: 4px;
             background: #020617;
-            border-radius: 999px;
-            overflow: hidden;
-            margin: 8px 0 16px 0;
-        }
-
-        .progress-bar {
-            height: 100%;
-            width: 100%;
-            background: linear-gradient(90deg, var(--accent), var(--accent-soft));
-        }
-
-        .chips-row {
-            display: flex;
-            gap: 8px;
-            justify-content: flex-end;
-            margin-bottom: 16px;
-        }
-
-        .chip {
-            padding: 4px 10px;
-            border-radius: 999px;
-            font-size: 12px;
-            font-weight: 600;
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-        }
-
-        .chip-danger {
-            background: rgba(239, 68, 68, 0.15);
-            color: #fecaca;
-        }
-
-        .chip-success {
-            background: rgba(34, 197, 94, 0.15);
-            color: #bbf7d0;
-        }
-
-        .chip span.count {
-            display: inline-block;
-            min-width: 18px;
-            text-align: center;
-        }
-
-        .quiz-card {
-            background: rgba(15, 23, 42, 0.95);
-            border-radius: 18px;
-            padding: 18px 18px 14px;
-            margin-bottom: 16px;
-            border: 1px solid rgba(55, 65, 81, 0.8);
-            transition: background 0.15s ease, border-color 0.15s ease, transform 0.05s ease;
-        }
-
-        .quiz-card:hover {
-            background: rgba(31, 41, 55, 0.98);
-            border-color: var(--accent-soft);
-            transform: translateY(-1px);
-        }
-
-        .quiz-card.correct {
-            border-color: var(--success);
-            box-shadow: 0 0 0 1px rgba(34, 197, 94, 0.3);
-        }
-
-        .quiz-card.incorrect {
-            border-color: var(--danger);
-            box-shadow: 0 0 0 1px rgba(239, 68, 68, 0.25);
-        }
-
-        .question-title {
-            font-size: 16px;
-            font-weight: 500;
-            margin-bottom: 8px;
-            line-height: 1.4;
-        }
-
-        .question-index {
-            font-weight: 600;
-            margin-right: 8px;
-        }
-
-        .question-code {
-            display: inline-block;
-            padding: 2px 6px;
-            margin-left: 4px;
-            border-radius: 6px;
-            background: #020617;
-            font-family: "JetBrains Mono", "Cascadia Code", Consolas, monospace;
-            font-size: 13px;
             color: #e5e7eb;
+            font-family: 'Poppins', sans-serif;
         }
 
-        .options {
-            margin-top: 8px;
+        .container {
+            max-width: 900px;
         }
 
-        .option-pill {
-            margin-top: 6px;
-            border-radius: 999px;
+        .question-card {
             background: #020617;
-            padding: 10px 14px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
+            border-radius: 16px;
+            padding: 22px;
+            margin-bottom: 28px;
+            box-shadow: 0 8px 22px rgba(0,0,0,0.5);
+        }
+
+        .code-box {
+            background: #0b1220;
+            color: #e5e7eb;
+            padding: 16px;
+            border-radius: 10px;
+            font-family: Consolas, monospace;
+            font-size: 14px;
+            white-space: pre-wrap;
+            margin-bottom: 16px;
+        }
+
+        /* OPTION STYLE */
+        .option-card {
+            display: block;
+            width: 100%;
+            background: #020617;
+            border: 2px solid #1e293b;
+            border-radius: 12px;
+            padding: 14px 18px;
+            margin-bottom: 14px;
             cursor: pointer;
-            border: 1px solid #111827;
-            transition: background 0.12s ease, border-color 0.12s ease, transform 0.06s ease;
+            transition: all 0.25s ease;
         }
 
-        .option-pill:hover {
-            background: #030712;
-            border-color: #1f2937;
+        .option-card.correct {
+            background: linear-gradient(135deg, rgba(34,197,94,0.18), rgba(34,197,94,0.06));
+            border-color: #22c55e;
         }
 
-        .option-pill input {
+        .option-card.wrong {
+            background: linear-gradient(135deg, rgba(239,68,68,0.18), rgba(239,68,68,0.06));
+            border-color: #ef4444;
+        }
+
+        input[type="radio"] {
             display: none;
         }
 
-        .option-letter {
-            width: 26px;
-            height: 26px;
-            border-radius: 999px;
-            border: 1px solid #4b5563;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 13px;
-            font-weight: 600;
-            color: var(--text-muted);
-            flex-shrink: 0;
-        }
-
-        .option-text {
-            flex: 1;
-            font-size: 14px;
-        }
-
-        .option-pill.selected {
-            background: #111827;
-            border-color: var(--accent-soft);
-        }
-
-        .option-pill.correct-selected {
-            border-color: var(--success);
-            background: rgba(22, 163, 74, 0.12);
-        }
-
-        .option-pill.incorrect-selected {
-            border-color: var(--danger);
-            background: rgba(220, 38, 38, 0.15);
-        }
-
-        .feedback {
-            margin-top: 6px;
-            font-size: 13px;
-            font-weight: 500;
-        }
-
-        .feedback.correct {
-            color: var(--success);
-        }
-
-        .feedback.incorrect {
-            color: var(--danger);
-        }
-
-        .submit-row {
-            margin-top: 20px;
-            display: flex;
-            justify-content: flex-end;
-        }
-
-        .submit-btn {
-            padding: 10px 26px;
-            border-radius: 999px;
+        .btn-submit {
+            background: linear-gradient(90deg, #22c55e, #4ade80);
             border: none;
-            background: var(--accent);
-            color: white;
-            font-size: 15px;
+            color: #020617;
             font-weight: 600;
-            cursor: pointer;
-            box-shadow: 0 8px 20px rgba(37, 99, 235, 0.4);
-        }
-
-        .submit-btn:hover {
-            background: var(--accent-soft);
-        }
-
-        @media (max-width: 640px) {
-            body { padding: 16px; }
-            .quiz-card { padding: 14px 14px 10px; }
+            padding: 12px 28px;
+            border-radius: 14px;
         }
     </style>
 </head>
+
 <body>
-<div class="page">
 
-    <div class="header-row">
-        <div>
-            <div class="title">{{ subject }} - {{ level }} Quiz</div>
-            <div class="meta">{{ questions|length }} questions • Answer to see instant feedback</div>
-        </div>
-        <div class="meta">
-            All questions on one page
-        </div>
-    </div>
+<div class="container py-4">
 
-    <div class="progress-bar-wrap">
-        <div class="progress-bar"></div>
-    </div>
+    <h3 class="mb-4">{{ subject }} — {{ level }} Quiz</h3>
 
-    <div class="chips-row">
-        <div class="chip chip-danger">
-            ❌ Wrong: <span class="count" id="wrong-count">0</span>
-        </div>
-        <div class="chip chip-success">
-            ✔ Correct: <span class="count" id="correct-count">0</span>
-        </div>
-    </div>
+    <form method="POST">
 
-    <form method="POST" action="{{ url_for('quiz') }}">
         <input type="hidden" name="subject" value="{{ subject }}">
         <input type="hidden" name="level" value="{{ level }}">
-        <input type="hidden" name="question_ids" value="{{ questions | map(attribute='id') | join(',') }}">
+        <input type="hidden" name="question_ids"
+               value="{{ questions | map(attribute='id') | join(',') }}">
 
         {% for q in questions %}
-        <div class="quiz-card" id="card-{{ q.id }}">
-            <div class="question-title">
-                <span class="question-index">{{ loop.index }}.</span>
-                {{ q.question_text }}
-            </div>
+        <div class="question-card">
 
-            <div class="options">
-                {% for opt, text in [('A', q.option_a), ('B', q.option_b), ('C', q.option_c), ('D', q.option_d)] %}
-                <label class="option-pill" id="opt-{{ q.id }}-{{ opt }}">
-                    <input type="radio"
-                           name="q_{{ q.id }}"
-                           value="{{ opt }}"
-                           onclick="checkAnswer('{{ q.id }}', '{{ opt }}', '{{ q.correct_option }}')">
-                    <span class="option-letter">{{ opt }}</span>
-                    <span class="option-text">{{ text }}</span>
-                </label>
-                {% endfor %}
-            </div>
+            <h6 class="mb-2">Q{{ loop.index }}</h6>
 
-            <div class="feedback" id="feedback-{{ q.id }}"></div>
+            <!-- Question / Snippet -->
+            <pre class="code-box"><code>{{ q.question_text }}</code></pre>
+
+            <!-- Options (each on new line) -->
+            {% for opt, text in [
+                ('A', q.option_a),
+                ('B', q.option_b),
+                ('C', q.option_c),
+                ('D', q.option_d)
+            ] %}
+            <label class="option-card"
+                   id="option_{{ q.id }}_{{ opt }}">
+
+                <input type="radio"
+                       name="q_{{ q.id }}"
+                       value="{{ opt }}"
+                       data-correct="{{ q.correct_option.strip().upper()[0] }}"
+                       onclick="handleAnswer('{{ q.id }}', '{{ opt }}')">
+
+                <strong>{{ opt }}.</strong> {{ text }}
+            </label>
+            {% endfor %}
+
         </div>
         {% endfor %}
 
-        <div class="submit-row">
-            <button type="submit" class="submit-btn">Submit Quiz</button>
+        <div class="text-center mt-4">
+            <button type="submit" class="btn-submit">
+                Submit Quiz
+            </button>
         </div>
+
     </form>
+
 </div>
 
+<!-- ================= JS ================= -->
 <script>
-    const statusMap = {};  // qid -> 'correct' | 'incorrect'
-    let correctCount = 0;
-    let wrongCount = 0;
+function handleAnswer(questionId, selectedOpt) {
 
-    function updateCounters() {
-        document.getElementById("correct-count").textContent = correctCount;
-        document.getElementById("wrong-count").textContent = wrongCount;
+    const inputs = document.querySelectorAll(
+        `input[name="q_${questionId}"]`
+    );
+
+    let correctOpt = null;
+
+    inputs.forEach(input => {
+        correctOpt = input.dataset.correct;
+        input.disabled = true;
+    });
+
+    const selectedCard = document.getElementById(
+        `option_${questionId}_${selectedOpt}`
+    );
+
+    const correctCard = document.getElementById(
+        `option_${questionId}_${correctOpt}`
+    );
+
+    if (selectedOpt === correctOpt) {
+        selectedCard.classList.add("correct");
+    } else {
+        selectedCard.classList.add("wrong");
+        correctCard.classList.add("correct");
     }
-
-    function checkAnswer(qid, selected, correct) {
-        const card = document.getElementById("card-" + qid);
-        const feedback = document.getElementById("feedback-" + qid);
-
-        // remove previous styling on options
-        ["A", "B", "C", "D"].forEach(function (opt) {
-            const optEl = document.getElementById("opt-" + qid + "-" + opt);
-            if (optEl) {
-                optEl.classList.remove("selected", "correct-selected", "incorrect-selected");
-            }
-        });
-
-        // adjust counters based on previous status
-        const previous = statusMap[qid];
-        if (previous === "correct") correctCount--;
-        else if (previous === "incorrect") wrongCount--;
-
-        // update current
-        let currentStatus;
-        if (selected === correct) {
-            currentStatus = "correct";
-            correctCount++;
-            card.classList.add("correct");
-            card.classList.remove("incorrect");
-            feedback.textContent = "Correct ✔";
-            feedback.classList.add("correct");
-            feedback.classList.remove("incorrect");
-
-            const optEl = document.getElementById("opt-" + qid + "-" + selected);
-            if (optEl) optEl.classList.add("correct-selected");
-        } else {
-            currentStatus = "incorrect";
-            wrongCount++;
-            card.classList.add("incorrect");
-            card.classList.remove("correct");
-            feedback.textContent = "Incorrect ✘";
-            feedback.classList.add("incorrect");
-            feedback.classList.remove("correct");
-
-            const optEl = document.getElementById("opt-" + qid + "-" + selected);
-            if (optEl) optEl.classList.add("incorrect-selected");
-        }
-
-        statusMap[qid] = currentStatus;
-        updateCounters();
-    }
+}
 </script>
+
 </body>
 </html>

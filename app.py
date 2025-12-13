@@ -89,6 +89,7 @@ def login_required(f):
 
 with app.app_context():
     db.create_all()
+    
 
 # =======================
 # Auth Routes

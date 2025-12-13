@@ -1,1 +1,2062 @@
-[]
+[
+    {
+        "number": 1,
+        "question_text": "What will be the output of the following code: print(type([]))?",
+        "option_a": "<class 'tuple'>",
+        "option_b": "<class 'list'>",
+        "option_c": "<class 'dictionary'>",
+        "option_d": "<class 'set'>",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 2,
+        "question_text": "What is the output of bool(0) in Python?",
+        "option_a": "True",
+        "option_b": "False",
+        "option_c": "0",
+        "option_d": "None",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 3,
+        "question_text": "What is the purpose of the self parameter in Python class methods?",
+        "option_a": "To define a class",
+        "option_b": "To refer to the current instance of the class",
+        "option_c": "To create a new object",
+        "option_d": "To delete an object",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 4,
+        "question_text": "What will be the output of the following code:\ndef func(a, b=5, c=10):\nreturn a + b + c\nprint(func(3, 2))",
+        "option_a": "20",
+        "option_b": "15",
+        "option_c": "10",
+        "option_d": "13",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 5,
+        "question_text": "What is the output of the following code:\na = [1, 2, 3]\nb = a\nb.append(4)\nprint(",
+        "option_a": "a) [1, 2, 3]",
+        "option_b": "[1, 2, 3, 4]",
+        "option_c": "[4, 2, 3]",
+        "option_d": "[1, 2, 3, 4, 4]",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 6,
+        "question_text": "What is the result of the following code:\nx = [1, 2, 3]\nprint(x * 2)",
+        "option_a": "[1, 2, 3, 1, 2, 3]",
+        "option_b": "[2, 4, 6]",
+        "option_c": "[1, 2, 3, 2]",
+        "option_d": "[1, 1, 2, 2, 3, 3]",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 7,
+        "question_text": "What does the __init__ method do in Python classes?",
+        "option_a": "It initializes the class.",
+        "option_b": "It is used to destroy an instance of the class.",
+        "option_c": "It is used to initialize attributes of the class.",
+        "option_d": "It is a method that executes before any other method.",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 8,
+        "question_text": "What will be the output of the following code:\nclass A:\ndef __init__(self):\nself.counter = 1\ndef increase(self):\nself.counter += 1\na = A()\na.increase()\nprint(a.counter)",
+        "option_a": "0",
+        "option_b": "1",
+        "option_c": "2",
+        "option_d": "3",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 9,
+        "question_text": "What is the purpose of the with statement in Python?",
+        "option_a": "To create a function",
+        "option_b": "To open a file and ensure it gets closed properly",
+        "option_c": "To handle exceptions",
+        "option_d": "To define a class",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 10,
+        "question_text": "What will be the output of the following code:\ndef func(x):\nif x % 2 == 0:\nreturn True\nelse:\nreturn False\nresult = filter(func, [1, 2, 3, 4])\nprint(list(result))",
+        "option_a": "[1, 3]",
+        "option_b": "[2, 4]",
+        "option_c": "[1, 2, 3, 4]",
+        "option_d": "[1, 2, 3]",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 11,
+        "question_text": "What will be the output of the following code?\nx = 5\ny = \"Hello, World!\"\nprint(x + y)",
+        "option_a": "5Hello, World!",
+        "option_b": "Hello, World!5",
+        "option_c": "TypeError",
+        "option_d": "5 Hello, World!",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 12,
+        "question_text": "What is the output of the following code?\nprint(type(5))",
+        "option_a": "<class 'int'>",
+        "option_b": "<class 'float'>",
+        "option_c": "<class 'string'>",
+        "option_d": "<class 'number'>",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 13,
+        "question_text": "What is the output of the following code snippet?\ndef func(x):\nif x % 2 == 0:\nreturn True\nelse:\nreturn False\nresult = filter(func, [1, 2, 3, 4])\nprint(list(result))",
+        "option_a": "[1, 3]",
+        "option_b": "[2, 4]",
+        "option_c": "[1, 2, 3, 4]",
+        "option_d": "[1, 2, 3]",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 14,
+        "question_text": "What will be the output of the following code?\nx = [1, 2, 3]\ny = [4, 5, 6]\nprint(x + y)",
+        "option_a": "[1, 2, 3, 4, 5, 6]",
+        "option_b": "[5, 7, 9]",
+        "option_c": "TypeError",
+        "option_d": "None of the above",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 15,
+        "question_text": "What does the following list comprehension produce?\n[x**2 for x in range(5)]",
+        "option_a": "[1, 4, 9, 16]",
+        "option_b": "[0, 1, 4, 9, 16]",
+        "option_c": "[0, 1, 2, 3, 4]",
+        "option_d": "[1, 2, 3, 4, 5]",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 16,
+        "question_text": "What is the output of the following code snippet involving a lambda function?\na = [(lambda x: x**2)(x) for x in range(5)]\nprint(",
+        "option_a": "a) [1, 4, 9, 16]",
+        "option_b": "[0, 1, 4, 9, 16]",
+        "option_c": "[0, 1, 2, 3, 4]",
+        "option_d": "[1, 2, 3, 4, 5]",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 17,
+        "question_text": "what will be the output?\ndef foo(x, y=[]):\ny.append(x)\nreturn y\nprint(foo(1))\nprint(foo(2))",
+        "option_a": "[1] [2]",
+        "option_b": "[1] [1, 2]",
+        "option_c": "[1, 2] [1, 2, 2]",
+        "option_d": "[1, 2] [1, 2]",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 18,
+        "question_text": "What is the result of the following code?\nclass A:\ndef __init__(self):\nself._value = 1\n@property\ndef value(self):\nreturn self._value\n@value.setter\ndef value(self, val):\nself._value = val\na = A()\na.value = 10\nprint(a.value)",
+        "option_a": "1",
+        "option_b": "10",
+        "option_c": "AttributeError",
+        "option_d": "None",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 19,
+        "question_text": "What will the following code output?\nclass Parent:\ndef __init__(self):\nself.value = 1\nclass Child(Parent):\ndef __init__(self):\nsuper().__init__()\nself.value = 2\nchild = Child()\nprint(child.value)",
+        "option_a": "1",
+        "option_b": "2",
+        "option_c": "AttributeError",
+        "option_d": "None",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 20,
+        "question_text": "What will be the output of the following code involving exception handling?\ntry:\nresult = 10 / 0\nexcept ZeroDivisionError:\nresult = 'Infinity'\nfinally:\nresult = 'Done'\nprint(result)",
+        "option_a": "Infinity",
+        "option_b": "ZeroDivisionError",
+        "option_c": "Done",
+        "option_d": "None of the above",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 21,
+        "question_text": "What will be the output of the following code?\nx = 5\ny = \"5\"\nprint(x + int(y))",
+        "option_a": "55",
+        "option_b": "10",
+        "option_c": "TypeError",
+        "option_d": "5",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 22,
+        "question_text": "What is the correct way to create a function in Python?",
+        "option_a": "function myFunction():",
+        "option_b": "def myFunction():",
+        "option_c": "create myFunction():",
+        "option_d": "def myFunction:",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 23,
+        "question_text": "What will be the output of the following code?\na = \"Hello\"\nb = \"World\"\nprint(a + \" \" + b)",
+        "option_a": "a) HelloWorld",
+        "option_b": "Hello World",
+        "option_c": "HelloWorld",
+        "option_d": "\"Hello World\"",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 24,
+        "question_text": "What will be the output of the following code?\nx = 10\ny = 2\nprint(x // y)",
+        "option_a": "5",
+        "option_b": "5.0",
+        "option_c": "10",
+        "option_d": "10.0",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 25,
+        "question_text": "What will be the output of the following code?\nx = \"Python\"\nprint(x[0])",
+        "option_a": "P",
+        "option_b": "y",
+        "option_c": "n",
+        "option_d": "Error",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 26,
+        "question_text": "What will be the output of the following code?\nx = [1, 2, 3]\nx.append([4, 5])\nprint(x)",
+        "option_a": "[1, 2, 3, 4, 5]",
+        "option_b": "[1, 2, 3, [4, 5]]",
+        "option_c": "[1, 2, 3, [4], [5]]",
+        "option_d": "Error",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 27,
+        "question_text": "What will be the output of the following code?\nx = {'a': 1, 'b': 2}\nx['c'] = 3\nprint(x)",
+        "option_a": "{'a': 1, 'b': 2, 'c': 3}",
+        "option_b": "{'a': 1, 'b': 2}",
+        "option_c": "{'c': 3}",
+        "option_d": "{'a': 1, 'b': 2, 'c': 3, 'd': 4}",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 28,
+        "question_text": "What is the output of the following code?\ndef foo(x, y=5):\nreturn x + y\nprint(foo(3))",
+        "option_a": "8",
+        "option_b": "15",
+        "option_c": "3",
+        "option_d": "TypeError",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 29,
+        "question_text": "What will be the output of the following code?\nx = [1, 2, 3]\nx.extend([4, 5])\nprint(x)",
+        "option_a": "[1, 2, 3, 4, 5]",
+        "option_b": "[1, 2, 3, [4, 5]]",
+        "option_c": "[1, 2, 3, [4], [5]]",
+        "option_d": "Error",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 30,
+        "question_text": "What is the output of the following code?\nx = [1, 2, 3, 4, 5]\nprint(x[1:4])",
+        "option_a": "[1, 2, 3]",
+        "option_b": "[2, 3, 4]",
+        "option_c": "[1, 2, 3, 4]",
+        "option_d": "[2, 3, 4, 5]",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 31,
+        "question_text": "What will be the output of the following code?\nx = 10\ny = 20\nx, y = y, x\nprint(x, y)",
+        "option_a": "10 20",
+        "option_b": "20 10",
+        "option_c": "20 20",
+        "option_d": "10 10",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 32,
+        "question_text": "What is the output of the following code snippet?\nclass MyClass:\ndef __init__(self):\nself.value = 0\ndef increment(self):\nself.value += 1\na = MyClass()\nb = a\nb.increment()\nprint(a.value)",
+        "option_a": "0",
+        "option_b": "1",
+        "option_c": "TypeError",
+        "option_d": "AttributeError",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 33,
+        "question_text": "What is the output of the following code snippet?\ndef func(a, b=[]):\nb.append(",
+        "option_a": "return b",
+        "option_b": "[1] [2]",
+        "option_c": "[1] [1, 2]",
+        "option_d": "[1, 2] [2]",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 34,
+        "question_text": "What is the output of the following code snippet?\ndef func(x, y):\nx += y\nreturn x\na = (1, 2)\nb = (3, 4)\nprint(func(a, b))",
+        "option_a": ")",
+        "option_b": "(1, 2, 3, 4)",
+        "option_c": "(4, 6)",
+        "option_d": "(1, 2)",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 35,
+        "question_text": "What will be the output of the following code snippet?\nclass A:\ndef __init__(self, x):\nself.x = x\nclass B(A):\ndef __init__(self, x, y):\nsuper().__init__(x)\nself.y = y\nobj = B(1, 2)\nprint(obj.x, obj.y)",
+        "option_a": ":",
+        "option_b": "1 2",
+        "option_c": "2 1",
+        "option_d": "AttributeError",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 36,
+        "question_text": "What is the output of the following code snippet?\ndef func():\ntry:\nreturn 1\nfinally:\nreturn 2\nprint(func())\npython",
+        "option_a": "1",
+        "option_b": "2",
+        "option_c": "None",
+        "option_d": "Error",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 37,
+        "question_text": "What is the output of the following code snippet?\nx = [1, 2, 3]\ny = [4, 5]\nz = x + y\ny.extend(x)\nprint(z)\nprint(y)\npython",
+        "option_a": "[1, 2, 3, 4, 5], [4, 5, 1, 2, 3]",
+        "option_b": "[4, 5, 1, 2, 3], [1, 2, 3, 4, 5]",
+        "option_c": "[1, 2, 3, 4, 5], [1, 2, 3, 4, 5]",
+        "option_d": "[4, 5], [1, 2, 3, 4, 5]",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 38,
+        "question_text": "What will be the output of the following code?\ndef add(a, b):\nreturn a + b\ndef subtract(a, b):\nreturn a - b\nops = {'+': add, '-': subtract}\nop = '+'\na = 10\nb = 5\nprint(ops[op](a, b))",
+        "option_a": ":",
+        "option_b": ":",
+        "option_c": ")",
+        "option_d": "5",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 39,
+        "question_text": "What is the output of the following code snippet?\ndef f1():\nreturn 1, 2, 3\na, b, c = f1()\nprint(a, b, c)",
+        "option_a": "a) (1, 2, 3)",
+        "option_b": "1, 2, 3",
+        "option_c": "[1, 2, 3]",
+        "option_d": "1 2 3",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 40,
+        "question_text": "What is the output of the following code snippet?\ndef func(a, b):\nreturn a * b\nprint(func('Hello', 3))",
+        "option_a": ":",
+        "option_b": "Hello",
+        "option_c": "HelloHelloHello",
+        "option_d": "TypeError",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 41,
+        "question_text": "What is the output of the following code snippet?\ndef outer(x):\ndef inner(y):\nreturn x + y\nreturn inner\nadd_five = outer(5)\nprint(add_five(10))",
+        "option_a": "10",
+        "option_b": "15",
+        "option_c": "5",
+        "option_d": "50",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 42,
+        "question_text": "What is the output of the following code snippet?\ndef func(a, b=2, c=3):\nreturn a + b + c\nprint(func(1, c=4))",
+        "option_a": "6",
+        "option_b": "7",
+        "option_c": "9",
+        "option_d": "TypeError",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 43,
+        "question_text": "What is the output of the following code snippet?\ndef func(x, lst=[]):\nlst.append(x)\nreturn lst\nprint(func(1))\nprint(func(2))\nprint(func(3, []))",
+        "option_a": "[1], [1, 2], [3]",
+        "option_b": "[1], [2], [3]",
+        "option_c": "[1], [2], [1, 2, 3]",
+        "option_d": "[1], [1, 2], [3, 2]",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 44,
+        "question_text": "What is the output of the following code snippet?\ndef f(x, L=[]):\nL.append(x)\nreturn L\nprint(f(1))\nprint(f(2))\nprint(f(3, [0]))\nprint(f(4))",
+        "option_a": "[1], [2], [0, 3], [4]",
+        "option_b": "[1], [1, 2], [0, 3], [1, 2, 4]",
+        "option_c": "[1], [1, 2], [0, 3], [4]",
+        "option_d": "[1], [2], [0, 3], [4]",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 45,
+        "question_text": "What is the output of the following code snippet?\ndef func(a, b):\nreturn a + b\nprint(func(*[1, 2]))",
+        "option_a": ":",
+        "option_b": "1",
+        "option_c": "2",
+        "option_d": "3",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 46,
+        "question_text": "What is the output of the following code snippet?\nclass A:\ndef __init__(self):\nself._value = 1\n@property\ndef value(self):\nreturn self._value\na = A()\nprint(a.value)\na.value = 10\nprint(a.value)",
+        "option_a": "1 10",
+        "option_b": "10 10",
+        "option_c": "1 Error",
+        "option_d": "Error Error",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 47,
+        "question_text": "What is the output of the following code snippet?\nclass A:\ndef __init__(self, x):\nself.x = x\ndef __call__(self, y):\nreturn self.x + y\na = A(10)\nprint(a(20))",
+        "option_a": "10",
+        "option_b": "20",
+        "option_c": "30",
+        "option_d": "Error",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 48,
+        "question_text": "What will be the output of the following code?\nclass A:\ndef __init__(self):\nself.__private = 1\ndef get_private(self):\nreturn self.__private\na = A()\nprint(a.get_private())",
+        "option_a": "1",
+        "option_b": "AttributeError",
+        "option_c": "None",
+        "option_d": "SyntaxError",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 49,
+        "question_text": "What will be the output of the following code?\nclass A:\ndef __init__(self):\nself.__private = 1\na = A()\nprint(a.__private)",
+        "option_a": "1",
+        "option_b": "AttributeError",
+        "option_c": "None",
+        "option_d": "SyntaxError",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 50,
+        "question_text": "What will be the output of the following code?\nclass A:\ndef __init__(self, x):\nself.x = x\nclass B(A):\ndef __init__(self, x, y):\nsuper().__init__(x)\nself.y = y\nb = B(10, 20)\nprint(b.x, b.y)",
+        "option_a": ":",
+        "option_b": "10, 20",
+        "option_c": "20, 10",
+        "option_d": "AttributeError",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 51,
+        "question_text": "What will be the output of the following code?\nclass A:\ndef method(self):\nprint(\"A\")\nclass B(A):\ndef method(self):\nprint(\"B\")\nb = B()\nb.method()",
+        "option_a": ":",
+        "option_b": "A",
+        "option_c": "B",
+        "option_d": "AttributeError",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 52,
+        "question_text": "What will be the output of the following code?\ndef outer():\nx = 10\ndef inner():\nnonlocal x\nx += 1\nreturn x\nreturn inner\nf = outer()\nprint(f())",
+        "option_a": "11",
+        "option_b": "10",
+        "option_c": "SyntaxError",
+        "option_d": "None",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 53,
+        "question_text": "What will be the output of the following code?\ndef outer():\nx = 10\ndef inner():\nx = 20\nreturn x\nreturn inner\nf = outer()\nprint(f())",
+        "option_a": "10",
+        "option_b": "20",
+        "option_c": "SyntaxError",
+        "option_d": "None",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 54,
+        "question_text": "What will be the output of the following code?\ndef f(a, L=[]):\nL.append(",
+        "option_a": "return L",
+        "option_b": "[1], [2], [3]",
+        "option_c": "[1], [1, 2], [1, 2, 3]",
+        "option_d": "[1], [1], [1]",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 55,
+        "question_text": "What will be the output of the following code?\ndef f(a, L=None):\nif L is None:\nL = []\nL.append(",
+        "option_a": "return L",
+        "option_b": "[1], [2], [3]",
+        "option_c": "[1], [1, 2], [1, 2, 3]",
+        "option_d": "[1], [1], [1]",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 56,
+        "question_text": "What will be the output of the following code?\ndef generator():\nyield 1\nyield 2\nyield 3\ng = generator()\nprint(next(g))\nprint(next(g))\nprint(next(g))",
+        "option_a": "1 2 3",
+        "option_b": "1 1 1",
+        "option_c": "SyntaxError",
+        "option_d": "None of the above",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 57,
+        "question_text": "What will be the output of the following code?\ndef generator():\nyield 1\nyield 2\nyield 3\ng = generator()\nfor value in g:\nprint(value)",
+        "option_a": "1 2 3",
+        "option_b": "1 1 1",
+        "option_c": "SyntaxError",
+        "option_d": "None of the above",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 58,
+        "question_text": "What will be the output of the following code?\ndef make_multiplier_of(n):\ndef multiplier(x):\nreturn x * n\nreturn multiplier\ntimes3 = make_multiplier_of(3)\nprint(times3(9))",
+        "option_a": "27",
+        "option_b": "9",
+        "option_c": "3",
+        "option_d": "None of the above",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 59,
+        "question_text": "What will be the output of the following code?\ndef make_multiplier_of(n):\ndef multiplier(x):\nreturn x * n\nreturn multiplier\ntimes3 = make_multiplier_of(3)\ntimes5 = make_multiplier_of(5)\nprint(times3(9))\nprint(times5(3))",
+        "option_a": "27 15",
+        "option_b": "9 5",
+        "option_c": "3 5",
+        "option_d": "None of the above",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 60,
+        "question_text": "What will be the output of the following code?\nclass A:\ndef __init__(self):\nself._value = 1\n@property\ndef value(self):\nreturn self._value\n@value.setter\ndef value(self, val):\nself._value = val\na = A()\na.value = 10\nprint(a.value)",
+        "option_a": "1",
+        "option_b": "10",
+        "option_c": "AttributeError",
+        "option_d": "None",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 61,
+        "question_text": "What will be the output of the following code?\nclass A:\ndef __init__(self):\nself._value = 1\n@property\ndef value(self):\nreturn self._value\na = A()\na.value = 10\nprint(a.value)",
+        "option_a": "1",
+        "option_b": "10",
+        "option_c": "AttributeError",
+        "option_d": "None",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 62,
+        "question_text": "What will be the output of the following code?\nclass Parent:\ndef __init__(self):\nself.value = 1\nclass Child(Parent):\ndef __init__(self):\nsuper().__init__()\nself.value = 2\nchild = Child()\nprint(child.value)",
+        "option_a": "1",
+        "option_b": "2",
+        "option_c": "AttributeError",
+        "option_d": "None",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 63,
+        "question_text": "What will be the output of the following code?\nclass Parent:\ndef __init__(self):\nself.value = 1\nclass Child(Parent):\ndef __init__(self):\nself.value = 2\nchild = Child()\nprint(child.value)",
+        "option_a": "1",
+        "option_b": "2",
+        "option_c": "AttributeError",
+        "option_d": "None",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 64,
+        "question_text": "What will be the output of the following code?\ndef foo(x):\nyield from range(x, 0, -1)\nfor i in foo(5):\nprint(i)",
+        "option_a": "5 4 3 2 1",
+        "option_b": "4 3 2 1 0",
+        "option_c": "5 4 3 2 1 0",
+        "option_d": "4 3 2 1",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 65,
+        "question_text": "What will be the output of the following code?\ndef foo(x):\nyield from range(x)\nfor i in foo(5):\nprint(i)\npython",
+        "option_a": "0 1 2 3 4",
+        "option_b": "1 2 3 4 5",
+        "option_c": "5 4 3 2 1",
+        "option_d": "4 3 2 1 0",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 66,
+        "question_text": "What will be the output of the following code?\nclass A:\ndef __init__(self, value):\nself.value = value\ndef __add__(self, other):\nreturn A(self.value + other.value)\na = A(1)\nb = A(2)\nc = a + b\nprint(c.value)",
+        "option_a": "1",
+        "option_b": "2",
+        "option_c": "3",
+        "option_d": "TypeError",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 67,
+        "question_text": "What will be the output of the following code?\nclass A:\ndef __init__(self, value):\nself.value = value\ndef __add__(self, other):\nreturn A(self.value + other.value)\na = A(1)\nb = A(2)\nc = a + b\nd = c + a\nprint(d.value)",
+        "option_a": "1",
+        "option_b": "2",
+        "option_c": "3",
+        "option_d": "4",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 68,
+        "question_text": "What will be the output of the following code?\nclass A:\ndef __init__(self, value):\nself.value = value\ndef __add__(self, other):\nreturn A(self.value + other.value)\na = A(1)\nb = A(2)\nc = a + b\nd = c + c\nprint(d.value)",
+        "option_a": "1",
+        "option_b": "2",
+        "option_c": "3",
+        "option_d": "6",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 69,
+        "question_text": "What will be the output of the following code?\nclass A:\ndef __init__(self, value):\nself.value = value\ndef __mul__(self, other):\nreturn A(self.value * other.value)\na = A(2)\nb = A(3)\nc = a * b\nprint(c.value)",
+        "option_a": "6",
+        "option_b": "5",
+        "option_c": "2",
+        "option_d": "3",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 70,
+        "question_text": "What will be the output of the following code?\nclass A:\ndef __init__(self, value):\nself.value = value\ndef __sub__(self, other):\nreturn A(self.value - other.value)\na = A(5)\nb = A(3)\nc = a - b\nprint(c.value)",
+        "option_a": "2",
+        "option_b": "3",
+        "option_c": "5",
+        "option_d": "-2",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 71,
+        "question_text": "What will be the output of the following code?\nclass A:\ndef __init__(self, value):\nself.value = value\ndef __truediv__(self, other):\nreturn A(self.value / other.value)\na = A(6)\nb = A(3)\nc = a / b\nprint(c.value)",
+        "option_a": "2.0",
+        "option_b": "2",
+        "option_c": "3",
+        "option_d": "1",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 72,
+        "question_text": "What will be the output of the following code?\nclass A:\ndef __init__(self, value):\nself.value = value\ndef __floordiv__(self, other):\nreturn A(self.value // other.value)\na = A(7)\nb = A(3)\nc = a // b\nprint(c.value)",
+        "option_a": "2",
+        "option_b": "2.0",
+        "option_c": "3",
+        "option_d": "1",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 73,
+        "question_text": "What will be the output of the following code?\ndef func(x):\nreturn x % 2 == 0\nresult = filter(func, [1, 2, 3, 4, 5, 6])\nprint(list(result))",
+        "option_a": "[2, 4, 6]",
+        "option_b": "[1, 3, 5]",
+        "option_c": "[2, 4]",
+        "option_d": "[1, 2, 3, 4, 5, 6]",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 74,
+        "question_text": "What will be the output of the following code?\ndef func(x):\nreturn x % 2 == 0\nresult = map(func, [1, 2, 3, 4, 5, 6])\nprint(list(result))",
+        "option_a": "[False, True, False, True, False, True]",
+        "option_b": "[1, 2, 3, 4, 5, 6]",
+        "option_c": "[2, 4, 6]",
+        "option_d": "[1, 3, 5]",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 75,
+        "question_text": "What will be the output of the following code?\ndef func(x, y):\nreturn x + y\nfrom functools import reduce\nresult = reduce(func, [1, 2, 3, 4, 5])\nprint(result)",
+        "option_a": "15",
+        "option_b": "10",
+        "option_c": "5",
+        "option_d": "0",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 76,
+        "question_text": "What will be the output of the following code?\ndef func(x, y):\nreturn x + y\nfrom functools import reduce\nresult = reduce(func, [1, 2, 3, 4, 5], 10)\nprint(result)",
+        "option_a": "25",
+        "option_b": "20",
+        "option_c": "15",
+        "option_d": "10",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 77,
+        "question_text": "What will be the output of the following code?\ndef func(x):\nreturn x % 2 == 0\nresult = [i for i in [1, 2, 3, 4, 5, 6] if func(i)]\nprint(result)",
+        "option_a": "[2, 4, 6]",
+        "option_b": "[1, 3, 5]",
+        "option_c": "[2, 4]",
+        "option_d": "[1, 2, 3, 4, 5, 6]",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 78,
+        "question_text": "What will be the output of the following code?\nclass A:\ndef __init__(self, value):\nself.value = value\ndef __repr__(self):\nreturn f\"A({self.value})\"\na = A(1)\nb = A(2)\nprint(a, b)",
+        "option_a": "a) A(1) A(2)",
+        "option_b": "1 2",
+        "option_c": "Error",
+        "option_d": "None of the above",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 79,
+        "question_text": "What will be the output of the following code?\nclass A:\ndef __init__(self, value):\nself.value = value\ndef __str__(self):\nreturn f\"A({self.value})\"\na = A(1)\nb = A(2)\nprint(a, b)",
+        "option_a": "a) A(1) A(2)",
+        "option_b": "1 2",
+        "option_c": "Error",
+        "option_d": "None of the above",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 80,
+        "question_text": "What will be the output of the following code?\nclass A:\ndef __init__(self, value):\nself.value = value\ndef __repr__(self):\nreturn f\"A({self.value})\"\ndef __str__(self):\nreturn f\"A({self.value})\"\na = A(1)\nb = A(2)\nprint(a, b)",
+        "option_a": "a) A(1) A(2)",
+        "option_b": "1 2",
+        "option_c": "Error",
+        "option_d": "None of the above",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 81,
+        "question_text": "What will be the output of the following code?\nclass A:\ndef __init__(self, value):\nself.value = value\ndef __eq__(self, other):\nreturn self.value == other.value\na = A(1)\nb = A(1)\nprint(a == b)",
+        "option_a": "a) True",
+        "option_b": "False",
+        "option_c": "Error",
+        "option_d": "None of the above",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 82,
+        "question_text": "What will be the output of the following code?\nfor i in range(5):\nprint(i)",
+        "option_a": "1 2 3 4 5",
+        "option_b": "0 1 2 3 4",
+        "option_c": "1 2 3 4",
+        "option_d": "0 1 2 3 4 5",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 83,
+        "question_text": "What does the following code do?\nfor i in range(3):\nprint(\"Hello\")",
+        "option_a": "Prints \"Hello\" once",
+        "option_b": "Prints \"Hello\" twice",
+        "option_c": "Prints \"Hello\" thrice",
+        "option_d": "Prints \"Hello\" four times",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 84,
+        "question_text": "What will be the output of the following code?\nfor i in range(1, 10, 2):\nprint(i, end=' ')",
+        "option_a": "1 3 5 7 9",
+        "option_b": "1 2 3 4 5 6 7 8 9",
+        "option_c": "1 3 5 7",
+        "option_d": "2 4 6 8 10",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 85,
+        "question_text": "What will be the output of the following code?\nfor i in range(5):\nfor j in range(i):\nprint(j, end=' ')\nprint()",
+        "option_a": "0",
+        "option_b": "1",
+        "option_c": "0",
+        "option_d": "0",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 86,
+        "question_text": "What will be the output of the following code?\nfor i in \"Python\":\nprint(i, end=' ')",
+        "option_a": "P y t h o n",
+        "option_b": "P y t h o n",
+        "option_c": "Python",
+        "option_d": "Error",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 87,
+        "question_text": "What will be the output of the following code?\nfor i in range(2, 6):\nprint(i ** 2, end=' ')",
+        "option_a": "4 9 16 25",
+        "option_b": "4 9 16",
+        "option_c": "2 3 4 5",
+        "option_d": "4 16 36 64",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 88,
+        "question_text": "What will be the output of the following code?\nsum = 0\nfor i in range(1, 10):\nsum += i\nprint(sum)",
+        "option_a": "45",
+        "option_b": "50",
+        "option_c": "55",
+        "option_d": "60",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 89,
+        "question_text": "What will be the output of the following code?\nfor i in range(5):\nif i == 3:\nbreak\nprint(i, end=' ')",
+        "option_a": "0 1 2 3",
+        "option_b": "0 1 2",
+        "option_c": "1 2 3",
+        "option_d": "0 1 2 3 4",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 90,
+        "question_text": "What will be the output of the following code?\nfor i in range(5):\nif i % 2 == 0:\ncontinue\nprint(i, end=' ')",
+        "option_a": "0 1 2 3 4",
+        "option_b": "1 3",
+        "option_c": "0 2 4",
+        "option_d": "1 2 3",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 91,
+        "question_text": "What will be the output of the following code?\nfor i in range(3, 10, 2):\nprint(i, end=' ')",
+        "option_a": "3 4 5 6 7 8 9",
+        "option_b": "3 5 7 9",
+        "option_c": "3 6 9",
+        "option_d": "4 6 8 10",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 92,
+        "question_text": "What will be the output of the following code?\ni = 0\nwhile i < 5:\nprint(i)\ni += 1",
+        "option_a": "1 2 3 4 5",
+        "option_b": "0 1 2 3 4 5",
+        "option_c": "0 1 2 3 4",
+        "option_d": "1 2 3 4",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 93,
+        "question_text": "What will be the output of the following code?\ni = 1\nwhile i < 10:\nif i % 3 == 0:\nbreak\nprint(i, end=' ')\ni += 1",
+        "option_a": "1 2 3",
+        "option_b": "1 2",
+        "option_c": "1 2 3 4 5 6 7 8 9",
+        "option_d": "1 2 4",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 94,
+        "question_text": "What will be the output of the following code?\ni = 0\nwhile i < 5:\ni += 1\nif i == 3:\ncontinue\nprint(i, end=' ')",
+        "option_a": "1 2 3 4 5",
+        "option_b": "0 1 2 4 5",
+        "option_c": "1 2 4 5",
+        "option_d": "0 1 2 3 5",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 95,
+        "question_text": "What will be the output of the following code?\ni = 10\nwhile i > 0:\nprint(i, end=' ')\ni -= 2",
+        "option_a": "10 8 6 4 2 0",
+        "option_b": "10 8 6 4 2",
+        "option_c": "9 7 5 3 1",
+        "option_d": "8 6 4 2 0",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 96,
+        "question_text": "What will be the output of the following code?\ncount = 0\nwhile count < 3:\nprint(\"Hello\")\ncount += 1",
+        "option_a": "Prints \"Hello\" twice",
+        "option_b": "Prints \"Hello\" three times",
+        "option_c": "Prints \"Hello\" once",
+        "option_d": "Prints \"Hello\" four times",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 97,
+        "question_text": "What will be the output of the following code?\ni = 0\nwhile i < 4:\nprint(i, end=' ')\ni += 2",
+        "option_a": "0 2 4",
+        "option_b": "0 2",
+        "option_c": "2 4",
+        "option_d": "0 1 2 3",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 98,
+        "question_text": "What will be the output of the following code?\ni = 5\nwhile i:\nprint(i, end=' ')\ni -= 1",
+        "option_a": "5 4 3 2 1 0",
+        "option_b": "4 3 2 1 0",
+        "option_c": "5 4 3 2 1",
+        "option_d": "5 4 3 2 1 0 -1",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 99,
+        "question_text": "What will be the output of the following code?\nnum = 0\nwhile num < 6:\nnum += 1\nif num == 3:\ncontinue\nprint(num, end=' ')",
+        "option_a": "1 2 3 4 5 6",
+        "option_b": "1 2 4 5 6",
+        "option_c": "0 1 2 4 5",
+        "option_d": "1 2 4 5",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 100,
+        "question_text": "What will be the output of the following code?\nx = 0\nwhile (x < 7):\nif (x == 5):\nbreak\nprint(x, end=' ')\nx += 1",
+        "option_a": "0 1 2 3 4 5",
+        "option_b": "0 1 2 3 4",
+        "option_c": "1 2 3 4 5 6",
+        "option_d": "1 2 3 4",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 101,
+        "question_text": "What will be the output of the following code?\nx = 1\nwhile x < 4:\nprint(x, end=' ')\nx += 1\nelse:\nprint(\"End\")",
+        "option_a": "1 2 3",
+        "option_b": "1 2 3 End",
+        "option_c": "1 2 End",
+        "option_d": "End",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 102,
+        "question_text": "What will be the output of the following code?\nx = 10\nif x < 10:\nprint(\"Less than 10\")\nelif x == 10:\nprint(\"Equal to 10\")\nelse:\nprint(\"Greater than 10\")",
+        "option_a": "Less than 10",
+        "option_b": "Equal to 10",
+        "option_c": "Greater than 10",
+        "option_d": "None of the above",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 103,
+        "question_text": "What will be the output of the following code?\nx = 5\nif x > 10:\nprint(\"Greater than 10\")\nelif x > 5:\nprint(\"Greater than 5\")\nelse:\nprint(\"5 or less\")",
+        "option_a": "Greater than 10",
+        "option_b": "Greater than 5",
+        "option_c": "5 or less",
+        "option_d": "None of the above",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 104,
+        "question_text": "What will be the output of the following code?\nx = 10\nif x > 10:\nprint(\"Above ten\")\nelse:\nprint(\"Below or equal to ten\")",
+        "option_a": "Above ten",
+        "option_b": "Below or equal to ten",
+        "option_c": "Above ten Below or equal to ten",
+        "option_d": "None of the above",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 105,
+        "question_text": "What will be the output of the following code?\nx = 0\nif x:\nprint(\"True\")\nelse:\nprint(\"False\")",
+        "option_a": "True",
+        "option_b": "False",
+        "option_c": "Error",
+        "option_d": "None of the above",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 106,
+        "question_text": "What will be the output of the following code?\nx = 15\nif x > 10 and x < 20:\nprint(\"Between 10 and 20\")\nelse:\nprint(\"Not between 10 and 20\")",
+        "option_a": "Between 10 and 20",
+        "option_b": "Not between 10 and 20",
+        "option_c": "Error",
+        "option_d": "None of the above",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 107,
+        "question_text": "What will be the output of the following code?\nx = 5\nif x % 2 == 0:\nprint(\"Even\")\nelse:\nprint(\"Odd\")",
+        "option_a": "Even",
+        "option_b": "Odd",
+        "option_c": "Error",
+        "option_d": "None of the above",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 108,
+        "question_text": "What will be the output of the following code?\na = 5\nb = 10\nif a + b > 10:\nprint(\"Greater\")\nelif a + b == 10:\nprint(\"Equal\")\nelse:\nprint(\"Lesser\")",
+        "option_a": "Greater",
+        "option_b": "Equal",
+        "option_c": "Lesser",
+        "option_d": "None of the above",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 109,
+        "question_text": "What will be the output of the following code?\nx = 10\nif x < 20:\nprint(\"Less than 20\")\nif x < 15:\nprint(\"Less than 15\")\nif x < 10:\nprint(\"Less than 10\")",
+        "option_a": "Less than 20",
+        "option_b": "Less than 20 Less than 15",
+        "option_c": "Less than 20 Less than 15 Less than 10",
+        "option_d": "None of the above",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 110,
+        "question_text": "What will be the output of the following code?\nx = 20\nif x < 25:\nif x > 15:\nprint(\"Between 15 and 25\")\nelse:\nprint(\"Outside range\")",
+        "option_a": "Between 15 and 25",
+        "option_b": "Outside range",
+        "option_c": "Error",
+        "option_d": "None of the above",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 111,
+        "question_text": "What will be the output of the following code?\nx = 8\nif x > 5:\nprint(\"Greater than 5\")\nif x < 10:\nprint(\"Less than 10\")",
+        "option_a": "Greater than 5",
+        "option_b": "Less than 10",
+        "option_c": "Greater than 5 Less than 10",
+        "option_d": "None of the above",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 112,
+        "question_text": "What will be the output of the following code?\nfor i in range(3):\nfor j in range(2):\nprint(i, j)",
+        "option_a": "0 0",
+        "option_b": "0 1",
+        "option_c": "0 0",
+        "option_d": "0 0",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 113,
+        "question_text": "What will be the output of the following code?\nfor i in range(2):\nfor j in range(3):\nprint('*', end=' ')\nprint()",
+        "option_a": "* * *",
+        "option_b": "* *",
+        "option_c": "* * *",
+        "option_d": "*",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 114,
+        "question_text": "What will be the output of the following code?\nfor i in range(3):\nfor j in range(i):\nprint(i, j)",
+        "option_a": "0 0",
+        "option_b": "1 0",
+        "option_c": "0 0",
+        "option_d": "1 1",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 115,
+        "question_text": "What will be the output of the following code?\nfor i in range(2):\nfor j in range(2):\nfor k in range(2):\nprint(i, j, k)",
+        "option_a": "0 0 0",
+        "option_b": "0 0 0",
+        "option_c": "0 0 0",
+        "option_d": "0 1 0",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 116,
+        "question_text": "What will be the output of the following code?\nfor i in range(1, 4):\nfor j in range(1, i+1):\nprint('*', end='')\nprint()",
+        "option_a": "*",
+        "option_b": "* * *",
+        "option_c": "*",
+        "option_d": "* * *",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 117,
+        "question_text": "What will be the output of the following code?\nfor i in range(3):\nfor j in range(3):\nif i == j:\nprint(i, j)",
+        "option_a": "0 0",
+        "option_b": "0 0",
+        "option_c": "0 0",
+        "option_d": "1 0",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 118,
+        "question_text": "What will be the output of the following code?\nfor i in range(4):\nfor j in range(4):\nif i + j == 3:\nprint(i, j)",
+        "option_a": "0 3",
+        "option_b": "0 3",
+        "option_c": "1 3",
+        "option_d": "1 2",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 119,
+        "question_text": "What will be the output of the following code?\nfor i in range(2, 4):\nfor j in range(1, i):\nprint(i * j, end=' ')",
+        "option_a": "2 3 4",
+        "option_b": "1 2 3",
+        "option_c": "2 4 6",
+        "option_d": "2 2 6",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 120,
+        "question_text": "What will be the output of the following code?\nfor i in range(3):\nfor j in range(3):\nif i != j:\nprint(i, j)",
+        "option_a": "0 1",
+        "option_b": "0 0",
+        "option_c": "1 2",
+        "option_d": "0 1",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 121,
+        "question_text": "What will be the output of the following code?\nfor i in range(2):\nfor j in range(2):\nprint(i, j)\nif j == 1:\nbreak",
+        "option_a": "0 0",
+        "option_b": "0 0",
+        "option_c": "0 0",
+        "option_d": "0 0",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 122,
+        "question_text": "What will be the output of the following code?\nfor i in range(5):\nif i % 2 == 0:\nprint(i, end=' ')",
+        "option_a": "1 3",
+        "option_b": "0 2 4",
+        "option_c": "2 4",
+        "option_d": "1 2 3 4",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 123,
+        "question_text": "What will be the output of the following code?\nfor i in range(10):\nif i == 5:\nbreak\nprint(i, end=' ')",
+        "option_a": "1 2 3 4 5",
+        "option_b": "0 1 2 3 4",
+        "option_c": "0 1 2 3",
+        "option_d": "0 1 2",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 124,
+        "question_text": "What will be the output of the following code?\nfor i in range(5):\nif i == 3:\ncontinue\nprint(i, end=' ')",
+        "option_a": "0 1 2 3 4",
+        "option_b": "0 1 2 3",
+        "option_c": "0 1 2 4",
+        "option_d": "1 2 3 4",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 125,
+        "question_text": "What will be the output of the following code?\nfor i in range(1, 10):\nif i % 3 == 0:\nprint(i, end=' ')",
+        "option_a": "3 6 9",
+        "option_b": "1 2 3 4 5 6 7 8 9",
+        "option_c": "1 2 4 5 7 8",
+        "option_d": "3 6",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 126,
+        "question_text": "What will be the output of the following code?\nfor i in range(2, 10, 2):\nif i > 5:\nprint(i, end=' ')",
+        "option_a": "2 4 6 8 10",
+        "option_b": "2 4 6 8",
+        "option_c": "6 8",
+        "option_d": "4 6 8",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 127,
+        "question_text": "What will be the output of the following code?\nfor i in range(1, 4):\nfor j in range(1, 4):\nif i == j:\nprint(i * j, end=' ')",
+        "option_a": "1 2 3",
+        "option_b": "1 4 9",
+        "option_c": "1 2 4",
+        "option_d": "1 3 9",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 128,
+        "question_text": "What will be the output of the following code?\nfor i in range(2, 5):\nfor j in range(1, 3):\nif i % j == 0:\nprint(i, j, end=' ')",
+        "option_a": "2 1 2 2 3 1 4 1 4 2",
+        "option_b": "2 1 3 1 4 1",
+        "option_c": "1 2 3 4 1",
+        "option_d": "2 2 3 3",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 129,
+        "question_text": "What will be the output of the following code?\nfor i in range(4):\nfor j in range(3):\nif i + j > 3:\nbreak\nprint(i, j, end=' ')",
+        "option_a": "0 0 0 1 0 2 0 3 1 0 1 1 1 2 2 0 2 1 3 0",
+        "option_b": "0 0 0 1 0 2 1 0 1 1 2 0 2 1 3 0",
+        "option_c": "0 0 0 1 0 2 1 0 1 1 2 0 3 0",
+        "option_d": "0 1 2 0 1 0 2",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 130,
+        "question_text": "What will be the output of the following code?\nfor i in range(1, 5):\nif i % 2 == 0:\nprint(i, end=' ')\nelse:\nprint(i * 2, end=' ')",
+        "option_a": "2 4 6 8",
+        "option_b": "1 2 3 4",
+        "option_c": "2 2 6 4",
+        "option_d": "2 4 6",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 131,
+        "question_text": "What will be the output of the following code?\nfor i in range(3):\nfor j in range(3):\nif i + j < 2:\nprint(i, j, end=' ')",
+        "option_a": "0 0 0 1 1 0",
+        "option_b": "0 0 0 1 0 2",
+        "option_c": "0 1 1 0 1 2",
+        "option_d": "0 0 0 1",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 132,
+        "question_text": "What will be the output of the following code?\nx = 10\nif x > 5:\nif x > 8:\nprint(\"More than 8\")\nelse:\nprint(\"8 or less\")",
+        "option_a": "8 or less",
+        "option_b": "More than 8",
+        "option_c": "Error",
+        "option_d": "None of the above",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 133,
+        "question_text": "What will be the output of the following code?\nx = 5\nif x < 10:\nif x > 2:\nprint(\"Between 2 and 10\")",
+        "option_a": "Between 2 and 10",
+        "option_b": "Error",
+        "option_c": "None",
+        "option_d": "2 and 10",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 134,
+        "question_text": "What will be the output of the following code?\nx = 3\nif x % 2 == 0:\nif x < 5:\nprint(\"Even and less than 5\")\nelse:\nprint(\"Even and more than 5\")\nelse:\nprint(\"Odd number\")",
+        "option_a": "Even and less than 5",
+        "option_b": "Even and more than 5",
+        "option_c": "Odd number",
+        "option_d": "Error",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 135,
+        "question_text": "What will be the output of the following code?\nx = 10\nif x > 5:\nif x < 20:\nprint(\"Between 5 and 20\")\nelse:\nprint(\"More than 20\")",
+        "option_a": "Between 5 and 20",
+        "option_b": "More than 20",
+        "option_c": "Error",
+        "option_d": "None of the above",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 136,
+        "question_text": "What will be the output of the following code?\nx = 2\nif x < 5:\nif x > 1:\nprint(\"Between 1 and 5\")",
+        "option_a": "Between 1 and 5",
+        "option_b": "Error",
+        "option_c": "None",
+        "option_d": "1 and 5",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 137,
+        "question_text": "What will be the output of the following code?\nx = 8\nif x > 0:\nif x % 2 == 0:\nprint(\"Positive even number\")\nelse:\nprint(\"Positive odd number\")",
+        "option_a": "Positive even number",
+        "option_b": "Positive odd number",
+        "option_c": "Error",
+        "option_d": "None of the above",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 138,
+        "question_text": "What will be the output of the following code?\nx = 3\nif x > 0:\nif x % 2 == 0:\nprint(\"Positive even number\")\nelse:\nprint(\"Positive odd number\")",
+        "option_a": "Positive even number",
+        "option_b": "Positive odd number",
+        "option_c": "Error",
+        "option_d": "None of the above",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 139,
+        "question_text": "What will be the output of the following code?\nx = 7\nif x % 2 == 0:\nif x > 5:\nprint(\"Even and more than 5\")\nelse:\nprint(\"Even and less than 5\")\nelse:\nprint(\"Odd number\")",
+        "option_a": "Even and more than 5",
+        "option_b": "Even and less than 5",
+        "option_c": "Odd number",
+        "option_d": "Error",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 140,
+        "question_text": "What will be the output of the following code?\nx = 15\nif x < 20:\nif x % 3 == 0:\nprint(\"Divisible by 3\")",
+        "option_a": "Divisible by 3",
+        "option_b": "Error",
+        "option_c": "None",
+        "option_d": "Not Divisible",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 141,
+        "question_text": "What will be the output of the following code?\nx = 11\nif x % 2 == 0:\nif x < 10:\nprint(\"Even and less than 10\")\nelse:\nprint(\"Even and more than 10\")\nelse:\nprint(\"Odd number\")",
+        "option_a": "Even and less than 10",
+        "option_b": "Even and more than 10",
+        "option_c": "Odd number",
+        "option_d": "Error",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 142,
+        "question_text": "What will be the output of the following code?\nfor i in range(2, 6):\nprint(i, end=' ')",
+        "option_a": "2 3 4 5",
+        "option_b": "2 3 4 5 6",
+        "option_c": "1 2 3 4 5",
+        "option_d": "2 4 6",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 143,
+        "question_text": "What will be the output of the following code?\nfor i in range(1, 10, 2):\nprint(i, end=' ')",
+        "option_a": "1 3 5 7 9",
+        "option_b": "1 2 3 4 5 6 7 8 9",
+        "option_c": "1 3 5 7",
+        "option_d": "2 4 6 8",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 144,
+        "question_text": "What will be the output of the following code?\nfor i in range(5):\nprint(i * i, end=' ')",
+        "option_a": "0 1 4 9 16",
+        "option_b": "0 2 4 6 8",
+        "option_c": "0 1 2 3 4",
+        "option_d": "1 4 9 16 25",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 145,
+        "question_text": "What will be the output of the following code?\nfor i in range(3):\nprint(i, end=' ')\nelse:\nprint('End')",
+        "option_a": "0 1 2",
+        "option_b": "0 1 2 End",
+        "option_c": "End",
+        "option_d": "1 2 3 End",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 146,
+        "question_text": "What will be the output of the following code?\nfor i in range(4, 1, -1):\nprint(i, end=' ')",
+        "option_a": "4 3 2 1",
+        "option_b": "4 3 2",
+        "option_c": "4 3",
+        "option_d": "4 3 2 1 0",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 147,
+        "question_text": "What will be the output of the following code?\nfor i in range(3):\nprint(i, i*2, end=' ')",
+        "option_a": "0 0 1 2 2 4",
+        "option_b": "0 1 2 4 5 10",
+        "option_c": "0 0 2 4",
+        "option_d": "0 2 4",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 148,
+        "question_text": "What will be the output of the following code?\nfor i in range(5, 0, -1):\nprint('*' * i)",
+        "option_a": "*",
+        "option_b": "*****",
+        "option_c": "*",
+        "option_d": "*****",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 149,
+        "question_text": "What will be the output of the following code?\nfor i in range(1, 6):\nprint(i + 2, end=' ')",
+        "option_a": "3 4 5 6 7",
+        "option_b": "3 4 5 6",
+        "option_c": "2 3 4 5 6",
+        "option_d": "3 4 5 6 7 8",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 150,
+        "question_text": "What will be the output of the following code?\nfor i in range(3):\nfor j in range(2):\nprint(i, j, end=' ')",
+        "option_a": "0 0 0 1 1 0 1 1 2 0 2 1",
+        "option_b": "0 1 1 2 2 3",
+        "option_c": "0 0 1 1 2 2",
+        "option_d": "0 0 1 1 2 2 3 3",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 151,
+        "question_text": "What will be the output of the following code?\nfor i in range(4):\nfor j in range(3):\nprint(i * j, end=' ')",
+        "option_a": "0 0 0 0 0 0 0 0 0 0 0 0",
+        "option_b": "0 0 0 0 1 2 0 2 4 0 3 6",
+        "option_c": "1 2 3 4 5 6 7 8 9",
+        "option_d": "0 0 0 0 1 2 0 2 4",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 152,
+        "question_text": "What will be the output of the following code?\ni = 0\nwhile i < 4:\nprint(i, end=' ')\ni += 1",
+        "option_a": "0 1 2",
+        "option_b": "0 1 2 3 4",
+        "option_c": "0 1 2 3",
+        "option_d": "1 2 3 4",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 153,
+        "question_text": "What will be the output of the following code?\ni = 5\nwhile i > 0:\nprint(i, end=' ')\ni -= 1",
+        "option_a": "5 4 3 2 1",
+        "option_b": "5 4 3 2 1 0",
+        "option_c": "4 3 2 1 0",
+        "option_d": "5 4 3 2 1 0 -1",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 154,
+        "question_text": "What will be the output of the following code?\ni = 1\nwhile i <= 5:\nprint(i * i, end=' ')\ni += 1",
+        "option_a": "1 4 9 16 25",
+        "option_b": "1 2 3 4 5",
+        "option_c": "1 2 4 9 16 25",
+        "option_d": "1 4 9 16",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 155,
+        "question_text": "What will be the output of the following code?\ni = 0\nwhile i < 3:\nprint(i)\ni += 1\nelse:\nprint('End')",
+        "option_a": "0 1 2",
+        "option_b": "0 1 2 End",
+        "option_c": "End",
+        "option_d": "1 2 3 End",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 156,
+        "question_text": "What will be the output of the following code?\ni = 1\nwhile i <= 4:\nprint('*' * i)\ni += 1",
+        "option_a": "*",
+        "option_b": "****",
+        "option_c": "*",
+        "option_d": "*",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 157,
+        "question_text": "What will be the output of the following code?\nfor i in range(3):\nfor j in range(2):\nprint(i, j, end=' ')",
+        "option_a": "0 0 0 1 1 0 1 1 2 0 2 1",
+        "option_b": "0 1 1 2 2 0",
+        "option_c": "0 0 1 1 2 2",
+        "option_d": "0 1 0 1 0 1",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 158,
+        "question_text": "What will be the output of the following code?\nfor i in range(2):\nfor j in range(2):\nprint(i + j, end=' ')",
+        "option_a": "0 1 1 2",
+        "option_b": "0 1 2 3",
+        "option_c": "1 2 3 4",
+        "option_d": "0 1 1 2",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 159,
+        "question_text": "What will be the output of the following code?\nfor i in range(3):\nfor j in range(i):\nprint(j, end=' ')",
+        "option_a": "0 0 1 0 1 2",
+        "option_b": "0 1 2",
+        "option_c": "0 0 1",
+        "option_d": "1 2 3",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 160,
+        "question_text": "What will be the output of the following code?\nfor i in range(2):\nfor j in range(2):\nprint(i * j, end=' ')",
+        "option_a": "0 1 1 2",
+        "option_b": "0 0 0 1",
+        "option_c": "0 1 2 3",
+        "option_d": "0 0 1 1",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 161,
+        "question_text": "What will be the output of the following code?\nfor i in range(2):\nfor j in range(2):\nprint(i, j)",
+        "option_a": "0 0 0 1 1 0 1 1",
+        "option_b": "0 0 1 0 0 1",
+        "option_c": "1 1 1 1",
+        "option_d": "0 0 0 1 1 0 1 1",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 162,
+        "question_text": "What will be the output of the following code?\nfor i in range(2):\nfor j in range(2):\nif i == j:\nprint(i, j)",
+        "option_a": "0 0 1 1",
+        "option_b": "0 1 1 0",
+        "option_c": "0 0",
+        "option_d": "1 1",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 163,
+        "question_text": "What will be the output of the following code?\nfor i in range(2):\nfor j in range(2):\nif i != j:\nprint(i, j)",
+        "option_a": "0 1 1 0",
+        "option_b": "0 0 1 1",
+        "option_c": "1 1",
+        "option_d": "0 0",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 164,
+        "question_text": "What will be the output of the following code?\nfor i in range(3):\nfor j in range(3):\nif i + j < 3:\nprint(i, j, end=' ')",
+        "option_a": "0 0 0 1 0 2 1 0 1 1 1 2",
+        "option_b": "0 0 0 1 1 0 1 1",
+        "option_c": "0 0 0 1 1 0 2 0 2 1",
+        "option_d": "0 0 0 1 1 0",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 165,
+        "question_text": "What will be the output of the following code?\nfor i in range(2):\nfor j in range(2):\nfor k in range(2):\nprint(i, j, k, end=' ')",
+        "option_a": "0 0 0 0 0 1 0 1 0 0 1 1 1 0 0 1 0 1 1 1",
+        "option_b": "0 0 0 0 1 0 1 1 0 1 0 1 1",
+        "option_c": "0 1 1 1 1 0 1 1 0 0",
+        "option_d": "0 0 0 1 1 1",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 166,
+        "question_text": "What will be the output of the following code?\nfor i in range(2):\nfor j in range(2):\nif i == 0 and j == 1:\nbreak\nprint(i, j, end=' ')",
+        "option_a": "0 0",
+        "option_b": "0 0 1 0",
+        "option_c": "0 0 0 1",
+        "option_d": "0 1",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 167,
+        "question_text": "What will be the output of the following code?\nx = 5\nif x > 3:\nprint(\"Greater than 3\")",
+        "option_a": "Greater than 3",
+        "option_b": "3",
+        "option_c": "5",
+        "option_d": "None",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 168,
+        "question_text": "What will be the output of the following code?\nx = 2\nif x < 3:\nprint(\"Less than 3\")",
+        "option_a": "3",
+        "option_b": "Less than 3",
+        "option_c": "2",
+        "option_d": "None",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 169,
+        "question_text": "What will be the output of the following code?\nx = 10\nif x == 10:\nprint(\"Equal to 10\")",
+        "option_a": "10",
+        "option_b": "Equal to 10",
+        "option_c": "1",
+        "option_d": "None",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 170,
+        "question_text": "What will be the output of the following code?\nx = 7\nif x != 5:\nprint(\"Not equal to 5\")",
+        "option_a": "5",
+        "option_b": "7",
+        "option_c": "Not equal to 5",
+        "option_d": "None",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 171,
+        "question_text": "What will be the output of the following code?\nx = 4\nif x >= 4:\nprint(\"Greater than or equal to 4\")",
+        "option_a": "4",
+        "option_b": "Greater than or equal to 4",
+        "option_c": "None",
+        "option_d": "Error",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 172,
+        "question_text": "What will be the output of the following code?\nx = 6\nif x <= 6:\nprint(\"Less than or equal to 6\")",
+        "option_a": "6",
+        "option_b": "Less than or equal to 6",
+        "option_c": "None",
+        "option_d": "Error",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 173,
+        "question_text": "What will be the output of the following code?\nx = 8\nif x > 7:\nprint(\"Greater than 7\")\nelse:\nprint(\"Not greater than 7\")",
+        "option_a": "Greater than 7",
+        "option_b": "Not greater than 7",
+        "option_c": "7",
+        "option_d": "8",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 174,
+        "question_text": "What will be the output of the following code?\nx = 3\nif x < 5:\nprint(\"Less than 5\")\nelse:\nprint(\"Not less than 5\")",
+        "option_a": "Less than 5",
+        "option_b": "Not less than 5",
+        "option_c": "3",
+        "option_d": "5",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 175,
+        "question_text": "What will be the output of the following code?\nx = 10\nif x == 10:\nprint(\"Exactly 10\")\nelse:\nprint(\"Not exactly 10\")",
+        "option_a": "Exactly 10",
+        "option_b": "Not exactly 10",
+        "option_c": "10",
+        "option_d": "None",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 176,
+        "question_text": "What will be the output of the following code?\nx = 9\nif x != 8:\nprint(\"Not 8\")\nelse:\nprint(\"8\")",
+        "option_a": "Not 8",
+        "option_b": "8",
+        "option_c": "9",
+        "option_d": "None",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 177,
+        "question_text": "What will be the output of the following code?\ni = 1\nwhile i <= 5:\nprint(i, end=' ')\ni += 1",
+        "option_a": "1 2 3 4 5",
+        "option_b": "1 2 3 4 5 6",
+        "option_c": "1 2 3 4",
+        "option_d": "2 3 4 5 6",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 178,
+        "question_text": "What will be the output of the following code?\ni = 0\nwhile i < 3:\nprint(\"Python\", end=' ')\ni += 1",
+        "option_a": "Python",
+        "option_b": "Python Python Python",
+        "option_c": "Python Python",
+        "option_d": "Python Python Python Python",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 179,
+        "question_text": "What will be the output of the following code?\ni = 3\nwhile i > 0:\nprint(i, end=' ')\ni -= 1",
+        "option_a": "3 2 1",
+        "option_b": "1 2 3",
+        "option_c": "3 2 1 0",
+        "option_d": "3 2 1 0 -1",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 180,
+        "question_text": "What will be the output of the following code?\ni = 1\nwhile i <= 5:\nif i % 2 == 0:\nprint(i, end=' ')\ni += 1",
+        "option_a": "1 2 3 4 5",
+        "option_b": "2 4",
+        "option_c": "2 4 6",
+        "option_d": "1 3 5",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 181,
+        "question_text": "What will be the output of the following code?\ni = 5\nwhile i > 0:\nprint(i)\ni -= 1",
+        "option_a": "5 4 3 2 1",
+        "option_b": "1 2 3 4 5",
+        "option_c": "5 4 3 2 1 0",
+        "option_d": "0 1 2 3 4 5",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 182,
+        "question_text": "What will be the output of the following code?\ni = 0\nwhile i < 5:\nprint(i, end=' ')\ni += 2",
+        "option_a": "0 1 2 3 4",
+        "option_b": "0 2 4",
+        "option_c": "0 2 4 6",
+        "option_d": "1 3 5",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 183,
+        "question_text": "What will be the output of the following code?\ni = 10\nwhile i >= 5:\nprint(i, end=' ')\ni -= 1",
+        "option_a": "10 9 8 7 6",
+        "option_b": "10 9 8 7 6 5",
+        "option_c": "10 9 8 7 6 5 4",
+        "option_d": "5 6 7 8 9 10",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 184,
+        "question_text": "What will be the output of the following code?\ni = 1\nwhile i < 4:\nprint(i)\ni += 1",
+        "option_a": "1 2 3",
+        "option_b": "1 2 3 4",
+        "option_c": "1 2 3 4 5",
+        "option_d": "1 2",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 185,
+        "question_text": "What will be the output of the following code?\ni = 2\nwhile i <= 8:\nprint(i, end=' ')\ni += 2",
+        "option_a": "2 4 6 8",
+        "option_b": "2 4 6 8 10",
+        "option_c": "1 3 5 7 9",
+        "option_d": "2 3 4 5 6 7 8",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 186,
+        "question_text": "What will be the output of the following code?\ni = 0\nwhile i < 5:\nif i % 2 != 0:\nprint(i, end=' ')\ni += 1",
+        "option_a": "1 3",
+        "option_b": "0 2 4",
+        "option_c": "1 2 3",
+        "option_d": "1 3 5",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 187,
+        "question_text": "What will be the output of the following code?\nfor i in range(1, 6):\nprint(i, end=' ')",
+        "option_a": "1 2 3 4 5",
+        "option_b": "0 1 2 3 4",
+        "option_c": "1 2 3 4 5 6",
+        "option_d": "2 3 4 5 6",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 188,
+        "question_text": "What will be the output of the following code?\nfor i in range(5, 0, -1):\nprint(i, end=' ')",
+        "option_a": "1 2 3 4 5",
+        "option_b": "5 4 3 2 1",
+        "option_c": "5 4 3 2 1 0",
+        "option_d": "0 1 2 3 4 5",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 189,
+        "question_text": "What will be the output of the following code?\nfor i in range(2, 7, 2):\nprint(i, end=' ')",
+        "option_a": "2 4 6 8",
+        "option_b": "2 4 6",
+        "option_c": "2 4 6 7",
+        "option_d": "1 2 3 4 5 6",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 190,
+        "question_text": "What will be the output of the following code?\nfor i in range(3):\nprint(\"Hello\")",
+        "option_a": "Hello",
+        "option_b": "Hello",
+        "option_c": "Hello Hello Hello",
+        "option_d": "None",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 191,
+        "question_text": "What will be the output of the following code?\nsum = 0\nfor i in range(1, 5):\nsum += i\nprint(sum)",
+        "option_a": "15",
+        "option_b": "10",
+        "option_c": "11",
+        "option_d": "9",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 192,
+        "question_text": "What will be the output of the following code?\nproduct = 1\nfor i in range(1, 5):\nproduct *= i\nprint(product)",
+        "option_a": "10",
+        "option_b": "24",
+        "option_c": "15",
+        "option_d": "20",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 193,
+        "question_text": "What will be the output of the following code?\nfor i in range(3):\nfor j in range(2):\nprint(i, j, end=' ')",
+        "option_a": "0 0 0 1 1 0 1 1 2 0 2 1",
+        "option_b": "0 1 1 2 2 0",
+        "option_c": "0 0 1 1 2 2",
+        "option_d": "0 1 0 1 0 1",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 194,
+        "question_text": "What will be the output of the following code?\nfor i in range(5):\nif i % 2 == 0:\nprint(i, end=' ')",
+        "option_a": "0 2 4",
+        "option_b": "1 3 5",
+        "option_c": "1 2 3 4",
+        "option_d": "0 1 2 3 4",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 195,
+        "question_text": "What will be the output of the following code?\nresult = 0\nfor i in range(1, 6):\nresult += i\nprint(result)",
+        "option_a": "10",
+        "option_b": "15",
+        "option_c": "20",
+        "option_d": "21",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 196,
+        "question_text": "What will be the output of the following code?\nfor i in range(2, 10, 2):\nprint(i, end=' ')",
+        "option_a": "2 4 6 8 10",
+        "option_b": "2 4 6 8",
+        "option_c": "1 3 5 7 9",
+        "option_d": "2 4 6 8 9",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 197,
+        "question_text": "What will be the output of the following code?\nfor i in range(5):\nif i % 2 == 0:\nprint(i, end=' ')",
+        "option_a": "0 1 2 3 4",
+        "option_b": "1 3 5",
+        "option_c": "0 2 4",
+        "option_d": "2 4",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 198,
+        "question_text": "What will be the output of the following code?\nfor i in range(5):\nif i % 2 != 0:\nprint(i, end=' ')",
+        "option_a": "0 2 4",
+        "option_b": "1 3",
+        "option_c": "0 1 2 3 4",
+        "option_d": "1 3 5",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 199,
+        "question_text": "What will be the output of the following code?\nfor i in range(5):\nif i % 2 == 1:\nprint(i, end=' ')",
+        "option_a": "1 3",
+        "option_b": "0 2 4",
+        "option_c": "1 2 3",
+        "option_d": "0 1 2 3 4",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 200,
+        "question_text": "What will be the output of the following code?\nfor i in range(5):\nif i % 2 == 0:\nprint(i, end=' ')\nelse:\nprint(\"Odd\", end=' ')",
+        "option_a": "0 2 4",
+        "option_b": "0 Odd 2 Odd 4",
+        "option_c": "0 1 2 3 4",
+        "option_d": "Odd Odd Odd",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 201,
+        "question_text": "What will be the output of the following code?\nfor i in range(1, 6):\nif i % 3 == 0:\nprint(i, end=' ')",
+        "option_a": "1 2 3 4 5",
+        "option_b": "1 2 4 5",
+        "option_c": "3 6",
+        "option_d": "3",
+        "correct_option": "D",
+        "explanation": ""
+    },
+    {
+        "number": 202,
+        "question_text": "What will be the output of the following code?\nfor i in range(1, 10):\nif i % 3 == 0:\nprint(i, end=' ')",
+        "option_a": "1 2 4 5 7 8",
+        "option_b": "1 3 5 7 9",
+        "option_c": "3 6 9",
+        "option_d": "2 4 6 8",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 203,
+        "question_text": "What will be the output of the following code?\nfor i in range(1, 10):\nif i % 4 == 0:\nprint(i, end=' ')",
+        "option_a": "4 8",
+        "option_b": "3 6 9",
+        "option_c": "4 6 8",
+        "option_d": "2 4 6 8",
+        "correct_option": "A",
+        "explanation": ""
+    },
+    {
+        "number": 204,
+        "question_text": "What will be the output of the following code?\nfor i in range(10):\nif i % 2 == 0 and i % 3 == 0:\nprint(i, end=' ')",
+        "option_a": "0 2 3 4 6",
+        "option_b": "2 4 6 8",
+        "option_c": "0 6",
+        "option_d": "3 6 9",
+        "correct_option": "C",
+        "explanation": ""
+    },
+    {
+        "number": 205,
+        "question_text": "What will be the output of the following code?\nfor i in range(1, 10):\nif i % 5 == 0:\nprint(i, end=' ')",
+        "option_a": "5 10",
+        "option_b": "5",
+        "option_c": "5 6",
+        "option_d": "6 7 8",
+        "correct_option": "B",
+        "explanation": ""
+    },
+    {
+        "number": 206,
+        "question_text": "What will be the output of the following code?\nfor i in range(1, 10):\nif i % 7 == 0:\nprint(i, end=' ')",
+        "option_a": "7",
+        "option_b": "5 7",
+        "option_c": "7 8",
+        "option_d": "5 6",
+        "correct_option": "A",
+        "explanation": ""
+    }
+]
