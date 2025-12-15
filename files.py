@@ -2,8 +2,8 @@ import pdfplumber
 import json
 import re
 
-PDF_FILE = r"C:\Users\hp\Downloads\Python Snippet Question Bank.pdf"
-OUTPUT_JSON = "data/python_easy.json"
+PDF_FILE = r"C:\Users\hp\Downloads\Question Bank Linux -1.pdf"
+OUTPUT_JSON = "data/linux.json"
 
 
 def extract_text(pdf_path):

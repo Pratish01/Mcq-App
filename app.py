@@ -74,6 +74,16 @@ class QuizAnswer(db.Model):
 # Login Required
 # =======================
 
+# from app import app, db, Question
+
+# with app.app_context():
+#     Question.query.filter_by(subject="Linux", level="Easy").delete()
+#     db.session.commit()
+
+print("✅ Linux Easy questions deleted")
+
+
+
 def login_required(f):
     @wraps(f)
     def wrapper(*args, **kwargs):
@@ -163,7 +173,7 @@ def dashboard():
 @login_required
 def quiz():
 
-    # -------- GET --------
+    # -------- GET (NO REPEAT QUESTIONS) --------
     if request.method == 'GET':
         subject = request.args.get('subject')
         level = request.args.get('level')
@@ -171,25 +181,29 @@ def quiz():
 
         user_id = session['user_id']
 
-        # 🔹 get already solved question IDs for this user
-        solved_qids = (
+        # 🔥 STEP 1: get solved question IDs for this user
+        solved_question_ids = (
             db.session.query(QuizAnswer.question_id)
-            .join(QuizAttempt)
+            .join(QuizAttempt, QuizAttempt.id == QuizAnswer.attempt_id)
             .filter(QuizAttempt.user_id == user_id)
             .subquery()
         )
 
-        # 🔹 fetch only UNSOLVED questions
+        # 🔥 STEP 2: fetch ONLY unsolved questions
         query = Question.query.filter(
             Question.subject == subject,
             Question.level == level,
-            ~Question.id.in_(solved_qids)
+            ~Question.id.in_(solved_question_ids)
         )
 
+        # 🔥 STEP 3: apply limit if requested
         questions = query.limit(limit).all() if limit else query.all()
 
         if not questions:
-            flash("🎉 You have already solved all questions for this level!", "success")
+            flash(
+                "🎉 You have already solved all questions for this subject & level!",
+                "success"
+            )
             return redirect(url_for('dashboard'))
 
         return render_template(
@@ -198,6 +212,9 @@ def quiz():
             subject=subject,
             level=level
         )
+
+    # -------- POST (UNCHANGED) --------
+
 
     # -------- POST (UNCHANGED) --------
 
