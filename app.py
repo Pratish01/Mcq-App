@@ -174,44 +174,46 @@ def dashboard():
 def quiz():
 
     # -------- GET (NO REPEAT QUESTIONS) --------
-    if request.method == 'GET':
-        subject = request.args.get('subject')
-        level = request.args.get('level')
-        limit = request.args.get('limit', type=int, default=0)
+   if request.method == 'GET':
+    subject = request.args.get('subject')
+    level = request.args.get('level')
+    limit = request.args.get('limit', type=int, default=0)
 
-        user_id = session['user_id']
+    user_id = session['user_id']
 
-        # 🔥 STEP 1: get solved question IDs for this user
-        solved_question_ids = (
-            db.session.query(QuizAnswer.question_id)
-            .join(QuizAttempt, QuizAttempt.id == QuizAnswer.attempt_id)
-            .filter(QuizAttempt.user_id == user_id)
-            .subquery()
+    solved_question_ids = (
+        db.session.query(QuizAnswer.question_id)
+        .join(QuizAttempt, QuizAttempt.id == QuizAnswer.attempt_id)
+        .filter(QuizAttempt.user_id == user_id)
+        .distinct()
+        .all()
+    )
+
+    solved_question_ids = [qid for (qid,) in solved_question_ids]
+
+    query = Question.query.filter(
+        Question.subject == subject,
+        Question.level == level
+    )
+
+    if solved_question_ids:
+        query = query.filter(~Question.id.in_(solved_question_ids))
+
+    questions = query.limit(limit).all() if limit else query.all()
+
+    if not questions:
+        flash(
+            "🎉 You have solved all available questions for this level!",
+            "success"
         )
+        return redirect(url_for('dashboard'))
 
-        # 🔥 STEP 2: fetch ONLY unsolved questions
-        query = Question.query.filter(
-            Question.subject == subject,
-            Question.level == level,
-            ~Question.id.in_(solved_question_ids)
-        )
-
-        # 🔥 STEP 3: apply limit if requested
-        questions = query.limit(limit).all() if limit else query.all()
-
-        if not questions:
-            flash(
-                "🎉 You have already solved all questions for this subject & level!",
-                "success"
-            )
-            return redirect(url_for('dashboard'))
-
-        return render_template(
-            'quiz.html',
-            questions=questions,
-            subject=subject,
-            level=level
-        )
+    return render_template(
+        'quiz.html',
+        questions=questions,
+        subject=subject,
+        level=level
+    )
 
     # -------- POST (UNCHANGED) --------
 
