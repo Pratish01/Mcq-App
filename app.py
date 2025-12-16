@@ -168,63 +168,57 @@ def dashboard():
 
 # =======================
 # Quiz
-# =======================
 @app.route('/quiz', methods=['GET', 'POST'])
 @login_required
 def quiz():
 
-    # -------- GET (NO REPEAT QUESTIONS) --------
-   if request.method == 'GET':
-    subject = request.args.get('subject')
-    level = request.args.get('level')
-    limit = request.args.get('limit', type=int, default=0)
+    # ===================== GET =====================
+    if request.method == 'GET':
+        subject = request.args.get('subject')
+        level = request.args.get('level')
+        limit = request.args.get('limit', type=int, default=0)
 
-    user_id = session['user_id']
+        user_id = session['user_id']
 
-    solved_question_ids = (
-        db.session.query(QuizAnswer.question_id)
-        .join(QuizAttempt, QuizAttempt.id == QuizAnswer.attempt_id)
-        .filter(QuizAttempt.user_id == user_id)
-        .distinct()
-        .all()
-    )
-
-    solved_question_ids = [qid for (qid,) in solved_question_ids]
-
-    query = Question.query.filter(
-        Question.subject == subject,
-        Question.level == level
-    )
-
-    if solved_question_ids:
-        query = query.filter(~Question.id.in_(solved_question_ids))
-
-    questions = query.limit(limit).all() if limit else query.all()
-
-    if not questions:
-        flash(
-            "🎉 You have solved all available questions for this level!",
-            "success"
+        # all solved question ids for this user
+        solved_ids = (
+            db.session.query(QuizAnswer.question_id)
+            .join(QuizAttempt, QuizAttempt.id == QuizAnswer.attempt_id)
+            .filter(QuizAttempt.user_id == user_id)
+            .distinct()
+            .all()
         )
+        solved_ids = [qid for (qid,) in solved_ids]
+
+        query = Question.query.filter_by(subject=subject, level=level)
+
+        if solved_ids:
+            query = query.filter(~Question.id.in_(solved_ids))
+
+        questions = query.limit(limit).all() if limit else query.all()
+
+        if not questions:
+            flash("🎉 You have solved all available questions!", "success")
+            return redirect(url_for('dashboard'))
+
+        return render_template(
+            'quiz.html',
+            questions=questions,
+            subject=subject,
+            level=level
+        )
+
+    # ===================== POST =====================
+    subject = request.form.get('subject')
+    level = request.form.get('level')
+    qid_string = request.form.get('question_ids')
+
+    # 🔴 SAFETY CHECK
+    if not qid_string:
+        flash("Invalid quiz submission.", "danger")
         return redirect(url_for('dashboard'))
 
-    return render_template(
-        'quiz.html',
-        questions=questions,
-        subject=subject,
-        level=level
-    )
-
-    # -------- POST (UNCHANGED) --------
-
-
-    # -------- POST (UNCHANGED) --------
-
-
-    # -------- POST --------
-    subject = request.form['subject']
-    level = request.form['level']
-    question_ids = request.form['question_ids'].split(',')
+    question_ids = qid_string.split(',')
 
     user_id = session['user_id']
     score = 0
@@ -244,8 +238,10 @@ def quiz():
 
     for qid in question_ids:
         q = Question.query.get(int(qid))
-        chosen = request.form.get(f"q_{qid}")
+        if not q:
+            continue
 
+        chosen = request.form.get(f"q_{qid}")
         if not chosen:
             continue
 
@@ -255,12 +251,14 @@ def quiz():
         if is_correct:
             score += 1
 
-        db.session.add(QuizAnswer(
-            attempt_id=attempt.id,
-            question_id=q.id,
-            chosen_option=chosen,
-            is_correct=is_correct
-        ))
+        db.session.add(
+            QuizAnswer(
+                attempt_id=attempt.id,
+                question_id=q.id,
+                chosen_option=chosen,
+                is_correct=is_correct
+            )
+        )
 
         results.append({
             "question": q,
@@ -271,7 +269,10 @@ def quiz():
     attempt.score = score
     db.session.commit()
 
-    print("FINAL SCORE:", score)
+    # 🔴 SAFETY CHECK
+    if not results:
+        flash("No answers were submitted.", "warning")
+        return redirect(url_for('dashboard'))
 
     return render_template(
         'result.html',
@@ -281,6 +282,7 @@ def quiz():
         total=total,
         results=results
     )
+
 
 # =======================
 # Reset Progress
